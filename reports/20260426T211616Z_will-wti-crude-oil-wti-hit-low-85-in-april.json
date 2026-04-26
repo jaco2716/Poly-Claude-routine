@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T21:16:16.892584+00:00",
+  "market": {
+    "id": "2034303",
+    "condition_id": "0x0f9ca7dcd30c615e67b73544ef681379e0b842bd83f21b1984b089f22c7d9973",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-april-923",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 33949.6133,
+    "volume_24h": 18351.887826
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.78,
+    "reasoning": "WTI is at $94.7 and needs to drop 10.2% to $85 in the 4 remaining trading days of April. The Strait of Hormuz crisis continues with US and Iran seizing ships, keeping oil prices structurally elevated. Even if diplomacy progresses, analysts note supply normalization would take months. WTI briefly fell to $84 on April 17 when Iran declared the strait open, but a repeat this quickly is very unlikely.",
+    "data_sources": [
+      "Tradingeconomics WTI $94.7 April 26",
+      "CNBC: WTI below $84 briefly April 17 on Hormuz reopening announcement",
+      "CNBC: Hormuz still disrupted April 23-24",
+      "Al Jazeera: US-Iran deadlocked April 24"
+    ],
+    "key_uncertainty": "A sudden and complete diplomatic resolution could push prices lower but supply impact still months away",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.05,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

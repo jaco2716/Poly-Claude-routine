@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T21:16:16.892103+00:00",
+  "market": {
+    "id": "1980676",
+    "condition_id": "0x65414628f108533d689721c6b2576dd83da43644bcfd62506444f1591ef32c31",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $100 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-100-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.585,
+    "no_price": 0.415,
+    "liquidity": 39203.8058,
+    "volume_24h": 27868.48166599999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.65,
+    "reasoning": "WTI is at $94.7 on April 26 after a 13% weekly surge driven by the Strait of Hormuz crisis. Brent hit $106, with an unusually wide $11 WTI-Brent spread. WTI needs +5.6% to reach $100 in 4 remaining trading days. Geopolitical tensions remain elevated but US-Iran diplomatic talks in Pakistan on April 26 created some easing pressure, pulling prices off highs.",
+    "data_sources": [
+      "Tradingeconomics WTI $94.7 April 26",
+      "CNBC: Brent tops $106 April 23-24",
+      "CNBC: WTI weekly gain 13%",
+      "CNBC: US-Iran talks in Pakistan April 24-26"
+    ],
+    "key_uncertainty": "Diplomatic progress could compress oil prices; remaining 4 trading days with high volatility",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.585,
+    "claude_prob": 0.4,
+    "delta": -0.185,
+    "suggested_direction": "no"
+  }
+}

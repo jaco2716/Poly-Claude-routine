@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-26T21:16:16.893383+00:00",
+  "market": {
+    "id": "2082841",
+    "condition_id": "0xd21535d9904e8f00b26bca714ba846291282f7191f687df60a7a19ecdc1e3056",
+    "question": "Will the highest temperature in Karachi be 34\u00b0C on April 28?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-karachi-on-april-28-2026-34c",
+    "end_date": "2026-04-28T12:00:00Z",
+    "yes_price": 0.31,
+    "no_price": 0.69,
+    "liquidity": 997.1096,
+    "volume_24h": 6.849314
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.6,
+    "reasoning": "Multiple sources forecast Karachi's April 28 high at 91\u00b0F (~33\u00b0C) at the Masroor Airbase area. The market asks for exactly 34\u00b0C (whole-degree reporting). Karachi late-April historically averages 33-35\u00b0C, so 34\u00b0C is plausible but the central forecast of 33\u00b0C makes it a roughly 1-in-5 shot given forecast uncertainty at 2-day horizon.",
+    "data_sources": [
+      "Ventusky: 91\u00b0F (33\u00b0C) April 28 Karachi",
+      "AccuWeather April 2026 Karachi range 86-106\u00b0F",
+      "Historical climate-data.org late April Karachi averages ~33-35\u00b0C"
+    ],
+    "key_uncertainty": "Station-specific Masroor Airbase may differ slightly from city forecast; forecast uncertainty at 2-day horizon",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.31,
+    "claude_prob": 0.2,
+    "delta": -0.11,
+    "suggested_direction": "no"
+  }
+}

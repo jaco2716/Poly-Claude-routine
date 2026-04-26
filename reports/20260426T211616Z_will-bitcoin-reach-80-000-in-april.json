@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T21:16:16.890296+00:00",
+  "market": {
+    "id": "1823776",
+    "condition_id": "0x06a804e8bd1a539829b7db279ad33b2cf0bcf98f315a3b3a8c7623e6230d88fd",
+    "question": "Will Bitcoin reach $80,000 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-80k-in-april-2026-794",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.565,
+    "no_price": 0.435,
+    "liquidity": 127438.0435,
+    "volume_24h": 136173.83333399988
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.48,
+    "confidence": 0.72,
+    "reasoning": "BTC is trading at ~$78,060 on April 26 and has not yet broken $80,000 this month (monthly high ~$78,194). It needs a +2.6% move in the 4-5 remaining days of April. Recent 5-day gain was 5.81%, but CoinDesk noted BTC is stalling below $79k resistance with declining open interest. Achievable but uncertain.",
+    "data_sources": [
+      "CoinMarketCap ($77,954 April 26)",
+      "CoinGecko ($77,416 April 26)",
+      "CoinDesk stalling below $79k April 24",
+      "Yahoo Finance April 24 $78,126"
+    ],
+    "key_uncertainty": "Bitcoin struggling to break $79k resistance; derivatives show cooling momentum",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.565,
+    "claude_prob": 0.48,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

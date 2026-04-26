@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-26T21:16:16.891380+00:00",
+  "market": {
+    "id": "2054872",
+    "condition_id": "0xa05c869fcd6edef0b6e3ee0f11c67c7cd372f29afd88e2a837cd9458c19b4411",
+    "question": "Will Bitcoin dip to $75,000 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-75000-in-april",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.315,
+    "no_price": 0.685,
+    "liquidity": 56372.8929,
+    "volume_24h": 44953.54447499998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.7,
+    "reasoning": "BTC is at ~$78,060 on April 26 and has not resolved Yes despite a low of $75,324 on April 20, suggesting $75,000 on Binance was not touched. Currently $78k, a 3.8% drop is needed in 4-5 days. BTC has upward momentum (+5.81% last 5 days) and positive on-chain flows, making a significant reversal to $75k less likely.",
+    "data_sources": [
+      "Fortune: April 20 price $75,324",
+      "Yahoo Finance: April 24 $78,126",
+      "CoinDesk: momentum slowing but positive"
+    ],
+    "key_uncertainty": "Market has not triggered despite close approach; remaining days have upward bias",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.315,
+    "claude_prob": 0.2,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

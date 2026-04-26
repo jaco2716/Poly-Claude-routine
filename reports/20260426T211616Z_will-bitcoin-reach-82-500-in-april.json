@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T21:16:16.894560+00:00",
+  "market": {
+    "id": "2054828",
+    "condition_id": "0x8a26b66b6bdb6b12af72cdf6c47e6a4b869b0deb595a780f430e639b748b6152",
+    "question": "Will Bitcoin reach $82,500 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-82500-in-april",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.195,
+    "no_price": 0.805,
+    "liquidity": 45283.5609,
+    "volume_24h": 45497.069614000015
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.7,
+    "reasoning": "BTC is at ~$78,060, requiring +5.8% to $82,500 in 4-5 remaining April days. Monthly high so far is only ~$78,194, and BTC is struggling with $79k resistance. A move to $82.5k would require breaking through two significant resistance levels ($79k and $80k) in quick succession. The 5-day gain of 5.81% shows momentum, but derivatives show cooling with declining open interest.",
+    "data_sources": [
+      "CoinDesk: BTC stalling below $79k, OI declined 6% April 24",
+      "CoinMarketCap: $77,954 April 26",
+      "Yahoo Finance: April 5-day gain 5.81%",
+      "Fortune: April monthly high ~$78,194"
+    ],
+    "key_uncertainty": "Must break $79k and $80k resistance in remaining days; open interest decline suggests momentum may be exhausted",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.195,
+    "claude_prob": 0.25,
+    "delta": 0.055,
+    "suggested_direction": "yes"
+  }
+}

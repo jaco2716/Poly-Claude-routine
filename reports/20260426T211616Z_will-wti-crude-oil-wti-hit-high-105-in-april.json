@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T21:16:16.893009+00:00",
+  "market": {
+    "id": "1980675",
+    "condition_id": "0x3cdf6fa07ce061ab6cdd26c7386b21d0b4c2cb3226d0a069cd8b597fdc667676",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-105-in-april-yyy",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.265,
+    "no_price": 0.735,
+    "liquidity": 32043.0105,
+    "volume_24h": 32311.958039999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.14,
+    "confidence": 0.65,
+    "reasoning": "WTI is at $94.7, needing +10.8% to $105 in 4 remaining April trading days. Brent has reached $106, but the WTI-Brent spread is anomalously wide (~$11) due to export disruptions from the Middle East affecting Brent more. For WTI to reach $105, either the spread would need to sharply compress or Brent would need to spike further. Possible but requires an extreme escalation event.",
+    "data_sources": [
+      "Tradingeconomics WTI $94.7 April 26",
+      "CNBC: Brent tops $105-106 April 22-24",
+      "Al Jazeera: oil above $106 April 24",
+      "CNBC: WTI-Brent spread context"
+    ],
+    "key_uncertainty": "Wide WTI-Brent spread limits WTI upside; would require major new escalation in Hormuz conflict",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.265,
+    "claude_prob": 0.14,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}
