@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T20:38:03.217688+00:00",
+  "market": {
+    "id": "1823775",
+    "condition_id": "0xc185f6ce2c105d6e08c258a8b222ed9091191f28a011faec54abff188ac49dae",
+    "question": "Will Bitcoin reach $85,000 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-85k-in-april-2026",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.052,
+    "no_price": 0.948,
+    "liquidity": 176524.83526,
+    "volume_24h": 164875.129152
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.01,
+    "confidence": 0.85,
+    "reasoning": "BTC spot is ~$78,085 on Apr 26; April high so far has been near $78,500. Reaching $85k would require a +8.8% move in ~4 days with no indication of such momentum. Recent monthly action has been a slow recovery from sub-$75k. Tail probability only.",
+    "data_sources": [
+      "yellow.com",
+      "fortune.com",
+      "coindesk.com",
+      "metamask.io"
+    ],
+    "key_uncertainty": "An unexpected macro/news shock in the final 4 days could push it, but base rate for a single-week +8-9% move from current consolidation is very low.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.052,
+    "claude_prob": 0.01,
+    "delta": -0.042,
+    "suggested_direction": null
+  }
+}

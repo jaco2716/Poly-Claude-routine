@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-26T20:38:03.218798+00:00",
+  "market": {
+    "id": "1712297",
+    "condition_id": "0x7eceae72d7d7b3e175fa872c728526e6fec4714288a4bda91fe818e298e69a6f",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-120-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.0765,
+    "no_price": 0.9235,
+    "liquidity": 123121.85189,
+    "volume_24h": 61818.131485
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.03,
+    "confidence": 0.7,
+    "reasoning": "WTI is around $94/barrel as of Apr 24-26 after pulling back from Hormuz-related spike. April peak reportedly approached but did not reach $120 (Brent peaked ~$128, WTI 'toward $120' but not over). With ~4 days left and OPEC+ accelerating output plus diplomatic progress signals, a +27% move to $120 would require a major fresh escalation. Tail risk only.",
+    "data_sources": [
+      "cnbc.com",
+      "aljazeera.com",
+      "eia.gov",
+      "octagonai.co",
+      "tradingeconomics.com"
+    ],
+    "key_uncertainty": "Whether reported 'toward $120' actually hit $120 on Pyth feed at peak (could already resolve Yes); a sudden Iran/Israel kinetic event could trigger another spike.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.0765,
+    "claude_prob": 0.03,
+    "delta": -0.0465,
+    "suggested_direction": null
+  }
+}

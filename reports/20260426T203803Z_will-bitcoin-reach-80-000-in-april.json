@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-26T20:38:03.218545+00:00",
+  "market": {
+    "id": "1823776",
+    "condition_id": "0x06a804e8bd1a539829b7db279ad33b2cf0bcf98f315a3b3a8c7623e6230d88fd",
+    "question": "Will Bitcoin reach $80,000 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-80k-in-april-2026-794",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.545,
+    "no_price": 0.455,
+    "liquidity": 130669.7271,
+    "volume_24h": 189859.57662499973
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.6,
+    "reasoning": "BTC spot ~$78,085 with April high reported around $79,500 (Apr 22). Needs +2.0-2.5% from current to break $80k with ~4 days left. Institutional accumulation and an ongoing stealth rally provide upside, but $80k has acted as resistance. Daily vol ~3% means a single up-day could trigger.",
+    "data_sources": [
+      "bloomberg.com",
+      "coindesk.com",
+      "cryptobriefing.com",
+      "newsbtc.com",
+      "yellow.com"
+    ],
+    "key_uncertainty": "Whether the rally has enough momentum to break a known resistance in 4 trading days; macro/news catalyst could swing this either way.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.545,
+    "claude_prob": 0.42,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

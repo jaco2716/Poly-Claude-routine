@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-26T20:38:03.219348+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.32,
+    "no_price": 0.68,
+    "liquidity": 55707.7828,
+    "volume_24h": 38073.420145
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.45,
+    "reasoning": "BTC at ~$78k requires a -42% drawdown from current levels by year-end (8 months). Recent stress only took it to ~$65-70k zone before recovery. Bear-case analyst targets cluster $46-55k, slightly above $45k. Historical post-halving cycles can produce 70%+ drawdowns but the institutional/ETF era has dampened amplitude. Real but moderate tail risk.",
+    "data_sources": [
+      "coingecko.com",
+      "io-fund.com",
+      "phemex.com",
+      "yahoo.com finance"
+    ],
+    "key_uncertainty": "Macro recession or ETF outflow cascade could trigger; conversely strong institutional bid floor near $65-70k may hold.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.32,
+    "claude_prob": 0.2,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}

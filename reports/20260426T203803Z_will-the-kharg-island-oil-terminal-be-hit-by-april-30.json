@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-26T20:38:03.219122+00:00",
+  "market": {
+    "id": "1708576",
+    "condition_id": "0xc5675bc58c8117391cc243780c1b709ce1ef744aa27779c78ee82f3dc974ca1b",
+    "question": "Will the Kharg Island oil terminal be hit by April 30?",
+    "category": "commodity",
+    "slug": "will-the-kharg-island-oil-terminal-be-hit-by-april-30-484-426-426",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.055,
+    "no_price": 0.945,
+    "liquidity": 84242.9774,
+    "volume_24h": 16934.919471
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.65,
+    "reasoning": "US has conducted strikes on Kharg Island (March 13, April 7) but reports consistently note strikes deliberately AVOIDED oil and gas infrastructure, hitting only military targets. Iranian sources confirm maritime/oil infrastructure suffered little damage and operations continue. With 4 days left and active diplomatic efforts (US-Iran envoys), a deliberate hit on the oil terminal itself is unlikely barring sharp escalation.",
+    "data_sources": [
+      "cnn.com",
+      "aljazeera.com",
+      "wikipedia.org",
+      "maritimenews.com",
+      "pbs.org"
+    ],
+    "key_uncertainty": "Resolution interpretation: 'oil terminal' could be read narrowly (specific facilities) or broadly (any strike on island); collapse of diplomacy could trigger a deliberate infrastructure hit.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.055,
+    "claude_prob": 0.06,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}
