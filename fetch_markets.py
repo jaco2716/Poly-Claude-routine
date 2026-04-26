@@ -31,6 +31,33 @@ logging.basicConfig(
 log = logging.getLogger("fetch_markets")
 
 
+PRICE_MIN = float(os.getenv("PRICE_MIN", "0.15"))
+PRICE_MAX = float(os.getenv("PRICE_MAX", "0.85"))
+CATEGORY_CAP = int(os.getenv("CATEGORY_CAP", "3"))
+
+
+def _diversify(candidates: list[dict], limit: int, cap: int) -> list[dict]:
+    """Take up to `cap` per category in the input order, then top up from leftovers
+    if we're short of `limit`. Input is assumed pre-sorted by desirability."""
+    picked: list[dict] = []
+    leftover: list[dict] = []
+    counts: dict[str, int] = {}
+    for m in candidates:
+        cat = m.get("_category") or "unknown"
+        if counts.get(cat, 0) < cap:
+            picked.append(m)
+            counts[cat] = counts.get(cat, 0) + 1
+            if len(picked) >= limit:
+                return picked
+        else:
+            leftover.append(m)
+    for m in leftover:
+        if len(picked) >= limit:
+            break
+        picked.append(m)
+    return picked
+
+
 def fetch_candidates(limit: int, pool: int, category: str | None, skip_open: bool) -> list[dict]:
     seen: dict[str, dict] = {}
     for order in ("volume24hr", "liquidity", "endDate"):
@@ -43,14 +70,21 @@ def fetch_candidates(limit: int, pool: int, category: str | None, skip_open: boo
     candidates = filter_weather_and_commodity(raw)
     if category:
         candidates = [m for m in candidates if m["_category"] == category]
-    candidates = [m for m in candidates if 0.05 <= m["yes_price"] <= 0.95]
+    before = len(candidates)
+    candidates = [m for m in candidates if PRICE_MIN <= m["yes_price"] <= PRICE_MAX]
+    log.info(f"Price band [{PRICE_MIN:.2f},{PRICE_MAX:.2f}]: {before} -> {len(candidates)}")
 
     if skip_open:
         held = {t["condition_id"] for t in ledger.currently_open()}
         candidates = [m for m in candidates if m.get("condition_id") not in held]
 
     candidates.sort(key=lambda m: -m.get("liquidity", 0))
-    return candidates[:limit]
+    if category:
+        return candidates[:limit]
+    picked = _diversify(candidates, limit, CATEGORY_CAP)
+    from collections import Counter
+    log.info(f"Category cap {CATEGORY_CAP}: picked {len(picked)} -> {dict(Counter(m['_category'] for m in picked))}")
+    return picked
 
 
 def main():
