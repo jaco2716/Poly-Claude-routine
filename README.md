@@ -1,58 +1,85 @@
 # Poly-Claude-routine
 
-Paper-trading framework for Polymarket. Every run:
+Paper-trading framework for Polymarket, designed to run on **Claude Routines** using your **Claude Pro/Max subscription** — no Anthropic API key, no per-token billing.
 
-1. Fetches active markets from Polymarket
-2. Filters to objectively verifiable categories (weather, temperature, commodities, crypto, indices, fed/economic)
-3. Asks Claude (with web search) for an independent probability estimate
-4. Opens a paper trade when edge + confidence + liquidity thresholds are all met
-5. A separate resolver settles trades when their markets close and computes P&L
-6. A reporter rolls up calibration, Brier score, and P&L stats
+The Claude Code agent does the analysis itself (web search, reasoning) inside the routine. Python scripts handle everything else: fetching markets, applying trade gates, recording the ledger, settling resolutions, computing stats.
 
-No real trades are executed. The trade-execution functions in `polymarket_api.py` exist but are unused.
+## Architecture
+
+```
+Routine (every 6h) ── Claude Code agent ──┐
+                                          │
+   1. python fetch_markets.py  ───────────┼──► JSON candidates
+   2. agent analyses each market with web_search    (Pro plan, no API key)
+   3. python record_trades.py  ◄──────────┘  ──► reports/, trades/open.jsonl
+   4. git commit + push                          (persistence)
+
+Routine (daily) ── Claude Code agent ──┐
+                                       │
+   1. python resolve.py  ──────────────┴──► trades/resolved.jsonl + P&L
+   2. python report.py
+   3. git commit + push
+```
+
+No `anthropic` SDK, no `ANTHROPIC_API_KEY`. The intelligence runs as part of the routine itself.
 
 ## Layout
 
 ```
-polymarket_api.py   API layer: auth, market data, trade execution stubs
-market_filter.py    Drops subjective markets, tags survivors by category
-claude_analyst.py   Claude Sonnet 4.6 + web_search → probability JSON
-ledger.py           Append-only JSONL ledger (open.jsonl + resolved.jsonl)
-main.py             Analyse markets and open paper trades that meet thresholds
-resolve.py          Settle closed markets, append P&L
-report.py           Stats: P&L, win rate, Brier score, calibration buckets
-reports/            One JSON file per analysed market (audit trail)
+polymarket_api.py    API layer: market data + (unused) trade execution stubs
+market_filter.py     Drops subjective markets, tags survivors by category
+fetch_markets.py     Outputs candidate markets as JSON to stdout
+record_trades.py     Reads agent analyses, applies trade gates, writes ledger
+resolve.py           Settles closed markets, appends P&L
+report.py            P&L + Brier + calibration stats
+ledger.py            Append-only JSONL store
+
+reports/             One JSON per analysed market (audit trail)
 trades/
-  open.jsonl        One line per opened paper trade
-  resolved.jsonl    One line per settled trade with outcome + P&L
+  open.jsonl         One line per opened paper trade
+  resolved.jsonl     One line per settled trade with outcome + P&L
+
+ROUTINE.md           Exact prompts to paste into Claude Routine schedules
 ```
 
-## Setup
+## Local setup
 
 ```bash
 pip install -r requirements.txt
 cp .env.example .env
-# add ANTHROPIC_API_KEY
+# .env is optional — only needed for local threshold tweaks
 ```
 
-`POLYMARKET_PRIVATE_KEY` / `POLYMARKET_FUNDER_ADDRESS` are only needed if you call the trade-execution functions in `polymarket_api.py`. The paper pipeline does not.
+## Routine setup
 
-## Run
+See **`ROUTINE.md`**. Two routines:
+
+- **analyse** every 6 hours — fetches candidates, agent assesses each, opens paper trades that pass gates
+- **resolve** daily — checks open trades for settlement, appends P&L
+
+The persistence model is **append-only JSONL committed back to git** — the routine pushes `reports/` and `trades/` after each run, so the ledger survives between ephemeral container starts.
+
+## Local commands (manual run / debugging)
 
 ```bash
-python main.py                  # analyse 5 markets, may open paper trades
-python main.py --limit 10
-python main.py --no-trade       # analysis only, no positions opened
-python main.py --category weather
+# Print candidate markets as JSON (no analysis):
+python fetch_markets.py --limit 12 --pool 800 --skip-open
 
-python resolve.py               # settle any closed markets, append P&L
-python report.py                # stats summary
-python report.py --json         # machine-readable
+# Apply gates given an analyses file (e.g. one you produced manually):
+python record_trades.py --input analyses.json
+python record_trades.py --input analyses.json --no-trade   # reports only
+
+# Settle anything that closed:
+python resolve.py
+
+# Stats:
+python report.py
+python report.py --json
 ```
 
 ## Trade gate
 
-A paper trade is opened only when ALL of these pass:
+A paper trade opens only when ALL of these pass:
 
 | condition | default | env var |
 |---|---|---|
@@ -64,66 +91,46 @@ A paper trade is opened only when ALL of these pass:
 
 Sizing: `2%` of available bankroll per trade (`TRADE_SIZE_PCT`), `MIN_TRADE_USDC = $5`, starting bankroll `STARTING_BANKROLL = $1000`.
 
-## Persistence model (Claude Routines)
+## Analysis schema
 
-Claude Routines run in an ephemeral container. The DB strategy is **append-only JSONL committed back to git** so the ledger survives between runs without external infrastructure.
-
-Each routine run ends by committing `trades/` and `reports/` back to the repo. JSONL is text → diffs are sane, no merge conflicts as long as runs don't overlap, and the file *is* the history.
-
-When you outgrow this (probably never for a personal experiment), swap `ledger.py`'s read/write functions for Turso/Postgres without changing anything else.
-
-## Routine schedule (recommendation)
-
-```
-every 4-6 hours    python main.py --limit 20  →  git add reports/ trades/ && git commit && git push
-once a day         python resolve.py          →  git add trades/ && git commit && git push
-weekly             python report.py           →  digest output (optional)
-```
-
-## Report format
-
-`reports/*.json` (one per market analysed):
+`record_trades.py` expects a JSON array, each item:
 
 ```json
 {
-  "market":     { "id": "...", "question": "...", "category": "crypto_price", "yes_price": 0.51, ... },
-  "assessment": { "verifiable": true, "probability_yes": 0.42, "confidence": 0.72,
-                  "reasoning": "...", "data_sources": [...], "key_uncertainty": "...",
-                  "model": "claude-sonnet-4-6" },
-  "edge":       { "market_implied_prob": 0.51, "claude_prob": 0.42, "delta": -0.085,
-                  "suggested_direction": "no" }
+  "market": { ...full object from fetch_markets.py output... },
+  "assessment": {
+    "verifiable":      true,
+    "probability_yes": 0.42,
+    "confidence":      0.72,
+    "reasoning":       "2–4 sentences citing the data used",
+    "data_sources":    ["short labels per source"],
+    "key_uncertainty": "the biggest thing that could move the estimate"
+  }
 }
 ```
 
-`trades/open.jsonl` (one line each — full snapshot for later analysis):
+The Routine prompt in `ROUTINE.md` tells the agent to produce exactly this shape.
 
-```
-{"trade_id": "...", "ts": "...", "condition_id": "...", "question": "...",
- "direction": "no", "entry_price": 0.495, "size_usdc": 20.0,
- "claude_prob": 0.42, "confidence": 0.72, "edge": -0.085,
- "liquidity_at_entry": 119113, "reasoning": "...", "data_sources": [...], ...}
-```
+## Stats (`python report.py`)
 
-`trades/resolved.jsonl` (one line each):
-
-```
-{"trade_id": "...", "outcome": "yes", "won": false, "pnl_usdc": -20.0,
- "pnl_pct": -1.0, "resolved_at": "...", "hold_hours": 96.5, ...}
-```
-
-## Stats
-
-`python report.py` prints:
-
-- Bankroll: starting → current
-- W/L count, win rate, avg win, avg loss
-- **Brier score** for Claude's probabilities vs the market's — lower is better. The ratio tells you whether Claude is actually adding signal over the market price
+- Bankroll: starting → realised
+- W/L count, win rate, avg win/loss
+- **Brier score** for Claude's probabilities vs the market's — lower is better. The ratio tells you whether Claude is actually adding signal
 - P&L by category (weather vs commodity vs crypto…)
-- Calibration buckets — "when Claude said 70%, what % actually paid YES?" The killer metric for whether the model is well-calibrated
+- Calibration buckets — "when Claude said 70%, what % actually resolved YES?"
+
+## When to enable live trading
+
+After ~50+ resolved trades:
+
+- `brier_claude < brier_market` AND positive cumulative P&L → live trading has a basis
+- Otherwise tune thresholds or kill the strategy
+
+The live path is not built yet. When you're ready, `polymarket_api.py` already has working `place_market_order` + `get_order_fill` — you'll add a `mode: "live"` branch in `record_trades.py` that calls them and adds `POLYMARKET_PRIVATE_KEY` to the routine's secrets.
 
 ## Notes
 
-- Web search costs ~10k tokens of context per call → main.py sleeps 20s between markets to stay under the 30k input-tokens/min Anthropic rate limit
-- `main.py` widens the candidate pool by fetching across three Gamma orderings (`volume24hr`, `liquidity`, `endDate`) and dedupes — typically ~1400 unique active markets
 - Markets with `yes_price < 0.05` or `> 0.95` are skipped (no actionable edge)
+- `fetch_markets.py` widens the candidate pool by querying three Gamma orderings (`volume24hr`, `liquidity`, `endDate`) and dedupes — typically ~1400 unique active markets
 - `STARTING_BANKROLL` controls displayed P&L only — the ledger has no notion of an account, just a sum of trades. Bumping it later doesn't break old data
+- JSONL is read by `pandas.read_json(..., lines=True)` and `duckdb` natively, so a dashboard later is one query away

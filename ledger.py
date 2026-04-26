@@ -81,7 +81,8 @@ def record_open(
     reasoning: str,
     data_sources: list[str],
     key_uncertainty: str,
-    model: str,
+    model: str = "claude-routine-agent",
+    mode: str = "paper",
 ) -> dict:
     """Append a new paper trade. Returns the record for logging."""
     ts = datetime.now(timezone.utc).isoformat()
@@ -89,7 +90,8 @@ def record_open(
     record = {
         "trade_id":           trade_id,
         "ts":                 ts,
-        "market_id":          market.get("id"),
+        "mode":               mode,
+        "market_id":          market.get("id") or market.get("market_id"),
         "condition_id":       market.get("condition_id"),
         "question":           market.get("question"),
         "category":           market.get("_category") or market.get("category"),
