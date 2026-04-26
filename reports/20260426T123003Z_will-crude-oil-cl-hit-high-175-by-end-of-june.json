@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-26T12:30:03.176836+00:00",
+  "market": {
+    "id": "1652691",
+    "condition_id": "0x7ae064ed7f3c9f4d201ce007b05b3a23f8e824170981c4d301f07301d554f451",
+    "question": "Will Crude Oil (CL) hit (HIGH) $175 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-175-by-end-of-june-456-295",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.075,
+    "no_price": 0.925,
+    "liquidity": 139300.1056,
+    "volume_24h": 47179.36211499999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.11,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month (CLM26) is currently trading around $94/bbl as of April 25, 2026 \u2014 approximately 80% below the $175 target, requiring an ~86% rally in roughly 9 weeks. The geopolitical context is already highly elevated: the Strait of Hormuz is essentially closed, a US naval blockade on Iran is in place, and WTI already surged ~70% from pre-conflict levels to a 52-week high of $117.63. The EIA STEO expects Brent to peak near $115/b in Q2 2026 before easing, implying WTI (which trades at roughly a $10\u201312 discount to Brent) peaks near $103\u2013105 \u2014 well short of $175. Even the most bullish analyst scenarios (LiteFinance upper band of $137 for 2026) fall far short of $175. Reaching $175 would require a catastrophic supply shock beyond current disruptions \u2014 e.g., complete and irreversible Persian Gulf shut-in plus secondary supply failures. The 52-week high is $117.63, meaning $175 would represent an all-time record by a wide margin. Tail-risk scenario probability (escalation, second front, pipeline sabotage) is real but low \u2014 estimated at ~10\u201312%.",
+    "data_sources": [
+      "OilPrice.com / Trading Economics: WTI front-month ~$94.40 as of Apr 25, 2026",
+      "Investing.com: 52-week WTI range $54.98\u2013$117.63",
+      "EIA STEO April 2026: Brent to peak ~$115/b in Q2 2026",
+      "Barchart CLM26: June WTI closed ~$94\u201395 range week of Apr 21-25",
+      "LiteFinance bullish 2026 WTI forecast: $111.54\u2013$137.30 upper range",
+      "IEA Oil Market Report March 2026: US-Israel air strikes on Iran began Feb 28, Strait of Hormuz largely closed",
+      "Reuters poll Feb 2026: WTI average forecast $60.38/bbl for full year 2026"
+    ],
+    "key_uncertainty": "Whether the US-Iran conflict dramatically escalates (e.g., full Persian Gulf production shutoff, attacks on Saudi/UAE infrastructure) \u2014 the single scenario that could drive WTI toward $150+ territory, though even that scenario likely falls short of $175 CME settlement.",
+    "model": "claude-sonnet-4-6"
+  },
+  "edge": {
+    "market_implied_prob": 0.075,
+    "claude_prob": 0.11,
+    "delta": 0.035,
+    "suggested_direction": null
+  }
+}

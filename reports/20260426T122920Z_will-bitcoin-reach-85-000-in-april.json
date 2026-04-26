@@ -1,0 +1,37 @@
+{
+  "generated_at": "2026-04-26T12:29:20.523025+00:00",
+  "market": {
+    "id": "1823775",
+    "condition_id": "0xc185f6ce2c105d6e08c258a8b222ed9091191f28a011faec54abff188ac49dae",
+    "question": "Will Bitcoin reach $85,000 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-85k-in-april-2026",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.0535,
+    "no_price": 0.9465,
+    "liquidity": 164677.11407,
+    "volume_24h": 158897.57221699998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.82,
+    "reasoning": "BTC is trading at ~$78,060 as of April 26, 2026, with the month's high around $79,300. Reaching $85,000 requires an ~8.9% surge from spot price in the remaining ~5 days of April. The April trend shows recovery from sub-$75K levels in late March, but analyst consensus tops out at $80\u201382K for April. Macro headwinds (geopolitical tensions, cautious investor sentiment) further suppress the probability of a sharp breakout. A move of this magnitude in 5 days is not impossible for BTC but historically rare absent a major catalyst, and no such catalyst is currently identified.",
+    "data_sources": [
+      "CoinDesk BTC spot price April 26 2026 (~$78,060)",
+      "Yellow.com: BTC April high ~$79,300 (11-week high)",
+      "Fortune daily BTC prices: April 8 ($71,906), April 20 ($75,325), April 22 ($78,194), April 24 ($78,126)",
+      "CoinDCX April 2026 price prediction ($80\u201382K ceiling)",
+      "Yahoo Finance: BTC settling in $78K range with cautious macro environment",
+      "Benzinga: Peter Brandt bearish near-term forecast (low near $60K in Sep/Oct 2026)"
+    ],
+    "key_uncertainty": "A sudden macro catalyst (e.g., surprise Fed policy shift, major institutional announcement, or geopolitical de-escalation) could trigger a sharp short-squeeze rally above $85K, but no such catalyst is currently evident with 5 days left in April.",
+    "model": "claude-sonnet-4-6"
+  },
+  "edge": {
+    "market_implied_prob": 0.0535,
+    "claude_prob": 0.05,
+    "delta": -0.0035,
+    "suggested_direction": null
+  }
+}
