@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T16:14:56.365397+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.18,
+    "no_price": 0.82,
+    "liquidity": 51398.6489,
+    "volume_24h": 15007.37171
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month is near $96 on April 27, 2026, with geopolitical premium from stalled US-Iran negotiations and Strait of Hormuz tensions. Reaching $140 settlement requires a ~46% rise in about 2 months. Even with escalation risk, full Hormuz closure pricing typically peaks $110-$130. Settlement (not intraday) bar is harder than candle high.",
+    "data_sources": [
+      "angle360ng.com WTI April 27 2026",
+      "fxdailyreport.com WTI analysis",
+      "oilprice.com futures"
+    ],
+    "key_uncertainty": "Whether Iran/Hormuz crisis fully escalates into open conflict before end of June.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.18,
+    "claude_prob": 0.1,
+    "delta": -0.08,
+    "suggested_direction": "no"
+  }
+}

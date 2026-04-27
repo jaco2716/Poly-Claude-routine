@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T16:14:56.367305+00:00",
+  "market": {
+    "id": "2097626",
+    "condition_id": "0x464e2a5a4cdd42dd5d8b4480fee0206727146e6e36ddfb8e0f2f45e41ad1680b",
+    "question": "XRP Up or Down - April 28, 11:25AM-11:30AM ET",
+    "category": "crypto_price",
+    "slug": "xrp-updown-5m-1777389900",
+    "end_date": "2026-04-28T15:30:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9999.9229,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "5-minute window crypto direction is essentially a coin flip with no informative prior. No way to forecast XRP movement during a single 5-minute future window from current info. Fresh market with zero volume.",
+    "data_sources": [
+      "coingecko XRP",
+      "weex.com XRP April 2026"
+    ],
+    "key_uncertainty": "Random walk over 5 minutes; no signal.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

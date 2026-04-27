@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T16:14:56.366485+00:00",
+  "market": {
+    "id": "2067206",
+    "condition_id": "0xeb0406fd238d8551ff86fd74ff95568e19fbadc8c516c37fe1b19d7eac9e4c6f",
+    "question": "WTI Crude Oil (WTI) Up or Down on April 27?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T21:00:00Z",
+    "yes_price": 0.815,
+    "no_price": 0.185,
+    "liquidity": 17612.3941,
+    "volume_24h": 44873.37259900001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.82,
+    "confidence": 0.6,
+    "reasoning": "WTI climbed nearly 2% on April 27 in early trading amid Strait of Hormuz tensions; today's range $95.45-$96.67 versus prior session implies gain. Price has been holding gains through the day with stalled US-Iran talks supporting bid. Up is the heavily favored outcome.",
+    "data_sources": [
+      "angle360ng.com WTI April 27 2026",
+      "fxdailyreport.com analysis"
+    ],
+    "key_uncertainty": "Late-session reversal risk on de-escalation headlines.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.815,
+    "claude_prob": 0.82,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

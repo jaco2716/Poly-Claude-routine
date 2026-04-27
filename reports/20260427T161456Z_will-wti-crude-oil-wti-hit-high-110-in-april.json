@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T16:14:56.365849+00:00",
+  "market": {
+    "id": "1929170",
+    "condition_id": "0x35d8c42a467d4e485ffba50c5d2d984ed0793f4935319ca923b494798051c8ef",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-110-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 41823.4521,
+    "volume_24h": 77712.75169700001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.09,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month is around $96 on April 27, 2026 with month low around $94. Hitting $110 in remaining 3 trading days requires roughly 15% surge - possible only with a major escalation in the Hormuz crisis. EIA Q2 forecast peaks Brent at $115, implying WTI at perhaps $110-112 peak but not necessarily in April.",
+    "data_sources": [
+      "fxdailyreport.com WTI April 21 and 27 analysis",
+      "EIA STEO April 2026",
+      "angle360ng.com"
+    ],
+    "key_uncertainty": "Sudden military escalation in Hormuz could spike futures intraday.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.09,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

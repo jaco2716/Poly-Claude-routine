@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T16:14:56.366201+00:00",
+  "market": {
+    "id": "2067110",
+    "condition_id": "0xb7e63f7f9f76203dacef9f1d5dd7077be2ac4b951d20db21b0831304f73c9626",
+    "question": "S&P 500 (SPX) Up or Down on April 27?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T20:00:00Z",
+    "yes_price": 0.43,
+    "no_price": 0.57,
+    "liquidity": 24406.7343,
+    "volume_24h": 71869.966163
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.43,
+    "confidence": 0.3,
+    "reasoning": "Daily SPX direction with same-day close is roughly a coin flip with slight up-day base rate (~53%). Strait of Hormuz oil shock is risk-off, which weighs on equities. Not enough live data for SPX intraday on April 27 to deviate strongly from 50/50; defaulting near market.",
+    "data_sources": [
+      "base rate SPX up-day probability",
+      "geopolitical risk context"
+    ],
+    "key_uncertainty": "Intraday tape and oil/risk sentiment dominate; without live SPX print, low confidence.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.43,
+    "claude_prob": 0.43,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

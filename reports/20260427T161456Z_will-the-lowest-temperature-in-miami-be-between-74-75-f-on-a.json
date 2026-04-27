@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T16:14:56.367845+00:00",
+  "market": {
+    "id": "2091416",
+    "condition_id": "0x5982cea604264f0ee24e37c0258227775c65fe504661a027334b4fcfec3d2319",
+    "question": "Will the lowest temperature in Miami be between 74-75\u00b0F on April 29?",
+    "category": "temperature",
+    "slug": "lowest-temperature-in-miami-on-april-29-2026-74-75f",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.375,
+    "no_price": 0.625,
+    "liquidity": 989.5666,
+    "volume_24h": 83.14188200000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "AccuWeather forecast for Miami April 29 shows low around 73\u00b0F. Question asks if the daily low falls in the 74-75\u00b0F bucket. With forecast slightly below this band and typical \u00b12\u00b0F forecast error 2 days out, probability is in the lower-middle range of bucket distribution. Likely buckets are 72-73 or 73-74.",
+    "data_sources": [
+      "accuweather.com Miami monthly",
+      "weather25.com Miami April"
+    ],
+    "key_uncertainty": "Forecast may shift; precise station reading at KMIA could land just inside or outside 74-75 range.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.375,
+    "claude_prob": 0.22,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T16:14:56.367127+00:00",
+  "market": {
+    "id": "2067202",
+    "condition_id": "0x6408bf0317c820127f964e076956041ce3c5d76e67bc7c620b374217d7114443",
+    "question": "SPY (SPY) Up or Down on April 27?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T20:00:00Z",
+    "yes_price": 0.41,
+    "no_price": 0.59,
+    "liquidity": 12040.0329,
+    "volume_24h": 40286.82619699998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.38,
+    "confidence": 0.5,
+    "reasoning": "S&P 500 was reported down ~0.03-0.2% intraday on April 27 due to stalled Iran peace talks and rising oil prices. Prior close (April 24) was 713.94 / SPX 7,165. With Hormuz tensions pushing risk-off flows, Down is the modestly favored outcome. SPY tracks SPX closely.",
+    "data_sources": [
+      "yahoo finance markets live April 27",
+      "tradingeconomics SPX",
+      "stockanalysis.com SPY history"
+    ],
+    "key_uncertainty": "Late-day volatility could flip the sign; not enough closing print confirmation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.41,
+    "claude_prob": 0.38,
+    "delta": -0.03,
+    "suggested_direction": null
+  }
+}
