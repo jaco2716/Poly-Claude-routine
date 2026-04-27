@@ -115,12 +115,19 @@ def main():
         if t["trade_id"] in open_ids:
             trades_by_cat[_category_of_trade(t)]["open_now"] += 1
 
-    pnl_by_cat = defaultdict(lambda: {"resolved": 0, "wins": 0, "pnl": 0.0})
+    pnl_by_cat = defaultdict(lambda: {"resolved": 0, "wins": 0, "pnl": 0.0, "pnl_net": 0.0})
     for r in resolved:
         c = pnl_by_cat[_category_of_trade(r)]
         c["resolved"] += 1
         c["wins"] += 1 if r.get("won") else 0
-        c["pnl"] += r.get("pnl_usdc", 0.0)
+        pnl = r.get("pnl_usdc", 0.0)
+        c["pnl"] += pnl
+        # Fee = 2% of the winning $1/share payout, applied only on wins.
+        if r.get("won") and r.get("entry_price"):
+            shares = r.get("size_usdc", 0.0) / r["entry_price"]
+            c["pnl_net"] += pnl - 0.02 * shares
+        else:
+            c["pnl_net"] += pnl
 
     print(f"\n{'='*100}")
     print(f"REPORTS ANALYZED: {len(reports)}    OPEN TRADES: {len(open_ids)}    RESOLVED: {len(resolved)}")
@@ -129,18 +136,18 @@ def main():
     print(f"{'='*100}\n")
 
     print("PER-CATEGORY (research funnel)")
-    print(f"  {'category':<18}{'seen':>6}{'avg|Δ|':>10}{'avg conf':>10}{'%dir':>8}{'opened':>8}{'open':>6}{'resolved':>10}{'wins':>6}{'P&L':>10}")
-    print(f"  {'-'*92}")
+    print(f"  {'category':<18}{'seen':>6}{'avg|Δ|':>10}{'avg conf':>10}{'%dir':>8}{'opened':>8}{'open':>6}{'resolved':>10}{'wins':>6}{'P&L':>10}{'P&L net':>10}")
+    print(f"  {'-'*102}")
     cats = sorted(by_cat.keys(), key=lambda c: -by_cat[c]["markets_seen"])
     for cat in cats:
         s = by_cat[cat]
         t = trades_by_cat.get(cat, {"opened": 0, "open_now": 0})
-        p = pnl_by_cat.get(cat, {"resolved": 0, "wins": 0, "pnl": 0.0})
+        p = pnl_by_cat.get(cat, {"resolved": 0, "wins": 0, "pnl": 0.0, "pnl_net": 0.0})
         avg_e = statistics.mean(s["edges"]) if s["edges"] else 0.0
         avg_c = statistics.mean(s["confidences"]) if s["confidences"] else 0.0
         dir_pct = (100 * s["had_direction"] / s["markets_seen"]) if s["markets_seen"] else 0
         print(f"  {cat:<18}{s['markets_seen']:>6}{avg_e:>10.3f}{avg_c:>10.2f}{dir_pct:>7.0f}%"
-              f"{t['opened']:>8}{t['open_now']:>6}{p['resolved']:>10}{p['wins']:>6}{p['pnl']:>+10.2f}")
+              f"{t['opened']:>8}{t['open_now']:>6}{p['resolved']:>10}{p['wins']:>6}{p['pnl']:>+10.2f}{p['pnl_net']:>+10.2f}")
 
     print("\nPER-PRICE-BUCKET (where do the edges live?)")
     print(f"  {'bucket':<14}{'seen':>6}{'%dir':>8}{'avg|Δ|':>10}")
@@ -161,6 +168,7 @@ def main():
     print("  open         currently unresolved")
     print("  resolved     trades that have a final outcome recorded")
     print("  wins / P&L   resolved hit-rate and net USDC")
+    print("  P&L net      P&L after a 2% fee on winning payouts (loss legs unchanged)")
     print()
 
 
