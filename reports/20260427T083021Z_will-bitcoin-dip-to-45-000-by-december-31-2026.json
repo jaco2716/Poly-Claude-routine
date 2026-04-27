@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T08:30:21.211442+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 56794.895,
+    "volume_24h": 29438.282481999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "BTC trades around $78-79K on April 27, 2026 with bullish ETF inflows and institutional buying breakout above $74K resistance. For YES, BTC needs ~43% drawdown to $45K within ~8 months. Such a deep drawdown is uncommon when in an uptrend; base rate for ~40%+ multi-month drawdowns from local highs is low absent macro shock.",
+    "data_sources": [
+      "LatestLY BTC price report Apr 27 2026",
+      "MetaMask price tracker",
+      "CoinGecko Apr 26 historical"
+    ],
+    "key_uncertainty": "Macro shock or crypto-specific event could trigger a deep drawdown over 8-month window",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.1,
+    "delta": -0.235,
+    "suggested_direction": "no"
+  }
+}

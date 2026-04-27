@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T08:30:21.213649+00:00",
+  "market": {
+    "id": "2067110",
+    "condition_id": "0xb7e63f7f9f76203dacef9f1d5dd7077be2ac4b951d20db21b0831304f73c9626",
+    "question": "S&P 500 (SPX) Up or Down on April 27?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T20:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 16656.5697,
+    "volume_24h": 19649.361884000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.3,
+    "reasoning": "SPX closed Apr 24 at 7,165 (record). Trump canceled Iran talks Sat, risk-off catalyst. ES futures Friday settled +0.72% but weekend news likely negates. Close direction uncertain; lean slightly Down. Market priced 0.415 Up which aligns with this view.",
+    "data_sources": [
+      "Benzinga Polymarket article Apr 27 2026",
+      "angle360ng SPX forecast Apr 27"
+    ],
+    "key_uncertainty": "Weekend Iran headline pricing; intraday recovery odds",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.42,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

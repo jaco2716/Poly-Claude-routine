@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T08:30:21.213258+00:00",
+  "market": {
+    "id": "2060360",
+    "condition_id": "0x74d39b036fd2623e86a44128acf1fdc2eeeac8a923014ccdbb79d0bd403324c4",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 20158.6774,
+    "volume_24h": 34608.501151000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.45,
+    "reasoning": "WTI front-month around $95-96 on Apr 27 with Friday close $94.40; April low so far has not been disclosed but current bias is upward on Iran tensions. To hit $90 LOW requires ~6% drop in remaining 3 trading days. Base rate moderate; possible if Iran de-escalation deal materializes. Market priced 0.355 may overstate odds given geopolitics still elevated.",
+    "data_sources": [
+      "tradingeconomics crude WTI Apr 27",
+      "fxdailyreport Apr 24/27"
+    ],
+    "key_uncertainty": "Whether April lows already touched $90 earlier in month not confirmed; Iran de-escalation timing",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.2,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

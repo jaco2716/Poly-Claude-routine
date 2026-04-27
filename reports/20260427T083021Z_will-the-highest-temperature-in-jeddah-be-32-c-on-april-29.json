@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T08:30:21.214113+00:00",
+  "market": {
+    "id": "2091973",
+    "condition_id": "0xcc9d515465ef72ab21dd66961d1045ca9e0787f8522bbb3d46a0f95b5bdc6bad",
+    "question": "Will the highest temperature in Jeddah be 32\u00b0C on April 29?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jeddah-on-april-29-2026-32c",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.205,
+    "no_price": 0.795,
+    "liquidity": 997.4684,
+    "volume_24h": 5.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "Late-April Jeddah climatology near month-end shows highs ~32.8\u00b0C / 91\u00b0F at King Abdulaziz airport with low humidity (~65%). Forecast points right at boundary of 32 (32.0-32.9\u00b0C) and 33 (33.0-33.9\u00b0C) bins; each bin gets roughly ~30%. Market priced 0.205 may slightly under-weight the 32 bin.",
+    "data_sources": [
+      "weather25.com Jeddah April 2026",
+      "easeweather Jeddah Apr",
+      "climate-data.org Jeddah Apr"
+    ],
+    "key_uncertainty": "Whether actual high lands in 32 bin or rolls into 33; airport-specific daily noise",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.205,
+    "claude_prob": 0.3,
+    "delta": 0.095,
+    "suggested_direction": "yes"
+  }
+}

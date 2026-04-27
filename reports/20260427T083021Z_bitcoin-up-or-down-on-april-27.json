@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T08:30:21.212873+00:00",
+  "market": {
+    "id": "2078260",
+    "condition_id": "0x43017d135aa45d2672aeb6088cff38cec29e125fa7c6473fd0ee004efb8caf44",
+    "question": "Bitcoin Up or Down on April 27?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T16:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 40520.7261,
+    "volume_24h": 95650.95265899993
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.4,
+    "reasoning": "BTC closed Apr 26 around $77,875-78,085 and trades near $79,032 on Apr 27 per LatestLY/CoinGecko, suggesting modest gain into noon ET resolution candle. Market priced 0.345 for Up but current data leans Up. BTC daily moves are volatile; a few hours of selling could flip outcome. Slight edge to Up.",
+    "data_sources": [
+      "LatestLY BTC Apr 27 2026 $79,032",
+      "CoinGecko Apr 26 close ~$78,085"
+    ],
+    "key_uncertainty": "Final 12:00 ET candle close timing; BTC volatility can erase the small gap",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.55,
+    "delta": 0.205,
+    "suggested_direction": "yes"
+  }
+}

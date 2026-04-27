@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T08:30:21.213923+00:00",
+  "market": {
+    "id": "2067109",
+    "condition_id": "0xe6c2ee5e4dc16869f5bee7ef7273d3b6e1053646e431b6754acbbe8576bf922e",
+    "question": "S&P 500 (SPX) Opens Up or Down on April 27?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T20:00:00Z",
+    "yes_price": 0.245,
+    "no_price": 0.755,
+    "liquidity": 2593.0767,
+    "volume_24h": 24572.179656
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.35,
+    "reasoning": "SPX closed Apr 24 at 7,165. Saturday news: Trump canceled Iran envoy talks, clearly negative weekend catalyst that typically gaps equities lower at open. Open is more sensitive to overnight news than close. Probability of Up open is below 50%; market priced 0.245 looks roughly fair, slight lean higher given some buy-the-dip flow.",
+    "data_sources": [
+      "Benzinga Polymarket article SPX Apr 27",
+      "stockanalysis.com SPY history"
+    ],
+    "key_uncertainty": "Whether overnight ES futures already retraced enough to make Mon open above Fri cash close possible",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.245,
+    "claude_prob": 0.3,
+    "delta": 0.055,
+    "suggested_direction": "yes"
+  }
+}

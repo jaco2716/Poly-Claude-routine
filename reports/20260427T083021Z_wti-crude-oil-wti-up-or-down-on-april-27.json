@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T08:30:21.213095+00:00",
+  "market": {
+    "id": "2067206",
+    "condition_id": "0xeb0406fd238d8551ff86fd74ff95568e19fbadc8c516c37fe1b19d7eac9e4c6f",
+    "question": "WTI Crude Oil (WTI) Up or Down on April 27?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T21:00:00Z",
+    "yes_price": 0.75,
+    "no_price": 0.25,
+    "liquidity": 23794.7263,
+    "volume_24h": 24343.898611000008
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.5,
+    "reasoning": "WTI Friday Apr 24 close $94.40; on Apr 27 trades $95-96 (intraday high $96.70) on Iran/Hormuz risk. Currently +1-2% vs prior close. Market resolves on Apr 27 close (~21:00 UTC). With several hours remaining and elevated geopolitical volatility, edge to Up but not certain.",
+    "data_sources": [
+      "tradingeconomics crude oil WTI Apr 27",
+      "fxdailyreport Apr 27 analysis"
+    ],
+    "key_uncertainty": "Late-session reversal on Iran de-escalation headlines",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.75,
+    "claude_prob": 0.7,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

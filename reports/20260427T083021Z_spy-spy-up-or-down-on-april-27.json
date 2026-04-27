@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T08:30:21.213481+00:00",
+  "market": {
+    "id": "2067202",
+    "condition_id": "0x6408bf0317c820127f964e076956041ce3c5d76e67bc7c620b374217d7114443",
+    "question": "SPY (SPY) Up or Down on April 27?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T20:00:00Z",
+    "yes_price": 0.445,
+    "no_price": 0.555,
+    "liquidity": 17769.8635,
+    "volume_24h": 23078.374924
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.3,
+    "reasoning": "SPY closed Apr 24 at $713.94 (record high SPX 7,165). Saturday news: Trump canceled Iran envoy meeting, bearish risk-off for Monday open. ES futures had settled +0.72% Friday but weekend headlines likely flip premarket negative. Daily close coin-flip-leaning-down but intraday rebound possible.",
+    "data_sources": [
+      "stockanalysis.com SPY history",
+      "benzinga Polymarket SPX article"
+    ],
+    "key_uncertainty": "How much weekend Iran news is already priced; intraday volatility",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.445,
+    "claude_prob": 0.45,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}
