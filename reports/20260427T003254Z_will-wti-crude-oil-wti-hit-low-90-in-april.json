@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.278255+00:00",
+  "market": {
+    "id": "2060360",
+    "condition_id": "0x74d39b036fd2623e86a44128acf1fdc2eeeac8a923014ccdbb79d0bd403324c4",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.37,
+    "no_price": 0.63,
+    "liquidity": 24321.1605,
+    "volume_24h": 17718.090118
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "WTI active month around $94.40 with last week intraday low ~$92.68. The April market needs any 1m candle to print <= $90 by April 30, requiring roughly a 4.7% drop from spot. With Iran diplomacy risk pulling both ways and only ~3 trading days left, downside touches happen but require de-escalation. Base rate plausible but not majority.",
+    "data_sources": [
+      "oilpriceapi.com WTI live",
+      "tradingeconomics WTI",
+      "angle360ng WTI April 25 2026 report"
+    ],
+    "key_uncertainty": "A breakthrough US-Iran diplomatic move in the next few sessions could quickly bring WTI under $90.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.37,
+    "claude_prob": 0.32,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

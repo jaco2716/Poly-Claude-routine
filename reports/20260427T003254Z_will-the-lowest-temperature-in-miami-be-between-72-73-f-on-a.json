@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.280041+00:00",
+  "market": {
+    "id": "2073965",
+    "condition_id": "0x1fa963d20e53b790b6b831838298e4a227bed91d631dbc227b31a901ab56a927",
+    "question": "Will the lowest temperature in Miami be between 72-73\u00b0F on April 27?",
+    "category": "temperature",
+    "slug": "lowest-temperature-in-miami-on-april-27-2026-72-73f",
+    "end_date": "2026-04-27T12:00:00Z",
+    "yes_price": 0.22,
+    "no_price": 0.78,
+    "liquidity": 99.3139,
+    "volume_24h": 67.785
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Miami International Airport low for April typically falls in the 70-76\u00b0F range, with most April 2026 nights in the low-70s. The 72-73\u00b0F bucket is one of the most likely 2\u00b0F buckets, though a cooler 70-71\u00b0F or warmer 74-75\u00b0F bucket can win. Base rate for hitting that specific narrow band is roughly one in four to five.",
+    "data_sources": [
+      "accuweather Miami April 2026",
+      "world-weather.info Miami April 2026",
+      "weather2travel Miami April"
+    ],
+    "key_uncertainty": "Without a hour-by-hour location-specific forecast for KMIA, uncertainty about exactly which 2\u00b0F bucket the daily low lands in is significant.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.22,
+    "claude_prob": 0.22,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

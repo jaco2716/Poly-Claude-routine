@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.275802+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.315,
+    "no_price": 0.685,
+    "liquidity": 56329.6051,
+    "volume_24h": 33260.01572299999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.16,
+    "confidence": 0.5,
+    "reasoning": "BTC trades around $78,000 on April 26-27, 2026 per Coinbase/CoinDesk, leaving roughly 8 months for a ~42% drawdown to $45,000. Historic 8-month drops of that magnitude occur in cyclical bear markets (e.g., 2022, 2018) but are not the norm; current price action is recovering with +13.7% in April. Odds skew low but non-trivial given macro tail risk.",
+    "data_sources": [
+      "Coinbase BTC USD",
+      "CoinDesk BTC price",
+      "techi.com BTC price page"
+    ],
+    "key_uncertainty": "Macro/geopolitical shock could trigger a deeper risk-off cycle; 8 months is a long window for crypto volatility.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.315,
+    "claude_prob": 0.16,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

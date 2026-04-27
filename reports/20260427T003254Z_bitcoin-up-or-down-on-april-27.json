@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.280242+00:00",
+  "market": {
+    "id": "2078260",
+    "condition_id": "0x43017d135aa45d2672aeb6088cff38cec29e125fa7c6473fd0ee004efb8caf44",
+    "question": "Bitcoin Up or Down on April 27?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-27-2026",
+    "end_date": "2026-04-27T16:00:00Z",
+    "yes_price": 0.665,
+    "no_price": 0.335,
+    "liquidity": 33161.677,
+    "volume_24h": 42364.25375099998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.3,
+    "reasoning": "Resolves Up if BTC/USDT 1m close at noon ET Apr 27 is higher than noon ET Apr 26. BTC has been in an upward April trend (+13.7% MTD) and traded ~$77,800 on Apr 23 then ~$78,060 on Apr 26. With a constructive month, slight prior in favor of Up but daily noon-to-noon is essentially a coin flip on small drift. Without precise candle data, I lean modestly above 50%.",
+    "data_sources": [
+      "CoinDesk BTC",
+      "techi.com BTC",
+      "Fortune BTC daily prices"
+    ],
+    "key_uncertainty": "No precise noon ET candle prices available; small intraday moves around noon dominate the resolution.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.665,
+    "claude_prob": 0.55,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

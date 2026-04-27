@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.279169+00:00",
+  "market": {
+    "id": "960320",
+    "condition_id": "0xe97fd68138299f654dfe7d46c56e86c30b03bd558d121e6380d204dfc016b6a7",
+    "question": "Will Brent Hennrich advance to the general election for WA-03?",
+    "category": "commodity",
+    "slug": "will-brent-hennrich-advance-to-the-general-election-for-wa-03",
+    "end_date": "2026-08-04T00:00:00Z",
+    "yes_price": 0.19,
+    "no_price": 0.81,
+    "liquidity": 9681.1486,
+    "volume_24h": 17597.681747999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.4,
+    "reasoning": "Washington uses a top-two primary on Aug 4, 2026. Incumbent Marie Gluesenkamp Perez (D) and a leading Republican (e.g., Joe Kent or Braun) are expected to fill the two slots given fundraising and name recognition. Hennrichs own commissioned Gravis poll showed only 24% favorable for him vs 43% for the incumbent, and Ballotpedia coverage flags him as a fragmented challenger with limited resources. Advancing requires beating either the incumbent or the Republican, both unlikely.",
+    "data_sources": [
+      "Ballotpedia WA-03 2026",
+      "The Daily Chronicle Hennrich poll",
+      "Vancouver Today WA-03 primary writeup"
+    ],
+    "key_uncertainty": "Sparse public polling; if the incumbent draws a serious progressive primary backlash, the order could shift.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.19,
+    "claude_prob": 0.07,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.279487+00:00",
+  "market": {
+    "id": "2082465",
+    "condition_id": "0x4b7dcf29ebedc9026bd69c104559adefba0f57b226f0d2b15ad49230ab477459",
+    "question": "Will the highest temperature in Munich be 21\u00b0C or higher on April 28?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-munich-on-april-28-2026-21corhigher",
+    "end_date": "2026-04-28T12:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 990.0597,
+    "volume_24h": 619.3882869999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.45,
+    "reasoning": "Munich Apr 28 2026 forecast high is around 16\u00b0C per multiple weather aggregators (weather25, easeweather), with April normals 14-17\u00b0C. The market resolves Yes only if the buckets covering 21\u00b0C or higher win. That requires about 5\u00b0C above the forecast/normal range, which is uncommon but not unheard of when a warm southerly wind (F\u00f6hn) sets up over Munich. Lean below market.",
+    "data_sources": [
+      "weather25 Munich April 2026",
+      "easeweather Munich April 2026",
+      "climate-data.org Munich April"
+    ],
+    "key_uncertainty": "Forecasts can shift a few \u00b0C; a F\u00f6hn event could push highs into the 20s.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.18,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

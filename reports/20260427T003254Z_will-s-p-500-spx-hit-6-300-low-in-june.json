@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.278476+00:00",
+  "market": {
+    "id": "1125382",
+    "condition_id": "0x8ad67416f1aee0c26200848b8f663322d251946cdd552bd6c7a4ea262582ac73",
+    "question": "Will S&P 500 (SPX) hit $6,300 (LOW) in June?",
+    "category": "equity_index",
+    "slug": "spx-hit-6300-low-jun-2026",
+    "end_date": "2026-06-30T20:00:00Z",
+    "yes_price": 0.26,
+    "no_price": 0.74,
+    "liquidity": 9959.1438,
+    "volume_24h": 413.438271
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.45,
+    "reasoning": "SPX trading near all-time high ~7,162 on April 24-26, 2026. $6,300 strike implies a roughly 12% drawdown by end of June 2026. Two months is long enough for a notable correction (12% intra-quarter drawdowns happen periodically), but base rate from a fresh ATH with positive momentum is below 20%.",
+    "data_sources": [
+      "litefinance SPX",
+      "tradingeconomics US500",
+      "seekingalpha SPX rally analysis"
+    ],
+    "key_uncertainty": "A macro shock (Fed pivot, geopolitics, tariffs) could trigger a sharp 2-month pullback.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.26,
+    "claude_prob": 0.18,
+    "delta": -0.08,
+    "suggested_direction": "no"
+  }
+}

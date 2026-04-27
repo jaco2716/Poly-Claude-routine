@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.277977+00:00",
+  "market": {
+    "id": "1929170",
+    "condition_id": "0x35d8c42a467d4e485ffba50c5d2d984ed0793f4935319ca923b494798051c8ef",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-110-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.185,
+    "no_price": 0.815,
+    "liquidity": 33190.8386,
+    "volume_24h": 26059.489965999997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.55,
+    "reasoning": "WTI active month closed near $94.40/bbl on April 25, 2026 with intraday range $92.68-$97.85. To hit $110 by April 30 requires a further ~14% spike with only 2-3 trading days left. Strong week (+13%) on geopolitical risk, but reaching $110 demands a fresh major escalation (Strait of Hormuz closure, etc.). Tail-risk only.",
+    "data_sources": [
+      "oilpriceapi.com WTI live",
+      "tradingeconomics WTI",
+      "angle360ng WTI April 25 2026 report"
+    ],
+    "key_uncertainty": "Iran/US talks or Strait of Hormuz disruption could trigger a rapid spike; otherwise reaching $110 in days is unlikely.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.185,
+    "claude_prob": 0.06,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.279874+00:00",
+  "market": {
+    "id": "2074554",
+    "condition_id": "0x274c89d01419ebe8b6334a834f46178a1892509cb87d59fd23b4a5fec0f51c7e",
+    "question": "Will the highest temperature in Beijing be 23\u00b0C on April 27?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-beijing-on-april-27-2026-23c",
+    "end_date": "2026-04-27T12:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 981.327,
+    "volume_24h": 1103.3339749999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.4,
+    "reasoning": "Beijing forecast for April 27 2026 shows high around 27\u00b0C per multiple aggregators (easeweather, weather25). The market resolves to whichever 1\u00b0C bucket contains the daily high; the bucket labeled 23\u00b0C (typically 23.0-23.9 \u00b0C) is well below the forecast and unlikely. Probability is low but non-zero given forecast uncertainty.",
+    "data_sources": [
+      "easeweather Beijing today",
+      "weather25 Beijing",
+      "china highlights Beijing April"
+    ],
+    "key_uncertainty": "Forecast could be cooler than expected if a cold front passes; specific bucket boundaries depend on Wunderground rounding.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.12,
+    "delta": -0.225,
+    "suggested_direction": "no"
+  }
+}

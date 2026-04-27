@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.280369+00:00",
+  "market": {
+    "id": "2089643",
+    "condition_id": "0x6e1c7fbb95539390293804056502f8e8565ccc889c1ab8ea22aa2acd809ff28f",
+    "question": "Ethereum Up or Down - April 27, 6:10PM-6:15PM ET",
+    "category": "crypto_price",
+    "slug": "eth-updown-5m-1777327800",
+    "end_date": "2026-04-27T22:15:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9960.5995,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "A 5-minute window (6:10-6:15 PM ET on Apr 27) on Chainlink ETH/USD is essentially a coin flip given the very short horizon. ETH spot is ~$2,329 with no specific catalyst at that moment. Tiny positive drift implies marginally over 50%, but well within noise. Cannot meaningfully predict.",
+    "data_sources": [
+      "Coinbase ETH",
+      "CoinDesk ETH",
+      "CoinMarketCap ETH"
+    ],
+    "key_uncertainty": "5-minute window is dominated by microstructure noise; no edge available.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

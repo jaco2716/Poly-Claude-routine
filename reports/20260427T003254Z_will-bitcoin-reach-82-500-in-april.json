@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-27T00:32:54.277370+00:00",
+  "market": {
+    "id": "2054828",
+    "condition_id": "0x8a26b66b6bdb6b12af72cdf6c47e6a4b869b0deb595a780f430e639b748b6152",
+    "question": "Will Bitcoin reach $82,500 in April?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-82500-in-april",
+    "end_date": "2026-05-01T04:00:00Z",
+    "yes_price": 0.205,
+    "no_price": 0.795,
+    "liquidity": 45038.5011,
+    "volume_24h": 61370.021281
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.5,
+    "reasoning": "Resolves Yes only if BTC ever prints >= $82,500 on Binance BTC/USDT before April 30 close. Spot is ~$77,500-$78,100 on April 26-27. Needing a ~5.7% move higher in ~3 trading days is unusual; April has rallied +13.7% but momentum has been cooling. Some risk of a quick rip but base rate of >5% 3-day spikes is modest.",
+    "data_sources": [
+      "CoinDesk BTC",
+      "Coinbase BTC",
+      "techi.com"
+    ],
+    "key_uncertainty": "Sudden macro/news catalyst could spark a rapid rally; resolution period is short.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.205,
+    "claude_prob": 0.12,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}
