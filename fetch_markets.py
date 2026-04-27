@@ -33,7 +33,7 @@ log = logging.getLogger("fetch_markets")
 
 PRICE_MIN = float(os.getenv("PRICE_MIN", "0.15"))
 PRICE_MAX = float(os.getenv("PRICE_MAX", "0.85"))
-CATEGORY_CAP = int(os.getenv("CATEGORY_CAP", "3"))
+CATEGORY_CAP = int(os.getenv("CATEGORY_CAP", "6"))
 
 
 def _diversify(candidates: list[dict], limit: int, cap: int) -> list[dict]:
