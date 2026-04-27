@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.719414+00:00",
+  "market": {
+    "id": "2082108",
+    "condition_id": "0x64109466f99145c85c4a6db93f6a542355fb99a78d5b244eb123763584d2172b",
+    "question": "Will the lowest temperature in London be 8\u00b0C on April 28?",
+    "category": "temperature",
+    "slug": "lowest-temperature-in-london-on-april-28-2026-8c",
+    "end_date": "2026-04-28T12:00:00Z",
+    "yes_price": 0.35,
+    "no_price": 0.65,
+    "liquidity": 97.0059,
+    "volume_24h": 35.961261
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "London late-April 2026 forecasts show overnight lows roughly 7-12\u00b0C. The 8\u00b0C bucket (7.5-8.5\u00b0C) is plausible but only one of ~5-6 likely buckets. Market 0.35 seems reasonable; my central estimate ~0.30.",
+    "data_sources": [
+      "accuweather London April 2026",
+      "world-weather.info London April 2026"
+    ],
+    "key_uncertainty": "Exact London City Airport overnight low can vary +/- 2\u00b0C from city center forecast.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.35,
+    "claude_prob": 0.3,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-27T22:20:20.716560+00:00",
+  "market": {
+    "id": "2086776",
+    "condition_id": "0x0a031d42240364d9d11073997e3f86f04ac36d90b58ed254a5a6ea645606a40d",
+    "question": "Bitcoin Up or Down on April 28?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T16:00:00Z",
+    "yes_price": 0.555,
+    "no_price": 0.445,
+    "liquidity": 32137.9546,
+    "volume_24h": 24009.02279600001
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Single-day BTC direction is essentially a coin flip with slight upward base-rate bias. With BTC at $77.8k and no specific catalyst identified for Apr 28, no edge versus market price.",
+    "data_sources": [
+      "fortune.com BTC price Apr 27 2026"
+    ],
+    "key_uncertainty": "Any intraday news catalyst is unpredictable.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.555,
+    "claude_prob": 0.5,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

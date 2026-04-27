@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.718624+00:00",
+  "market": {
+    "id": "2091982",
+    "condition_id": "0x52ee229f230b3143a03379845182fc40f5750161fb146a01bf7c3e9b85dccfeb",
+    "question": "Will the highest temperature in Lagos be 32\u00b0C on April 29?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-lagos-on-april-29-2026-32c",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.25,
+    "no_price": 0.75,
+    "liquidity": 952.2216,
+    "volume_24h": 25.651611
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.45,
+    "reasoning": "Forecast highs for Lagos on Apr 29 are around 89-91\u00b0F (~31.7-32.8\u00b0C). The 32\u00b0C bucket (31.5-32.5\u00b0C) is in the middle of that distribution. Moderately likely - similar to market price.",
+    "data_sources": [
+      "accuweather Lagos April 2026",
+      "weather25 Lagos April"
+    ],
+    "key_uncertainty": "Murtala Muhammad Airport vs other Lagos stations may differ by 1-2\u00b0C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.25,
+    "claude_prob": 0.32,
+    "delta": 0.07,
+    "suggested_direction": "yes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.716375+00:00",
+  "market": {
+    "id": "1345531",
+    "condition_id": "0xbb379a14cd03f68c35c279ddbd928a6326f4fd2e21827f8cdaaf59715d6df50e",
+    "question": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90000-by-december-31-2026-113-862-581",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.555,
+    "no_price": 0.445,
+    "liquidity": 61547.0615,
+    "volume_24h": 13837.009900000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.5,
+    "reasoning": "BTC ~$77,800 needs ~16% rally to reach $90k by Dec 31, 2026. With ~8 months remaining and BTC having traded as high as $126k pre-crash, $90k is well within historical volatility. Trajectory is choppy but trend is recovering from Feb low. Market may already have touched $90k early in window which would lock in YES.",
+    "data_sources": [
+      "fortune.com BTC price Apr 27 2026",
+      "yahoo BTC 52-week range"
+    ],
+    "key_uncertainty": "Whether the 1-min candle high already exceeded $90k between market creation and now (would auto-resolve YES).",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.555,
+    "claude_prob": 0.62,
+    "delta": 0.065,
+    "suggested_direction": "yes"
+  }
+}

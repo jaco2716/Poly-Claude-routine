@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-27T22:20:20.717436+00:00",
+  "market": {
+    "id": "1357099",
+    "condition_id": "0xecd961f60dad9a8f4f25f717bc6771e09cddf3077657aafc67a6a528c92aad55",
+    "question": "Will Bitcoin hit $60k or $80k first?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-hit-60k-or-80k-first-965",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.19,
+    "no_price": 0.81,
+    "liquidity": 11635.4558,
+    "volume_24h": 64527.659261999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "Market resolves to whichever level ($60k or $80k) BTC touches first. BTC currently $77.8k - much closer to $80k upside. The $60k YES (lower) probability is ~30%; reaching $80k first (3% above) is more likely given recent rebound momentum. Market 0.19 priced for $60k first feels low but reasonable given proximity asymmetry.",
+    "data_sources": [
+      "fortune.com BTC price Apr 27 2026"
+    ],
+    "key_uncertainty": "Direction of next move depends on Fed meeting and macro newsflow.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.19,
+    "claude_prob": 0.3,
+    "delta": 0.11,
+    "suggested_direction": "yes"
+  }
+}

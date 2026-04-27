@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-04-27T22:20:20.719808+00:00",
+  "market": {
+    "id": "2096780",
+    "condition_id": "0x38863951682af852c8a82e91ce34f9b5f6ab3af9235ad3c47e36935aa5a2d8c3",
+    "question": "XRP Up or Down - April 28, 9:50AM-9:55AM ET",
+    "category": "crypto_price",
+    "slug": "xrp-updown-5m-1777384200",
+    "end_date": "2026-04-28T13:55:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9997.8809,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "5-minute XRP/USD direction is essentially random walk with no exploitable edge from web research at this granularity.",
+    "data_sources": [],
+    "key_uncertainty": "Short-term tick noise.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

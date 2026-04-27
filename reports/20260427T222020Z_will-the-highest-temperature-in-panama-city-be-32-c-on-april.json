@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.718403+00:00",
+  "market": {
+    "id": "2091943",
+    "condition_id": "0x806460540f831b9f496cc2862b2e6bce7cdb0bf9889d8d597bb543d439fd64d0",
+    "question": "Will the highest temperature in Panama City be 32\u00b0C on April 29?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-panama-city-on-april-29-2026-32c",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.37,
+    "no_price": 0.63,
+    "liquidity": 981.7557,
+    "volume_24h": 115.335348
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "AccuWeather forecast for Panama City, Panama on Apr 29 is high ~87\u00b0F = 30.6\u00b0C. April daytime high range is 87-94\u00b0F (~30.5-34.4\u00b0C). The 32\u00b0C bucket (31.5-32.5\u00b0C) is plausible but the central forecast points to 30-31\u00b0C. Market 0.37 may overweight 32\u00b0C.",
+    "data_sources": [
+      "accuweather Panama City Panama April 2026",
+      "weather2travel Panama April"
+    ],
+    "key_uncertainty": "Tropical microclimate variability; Marcos A. Gelabert station calibration vs forecast city averages.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.37,
+    "claude_prob": 0.18,
+    "delta": -0.19,
+    "suggested_direction": "no"
+  }
+}

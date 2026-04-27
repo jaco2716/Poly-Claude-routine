@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.716152+00:00",
+  "market": {
+    "id": "701501",
+    "condition_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+    "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 64680.1401,
+    "volume_24h": 18156.728587999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$77,800; 52-week low was ~$60,187 in Feb 2026 - already dipped close to but not below $55k. Needs a further ~29% drop in 8 months. Given recent volatility (Iran war retest possible) the probability is moderate but not majority. Market price (0.515) seems somewhat elevated.",
+    "data_sources": [
+      "fortune.com BTC price Apr 27 2026",
+      "yahoo BTC 52-week range"
+    ],
+    "key_uncertainty": "Whether Iran/Strait of Hormuz escalation re-emerges or US recession bites.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.35,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}

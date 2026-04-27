@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.716912+00:00",
+  "market": {
+    "id": "2060360",
+    "condition_id": "0x74d39b036fd2623e86a44128acf1fdc2eeeac8a923014ccdbb79d0bd403324c4",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.265,
+    "no_price": 0.735,
+    "liquidity": 24192.8831,
+    "volume_24h": 27398.159125000137
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "WTI today ~$96; April had highs above $110 and fell to ~$94 by Apr 25. Lows reportedly around $80.56 in March-April window but unclear if that print was during April or late March. With 2-3 trading days left in April and current price at $96, would need a 6%+ drop to close below $90. Market price 0.265 likely reflects similar uncertainty.",
+    "data_sources": [
+      "fxdailyreport WTI Apr 27 2026",
+      "tradingeconomics WTI"
+    ],
+    "key_uncertainty": "Whether the cited $80.56 low actually occurred in April or in late March before market creation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.265,
+    "claude_prob": 0.22,
+    "delta": -0.045,
+    "suggested_direction": null
+  }
+}

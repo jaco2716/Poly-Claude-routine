@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-27T22:20:20.718855+00:00",
+  "market": {
+    "id": "1126853",
+    "condition_id": "0x59bb2cc4b116c5137e858222c867638bcd78b236db7656adf93114fcdf62b902",
+    "question": "Will Venezuelan crude oil production reach 1.3m barrels per day in 2026?",
+    "category": "commodity",
+    "slug": "will-venezuelan-crude-oil-production-reach-1pt3m-barrels-per-day-in-2026",
+    "end_date": "2027-02-28T00:00:00Z",
+    "yes_price": 0.25,
+    "no_price": 0.75,
+    "liquidity": 666.514,
+    "volume_24h": 6097.001407999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "Venezuela ~988k bpd in March 2026, growing slowly toward ~1.0-1.2m bpd. Reaching 1.3m bpd in any single 2026 month is plausible if recovery accelerates by H2, but OPEC secondary-source numbers tend to lag. Probably below market's 0.25.",
+    "data_sources": [
+      "ceicdata Venezuela",
+      "tradingeconomics Venezuela"
+    ],
+    "key_uncertainty": "Pace of investment & sanctions trajectory through 2026.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.25,
+    "claude_prob": 0.18,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}
