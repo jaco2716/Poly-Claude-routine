@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T22:28:38.069672+00:00",
+  "market": {
+    "id": "701503",
+    "condition_id": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2",
+    "question": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-35000-by-december-31-2026-744-877-748-219-467-465-646-211-122-947-537-552-555-361-972-954-635-887",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 105547.4665,
+    "volume_24h": 23993.336262
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.5,
+    "reasoning": "BTC at ~$76.3k needs to fall ~54% to $35k. The 2026 YTD low is $63k. $35k would represent extreme capitulation below most bearish analyst forecasts. Tail-risk only.",
+    "data_sources": [
+      "fortune.com BTC price 4/28/26",
+      "ccn.com bear scenarios"
+    ],
+    "key_uncertainty": "Tail-risk event such as exchange failure, regulatory shock, or major recession",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.07,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

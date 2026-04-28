@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-28T22:28:38.070472+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.185,
+    "no_price": 0.815,
+    "liquidity": 63951.0271,
+    "volume_24h": 18805.74809
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.4,
+    "reasoning": "WTI front-month settled ~$96.37 with intraday near $99-100. To hit $140 by end June requires ~40% further rally. Citi sees upside to $150 Brent (~$135 WTI) only in scenario of prolonged Hormuz closure; EIA peak forecast $115 Brent. ING expects flows to resume May-June. $140 WTI is a tail outcome.",
+    "data_sources": [
+      "cnbc Brent 4/26/26",
+      "ING oil forecast",
+      "EIA April 2026 STEO",
+      "Citi note via fxempire"
+    ],
+    "key_uncertainty": "Whether Strait of Hormuz reopens or escalates further into a wider war",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.185,
+    "claude_prob": 0.1,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

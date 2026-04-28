@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T22:28:38.072650+00:00",
+  "market": {
+    "id": "2102122",
+    "condition_id": "0x54d0d4b010fa9ceb052b01653ee34e4bcd739a100a6ffa95085a200e6a26f937",
+    "question": "Will the highest temperature in Buenos Aires be 24\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-april-30-2026-24c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.29,
+    "no_price": 0.71,
+    "liquidity": 988.4056,
+    "volume_24h": 69.73
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.45,
+    "reasoning": "Buenos Aires Ezeiza April 30 forecast high: 82\u00b0F (~27.8\u00b0C), sunny. The 24\u00b0C bucket is ~3-4C below the central forecast. Forecast accuracy at 2-day horizon makes such an undershoot unlikely.",
+    "data_sources": [
+      "meteoblue.com Ezeiza",
+      "accuweather.com Jose Maria Ezeiza"
+    ],
+    "key_uncertainty": "Cold front intrusion would be needed to cool to 24C",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.29,
+    "claude_prob": 0.1,
+    "delta": -0.19,
+    "suggested_direction": "no"
+  }
+}

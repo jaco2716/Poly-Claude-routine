@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T22:28:38.071864+00:00",
+  "market": {
+    "id": "2102395",
+    "condition_id": "0x3f06cc02a34313e0cb39df3ab70dbdff29f799d0cb56a3d18aaff743f9f21323",
+    "question": "Will the highest temperature in Chengdu be 23\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chengdu-on-april-30-2026-23c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.3,
+    "no_price": 0.7,
+    "liquidity": 999.8038,
+    "volume_24h": 4.545452
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.35,
+    "reasoning": "Chengdu April 30 forecasts disagree: one shows high 75\u00b0F (~23.9\u00b0C) with rain, another shows 27\u00b0C morning high. April climatological average high in Chengdu is ~22-24\u00b0C. The 23\u00b0C bucket is near the central forecast but conflicting forecasts and near-boundary bucket make this a coin-flip among 22/23/24\u00b0C. Roughly equal probability among adjacent buckets.",
+    "data_sources": [
+      "wunderground.com",
+      "weather.com forecast",
+      "chinahighlights.com climatology"
+    ],
+    "key_uncertainty": "Whether rain depresses peak temperature by ~2C or it warms toward 27C as some forecasts suggest",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.3,
+    "claude_prob": 0.18,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}

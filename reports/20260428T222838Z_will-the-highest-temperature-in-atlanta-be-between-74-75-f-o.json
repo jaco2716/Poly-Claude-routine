@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T22:28:38.071989+00:00",
+  "market": {
+    "id": "2102185",
+    "condition_id": "0xe8230051c5a209fbedb759d26acc7ff5cb34bb1c82f089e4fc5c60035625330d",
+    "question": "Will the highest temperature in Atlanta be between 74-75\u00b0F on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-atlanta-on-april-30-2026-74-75f",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.17,
+    "no_price": 0.83,
+    "liquidity": 999.6419,
+    "volume_24h": 277.816029
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "Atlanta April 30 high forecast: 73\u00b0F with 60% rain chance. The 74-75\u00b0F bucket is just one degree above the central forecast. With typical \u00b12-3\u00b0F forecast variance, the high landing in the 74-75\u00b0F bucket is plausible but the central forecast favors 72-73\u00b0F.",
+    "data_sources": [
+      "accuweather.com Atlanta forecast",
+      "weather.gov MapClick Atlanta"
+    ],
+    "key_uncertainty": "Whether rain dampens or breaks early enough for max temp to push into the 74-75 range",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.17,
+    "claude_prob": 0.2,
+    "delta": 0.03,
+    "suggested_direction": null
+  }
+}

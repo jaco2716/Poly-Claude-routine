@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T22:28:38.072887+00:00",
+  "market": {
+    "id": "2102340",
+    "condition_id": "0x1671186c66f83b10f9c6378d7ad2053f103cbd5ef1a984cae982e1dd2452fcce",
+    "question": "Will the highest temperature in Warsaw be 12\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-warsaw-on-april-30-2026-12c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.37,
+    "no_price": 0.63,
+    "liquidity": 980.9137,
+    "volume_24h": 59.99454700000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "Warsaw April 30 forecast high: 13\u00b0C (55-56\u00b0F). The 12\u00b0C bucket is one degree below the central forecast. With \u00b11-2\u00b0C forecast error, 12\u00b0C is plausible but the modal outcome is 13\u00b0C.",
+    "data_sources": [
+      "timeanddate.com Warsaw 14-day",
+      "accuweather.com Warsaw"
+    ],
+    "key_uncertainty": "Cloud cover or wind variation that could pull peak temperature down by 1C",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.37,
+    "claude_prob": 0.3,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}

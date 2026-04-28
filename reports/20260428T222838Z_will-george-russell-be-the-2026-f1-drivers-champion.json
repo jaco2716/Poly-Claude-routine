@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T22:28:38.068708+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 236905.0312,
+    "volume_24h": 13273.199677999988
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.4,
+    "reasoning": "Russell led the championship early in the 2026 season but lost the lead to teammate Antonelli after the Japanese GP. With ~22 races still ahead, the season is wide open. Russell is in genuine contention but faces strong competition from Antonelli, Norris, Piastri and others. Base rate for one of multiple top contenders to win is ~20-30%.",
+    "data_sources": [
+      "formula1.com/en/results/2026/drivers",
+      "gpfans.com Japanese Grand Prix coverage"
+    ],
+    "key_uncertainty": "Mercedes pace consistency and intra-team battle with Antonelli over the next 22 races",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.25,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}
