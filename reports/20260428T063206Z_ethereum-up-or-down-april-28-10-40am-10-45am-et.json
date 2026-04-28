@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-04-28T06:32:06.266596+00:00",
+  "market": {
+    "id": "2097455",
+    "condition_id": "0xc063e067f3ab84b9cb9abe58f0103df63e06eaf23ac9a19b20558ea93579cee8",
+    "question": "Ethereum Up or Down - April 28, 10:40AM-10:45AM ET",
+    "category": "crypto_price",
+    "slug": "eth-updown-5m-1777387200",
+    "end_date": "2026-04-28T14:45:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9939.39,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "5-minute candle market on Ethereum, 10:40-10:45 AM ET Apr 28. Inherently unverifiable in advance and afterward without real-time tick data; coin flip with very low confidence.",
+    "data_sources": [],
+    "key_uncertainty": "Can't predict 5-min direction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

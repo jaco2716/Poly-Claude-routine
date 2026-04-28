@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-04-28T06:32:06.266355+00:00",
+  "market": {
+    "id": "2092941",
+    "condition_id": "0xe81a33286cb57be7b5392509a077366d577211ac2c4966b50253a279533ae405",
+    "question": "Bitcoin Up or Down - April 28, 2:20AM-2:25AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1777357200",
+    "end_date": "2026-04-28T06:25:00Z",
+    "yes_price": 0.225,
+    "no_price": 0.775,
+    "liquidity": 10041.3794,
+    "volume_24h": 13455.611103000005
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "5-minute candle market on Chainlink BTC/USD already resolved (2:20-2:25 AM ET on Apr 28). No way to verify the actual outcome from external sources after the fact; treat as a coin flip with very low confidence.",
+    "data_sources": [],
+    "key_uncertainty": "Can't verify the 5-min outcome retroactively",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.225,
+    "claude_prob": 0.5,
+    "delta": 0.275,
+    "suggested_direction": "yes"
+  }
+}

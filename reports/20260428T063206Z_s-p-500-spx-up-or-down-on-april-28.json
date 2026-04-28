@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T06:32:06.265758+00:00",
+  "market": {
+    "id": "2095310",
+    "condition_id": "0x8975d08347c83cd1cbe0cab5eb909f3551b2346e1e1a345a8e6d3fe039ef9b20",
+    "question": "S&P 500 (SPX) Up or Down on April 28?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T20:00:00Z",
+    "yes_price": 0.48,
+    "no_price": 0.52,
+    "liquidity": 20159.8389,
+    "volume_24h": 33775.996152
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "SPX closed 7,173.91 on Apr 27, fresh record. Futures roughly flat to slightly mixed for Apr 28 with major earnings ahead. No directional conviction.",
+    "data_sources": [
+      "Yahoo Finance Apr 28 live",
+      "Motley Fool Apr 27"
+    ],
+    "key_uncertainty": "Earnings prints and macro headlines today",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.48,
+    "claude_prob": 0.5,
+    "delta": 0.02,
+    "suggested_direction": null
+  }
+}

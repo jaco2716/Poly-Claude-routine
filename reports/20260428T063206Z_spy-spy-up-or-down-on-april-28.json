@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T06:32:06.265315+00:00",
+  "market": {
+    "id": "2095766",
+    "condition_id": "0x310a1a7d99a6732e270a1ea0c7f8db1689585b333433fb849585d5c5e5a97ed3",
+    "question": "SPY (SPY) Up or Down on April 28?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T20:00:00Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 25462.5157,
+    "volume_24h": 19336.101297
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "SPY closed $715.17 on Apr 27 at fresh record high. Futures pre-market April 28 are slightly mixed; megacap earnings (Apple, Microsoft, Amazon, Alphabet, Meta) on deck this week. Coin flip with no clear directional edge for today's close vs yesterday.",
+    "data_sources": [
+      "Yahoo Finance Apr 28 live",
+      "Motley Fool Apr 27",
+      "Schwab market update"
+    ],
+    "key_uncertainty": "Earnings reactions and Iran peace deal headlines",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.5,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

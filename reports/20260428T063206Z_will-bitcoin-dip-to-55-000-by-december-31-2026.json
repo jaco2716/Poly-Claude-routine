@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T06:32:06.262609+00:00",
+  "market": {
+    "id": "701501",
+    "condition_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+    "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 60028.6921,
+    "volume_24h": 16333.551422000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.45,
+    "reasoning": "BTC at $77,600-78,600. To dip to $55,000 requires ~30% drop. Such drawdowns are common in BTC over an 8-month window historically (post-2020 cycles typically see ~20-30% corrections). Given choppy consolidation and macro overhangs, ~25-30% feels right.",
+    "data_sources": [
+      "Fortune BTC price Apr 27 2026",
+      "Yahoo Finance BTC-USD"
+    ],
+    "key_uncertainty": "Whether a sustained correction materializes vs. range-bound chop",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.27,
+    "delta": -0.245,
+    "suggested_direction": "no"
+  }
+}

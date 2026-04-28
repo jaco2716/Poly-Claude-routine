@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T06:32:06.264832+00:00",
+  "market": {
+    "id": "2060360",
+    "condition_id": "0x74d39b036fd2623e86a44128acf1fdc2eeeac8a923014ccdbb79d0bd403324c4",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 19964.3397,
+    "volume_24h": 27921.93645599998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.4,
+    "reasoning": "WTI peaked ~$105+ early April and has consolidated in $95-100 range through the month, currently $96. With supply disruption keeping floor elevated, an intra-month dip below $90 is unlikely given trajectory. Only 2 days left.",
+    "data_sources": [
+      "tradingeconomics WTI",
+      "ad-hoc-news Apr 2",
+      "Fortune oil Apr 27"
+    ],
+    "key_uncertainty": "Whether early-April brief dip touched $90 before war escalation",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.08,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T06:32:06.266141+00:00",
+  "market": {
+    "id": "2086776",
+    "condition_id": "0x0a031d42240364d9d11073997e3f86f04ac36d90b58ed254a5a6ea645606a40d",
+    "question": "Bitcoin Up or Down on April 28?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T16:00:00Z",
+    "yes_price": 0.615,
+    "no_price": 0.385,
+    "liquidity": 32264.8472,
+    "volume_24h": 46523.24861500001
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.15,
+    "reasoning": "BTC is consolidating ~$77,600-78,600 after weeks of choppy trading. Resolution depends on Apr 28 12:00 ET close vs Apr 27 12:00 ET close on Binance \u2014 essentially intraday coin flip with no strong directional setup.",
+    "data_sources": [
+      "Fortune BTC Apr 27",
+      "metamask BTC price"
+    ],
+    "key_uncertainty": "Intraday momentum and Fed/peace news",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.615,
+    "claude_prob": 0.5,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

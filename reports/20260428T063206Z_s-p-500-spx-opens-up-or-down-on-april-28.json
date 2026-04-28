@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-28T06:32:06.265953+00:00",
+  "market": {
+    "id": "2095309",
+    "condition_id": "0x0f3cfcfb8ac76c13b75330956efc55f02f3afe29d138e445c8a7d0759933e243",
+    "question": "S&P 500 (SPX) Opens Up or Down on April 28?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T20:00:00Z",
+    "yes_price": 0.425,
+    "no_price": 0.575,
+    "liquidity": 1748.0765,
+    "volume_24h": 24345.557941999996
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.45,
+    "confidence": 0.2,
+    "reasoning": "S&P 500 futures show modestly mixed/slightly lower bias pre-open after Apr 27 record close at 7,173.91. No strong directional signal for the open print.",
+    "data_sources": [
+      "Yahoo Finance Apr 28 live"
+    ],
+    "key_uncertainty": "Pre-market news and futures direction at the bell",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.425,
+    "claude_prob": 0.45,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

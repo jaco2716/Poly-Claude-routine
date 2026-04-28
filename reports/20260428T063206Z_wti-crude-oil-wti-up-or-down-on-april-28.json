@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T06:32:06.265084+00:00",
+  "market": {
+    "id": "2095833",
+    "condition_id": "0xb79973a6ec03d6eac7d25b62d7996f3f72ff2184d61b536f9abda428388f5511",
+    "question": "WTI Crude Oil (WTI) Up or Down on April 28?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T21:00:00Z",
+    "yes_price": 0.635,
+    "no_price": 0.365,
+    "liquidity": 20793.7936,
+    "volume_24h": 25219.069395
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Single-day directional bet on WTI futures close vs prior day. WTI ~$96 with high geopolitical volatility. No directional edge from daily news flow today; coin-flip with slight upward bias from continuing Hormuz tension but ceasefire hopes pushing other way.",
+    "data_sources": [
+      "tradingeconomics WTI Apr 27",
+      "CNN Apr 26 2026"
+    ],
+    "key_uncertainty": "Intraday news flow determines outcome",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.635,
+    "claude_prob": 0.5,
+    "delta": -0.135,
+    "suggested_direction": "no"
+  }
+}

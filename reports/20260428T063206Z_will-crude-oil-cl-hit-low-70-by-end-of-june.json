@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T06:32:06.264354+00:00",
+  "market": {
+    "id": "1652697",
+    "condition_id": "0xe3f8272f4957b7dcc492d988e5c7cd6dbb2f4111cd309571514a280938d617f1",
+    "question": "Will Crude Oil (CL) hit (LOW) $70 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-70-by-end-of-june-776-556-989-392-677",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.26,
+    "no_price": 0.74,
+    "liquidity": 25004.5224,
+    "volume_24h": 19453.766966
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "WTI ~$96. Need ~27% drop to $70 by end-June. A US-Iran peace deal that ends the Hormuz crisis could rapidly de-risk prices toward pre-war $72 area, but ceasefires keep failing. Two months is meaningful runway; estimate ~20%.",
+    "data_sources": [
+      "CNBC Apr 22 2026",
+      "EIA STEO April 2026",
+      "tradingeconomics WTI"
+    ],
+    "key_uncertainty": "Pace of Iran-US diplomacy and Hormuz reopening",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.26,
+    "claude_prob": 0.2,
+    "delta": -0.06,
+    "suggested_direction": "no"
+  }
+}

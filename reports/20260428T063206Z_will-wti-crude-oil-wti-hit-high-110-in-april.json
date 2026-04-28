@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T06:32:06.264024+00:00",
+  "market": {
+    "id": "1929170",
+    "condition_id": "0x35d8c42a467d4e485ffba50c5d2d984ed0793f4935319ca923b494798051c8ef",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-110-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.16,
+    "no_price": 0.84,
+    "liquidity": 46480.0468,
+    "volume_24h": 98050.50220899995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.4,
+    "reasoning": "WTI peaked early April near $105.57 (Apr 2) during the Iran/Hormuz crisis when Brent reached ~$120-128. Recent commentary explicitly notes WTI markets have remained 'below the $110 threshold' through April. With only 2 days left in the month and price now ~$96, hitting $110 looks unlikely unless there's a sharp escalation.",
+    "data_sources": [
+      "CNBC oil timeline Apr 21 2026",
+      "Octagon AI WTI peak",
+      "ad-hoc-news WTI $105.57"
+    ],
+    "key_uncertainty": "Whether WTI briefly tagged $110 early April that wasn't well documented",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.16,
+    "claude_prob": 0.15,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}
