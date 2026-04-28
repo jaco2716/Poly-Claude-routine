@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T14:27:16.522237+00:00",
+  "market": {
+    "id": "2082531",
+    "condition_id": "0x780e81e7a55c363d044b9cfa3dc6457e0432d0807ec5875035c372930435b155",
+    "question": "Will the highest temperature in Milan be 22\u00b0C or higher on April 28?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-milan-on-april-28-2026-22corhigher",
+    "end_date": "2026-04-28T12:00:00Z",
+    "yes_price": 0.28,
+    "no_price": 0.72,
+    "liquidity": 98.828,
+    "volume_24h": 3834.0345110000007
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "Met Office/AccuWeather forecast for Milan Malpensa Apr 28: max 21\u00b0C, with feels-like 25\u00b0C. Forecast right at threshold; chance of recording 22\u00b0C+ at Malpensa station is moderate. Estimate ~30-35%.",
+    "data_sources": [
+      "Met Office Malpensa forecast",
+      "AccuWeather Milan"
+    ],
+    "key_uncertainty": "Whether brief afternoon high reaches 22\u00b0C threshold at Malpensa.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.28,
+    "claude_prob": 0.32,
+    "delta": 0.04,
+    "suggested_direction": null
+  }
+}

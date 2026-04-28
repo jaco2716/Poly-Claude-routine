@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T14:27:16.521424+00:00",
+  "market": {
+    "id": "2091916",
+    "condition_id": "0x11e218fba1243b379606410b613a6aa2e81d48f6b872a453ac2f00c0d101f763",
+    "question": "Will the highest temperature in Amsterdam be 17\u00b0C on April 29?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-amsterdam-on-april-29-2026-17c",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 984.6599,
+    "volume_24h": 628.1052109999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.5,
+    "reasoning": "Met Office forecast for Amsterdam Schiphol April 29: ~53\u00b0F (~12\u00b0C) high. The 17\u00b0C bucket would require a high of ~17\u00b0C (62.6\u00b0F), about 5\u00b0C above forecast. Very unlikely. Estimate ~5-10%.",
+    "data_sources": [
+      "Met Office Schiphol forecast",
+      "AccuWeather Amsterdam Schiphol"
+    ],
+    "key_uncertainty": "Forecast precision; warm-up surprises possible but unlikely magnitude.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.07,
+    "delta": -0.215,
+    "suggested_direction": "no"
+  }
+}

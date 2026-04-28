@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T14:27:16.520741+00:00",
+  "market": {
+    "id": "2095310",
+    "condition_id": "0x8975d08347c83cd1cbe0cab5eb909f3551b2346e1e1a345a8e6d3fe039ef9b20",
+    "question": "S&P 500 (SPX) Up or Down on April 28?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T20:00:00Z",
+    "yes_price": 0.195,
+    "no_price": 0.805,
+    "liquidity": 19261.5751,
+    "volume_24h": 97544.57464299997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.5,
+    "reasoning": "April 27 SPX closed at record 7,173.91. April 28 SPX intraday was down ~0.46% on OpenAI weakness and oil rise. Ahead of Fed meeting and with intraday weakness, an Up close is unlikely but not impossible. Estimate ~20-25% if yes=Up.",
+    "data_sources": [
+      "thestreet.com Apr 28 2026 update",
+      "cnbc.com Apr 27 close",
+      "fred SP500"
+    ],
+    "key_uncertainty": "Direction of YES outcome assumption (Up vs Down); intraday rebound possible.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.195,
+    "claude_prob": 0.22,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

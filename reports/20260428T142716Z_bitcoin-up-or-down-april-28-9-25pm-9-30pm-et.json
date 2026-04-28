@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-04-28T14:27:16.523339+00:00",
+  "market": {
+    "id": "2101311",
+    "condition_id": "0xe8f2deac4a188a4f2c8d701fe6d56a83282d382a0db3021b4fdbe28e1c92bcda",
+    "question": "Bitcoin Up or Down - April 28, 9:25PM-9:30PM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1777425900",
+    "end_date": "2026-04-29T01:30:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9799.9593,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "5-minute Bitcoin direction is effectively a coin flip. No public data provides predictive edge over a 5-min window. Marking unverifiable.",
+    "data_sources": [],
+    "key_uncertainty": "Pure microstructure noise.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

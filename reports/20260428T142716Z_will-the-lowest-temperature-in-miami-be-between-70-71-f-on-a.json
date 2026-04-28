@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T14:27:16.522683+00:00",
+  "market": {
+    "id": "2091412",
+    "condition_id": "0x8e1e68748e4a87ab41be2012c725971f9558a36180f2fd577c34512ef46a0def",
+    "question": "Will the lowest temperature in Miami be between 70-71\u00b0F on April 29?",
+    "category": "temperature",
+    "slug": "lowest-temperature-in-miami-on-april-29-2026-70-71f",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 96.36,
+    "volume_24h": 192.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.5,
+    "reasoning": "Forecast for Miami Apr 29: overnight low 73\u00b0F. The 70-71\u00b0F bucket is 2-3\u00b0F below forecast. Low end of normal April variability but unlikely. Estimate ~10-15%.",
+    "data_sources": [
+      "AccuWeather Miami",
+      "weather2travel Miami"
+    ],
+    "key_uncertainty": "Forecast precision; cool front passage could bring lower temps.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.13,
+    "delta": -0.205,
+    "suggested_direction": "no"
+  }
+}

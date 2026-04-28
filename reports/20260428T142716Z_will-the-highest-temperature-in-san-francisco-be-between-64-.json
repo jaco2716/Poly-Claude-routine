@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-28T14:27:16.521691+00:00",
+  "market": {
+    "id": "2091865",
+    "condition_id": "0x6ccdd4f2b046f3fc3a85fb214c8cdb470d443b4ecd487d6843225c5fdd48ccec",
+    "question": "Will the highest temperature in San Francisco be between 64-65\u00b0F on April 29?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-san-francisco-on-april-29-2026-64-65f",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.22,
+    "no_price": 0.78,
+    "liquidity": 964.1369,
+    "volume_24h": 349.4128180000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "AccuWeather forecast for SFO April 29: high 67\u00b0F. The 64-65\u00b0F bucket is 2-3\u00b0F below forecast. Possible if forecast is slightly off (microclimate variability). Estimate ~15-20%.",
+    "data_sources": [
+      "AccuWeather SFO forecast"
+    ],
+    "key_uncertainty": "Marine layer fluctuation could pull SFO high lower than central forecast.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.22,
+    "claude_prob": 0.18,
+    "delta": -0.04,
+    "suggested_direction": null
+  }
+}

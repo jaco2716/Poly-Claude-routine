@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-28T14:27:16.520944+00:00",
+  "market": {
+    "id": "2095766",
+    "condition_id": "0x310a1a7d99a6732e270a1ea0c7f8db1689585b333433fb849585d5c5e5a97ed3",
+    "question": "SPY (SPY) Up or Down on April 28?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T20:00:00Z",
+    "yes_price": 0.18,
+    "no_price": 0.82,
+    "liquidity": 2519.4151,
+    "volume_24h": 44006.48276299998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.5,
+    "reasoning": "SPY tracks SPX. SPX intraday Apr 28 down ~0.46%. Up close unlikely given afternoon Fed jitters. Estimate ~20-25% if yes=Up.",
+    "data_sources": [
+      "thestreet.com Apr 28 2026 update",
+      "cnbc.com market live updates"
+    ],
+    "key_uncertainty": "YES side assumption; afternoon trading direction.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.18,
+    "claude_prob": 0.22,
+    "delta": 0.04,
+    "suggested_direction": null
+  }
+}

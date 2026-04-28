@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T14:27:16.518744+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.205,
+    "no_price": 0.795,
+    "liquidity": 32322.9522,
+    "volume_24h": 13677.159840999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.03,
+    "confidence": 0.6,
+    "reasoning": "WTI crude is ~$98 on Apr 28, 2026, with 52-week high $117.63 (already below $140). Reaching $140 in 2 months requires ~43% rally \u2014 would need full Middle East war / Strait of Hormuz closure. Tail-risk only. Estimate ~2-4%.",
+    "data_sources": [
+      "CNBC @CL.1 quote",
+      "Barchart CLJ26",
+      "marketscreener CME WTI report"
+    ],
+    "key_uncertainty": "Major geopolitical disruption (Strait of Hormuz / Iran war) is the only path to $140.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.205,
+    "claude_prob": 0.03,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

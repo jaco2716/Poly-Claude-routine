@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T14:27:16.516920+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 120041.8635,
+    "volume_24h": 14180.784514000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "After 4 races in 2026, Russell trails Antonelli by 9 points (63 vs 72). Russell is still considered a top contender per FanDuel betting markets, but Antonelli has back-to-back wins. With ~20 races remaining, momentum favours Antonelli but a multi-driver title fight likely. Base rate for the leading-2nd driver winning championship is moderate; estimate ~30-35%.",
+    "data_sources": [
+      "formula1.com 2026 standings",
+      "tsn.ca F1 betting tracker",
+      "CNN sports article on Russell"
+    ],
+    "key_uncertainty": "Mercedes vs other teams' development pace through season; reliability of Antonelli's form.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.32,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

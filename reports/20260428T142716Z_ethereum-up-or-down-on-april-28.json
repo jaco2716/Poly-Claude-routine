@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-28T14:27:16.521204+00:00",
+  "market": {
+    "id": "2086815",
+    "condition_id": "0x18fd6916c256e3e2be46d167a92ebbbb0a1469949fa0696710c65410f4ff48b3",
+    "question": "Ethereum Up or Down on April 28?",
+    "category": "crypto_price",
+    "slug": "ethereum-up-or-down-on-april-28-2026",
+    "end_date": "2026-04-28T16:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 11899.3594,
+    "volume_24h": 27121.181510000006
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.4,
+    "reasoning": "ETH ~$2,277-2,323 on Apr 28 morning. Apr 27 morning opening was $2,369.84. By 9 ET on Apr 28, ETH at $2,277. ETH is trending down on Iran/Hormuz tensions and Fed caution. If both noon prices follow this trajectory, Apr 28 noon < Apr 27 noon = Down. Estimate Up at ~35-45%.",
+    "data_sources": [
+      "fortune.com ETH Apr 28 2026",
+      "Yahoo finance ETH Apr 28 article",
+      "coingecko ETH live"
+    ],
+    "key_uncertainty": "Exact Apr 27 12:00 ET vs Apr 28 12:00 ET prices; intraday volatility could flip outcome.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.4,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

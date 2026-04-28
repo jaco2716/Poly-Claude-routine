@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-28T14:27:16.520316+00:00",
+  "market": {
+    "id": "1357099",
+    "condition_id": "0xecd961f60dad9a8f4f25f717bc6771e09cddf3077657aafc67a6a528c92aad55",
+    "question": "Will Bitcoin hit $60k or $80k first?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-hit-60k-or-80k-first-965",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.225,
+    "no_price": 0.775,
+    "liquidity": 23232.9697,
+    "volume_24h": 40255.999973
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "BTC ~$76-79k on Apr 28. $80k is ~4-5% away; $60k requires ~22% drop. Current uptrend (April best monthly gain since 2020) favors $80k first. But sell pressure has capped at $80k repeatedly. Probability of $60k touching first ~20-25%, given Brandt's call for Sep-Oct low possibly retesting Feb lows.",
+    "data_sources": [
+      "coindesk daybook bitcoin Apr 28 2026",
+      "spotedcrypto BTC analysis",
+      "capital.com BTC forecast",
+      "intellectia.ai prediction"
+    ],
+    "key_uncertainty": "Direction of $80k breakout vs rejection; macro trajectory.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.225,
+    "claude_prob": 0.22,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

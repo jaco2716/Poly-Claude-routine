@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-28T14:27:16.517468+00:00",
+  "market": {
+    "id": "701501",
+    "condition_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+    "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.535,
+    "no_price": 0.465,
+    "liquidity": 39520.3016,
+    "volume_24h": 37292.80484999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.5,
+    "reasoning": "BTC's 2026 low so far is ~$60,033 (Feb 2026), and the $55,000 trigger has NOT been hit yet. Currently ~$76,500-$77,000 on April 28, 2026. To resolve Yes, BTC would need a further ~28% drop in 8 months. Given recent volatility and tested $60K floor, this is plausible but not the base case. Estimate ~25-30%.",
+    "data_sources": [
+      "coinmarketcap BTC live price",
+      "Yahoo Finance BTC-USD article April 28 2026",
+      "amberdata blog bitcoin below 70k",
+      "tradingview BTCUSDT"
+    ],
+    "key_uncertainty": "Macro (Fed) and structural crypto risk could drive another flush; current $77K base is well above trigger.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.535,
+    "claude_prob": 0.27,
+    "delta": -0.265,
+    "suggested_direction": "no"
+  }
+}
