@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T10:19:32.264390+00:00",
+  "market": {
+    "id": "2104945",
+    "condition_id": "0xff05a78852c9cd6de85955abae3f6dd6eb857ee6f2defec8a74313e40a88b0d9",
+    "question": "SPY (SPY) Up or Down on April 29?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T20:00:00Z",
+    "yes_price": 0.545,
+    "no_price": 0.455,
+    "liquidity": 11588.2893,
+    "volume_24h": 16774.04524699998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.53,
+    "confidence": 0.35,
+    "reasoning": "SPY tracks SPX. Yesterday SPX closed -0.49%. Pre-market futures are broadly flat to slightly higher (NQ +0.26%). FOMC decision and Mag 7 earnings today drive high two-way variance. My SPX assessment applies symmetrically here; mild edge to Up from mean reversion plus firm tech tone.",
+    "data_sources": [
+      "cnbc.com",
+      "thestreet.com"
+    ],
+    "key_uncertainty": "FOMC outcome and Mag 7 earnings reactions",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.545,
+    "claude_prob": 0.53,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

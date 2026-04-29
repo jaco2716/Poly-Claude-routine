@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T10:19:32.263458+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.205,
+    "no_price": 0.795,
+    "liquidity": 24938.5788,
+    "volume_24h": 30758.412609000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.5,
+    "reasoning": "WTI ~$100. To settle at $140 requires a 40% rally in ~2 months. That is a large geopolitical-shock move, e.g., a sustained Hormuz closure or major Gulf hostilities. Possible given the war footing but not the base case. Market's 0.205 looks slightly optimistic on tail risk.",
+    "data_sources": [
+      "cnbc.com",
+      "oilprice.com",
+      "euronews.com"
+    ],
+    "key_uncertainty": "Probability of a Hormuz closure or large supply outage in May-June",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.205,
+    "claude_prob": 0.13,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

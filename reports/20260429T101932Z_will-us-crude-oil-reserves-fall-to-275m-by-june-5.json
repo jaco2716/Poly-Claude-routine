@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T10:19:32.264787+00:00",
+  "market": {
+    "id": "1931712",
+    "condition_id": "0x2db76ff226e5eb35295c6b701ba939f911a8c69cab4b406dfb9ebe40da40844f",
+    "question": "Will US crude oil reserves fall to 275M by June 5?",
+    "category": "commodity",
+    "slug": "will-us-crude-oil-reserves-fall-to-275m-by-june-5",
+    "end_date": "2026-06-30T00:00:00Z",
+    "yes_price": 0.181,
+    "no_price": 0.819,
+    "liquidity": 9955.89251,
+    "volume_24h": 9737.964883999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.03,
+    "confidence": 0.7,
+    "reasoning": "SPR was ~409M barrels mid-April 2026, having grown earlier in 2026 and only modestly drained recently. Falling to 275M (a 33% drop, ~134M barrels) in ~5 weeks is essentially impossible given physical drawdown rates (max ~4.4M/day, but typical releases far slower). Even an emergency Iran-war release wouldn't get there in time. Market's 0.181 is far too high.",
+    "data_sources": [
+      "eia.gov",
+      "energy.gov",
+      "lambdafin.com"
+    ],
+    "key_uncertainty": "Whether an unprecedented massive emergency drawdown is announced, but even then physical limits prevent a 134M draw in 5 weeks",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.181,
+    "claude_prob": 0.03,
+    "delta": -0.151,
+    "suggested_direction": "no"
+  }
+}

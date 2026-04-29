@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T10:19:32.262890+00:00",
+  "market": {
+    "id": "1339768",
+    "condition_id": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
+    "question": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.205,
+    "no_price": 0.795,
+    "liquidity": 35388.3044,
+    "volume_24h": 38564.1318
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.45,
+    "reasoning": "BTC ~$76,500; 2026 low ~$60K. $40K would require another ~33% drop from the recent low or ~48% from spot in 8 months \u2014 consistent with a deep bear-cycle low rather than a typical correction. Historical drawdowns of this size after an already 39% decline are uncommon but possible. Market 0.205 is roughly fair; my estimate slightly lower.",
+    "data_sources": [
+      "coindesk.com",
+      "financemagnates.com"
+    ],
+    "key_uncertainty": "Severity of any 2026 macro recession or financial shock",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.205,
+    "claude_prob": 0.13,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T10:19:32.261857+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 45341.1414,
+    "volume_24h": 58097.250490000006
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "BTC currently ~$76,500. The 2026 low so far is ~$60K. To dip to $45K requires another 25% drop from the recent low or ~41% from spot in 8 months. Plausible only in a deep bear leg; base rates for that magnitude of additional drawdown after an already-39% decline from peak are roughly 20-25%.",
+    "data_sources": [
+      "coindesk.com",
+      "financemagnates.com",
+      "vaneck.com"
+    ],
+    "key_uncertainty": "Path of macro recession risk and Iran-related shocks over the next 8 months",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.22,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

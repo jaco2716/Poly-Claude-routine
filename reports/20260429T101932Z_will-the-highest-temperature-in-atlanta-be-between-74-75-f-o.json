@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T10:19:32.265914+00:00",
+  "market": {
+    "id": "2102185",
+    "condition_id": "0xe8230051c5a209fbedb759d26acc7ff5cb34bb1c82f089e4fc5c60035625330d",
+    "question": "Will the highest temperature in Atlanta be between 74-75\u00b0F on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-atlanta-on-april-30-2026-74-75f",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.17,
+    "no_price": 0.83,
+    "liquidity": 999.6419,
+    "volume_24h": 277.816029
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.65,
+    "reasoning": "NWS forecast for Hartsfield-Jackson on Apr 30 calls for a high near 83\u00b0F. The 74-75\u00b0F range is roughly 8\u00b0F below the forecast and very unlikely barring a major weather change. Market 0.17 is too high.",
+    "data_sources": [
+      "forecast.weather.gov",
+      "weatherforyou.com",
+      "accuweather.com"
+    ],
+    "key_uncertainty": "Whether a strong cold front or unexpected cloud cover knocks the high well below forecast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.17,
+    "claude_prob": 0.05,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}

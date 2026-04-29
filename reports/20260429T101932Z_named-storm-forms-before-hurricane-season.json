@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-29T10:19:32.266865+00:00",
+  "market": {
+    "id": "823568",
+    "condition_id": "0x3d9534e655c68bd1811bdb721704d7434c6ce214a69043e9e2c4a13c25db33f5",
+    "question": "Named storm forms before hurricane season?",
+    "category": "weather",
+    "slug": "named-storm-forms-before-hurricane-season-197",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 985.5446,
+    "volume_24h": 11.74
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "No pre-season Atlantic named storms have formed Dec 2025-Apr 2026, and the NHC doesn't begin issuing regular Tropical Weather Outlooks until May 15. Multiple seasonal forecasts (CSU, TSR) cite expected El Ni\u00f1o conditions and a slightly below-normal season, which suppresses early-season activity. With ~32 days remaining and El Ni\u00f1o headwinds, the probability is well below the recent decade base rate of ~30-40%. Market 0.385 is too high.",
+    "data_sources": [
+      "nhc.noaa.gov",
+      "wikipedia.org",
+      "tropical.colostate.edu",
+      "accuweather.com"
+    ],
+    "key_uncertainty": "Whether a late-May subtropical low forms and gets named",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.18,
+    "delta": -0.205,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-29T10:19:32.262118+00:00",
+  "market": {
+    "id": "1652706",
+    "condition_id": "0xbaf252e7ac957d6636a6916da51892c9f42e59bfbf808bd4d8e16f194694d2b5",
+    "question": "Will Crude Oil (CL) hit (LOW) $80 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-80-by-end-of-june-723-222-171-541",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 44748.2259,
+    "volume_24h": 15691.885335999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "Front-month WTI settled near $99.93 on Apr 28, 2026 after seven straight up sessions amid US-Iran tensions and a war scenario. To touch $80 settle by end of June requires a 20% drop in ~2 months, which would need rapid de-escalation and resumed OPEC+ supply (UAE leaving May 1). Possible if diplomacy succeeds quickly but not a base case while geopolitical risk premium is rising. Implied 0.50 looks too high vs my 0.20.",
+    "data_sources": [
+      "cnbc.com",
+      "oilprice.com",
+      "tradingeconomics.com",
+      "euronews.com"
+    ],
+    "key_uncertainty": "Speed of resolution of US-Iran standoff and any rapid OPEC+ supply response",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.2,
+    "delta": -0.295,
+    "suggested_direction": "no"
+  }
+}

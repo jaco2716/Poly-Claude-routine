@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-29T10:19:32.261187+00:00",
+  "market": {
+    "id": "701501",
+    "condition_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+    "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 71782.4834,
+    "volume_24h": 85465.96844399998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.45,
+    "reasoning": "BTC currently ~$76,500 on Apr 28-29, 2026. Resolution window opened Nov 24, 2025; the YTD low so far was ~$60K in Feb 2026, meaning this has not yet resolved. With 8 months remaining to Dec 31 and BTC already 39% off the Oct/Nov 2025 peak of ~$126K, another 28% slide from the current low to $55K would be a notable but not extreme move given crypto volatility. Slight discount vs the implied 0.50 since macro is mixed but not clearly bearish.",
+    "data_sources": [
+      "coindesk.com",
+      "fortune.com",
+      "financemagnates.com",
+      "vaneck.com"
+    ],
+    "key_uncertainty": "Whether macro/Iran-related risk-off triggers another leg lower or BTC bottoms here",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.42,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-29T10:19:32.267300+00:00",
+  "market": {
+    "id": "693869",
+    "condition_id": "0xa776ef6b16f785ca718dfaf177743793acda4ee06c721253b868831f5089590c",
+    "question": "Will the minimum Arctic sea ice extent this summer be less than 4m square kilometers?",
+    "category": "weather",
+    "slug": "will-the-minimum-arctic-sea-ice-extent-this-summer-be-less-than-4m-square-kilometers",
+    "end_date": "2026-10-01T00:00:00Z",
+    "yes_price": 0.42,
+    "no_price": 0.58,
+    "liquidity": 963.5448,
+    "volume_24h": 61.11111
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.45,
+    "reasoning": "Annual NSIDC summer minima since 2007 have averaged ~4.4M sq km, with sub-4M occurring only in 2012, 2016, 2019, 2020 (~25-30% historical base rate). Late April 2026 conditions are unusually thin: extent is at or near record low for the date and Arctic ice volume is at record low for late April. That tilts probability up somewhat from base rate but still leaves it as a coin-flip; market 0.42 is close to fair.",
+    "data_sources": [
+      "nsidc.org",
+      "usicecenter.gov",
+      "alaskaclimate.substack.com",
+      "phys.org"
+    ],
+    "key_uncertainty": "Summer atmospheric pattern (cyclones, dipole) drives a wide range of outcomes from a given May initial state",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.42,
+    "claude_prob": 0.4,
+    "delta": -0.02,
+    "suggested_direction": null
+  }
+}

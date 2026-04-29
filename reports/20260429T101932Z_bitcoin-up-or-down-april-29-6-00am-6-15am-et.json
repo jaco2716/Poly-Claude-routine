@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-04-29T10:19:32.264587+00:00",
+  "market": {
+    "id": "2104179",
+    "condition_id": "0x2606d036e6715e25710e6ef04fdce43bac9d5bcf4a36dbdde24e8caf7fbf02ab",
+    "question": "Bitcoin Up or Down - April 29, 6:00AM-6:15AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-15m-1777456800",
+    "end_date": "2026-04-29T10:15:00Z",
+    "yes_price": 0.645,
+    "no_price": 0.355,
+    "liquidity": 10805.5724,
+    "volume_24h": 26174.30595400002
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "This is a 15-minute BTC up/down window that has already elapsed by current time. I cannot verify the precise Chainlink BTC/USD stream values for that 15-minute interval, so cannot form an independent estimate. Base rate is ~50/50 for short windows.",
+    "data_sources": [],
+    "key_uncertainty": "Cannot verify the specific 15-minute Chainlink stream prices",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.645,
+    "claude_prob": 0.5,
+    "delta": -0.145,
+    "suggested_direction": "no"
+  }
+}
