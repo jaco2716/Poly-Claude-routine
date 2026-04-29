@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.523613+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.585,
+    "no_price": 0.415,
+    "liquidity": 21763.5326,
+    "volume_24h": 19690.235746
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "WTI front-month ~$99 entering May 2026 with 1 month window. The market is intraday 'High' on a 1-min candle, easier to trigger than a settlement. Reaching $110 is +11% in ~31 days; given current vol regime and $113 spike already seen this year, a single headline-driven spike to $110 is plausible but not the median outcome.",
+    "data_sources": [
+      "tradingeconomics WTI",
+      "fortune oil 04-28-2026",
+      "barchart CL"
+    ],
+    "key_uncertainty": "Single-day geopolitical headline risk vs deflation of the Hormuz premium.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.585,
+    "claude_prob": 0.3,
+    "delta": -0.285,
+    "suggested_direction": "no"
+  }
+}

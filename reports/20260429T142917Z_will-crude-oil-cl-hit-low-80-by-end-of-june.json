@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.523303+00:00",
+  "market": {
+    "id": "1652706",
+    "condition_id": "0xbaf252e7ac957d6636a6916da51892c9f42e59bfbf808bd4d8e16f194694d2b5",
+    "question": "Will Crude Oil (CL) hit (LOW) $80 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-80-by-end-of-june-723-222-171-541",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 39619.6799,
+    "volume_24h": 16904.375191
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "WTI front-month CL ~$99.32-$99.58 on Apr 29, 2026. Geopolitical tightness (Strait of Hormuz disruption, Iran/US tensions) is supporting prices around $95-$100. Reaching $80 settle requires ~19% drop with ~2 months left and supply shock backdrop. Possible if ceasefire holds and demand softens, but base rate for that magnitude move down in 2 months given current drivers is low.",
+    "data_sources": [
+      "tradingeconomics CL Apr 29 2026",
+      "fortune oil 04-28-2026",
+      "oilpriceapi WTI live"
+    ],
+    "key_uncertainty": "Whether the Hormuz disruption/Iran-US standoff resolves quickly, releasing the geopolitical premium.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.2,
+    "delta": -0.275,
+    "suggested_direction": "no"
+  }
+}

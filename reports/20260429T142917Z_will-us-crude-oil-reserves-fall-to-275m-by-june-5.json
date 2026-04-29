@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.524224+00:00",
+  "market": {
+    "id": "1931712",
+    "condition_id": "0x2db76ff226e5eb35295c6b701ba939f911a8c69cab4b406dfb9ebe40da40844f",
+    "question": "Will US crude oil reserves fall to 275M by June 5?",
+    "category": "commodity",
+    "slug": "will-us-crude-oil-reserves-fall-to-275m-by-june-5",
+    "end_date": "2026-06-30T00:00:00Z",
+    "yes_price": 0.181,
+    "no_price": 0.819,
+    "liquidity": 9955.89251,
+    "volume_24h": 9737.964883999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.03,
+    "confidence": 0.7,
+    "reasoning": "SPR was ~409M barrels as of week ending Apr 10, 2026. Reaching 275M by June 5 (about 8 weekly reports) would require ~17M barrel/week drawdown, far exceeding any historical pace. SPR has been refilling, not drawing down. Historic minimum ~346M (mid-2023). Effectively impossible barring an unprecedented emergency release.",
+    "data_sources": [
+      "EIA Weekly Petroleum Status Report",
+      "energy.gov SPR quick facts",
+      "lambdafin SPR level history"
+    ],
+    "key_uncertainty": "Only an enormous unannounced emergency release would change this.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.181,
+    "claude_prob": 0.03,
+    "delta": -0.151,
+    "suggested_direction": "no"
+  }
+}

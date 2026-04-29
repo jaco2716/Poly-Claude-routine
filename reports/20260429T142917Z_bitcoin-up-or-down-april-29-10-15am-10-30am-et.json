@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-29T14:29:17.525033+00:00",
+  "market": {
+    "id": "2106001",
+    "condition_id": "0x1c0cf577b18df63fa349bb7d8a7e319f14634ad2f2a15c183699a4983cb138ee",
+    "question": "Bitcoin Up or Down - April 29, 10:15AM-10:30AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-15m-1777472100",
+    "end_date": "2026-04-29T14:30:00Z",
+    "yes_price": 0.775,
+    "no_price": 0.225,
+    "liquidity": 10638.3027,
+    "volume_24h": 15995.214034000004
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "Resolves on a 15-minute window (10:15-10:30 AM ET) using Chainlink BTC/USD. 15-min direction is essentially noise; no fundamental basis to deviate from 50/50.",
+    "data_sources": [
+      "fortune bitcoin 04-29-2026"
+    ],
+    "key_uncertainty": "Pure short-horizon stochastic price movement.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.775,
+    "claude_prob": 0.5,
+    "delta": -0.275,
+    "suggested_direction": "no"
+  }
+}

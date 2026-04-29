@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T14:29:17.525688+00:00",
+  "market": {
+    "id": "2102142",
+    "condition_id": "0x7a67ab369df5c092a781731ede843bff41125bbab83725950d82c44c5956ed30",
+    "question": "Will the highest temperature in Toronto be 11\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-toronto-on-april-30-2026-11c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 992.0888,
+    "volume_24h": 10.89
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.45,
+    "reasoning": "Environment Canada forecast for Toronto Pearson Apr 30 is 10\u00b0C high with 30% chance of showers. The 11\u00b0C bucket is one degree above forecast and within typical forecast error band, so probability is moderate.",
+    "data_sources": [
+      "weather.gc.ca Toronto Pearson 7-day",
+      "theweathernetwork Pearson hourly"
+    ],
+    "key_uncertainty": "Cloud cover and timing of any showers could swing the high a degree either way.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.28,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

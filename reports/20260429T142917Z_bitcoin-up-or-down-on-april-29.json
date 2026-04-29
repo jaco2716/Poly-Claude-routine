@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T14:29:17.524660+00:00",
+  "market": {
+    "id": "2097823",
+    "condition_id": "0xfbf27072b94bf529f87fabc5e3065ce8dcf3a70c130ec312e854a7802ba54383",
+    "question": "Bitcoin Up or Down on April 29?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T16:00:00Z",
+    "yes_price": 0.8455,
+    "no_price": 0.1545,
+    "liquidity": 14646.3067,
+    "volume_24h": 132959.62782899983
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.55,
+    "confidence": 0.2,
+    "reasoning": "Compares Apr 28 12:00 ET BTC close to Apr 29 12:00 ET BTC close on Binance. At ~9:30 ET on Apr 29 BTC was ~$77,160, slightly above the previous morning. Cannot precisely retrieve the exact 12:00 ET candle for Apr 28, and noon-to-noon move is dominated by intraday noise. Treating as not verifiable.",
+    "data_sources": [
+      "fortune bitcoin 04-29-2026",
+      "yahoo bitcoin/ethereum Apr 29 2026"
+    ],
+    "key_uncertainty": "Exact noon ET reference closes are not directly observable from public reporting.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.8455,
+    "claude_prob": 0.55,
+    "delta": -0.2955,
+    "suggested_direction": "no"
+  }
+}

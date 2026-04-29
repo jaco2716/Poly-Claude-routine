@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.526225+00:00",
+  "market": {
+    "id": "823568",
+    "condition_id": "0x3d9534e655c68bd1811bdb721704d7434c6ce214a69043e9e2c4a13c25db33f5",
+    "question": "Named storm forms before hurricane season?",
+    "category": "weather",
+    "slug": "named-storm-forms-before-hurricane-season-197",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 985.5446,
+    "volume_24h": 11.74
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.5,
+    "reasoning": "No Atlantic named storms have formed since Dec 4, 2025. ~32 days remain (Apr 29 - May 31). Historical base rate for May preseason named storms is roughly 1 in 5-7 years; 2026 forecasts call for an active season but conditions are not currently flagging imminent development. Probability ~10%.",
+    "data_sources": [
+      "NHC 2026 season page",
+      "Wikipedia 2026 Atlantic hurricane season",
+      "AccuWeather 2026 forecast 11-16 storms"
+    ],
+    "key_uncertainty": "Whether an early-season subtropical system organizes in the SW Atlantic or Gulf in May.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.1,
+    "delta": -0.285,
+    "suggested_direction": "no"
+  }
+}

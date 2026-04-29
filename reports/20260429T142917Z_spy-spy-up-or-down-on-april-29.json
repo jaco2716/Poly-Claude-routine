@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.524795+00:00",
+  "market": {
+    "id": "2104945",
+    "condition_id": "0xff05a78852c9cd6de85955abae3f6dd6eb857ee6f2defec8a74313e40a88b0d9",
+    "question": "SPY (SPY) Up or Down on April 29?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T20:00:00Z",
+    "yes_price": 0.485,
+    "no_price": 0.515,
+    "liquidity": 3496.2405,
+    "volume_24h": 23978.67517599999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.48,
+    "confidence": 0.25,
+    "reasoning": "SPY closed Apr 28 at 711.69 (-0.49%). Apr 29 premarket/futures mixed-to-slightly-lower with Fed decision at 2pm ET (no change expected) and post-close Big Tech earnings (GOOG/AMZN/META/MSFT). Catalyst day with two-sided risk; base rate for daily Up/Down is ~50% with slight tilt down ahead of cautious Fed presser.",
+    "data_sources": [
+      "thestreet stock market today Apr 29 2026",
+      "yahoo finance Apr 29 2026 markets live",
+      "cnbc Apr 28 2026 stock close"
+    ],
+    "key_uncertainty": "Fed presser tone and pre-close earnings positioning.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.485,
+    "claude_prob": 0.48,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

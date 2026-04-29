@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.523473+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.61,
+    "no_price": 0.39,
+    "liquidity": 30377.08164,
+    "volume_24h": 22831.717813
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.45,
+    "reasoning": "WTI ~$99 with 2 months remaining; recent 52-week high was $117.63 amid Feb 2026 Iran/US strikes (one source cites $113.13 spike). Existing geopolitical premium leaves $115 within one credible escalation event. Front-month settle vs intraday spike matters; settlement above $115 is meaningfully harder than touching it intraday.",
+    "data_sources": [
+      "tradingeconomics CL",
+      "barchart CL",
+      "WTI 52w high $117.63"
+    ],
+    "key_uncertainty": "Whether tensions escalate into broader regional conflict or de-escalate via diplomacy.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.61,
+    "claude_prob": 0.42,
+    "delta": -0.19,
+    "suggested_direction": "no"
+  }
+}

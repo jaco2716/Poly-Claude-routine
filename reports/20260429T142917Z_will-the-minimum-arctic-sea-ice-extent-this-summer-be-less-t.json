@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.526499+00:00",
+  "market": {
+    "id": "693869",
+    "condition_id": "0xa776ef6b16f785ca718dfaf177743793acda4ee06c721253b868831f5089590c",
+    "question": "Will the minimum Arctic sea ice extent this summer be less than 4m square kilometers?",
+    "category": "weather",
+    "slug": "will-the-minimum-arctic-sea-ice-extent-this-summer-be-less-than-4m-square-kilometers",
+    "end_date": "2026-10-01T00:00:00Z",
+    "yes_price": 0.42,
+    "no_price": 0.58,
+    "liquidity": 963.5448,
+    "volume_24h": 61.11111
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "2025 Arctic sea ice minimum was 4.60M km\u00b2; only 2012 (3.39M) and 2020 (3.74M) have been below 4M km\u00b2 in the satellite record. 2026 spring extent and volume are at/near record lows entering melt season, raising the odds of a sub-4M minimum, but reaching it still requires an unusually warm/stormy summer. ~18% reflects elevated but still tail probability.",
+    "data_sources": [
+      "NSIDC sea ice analyses",
+      "alaskaclimate substack late April 2026 update",
+      "usicecenter Arctic min/max 2025-2026"
+    ],
+    "key_uncertainty": "Summer Arctic weather (cyclones, persistent high pressure) drives most of the variance.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.42,
+    "claude_prob": 0.18,
+    "delta": -0.24,
+    "suggested_direction": "no"
+  }
+}

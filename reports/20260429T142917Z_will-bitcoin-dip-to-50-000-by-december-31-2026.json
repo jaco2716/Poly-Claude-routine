@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T14:29:17.524396+00:00",
+  "market": {
+    "id": "1339767",
+    "condition_id": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56",
+    "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 37149.7291,
+    "volume_24h": 34800.390931
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.5,
+    "reasoning": "BTC ~$77,160 on Apr 29, 2026. February 2026 capitulation low was $60,033. Reaching $50K means another ~17% below that recent floor or ~35% from current spot. With 8 months left and post-crash recovery in progress, possible but unlikely; ~20-25% reflects fat-tailed downside risk without making it the base case.",
+    "data_sources": [
+      "fortune bitcoin 04-29-2026",
+      "vaneck Feb 2026 BTC selloff",
+      "coindesk Feb 2026 BTC $60K coverage"
+    ],
+    "key_uncertainty": "Whether macro stress drives a deeper retest; analyst bottom calls range $35K-$60K.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.22,
+    "delta": -0.195,
+    "suggested_direction": "no"
+  }
+}
