@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.625642+00:00",
+  "market": {
+    "id": "823568",
+    "condition_id": "0x3d9534e655c68bd1811bdb721704d7434c6ce214a69043e9e2c4a13c25db33f5",
+    "question": "Named storm forms before hurricane season?",
+    "category": "weather",
+    "slug": "named-storm-forms-before-hurricane-season-197",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 985.5446,
+    "volume_24h": 11.74
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.6,
+    "reasoning": "No named Atlantic storm reported between Dec 4 2025 and Apr 29 2026. Pre-season storms have occurred in ~30-40% of recent years but typically in May only. With ~32 days remaining and no current activity in NHC tropical outlook, probability ~18-25%.",
+    "data_sources": [
+      "NHC NOAA 2026 Atlantic hurricane season",
+      "Wikipedia 2026 Atlantic hurricane season starts June 1"
+    ],
+    "key_uncertainty": "Whether a tropical or subtropical storm forms unexpectedly in May 2026",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.18,
+    "delta": -0.205,
+    "suggested_direction": "no"
+  }
+}

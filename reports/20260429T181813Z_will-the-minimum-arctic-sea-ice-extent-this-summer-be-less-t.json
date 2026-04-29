@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T18:18:13.626082+00:00",
+  "market": {
+    "id": "693869",
+    "condition_id": "0xa776ef6b16f785ca718dfaf177743793acda4ee06c721253b868831f5089590c",
+    "question": "Will the minimum Arctic sea ice extent this summer be less than 4m square kilometers?",
+    "category": "weather",
+    "slug": "will-the-minimum-arctic-sea-ice-extent-this-summer-be-less-than-4m-square-kilometers",
+    "end_date": "2026-10-01T00:00:00Z",
+    "yes_price": 0.42,
+    "no_price": 0.58,
+    "liquidity": 963.5448,
+    "volume_24h": 61.11111
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.55,
+    "reasoning": "Arctic sea ice extent at or near record low for mid-April 2026 (second-lowest in NSIDC), with Super El Ni\u00f1o influence expected to accelerate melt. Recent minima 2023: 4.23M, 2024: 4.28M \u2014 close to but above 4M. Concerning early-season conditions raise probability of <4M, but historically only 2012 (3.39M) and 2020 hit such low levels.",
+    "data_sources": [
+      "NSIDC Sea Ice Today April 2026",
+      "USIcecenter Arctic Sea Ice Min/Max 2025-2026",
+      "Severe-weather.eu Super El Nino Arctic 2026"
+    ],
+    "key_uncertainty": "How weather patterns evolve over June-September; preconditioning vs. summer weather",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.42,
+    "claude_prob": 0.45,
+    "delta": 0.03,
+    "suggested_direction": null
+  }
+}

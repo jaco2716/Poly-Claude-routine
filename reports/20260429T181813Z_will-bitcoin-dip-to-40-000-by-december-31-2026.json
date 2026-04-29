@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.621227+00:00",
+  "market": {
+    "id": "1339768",
+    "condition_id": "0x1e5564c1a2a6839cc2780a889437c63786a2c2ec5e95569b710ee659a3e8baa2",
+    "question": "Will Bitcoin dip to $40,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-40000-by-december-31-2026-593-522-842-874-931-776-991",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 31360.3662,
+    "volume_24h": 35963.019226000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.6,
+    "reasoning": "BTC at ~$77K must dip to $40K (-48%) by Dec 31 2026. Below most analyst bearish targets; implies a deep bear market. Plausible tail outcome but not base case.",
+    "data_sources": [
+      "Fortune BTC Apr 29 2026 ~$77,160",
+      "Coingecko expert 2026 estimates"
+    ],
+    "key_uncertainty": "Magnitude of any bear cycle drawdown",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.2,
+    "delta": -0.035,
+    "suggested_direction": null
+  }
+}

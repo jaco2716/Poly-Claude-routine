@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T18:18:13.621431+00:00",
+  "market": {
+    "id": "1652706",
+    "condition_id": "0xbaf252e7ac957d6636a6916da51892c9f42e59bfbf808bd4d8e16f194694d2b5",
+    "question": "Will Crude Oil (CL) hit (LOW) $80 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-80-by-end-of-june-723-222-171-541",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.44,
+    "no_price": 0.56,
+    "liquidity": 40021.3764,
+    "volume_24h": 16545.217184
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.55,
+    "reasoning": "CME Crude Oil settlement currently near $100 with Strait of Hormuz disruption supporting prices. EIA forecasts elevated prices through Q2; settlement dropping to $80 requires ~20% drop with Hormuz reopening fully. Possible but not base case.",
+    "data_sources": [
+      "EIA April 2026 STEO Brent peak Q2 $115/b",
+      "CNBC WTI hovers near $100 Apr 28",
+      "Tradingeconomics WTI futures"
+    ],
+    "key_uncertainty": "Speed of Strait of Hormuz reopening and demand response",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.44,
+    "claude_prob": 0.22,
+    "delta": -0.22,
+    "suggested_direction": "no"
+  }
+}

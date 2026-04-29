@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.626457+00:00",
+  "market": {
+    "id": "2106970",
+    "condition_id": "0xbd3cca62f6852f790bb01257b64640a69265b5d4e797c45c910b30b46e06c46a",
+    "question": "Bitcoin Up or Down on April 30?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T16:00:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 16104.1222,
+    "volume_24h": 13977.987054
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.48,
+    "confidence": 0.45,
+    "reasoning": "BTC at ~$77K on Apr 29, up modestly from yesterday but in broader downtrend. Daily up/down base rate ~50%; Fed announcement Apr 29 PM and crypto-correlated equity earnings could push either way. No strong directional bias.",
+    "data_sources": [
+      "Fortune BTC price Apr 29 2026 ~$77,160 up $818",
+      "Coinpedia BTC prediction next 24h ahead of FOMC"
+    ],
+    "key_uncertainty": "Reaction to Fed announcement and overnight BTC volatility",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.48,
+    "delta": -0.035,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T18:18:13.623258+00:00",
+  "market": {
+    "id": "2104760",
+    "condition_id": "0x767035d3df8bca2b40eed764faa03d1f6419d126ad38a215aa21c751fa358e93",
+    "question": "S&P 500 (SPX) Up or Down on April 29?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T20:00:00Z",
+    "yes_price": 0.28,
+    "no_price": 0.72,
+    "liquidity": 7416.0101,
+    "volume_24h": 117462.11909400002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.45,
+    "reasoning": "S&P 500 down ~0.22% mid-session on Apr 29 with futures little changed in premarket. Fed announcement and Mag-7 earnings (GOOG, MSFT, AMZN, META) AMC create volatility. Base rate for daily up/down ~52%, but current intraday tilt is lower; balanced uncertainty around close.",
+    "data_sources": [
+      "TheStreet stock market today Apr 29 2026 update",
+      "Bloomberg US premarket movers Apr 29",
+      "CNBC stock market today live updates"
+    ],
+    "key_uncertainty": "Fed announcement and afternoon earnings reactions could move close materially in either direction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.28,
+    "claude_prob": 0.4,
+    "delta": 0.12,
+    "suggested_direction": "yes"
+  }
+}

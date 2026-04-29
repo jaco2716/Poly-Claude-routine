@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.622402+00:00",
+  "market": {
+    "id": "1652697",
+    "condition_id": "0xe3f8272f4957b7dcc492d988e5c7cd6dbb2f4111cd309571514a280938d617f1",
+    "question": "Will Crude Oil (CL) hit (LOW) $70 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-70-by-end-of-june-776-556-989-392-677",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.215,
+    "no_price": 0.785,
+    "liquidity": 16433.4636,
+    "volume_24h": 12209.339422000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.7,
+    "reasoning": "Settlement dropping to $70 implies ~30% decline from current ~$100 within 2 months while Strait of Hormuz tensions persist. EIA's downside scenarios don't go this low for Q2. Highly unlikely without major shock and Hormuz resolution.",
+    "data_sources": [
+      "EIA STEO April 2026 Q2 forecast",
+      "CNBC WTI near $100 Apr 28 Hormuz tensions"
+    ],
+    "key_uncertainty": "Sudden ceasefire and demand collapse",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.215,
+    "claude_prob": 0.06,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

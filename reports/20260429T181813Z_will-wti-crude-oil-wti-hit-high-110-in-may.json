@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-29T18:18:13.622218+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.735,
+    "no_price": 0.265,
+    "liquidity": 18860.6334,
+    "volume_24h": 41927.310237
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.7,
+    "reasoning": "WTI already touched ~$107 intraday on Apr 29; needs only ~3% further upside in May to hit $110 high. With ongoing Hormuz tensions and EIA forecasting Q2 peak, very likely.",
+    "data_sources": [
+      "Tradingeconomics WTI intraday $107.65 Apr 29",
+      "EIA STEO April 2026 Brent peak Q2 $115",
+      "CNBC oil hovers near $100 with Hormuz tensions"
+    ],
+    "key_uncertainty": "Whether tension cools rapidly causing oil to retreat below 10 throughout May",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.735,
+    "claude_prob": 0.78,
+    "delta": 0.045,
+    "suggested_direction": null
+  }
+}

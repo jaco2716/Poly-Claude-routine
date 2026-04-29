@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.623744+00:00",
+  "market": {
+    "id": "2104945",
+    "condition_id": "0xff05a78852c9cd6de85955abae3f6dd6eb857ee6f2defec8a74313e40a88b0d9",
+    "question": "SPY (SPY) Up or Down on April 29?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T20:00:00Z",
+    "yes_price": 0.32,
+    "no_price": 0.68,
+    "liquidity": 4713.5814,
+    "volume_24h": 35999.07834900002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.45,
+    "reasoning": "SPY tracks SPX which was down ~0.22% mid-session Apr 29 with similar Fed and earnings catalysts. Base rate ~52% but current trend tilts lower.",
+    "data_sources": [
+      "TheStreet stock market today Apr 29 2026",
+      "CNBC stock market today live updates Apr 28"
+    ],
+    "key_uncertainty": "Fed/earnings reactions could move SPY close in either direction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.32,
+    "claude_prob": 0.4,
+    "delta": 0.08,
+    "suggested_direction": "yes"
+  }
+}

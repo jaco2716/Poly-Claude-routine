@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.625825+00:00",
+  "market": {
+    "id": "2102340",
+    "condition_id": "0x1671186c66f83b10f9c6378d7ad2053f103cbd5ef1a984cae982e1dd2452fcce",
+    "question": "Will the highest temperature in Warsaw be 12\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-warsaw-on-april-30-2026-12c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.37,
+    "no_price": 0.63,
+    "liquidity": 980.9137,
+    "volume_24h": 59.99454700000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.6,
+    "reasoning": "Warsaw Chopin Apr 30 forecast 54\u00b0F (~12.2\u00b0C), squarely in the 12\u00b0C bucket [12-12.99\u00b0C]. With cool, breezy conditions, this is the most likely bucket. Forecast uncertainty +/- 1-2C means adjacent buckets also possible.",
+    "data_sources": [
+      "Meteoblue Warsaw Chopin Airport weather",
+      "Forecaweather Warsaw Chopin Airport"
+    ],
+    "key_uncertainty": "Forecast accuracy; \u00b12\u00b0C swing could put high in 11\u00b0C or 13\u00b0C bucket",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.37,
+    "claude_prob": 0.5,
+    "delta": 0.13,
+    "suggested_direction": "yes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.621007+00:00",
+  "market": {
+    "id": "1339767",
+    "condition_id": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56",
+    "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 35286.8111,
+    "volume_24h": 21335.602227
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.6,
+    "reasoning": "BTC at ~$77K must dip to $50K (-35%) by Dec 31 2026. Within the bottom of bearish institutional forecasts ($60-75K) but plausible given current downtrend and 8-month window with high volatility.",
+    "data_sources": [
+      "Fortune BTC Apr 29 2026 ~$77,160",
+      "Coingecko 2026 forecasts low ~$60-75K"
+    ],
+    "key_uncertainty": "Severity of any bear-market low vs sideways consolidation",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.45,
+    "delta": 0.035,
+    "suggested_direction": null
+  }
+}

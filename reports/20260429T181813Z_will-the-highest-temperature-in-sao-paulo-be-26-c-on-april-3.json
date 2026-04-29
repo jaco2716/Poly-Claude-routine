@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-29T18:18:13.624757+00:00",
+  "market": {
+    "id": "2102107",
+    "condition_id": "0xb141cc581709bea5dc9f721d47e6b844cc869a22df1bd054c25626913f51c623",
+    "question": "Will the highest temperature in Sao Paulo be 26\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-sao-paulo-on-april-30-2026-26c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.18,
+    "no_price": 0.82,
+    "liquidity": 997.3252,
+    "volume_24h": 7.407406
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.45,
+    "reasoning": "Sao Paulo Apr 30 forecast high ~77\u00b0F (~25\u00b0C), placing the most likely bucket in 25\u00b0C, with 26\u00b0C as adjacent neighbor. Probability moderate but not most likely.",
+    "data_sources": [
+      "AccuWeather Sao Paulo monthly weather",
+      "Search forecast Sao Paulo Apr 30 high 77F"
+    ],
+    "key_uncertainty": "Whether actual high reaches 26C bucket vs slightly cooler",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.18,
+    "claude_prob": 0.18,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}
