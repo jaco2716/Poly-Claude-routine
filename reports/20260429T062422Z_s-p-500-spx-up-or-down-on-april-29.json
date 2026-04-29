@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-29T06:24:22.198947+00:00",
+  "market": {
+    "id": "2104760",
+    "condition_id": "0x767035d3df8bca2b40eed764faa03d1f6419d126ad38a215aa21c751fa358e93",
+    "question": "S&P 500 (SPX) Up or Down on April 29?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T20:00:00Z",
+    "yes_price": 0.705,
+    "no_price": 0.295,
+    "liquidity": 22050.71,
+    "volume_24h": 17712.581637
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.5,
+    "reasoning": "SPX at 7,155.7 intraday on Apr 29 vs Apr 28 close of ~7,144 (down 0.4% from ATH). Currently up ~0.16% vs prior close. Mild upward bias plus FOMC decision today could swing either way.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "Fortune.com",
+      "EIA STEO",
+      "Investing.com",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "FOMC outcome and post-meeting market reaction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.705,
+    "claude_prob": 0.62,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

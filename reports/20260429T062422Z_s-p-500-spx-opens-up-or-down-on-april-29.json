@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-29T06:24:22.199339+00:00",
+  "market": {
+    "id": "2104756",
+    "condition_id": "0x7ac547a244f3bf4766d99213f71a3aef629b3c54ed22b4fa34e53309e6a007c5",
+    "question": "S&P 500 (SPX) Opens Up or Down on April 29?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T20:00:00Z",
+    "yes_price": 0.74,
+    "no_price": 0.26,
+    "liquidity": 3939.8972,
+    "volume_24h": 14700.891319000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.95,
+    "confidence": 0.85,
+    "reasoning": "SPX opened at 7,152.72 on Apr 29 vs Apr 28 close of ~7,144. Open is higher - market resolves Up. Essentially settled.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "Fortune.com",
+      "EIA STEO",
+      "Investing.com",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Whether observed open price is verified by official source",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.74,
+    "claude_prob": 0.95,
+    "delta": 0.21,
+    "suggested_direction": "yes"
+  }
+}

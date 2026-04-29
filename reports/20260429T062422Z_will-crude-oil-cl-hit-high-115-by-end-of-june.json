@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-29T06:24:22.198671+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.536,
+    "no_price": 0.464,
+    "liquidity": 31208.08562,
+    "volume_24h": 19889.910276
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.4,
+    "reasoning": "WTI at $99.32 with strong upward momentum (7-session rally on Hormuz disruption). Need ~16% more upside in 2 months. EIA expects Brent peak ~$115 in Q2 2026 - WTI typically trades $5-10 below Brent, making $115 WTI a stretch but plausible.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "Fortune.com",
+      "EIA STEO",
+      "Investing.com",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Direction of Iran-US negotiations and Hormuz traffic",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.536,
+    "claude_prob": 0.32,
+    "delta": -0.216,
+    "suggested_direction": "no"
+  }
+}

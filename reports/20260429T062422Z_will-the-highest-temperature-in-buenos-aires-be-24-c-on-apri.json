@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-29T06:24:22.200200+00:00",
+  "market": {
+    "id": "2102122",
+    "condition_id": "0x54d0d4b010fa9ceb052b01653ee34e4bcd739a100a6ffa95085a200e6a26f937",
+    "question": "Will the highest temperature in Buenos Aires be 24\u00b0C on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-april-30-2026-24c",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.29,
+    "no_price": 0.71,
+    "liquidity": 988.4056,
+    "volume_24h": 69.73
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.45,
+    "reasoning": "Ezeiza Apr 30 forecast high is 71\u00b0F = 21.7\u00b0C. The 24\u00b0C bin is well above forecast, requiring +2\u00b0C miss. Lower probability than market price suggests.",
+    "data_sources": [
+      "AccuWeather",
+      "Wunderground",
+      "KMA",
+      "Weather Spark",
+      "NSIDC",
+      "NOAA NHC",
+      "Fortune.com"
+    ],
+    "key_uncertainty": "Late autumn surface heating could push higher than forecast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.29,
+    "claude_prob": 0.1,
+    "delta": -0.19,
+    "suggested_direction": "no"
+  }
+}

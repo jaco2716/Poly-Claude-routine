@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-29T06:24:22.197668+00:00",
+  "market": {
+    "id": "1652706",
+    "condition_id": "0xbaf252e7ac957d6636a6916da51892c9f42e59bfbf808bd4d8e16f194694d2b5",
+    "question": "Will Crude Oil (CL) hit (LOW) $80 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-80-by-end-of-june-723-222-171-541",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.535,
+    "no_price": 0.465,
+    "liquidity": 41055.954,
+    "volume_24h": 12812.938553999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "WTI at $99.32 (Apr 29) and rising on Strait of Hormuz disruption (~20% global oil flows blocked) and 7-session rally. Down only 3.5% from a month ago. To touch $80 in next 2 months requires ~19% drop, which would need a major ceasefire/diplomatic breakthrough or demand collapse.",
+    "data_sources": [
+      "Fortune.com",
+      "tradingeconomics.com",
+      "Investing.com",
+      "wundeground"
+    ],
+    "key_uncertainty": "Whether market was created when oil was lower (already triggered) - I assume not given current 0.535 yes_price implies it hasn't",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.535,
+    "claude_prob": 0.3,
+    "delta": -0.235,
+    "suggested_direction": "no"
+  }
+}

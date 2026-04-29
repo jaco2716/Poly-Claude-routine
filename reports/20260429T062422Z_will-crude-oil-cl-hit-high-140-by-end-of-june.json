@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-29T06:24:22.197808+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 37824.8211,
+    "volume_24h": 23757.736068000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.55,
+    "reasoning": "WTI at $99.32 (Apr 29). 52-week high is only $117.63 (likely Q1 2026 peak when Brent hit $118). Hitting $140 needs ~41% rise from spot in 2 months. Even with Strait of Hormuz disruption, EIA expects Brent (higher than WTI) to peak only at $115 in Q2 2026.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "Fortune.com",
+      "EIA STEO",
+      "Investing.com",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Tail risk of major escalation cutting off Persian Gulf flows entirely",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.07,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

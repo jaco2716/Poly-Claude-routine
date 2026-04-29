@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-29T06:24:22.200410+00:00",
+  "market": {
+    "id": "693869",
+    "condition_id": "0xa776ef6b16f785ca718dfaf177743793acda4ee06c721253b868831f5089590c",
+    "question": "Will the minimum Arctic sea ice extent this summer be less than 4m square kilometers?",
+    "category": "weather",
+    "slug": "will-the-minimum-arctic-sea-ice-extent-this-summer-be-less-than-4m-square-kilometers",
+    "end_date": "2026-10-01T00:00:00Z",
+    "yes_price": 0.42,
+    "no_price": 0.58,
+    "liquidity": 963.5448,
+    "volume_24h": 61.11111
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.45,
+    "reasoning": "2025 Arctic minimum was 4.60M sq km (10th lowest). Only 2007, 2012, 2016, 2019, 2020 have been below 4M in satellite record - roughly 5 of 47 years (~11%). Recent decade averages ~4.3-4.5. Probability ~20-30% based on climatology.",
+    "data_sources": [
+      "AccuWeather",
+      "Wunderground",
+      "KMA",
+      "Weather Spark",
+      "NSIDC",
+      "NOAA NHC",
+      "Fortune.com"
+    ],
+    "key_uncertainty": "Winter ice extent and summer atmospheric patterns largely determine outcome",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.42,
+    "claude_prob": 0.25,
+    "delta": -0.17,
+    "suggested_direction": "no"
+  }
+}

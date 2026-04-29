@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-29T06:24:22.198785+00:00",
+  "market": {
+    "id": "2104949",
+    "condition_id": "0x89022482d188d72a17eeb6dd3ccc63585bfef15214406f52b0f6faf7bc4965b9",
+    "question": "WTI Crude Oil (WTI) Up or Down on April 29?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-april-29-2026",
+    "end_date": "2026-04-29T21:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 22886.4596,
+    "volume_24h": 43227.313610000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.5,
+    "reasoning": "WTI at $99.32 on Apr 29, down 0.61% from prior close (~$99.93). Slight intraday weakness suggests Down for the day, though futures don't close until 21:00 UTC and headlines could swing it.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "Fortune.com",
+      "EIA STEO",
+      "Investing.com",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Late-session geopolitical headlines or US inventory data",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.35,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

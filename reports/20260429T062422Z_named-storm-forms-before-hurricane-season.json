@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-29T06:24:22.200306+00:00",
+  "market": {
+    "id": "823568",
+    "condition_id": "0x3d9534e655c68bd1811bdb721704d7434c6ce214a69043e9e2c4a13c25db33f5",
+    "question": "Named storm forms before hurricane season?",
+    "category": "weather",
+    "slug": "named-storm-forms-before-hurricane-season-197",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 985.5446,
+    "volume_24h": 11.74
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.45,
+    "reasoning": "No named storms have formed in 2026 Atlantic. ~32 days remain (to May 31). Climatological base rate for pre-season May named storms is roughly 25-30% in recent years; 2025 had no preseason storm (first was June 23). Nothing currently brewing. NHC routine outlooks don't begin until May 15.",
+    "data_sources": [
+      "AccuWeather",
+      "Wunderground",
+      "KMA",
+      "Weather Spark",
+      "NSIDC",
+      "NOAA NHC",
+      "Fortune.com"
+    ],
+    "key_uncertainty": "Warm SSTs could spawn late-May system; 12-30 day forecasting limited",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.18,
+    "delta": -0.205,
+    "suggested_direction": "no"
+  }
+}

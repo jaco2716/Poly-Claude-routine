@@ -1,0 +1,36 @@
+{
+  "generated_at": "2026-04-29T06:24:22.199224+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.41,
+    "no_price": 0.59,
+    "liquidity": 12302.3973,
+    "volume_24h": 17115.829870999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.45,
+    "reasoning": "WTI at $99.32, 52-week high $117.63 (just below $120). Need 21% rise in 2 months. Possible if Hormuz disruption deepens; EIA Brent forecast peaks at $115 (WTI typically lower).",
+    "data_sources": [
+      "tradingeconomics.com",
+      "Fortune.com",
+      "EIA STEO",
+      "Investing.com",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Whether Strait of Hormuz traffic gets restored",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.41,
+    "claude_prob": 0.2,
+    "delta": -0.21,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-29T06:24:22.196684+00:00",
+  "market": {
+    "id": "701501",
+    "condition_id": "0x752fa61c93f16c4b15e85b0bd438d9c684176b0ea7b319a84c8aca34616e8a8c",
+    "question": "Will Bitcoin dip to $55,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-55000-by-december-31-2026-527-627-868-745-188-361-314-673-612-946-821-624-855-557-684-381",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.525,
+    "no_price": 0.475,
+    "liquidity": 71495.2556,
+    "volume_24h": 87801.52536399999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "BTC at $76,581 (Apr 28, 2026), with 52-week low of $60,187 reached recently in window. Need only ~9% drop from window low to hit $55k. Given BTC's high volatility, ongoing macro/geopolitical pressure (Mideast conflict, ETH down 50% YTD), and 8 months remaining, hitting $55k is more likely than not.",
+    "data_sources": [
+      "Fortune.com",
+      "tradingeconomics.com",
+      "Investing.com",
+      "wundeground"
+    ],
+    "key_uncertainty": "Macro environment - Fed rate path and risk-on/risk-off shifts",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.525,
+    "claude_prob": 0.62,
+    "delta": 0.095,
+    "suggested_direction": "yes"
+  }
+}

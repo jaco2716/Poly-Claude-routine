@@ -1,0 +1,38 @@
+{
+  "generated_at": "2026-04-29T06:24:22.199448+00:00",
+  "market": {
+    "id": "2091536",
+    "condition_id": "0x00328d62da50d7c852862b5087107f2bc8783db14e14c486644021b1a3ae5bad",
+    "question": "Will the highest temperature in Seoul be 18\u00b0C on April 29?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seoul-on-april-29-2026-18c",
+    "end_date": "2026-04-29T12:00:00Z",
+    "yes_price": 0.745,
+    "no_price": 0.255,
+    "liquidity": 1067.2787,
+    "volume_24h": 21220.58417200001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.4,
+    "reasoning": "KMA forecast for Seoul Apr 29 high around 17-19\u00b0C under cloudy skies, post-rain cooling trend after mid-April heatwave. 18\u00b0C is near forecast midpoint, making it most likely single bin. Day already mostly over (market closes 12:00 UTC = 9 PM KST).",
+    "data_sources": [
+      "AccuWeather",
+      "Wunderground",
+      "KMA",
+      "Weather Spark",
+      "NSIDC",
+      "NOAA NHC",
+      "Fortune.com"
+    ],
+    "key_uncertainty": "Cloud cover variability could push high to 17 or 19\u00b0C bin",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.745,
+    "claude_prob": 0.45,
+    "delta": -0.295,
+    "suggested_direction": "no"
+  }
+}
