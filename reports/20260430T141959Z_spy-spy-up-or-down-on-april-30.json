@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T14:19:59.279997+00:00",
+  "market": {
+    "id": "2115052",
+    "condition_id": "0xe157633bddb5b166cb7e55fff148fd7bab09278c485fae90a4ab6dc75654ab3e",
+    "question": "SPY (SPY) Up or Down on April 30?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T20:00:00Z",
+    "yes_price": 0.545,
+    "no_price": 0.455,
+    "liquidity": 7055.7388,
+    "volume_24h": 58988.944338000016
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.72,
+    "confidence": 0.5,
+    "reasoning": "SPY currently $715.67 (~+0.46%) intraday on Apr 30 with positive earnings momentum and oil softening. Resolution at 4 PM ET close. SPY tracks SPX closely; same setup. Probability of positive close higher than 50/50 given intraday strength.",
+    "data_sources": [
+      "247wallst SPY 4/30/26",
+      "spyoptions newsletter"
+    ],
+    "key_uncertainty": "Late-day reversal; identical risk to SPX market.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.545,
+    "claude_prob": 0.72,
+    "delta": 0.175,
+    "suggested_direction": "yes"
+  }
+}

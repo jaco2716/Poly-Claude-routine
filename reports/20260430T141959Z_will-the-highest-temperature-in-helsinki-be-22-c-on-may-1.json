@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T14:19:59.280182+00:00",
+  "market": {
+    "id": "2112634",
+    "condition_id": "0x899a6303f2866e3ef530c6e02cfeedc37d583a7b79f92ef8f11484400a42c56b",
+    "question": "Will the highest temperature in Helsinki be 22\u00b0C on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-helsinki-on-may-1-2026-22c",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.1585,
+    "no_price": 0.8415,
+    "liquidity": 999.85456,
+    "volume_24h": 503.37097399999993
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.04,
+    "confidence": 0.7,
+    "reasoning": "Helsinki May 1 typical high ~11.6\u00b0C; full-month May highs range 44-70\u00b0F (~7-21\u00b0C). Question asks high of 22\u00b0C exact - 10\u00b0C above climatological average and at top of monthly range. Forecast data shows cool, typical Finnish spring. Hitting 22\u00b0C exact bin is rare tail event.",
+    "data_sources": [
+      "accuweather Helsinki May",
+      "weather-spark Helsinki",
+      "world-weather.info"
+    ],
+    "key_uncertainty": "Unusual warm front could push Helsinki temps high - early May warmth occurs but rarely 22\u00b0C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.1585,
+    "claude_prob": 0.04,
+    "delta": -0.1185,
+    "suggested_direction": "no"
+  }
+}

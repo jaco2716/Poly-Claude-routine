@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T14:19:59.281250+00:00",
+  "market": {
+    "id": "2074235",
+    "condition_id": "0x828aaec481308550a867fff3bd1e497ca1ebb5998fcf1fb40aaa4abfeb85db26",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-130-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 18602.5745,
+    "volume_24h": 71557.06024699996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "WTI $130 HIGH in May (single month) from current $108. Need +$22 in 31 days. Iran tensions support upside but $130 requires fresh catalyst beyond current state. Possible if escalation, otherwise unlikely in just May. ~0.18-0.22.",
+    "data_sources": [
+      "tradingeconomics WTI",
+      "fxdailyreport WTI 4/30/26"
+    ],
+    "key_uncertainty": "Whether Iran action lands within May vs later June. Single-month window narrows probability.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.2,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

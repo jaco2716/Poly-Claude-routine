@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T14:19:59.278012+00:00",
+  "market": {
+    "id": "701552",
+    "condition_id": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
+    "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-dip-to-1500-by-december-31-2026",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 35992.9509,
+    "volume_24h": 11919.191876000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.55,
+    "reasoning": "ETH at ~$2,265 on 4/30/26; YTD low ~$1,755 (Feb 2026). To hit $1,500 by Dec 31, 2026 requires -34% from spot, or -15% from Feb low. ETH historically very volatile and underperformed BTC. With 8 months remaining and bearish macro backdrop (yields surging, equity weakness risk), moderate probability.",
+    "data_sources": [
+      "fortune.com ETH 4/30/26",
+      "coindesk ETH",
+      "finder ETH 2026 forecasts"
+    ],
+    "key_uncertainty": "Whether ETH-specific catalysts (ETF flows, scaling news) buoy price vs. macro selloff dragging it lower.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.4,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

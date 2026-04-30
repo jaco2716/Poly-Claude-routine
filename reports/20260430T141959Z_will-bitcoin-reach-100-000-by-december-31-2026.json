@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T14:19:59.276523+00:00",
+  "market": {
+    "id": "701496",
+    "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-100000-by-december-31-2026-571-361-361",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.395,
+    "no_price": 0.605,
+    "liquidity": 69653.3174,
+    "volume_24h": 16740.756422
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.55,
+    "reasoning": "BTC currently ~$76,300 on Apr 30, 2026. Window started Nov 24, 2025; BTC peaked ~$126k in Oct 2025 BEFORE the window, then YTD low ~$60k in Feb 2026. So BTC has NOT yet hit $100k in the window. From $76k to $100k = +31% over ~8 months. Crypto vol is high; recoveries to $100k plausible but face macro headwinds (yields rising, bearish sentiment).",
+    "data_sources": [
+      "fortune.com BTC price 4/30/26",
+      "coindesk BTC analysis",
+      "ccn.com 2026 lows"
+    ],
+    "key_uncertainty": "Will macro turn supportive (rate cuts) and reignite a leg up? Geopolitical/yield path is the swing factor.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.395,
+    "claude_prob": 0.42,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

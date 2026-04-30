@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T14:19:59.280542+00:00",
+  "market": {
+    "id": "2122486",
+    "condition_id": "0x4bf2dbbe902f2208addceaf2906bb9981e98a4df5b71b3e03559fe6b05579c5a",
+    "question": "Will the highest temperature in Shenzhen be 29\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shenzhen-on-may-2-2026-29c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 985.4552,
+    "volume_24h": 13.401762
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.45,
+    "reasoning": "Shenzhen early May average highs around 28\u00b0C. Question asks for 29\u00b0C exact bin. Climatology says 28\u00b0C is modal; 29\u00b0C is one bin above. With monthly range 76-89\u00b0F (~24-32\u00b0C), 29\u00b0C is plausible. Probability ~0.20-0.30 for specific 29\u00b0C bin.",
+    "data_sources": [
+      "weather-atlas Shenzhen May",
+      "accuweather Shenzhen",
+      "world-weather.info"
+    ],
+    "key_uncertainty": "No specific 2-day forecast available; climatological inference. Could be 27-30\u00b0C range plausibly.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.25,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T14:19:59.278760+00:00",
+  "market": {
+    "id": "2074240",
+    "condition_id": "0xa96e71186507bf493bd1fb8101418c369c6296a29b49514fdec3f7bfe7197909",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $80 in May?",
+    "category": "commodity",
+    "slug": "will-wti-dip-to-80-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.325,
+    "no_price": 0.675,
+    "liquidity": 25659.049,
+    "volume_24h": 21216.055135000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.65,
+    "reasoning": "WTI $80 LOW in May - currently $104+ with intraday LOW today around $98. Would need $18+ drop in May from current low. With Iran tensions and elevated risk premium, a crash to $80 is unlikely absent rapid de-escalation. ~0.08-0.12.",
+    "data_sources": [
+      "tradingeconomics WTI",
+      "fxdailyreport"
+    ],
+    "key_uncertainty": "Sudden diplomatic resolution or major demand-shock recession could push prices down quickly.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.325,
+    "claude_prob": 0.1,
+    "delta": -0.225,
+    "suggested_direction": "no"
+  }
+}

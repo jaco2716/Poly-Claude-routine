@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T14:19:59.279685+00:00",
+  "market": {
+    "id": "2114720",
+    "condition_id": "0x8cca4add68bd7cbe817075fb1f11593f98463641dba4e401f04c3a7ae7315c48",
+    "question": "S&P 500 (SPX) Up or Down on April 30?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T20:00:00Z",
+    "yes_price": 0.62,
+    "no_price": 0.38,
+    "liquidity": 8918.3248,
+    "volume_24h": 55340.577599999946
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.72,
+    "confidence": 0.5,
+    "reasoning": "S&P 500 currently up ~0.46% (32 pts) intraday on Apr 30 with positive earnings momentum and oil pulling back from highs. Resolution is at 4 PM ET close. Strong intraday positive bias with multiple supportive catalysts (earnings, oil softening). Significant probability of positive close, though gains can fade.",
+    "data_sources": [
+      "247wallst SPY 4/30/26",
+      "cnbc stock market live 4/29-4/30"
+    ],
+    "key_uncertainty": "Late-day reversal on geopolitical headlines could erase gains; but intraday strength is supportive.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.62,
+    "claude_prob": 0.72,
+    "delta": 0.1,
+    "suggested_direction": "yes"
+  }
+}

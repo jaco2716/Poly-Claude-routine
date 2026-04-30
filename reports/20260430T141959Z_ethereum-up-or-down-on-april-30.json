@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T14:19:59.279259+00:00",
+  "market": {
+    "id": "2107011",
+    "condition_id": "0x069bbdbd5e7e844d25f61ffc5c25240f8fd0476260e5c140f9a843f0ec9243ee",
+    "question": "Ethereum Up or Down on April 30?",
+    "category": "crypto_price",
+    "slug": "ethereum-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T16:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 25614.7448,
+    "volume_24h": 26129.702263
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.35,
+    "confidence": 0.3,
+    "reasoning": "ETH at ~$2,265, down ~$50 (~2%) from yesterday morning. Market resolves at noon ET on Apr 30 (today). Currently DOWN, but limited info on exact open vs close. The 'up or down' probably refers to daily change. Given current down move, 'yes' (up) is below 50%. Cannot verify exact resolution criteria.",
+    "data_sources": [
+      "fortune.com ETH 4/30/26",
+      "yahoo BTC/ETH 4/30/26"
+    ],
+    "key_uncertainty": "Exact resolution definition (open-to-resolve vs prior close) and whether ETH bounces by noon ET.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.35,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

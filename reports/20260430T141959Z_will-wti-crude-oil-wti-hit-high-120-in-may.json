@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T14:19:59.278227+00:00",
+  "market": {
+    "id": "2074236",
+    "condition_id": "0x416e3cbe25a60b8210f4e67c056ea2b03f4d511e7b969826d69ef90b753ff214",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-120-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.445,
+    "no_price": 0.555,
+    "liquidity": 30557.3975,
+    "volume_24h": 115807.179596
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month at $104-108 with intraday spikes to $110 today (Apr 30). Question is HIGH of $120 in May. Need a ~$10 move higher within May given Iran/Strait of Hormuz tensions. Risk premium substantial; if Trump briefing translates to action, spike to $120+ very plausible. But baseline absent escalation: only marginal probability.",
+    "data_sources": [
+      "tradingeconomics WTI",
+      "fxdailyreport WTI 4/30/26",
+      "Reuters Iran"
+    ],
+    "key_uncertainty": "Whether US-Iran tensions escalate to actual military action in May, which would likely send oil through $120.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.445,
+    "claude_prob": 0.4,
+    "delta": -0.045,
+    "suggested_direction": null
+  }
+}

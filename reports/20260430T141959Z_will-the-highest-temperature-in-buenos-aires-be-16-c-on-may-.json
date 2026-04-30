@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T14:19:59.280647+00:00",
+  "market": {
+    "id": "2122199",
+    "condition_id": "0x7f4483a9b809a3ab525f3f7e465ac22e3bc18e8cd2b0d9f7a458d51b211428eb",
+    "question": "Will the highest temperature in Buenos Aires be 16\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-may-2-2026-16c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 980.4644,
+    "volume_24h": 226.25712100000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Buenos Aires May 2 forecast high ~19\u00b0C. Question asks for 16\u00b0C exact bin (16.0-16.9\u00b0C). 16\u00b0C is 3\u00b0C below forecast - cold tail. Possible if a strong cold front, but unlikely given current forecast. Probability ~0.08-0.12.",
+    "data_sources": [
+      "accuweather Buenos Aires May",
+      "weather2travel",
+      "weather25"
+    ],
+    "key_uncertainty": "Cold front could push temps lower; relatively narrow 1\u00b0C bin reduces probability further.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.1,
+    "delta": -0.185,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-30T14:19:59.280888+00:00",
+  "market": {
+    "id": "1058988",
+    "condition_id": "0xf17a11ec68f161b929b5147f0dcd536e177e46efebcabe438d9063a412ab74f0",
+    "question": "Will any Category 4 hurricane make landfall in the US in before 2027?",
+    "category": "weather",
+    "slug": "will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.35,
+    "no_price": 0.65,
+    "liquidity": 967.9546,
+    "volume_24h": 326297.3414690001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.5,
+    "reasoning": "CSU/NOAA forecast 2026 hurricane season slightly below average with El Nino likely (32% chance major hurricane US landfall). Question requires Cat 4+ specifically (subset of major). Historical base rate of any Cat 4+ landfall ~25-35% in average years; below-average year with El Nino suggests ~0.25-0.30.",
+    "data_sources": [
+      "CSU April 2026 forecast",
+      "Yale Climate Connections",
+      "NHC NOAA",
+      "Popular Science"
+    ],
+    "key_uncertainty": "El Nino strength and shear environment; one well-placed Cat 4 settles it but seasonal dynamics suppress probability.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.35,
+    "claude_prob": 0.27,
+    "delta": -0.08,
+    "suggested_direction": "no"
+  }
+}

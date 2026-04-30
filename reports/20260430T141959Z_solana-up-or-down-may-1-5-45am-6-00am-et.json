@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T14:19:59.279561+00:00",
+  "market": {
+    "id": "2124128",
+    "condition_id": "0x0274e12ff018815b2d6923a96d44636adc128e2a93f2937863ea01e20fbbbfd9",
+    "question": "Solana Up or Down - May 1, 5:45AM-6:00AM ET",
+    "category": "crypto_price",
+    "slug": "sol-updown-15m-1777628700",
+    "end_date": "2026-05-01T10:00:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9999.4776,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Solana 'up or down' from 5:45-6:00 AM ET on May 1 - a 15-minute micro window. Such brief intervals are essentially 50/50 with no edge from current $82 price. Cannot verifiably forecast a 15-min directional move.",
+    "data_sources": [
+      "bybit SOL",
+      "okx SOL"
+    ],
+    "key_uncertainty": "Pure noise; impossible to predict 15-min crypto direction.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}
