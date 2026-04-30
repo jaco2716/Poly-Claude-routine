@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T18:26:58.354079+00:00",
+  "market": {
+    "id": "1712238",
+    "condition_id": "0xcf62db595777fad4cf97b4512e0eec0be6525e219e3512867989acf7c7abdbdf",
+    "question": "Will SPDR S&P 500 ETF Trust (SPY) hit (HIGH) $720 in April?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-720-in-april-2026",
+    "end_date": "2026-05-01T03:59:59.999Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 97.4425,
+    "volume_24h": 713.62857
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.65,
+    "reasoning": "SPY traded $711.58-$715.78 on April 30 (the final trading day of April), closing $715.67. Reaching $720 would need an additional ~0.6% spike during a session that has largely concluded. Probability very low; market 0.275 looks overpriced.",
+    "data_sources": [
+      "finance.yahoo.com SPY",
+      "investing.com SPY",
+      "macrotrends.net SPY"
+    ],
+    "key_uncertainty": "Any late-day after-hours/extended-session spike (which doesn't count anyway per RTH-only rule)",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.05,
+    "delta": -0.225,
+    "suggested_direction": "no"
+  }
+}

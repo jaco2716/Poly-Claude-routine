@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.353578+00:00",
+  "market": {
+    "id": "2112475",
+    "condition_id": "0xa7b912afec49912c4366ac9045f1f9e45024954060e8987f97b41d17aeeaef2c",
+    "question": "Will the highest temperature in Beijing be 27\u00b0C on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-beijing-on-may-1-2026-27c",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 959.6846,
+    "volume_24h": 2119.898158
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Beijing May 1 forecast high ~26\u00b0C with range 21-32\u00b0C. The 27\u00b0C bracket sits one degree above forecast and is plausible. Each adjacent integer bracket near the mode typically holds 15-25% probability. Market 0.385 may be slightly high.",
+    "data_sources": [
+      "travelchinaguide.com Beijing May",
+      "accuweather.com Beijing"
+    ],
+    "key_uncertainty": "Daily variation around the mean forecast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.22,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.354501+00:00",
+  "market": {
+    "id": "2120973",
+    "condition_id": "0x5bca5e3da284de08749c60cc182e4b11be6925a1b030567014c8c5b4b4d6cf31",
+    "question": "Solana Up or Down - April 30, 8:15PM-8:20PM ET",
+    "category": "crypto_price",
+    "slug": "sol-updown-5m-1777594500",
+    "end_date": "2026-05-01T00:20:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9996.1204,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "5-minute SOL up/down is essentially a coin flip. SOL trading ~$82-83 with no clear directional edge over a 5-minute window. Estimate 0.50.",
+    "data_sources": [
+      "bybit.com SOL",
+      "coinbase.com SOL"
+    ],
+    "key_uncertainty": "Random short-term price noise",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

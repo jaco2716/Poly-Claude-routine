@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.353830+00:00",
+  "market": {
+    "id": "2106446",
+    "condition_id": "0x3ff3d49ab287815f7677ab20f0324381de22517bd07a80eb524dce53ff433130",
+    "question": "Will London have less than 5mm of precipitation in May?",
+    "category": "weather",
+    "slug": "will-london-have-less-than-5mm-of-precipitation-in-may",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 98.9984,
+    "volume_24h": 5.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.55,
+    "reasoning": "London Heathrow May climatology averages ~60mm rainfall over ~25 rainy days. Sub-5mm in May would be a once-in-decades drought month. Probability very low; market 0.175 looks high.",
+    "data_sources": [
+      "Met Office Heathrow climate",
+      "metoffice.gov.uk"
+    ],
+    "key_uncertainty": "Whether persistent high pressure blocks all Atlantic systems for the month",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.05,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.353287+00:00",
+  "market": {
+    "id": "2122431",
+    "condition_id": "0x364865cf7ac2eae6bdfee9945420272eefcc10fcd43740a68927a2fce6f66ff2",
+    "question": "Will the highest temperature in Taipei be 31\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-taipei-on-may-2-2026-31c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 975.6339,
+    "volume_24h": 243.799289
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.45,
+    "reasoning": "Taipei forecast ~29\u00b0C high (84\u00b0F) for May 2. Bracket 31\u00b0C is two degrees above forecast; possible with sun exposure but less likely than 28-30\u00b0C range. Probability ~0.13. Market 0.275 may be overpricing.",
+    "data_sources": [
+      "world-weather.info Taipei May",
+      "accuweather.com Taipei"
+    ],
+    "key_uncertainty": "Sun versus cloud cover and inland heating",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.13,
+    "delta": -0.145,
+    "suggested_direction": "no"
+  }
+}

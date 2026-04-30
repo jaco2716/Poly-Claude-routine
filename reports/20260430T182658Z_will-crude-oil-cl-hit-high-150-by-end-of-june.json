@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T18:26:58.350270+00:00",
+  "market": {
+    "id": "1494702",
+    "condition_id": "0xeda0e0633f131b761cbe6c6e5e16ae347c48d9448a08c5826bfc2c794b63758e",
+    "question": "Will Crude Oil (CL) hit (HIGH) $150 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-150-by-end-of-june-788-691",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 30306.453,
+    "volume_24h": 58268.32410200002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.55,
+    "reasoning": "Settlement price of $150 requires WTI to settle ~40% higher than current $107. Even Goldman's high case is $120. World Bank warns of large surge but $150 settlement requires extreme escalation scenario. Probability low; market 0.175 looks slightly high.",
+    "data_sources": [
+      "thenationalnews.com Apr 28",
+      "cnbc.com Apr 29",
+      "Goldman Sachs forecast"
+    ],
+    "key_uncertainty": "Whether full Hormuz closure causes 40%+ spike in 2 months",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.07,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

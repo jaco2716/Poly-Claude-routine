@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.352382+00:00",
+  "market": {
+    "id": "2122446",
+    "condition_id": "0x0a86b541ff89c9fd55b1daff5175426b438503f18df5fe1c2a5c3492f84502b5",
+    "question": "Will the highest temperature in Beijing be 21\u00b0C or below on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-beijing-on-may-2-2026-21corbelow",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 988.4502,
+    "volume_24h": 1790.0954010000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Beijing climatological May 1-3 highs ~26\u00b0C with range 21-32\u00b0C. Hitting 21\u00b0C or below requires unusually cool day. Low probability; market 0.285 likely overpricing.",
+    "data_sources": [
+      "travelchinaguide.com",
+      "accuweather.com Beijing May"
+    ],
+    "key_uncertainty": "Whether a cold front passes on May 2",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.1,
+    "delta": -0.185,
+    "suggested_direction": "no"
+  }
+}

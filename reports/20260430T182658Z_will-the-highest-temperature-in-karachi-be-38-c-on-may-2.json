@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.353709+00:00",
+  "market": {
+    "id": "2122751",
+    "condition_id": "0x1af315a64d89329e0452972f3a87a1ef675f04af980b749e48338eff3be93444",
+    "question": "Will the highest temperature in Karachi be 38\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-karachi-on-may-2-2026-38c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 954.7756,
+    "volume_24h": 38.593716
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.35,
+    "reasoning": "Karachi May highs typically 33-42\u00b0C; daily variation across the integer brackets is wide. The 38\u00b0C bracket (100-101\u00b0F) is plausible but just one of ~6 likely outcomes. Probability ~0.18; market 0.335 likely overpricing.",
+    "data_sources": [
+      "accuweather.com Karachi May",
+      "easeweather.com Pakistan May"
+    ],
+    "key_uncertainty": "Sea breeze vs interior heating influence at Masroor",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.18,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

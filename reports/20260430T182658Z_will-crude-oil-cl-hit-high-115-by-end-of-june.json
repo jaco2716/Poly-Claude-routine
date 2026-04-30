@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.350474+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.6895,
+    "no_price": 0.3105,
+    "liquidity": 29948.96209,
+    "volume_24h": 119533.8012760001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.65,
+    "confidence": 0.5,
+    "reasoning": "WTI ~$107-110 currently with Iran/Hormuz crisis ongoing. To get $115 settlement requires only ~5-7% move on one trading day in next 2 months. Highly plausible with ongoing geopolitical risk. Market 0.69 looks reasonable.",
+    "data_sources": [
+      "cnbc.com Apr 29 2026",
+      "thenationalnews.com Apr 28"
+    ],
+    "key_uncertainty": "Whether tensions ease into ceasefire before any spike to $115 settlement",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.6895,
+    "claude_prob": 0.65,
+    "delta": -0.0395,
+    "suggested_direction": null
+  }
+}

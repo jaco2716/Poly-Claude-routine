@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T18:26:58.353958+00:00",
+  "market": {
+    "id": "2051853",
+    "condition_id": "0x21913ba8a305854a972cb5f13f08475dd3e9e1364d33d38852d71e89071a9b6d",
+    "question": "Who will finish higher: Verstappen or Russell?",
+    "category": "equity_index",
+    "slug": "f1-miami-grand-prix-h2h-verstappen-vs-russell-2026-05-03",
+    "end_date": "2026-05-10T20:00:00Z",
+    "yes_price": 0.265,
+    "no_price": 0.735,
+    "liquidity": 98.54,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.45,
+    "reasoning": "Russell is co-favorite to win at +150 odds while Verstappen is +3500 longshot for Miami. Russell has been on poles all season; Mercedes dominant in 2026. Verstappen has lone Saudi win. H2H probability for Verstappen finishing ahead is roughly 0.25-0.30. Market 0.265 looks fair.",
+    "data_sources": [
+      "covers.com Miami GP odds",
+      "formula1.com Miami betting",
+      "draftkings"
+    ],
+    "key_uncertainty": "DNF probability and race-day setup advantage",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.265,
+    "claude_prob": 0.27,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T18:26:58.354377+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.56,
+    "no_price": 0.44,
+    "liquidity": 16389.209,
+    "volume_24h": 38264.388402000026
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.5,
+    "reasoning": "Settlement at $120 = ~12% above current $107 sustained close. Goldman's high case is exactly $120. With ongoing Hormuz crisis and 2 months window, plausible but not assured. Probability ~0.40; market 0.56 may overprice this.",
+    "data_sources": [
+      "Goldman Sachs $120 forecast",
+      "World Bank",
+      "thenationalnews.com"
+    ],
+    "key_uncertainty": "Whether intraday spikes translate to $120 settlement",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.56,
+    "claude_prob": 0.4,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}

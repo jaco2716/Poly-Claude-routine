@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T18:26:58.353447+00:00",
+  "market": {
+    "id": "2122619",
+    "condition_id": "0xec888b392f14ba5b59566a2cadb60dcd487f4ec94a18cd1b047f9591e254eed8",
+    "question": "Will the highest temperature in Panama City be 30\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-panama-city-on-may-2-2026-30c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 961.95,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.35,
+    "reasoning": "Panama City May highs typically 30-32\u00b0C, very stable year-round. Forecast indicators show ~30-31\u00b0C this period. The 30\u00b0C bracket is one of the most likely outcomes; market 0.335 looks roughly fair.",
+    "data_sources": [
+      "weatherspark.com Albrook airport",
+      "meteoblue.com Albrook"
+    ],
+    "key_uncertainty": "Whether afternoon convection cools peak temps to 29 or holds at 30-31",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.32,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}
