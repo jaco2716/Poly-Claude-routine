@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.122005+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 17034.9777,
+    "volume_24h": 69797.60299499996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.5,
+    "reasoning": "CL settle ~$105. $140 settlement requires +33% above current. Even with sustained Iran-driven rally and 2 months runway, single-day settlement at $140 is unlikely without a major supply shock.",
+    "data_sources": [
+      "barchart CLM26",
+      "litefinance oil forecast"
+    ],
+    "key_uncertainty": "Severe supply disruption (Hormuz closure).",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.13,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

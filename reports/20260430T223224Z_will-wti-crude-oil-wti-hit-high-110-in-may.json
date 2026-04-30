@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-30T22:32:24.121748+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.805,
+    "no_price": 0.195,
+    "liquidity": 23057.7421,
+    "volume_24h": 133051.44317999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.65,
+    "reasoning": "WTI intraday already touched $110.90 today (April 30). Market resolves YES if any 1-min candle high in May reaches $110. Given current momentum and Iran-driven volatility, only a sharp pullback would prevent a touch in May; high probability YES.",
+    "data_sources": [
+      "CNBC Apr 30 oil report (intraday high $110.90)"
+    ],
+    "key_uncertainty": "Rapid de-escalation could collapse the risk premium before May.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.805,
+    "claude_prob": 0.85,
+    "delta": 0.045,
+    "suggested_direction": null
+  }
+}

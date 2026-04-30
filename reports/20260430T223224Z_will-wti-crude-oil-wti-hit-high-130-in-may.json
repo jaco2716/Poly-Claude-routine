@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.124738+00:00",
+  "market": {
+    "id": "2074235",
+    "condition_id": "0x828aaec481308550a867fff3bd1e497ca1ebb5998fcf1fb40aaa4abfeb85db26",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-130-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 14099.2016,
+    "volume_24h": 133088.08116699994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "WTI active month near $108 with intraday high ~$110.9 today. $130 intraday in May is +18-20% above current; possible only with significant escalation (e.g., Hormuz disruption). Recent volatility supports a non-trivial probability but base case is no.",
+    "data_sources": [
+      "CNBC Apr 30 oil report",
+      "TradingEconomics WTI"
+    ],
+    "key_uncertainty": "Hormuz/Iran escalation magnitude.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.2,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

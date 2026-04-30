@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-04-30T22:32:24.122295+00:00",
+  "market": {
+    "id": "2121004",
+    "condition_id": "0x64e904af1098d3dbf5e74eeac8cdac5eab7a914a4c14d932750a008bd8193a21",
+    "question": "Solana Up or Down - April 30, 8:30PM-8:35PM ET",
+    "category": "crypto_price",
+    "slug": "sol-updown-5m-1777595400",
+    "end_date": "2026-05-01T00:35:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9999.9811,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.05,
+    "reasoning": "Solana 5-minute up/down market: pure short-term noise, no informational edge over 50/50 base rate.",
+    "data_sources": [
+      "base rate"
+    ],
+    "key_uncertainty": "Pure short-term noise.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

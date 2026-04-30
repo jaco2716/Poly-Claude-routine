@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.124448+00:00",
+  "market": {
+    "id": "2126658",
+    "condition_id": "0x456d0205b7c9914308e17eb09f03341bb3f89a6d3b5fd3f504c171fdf70f9e9f",
+    "question": "Will there be exactly 5 major space weather events this week?",
+    "category": "weather",
+    "slug": "will-there-be-exactly-5-major-space-weather-events-this-week-742",
+    "end_date": "2026-05-09T00:00:00Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 96.8719,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.4,
+    "reasoning": "Exactly 5 G3+/S3+/R3+ events in May 3-9 is a high count - typical week sees 0-1 such severe events. Even with AR4420 actively producing M-flares, hitting precisely 5 strong-or-greater events is unlikely.",
+    "data_sources": [
+      "NOAA SWPC weekly outlook",
+      "earthsky.org sun news"
+    ],
+    "key_uncertainty": "Cluster of strong events from a major active region could push count higher than typical.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.07,
+    "delta": -0.405,
+    "suggested_direction": "no"
+  }
+}

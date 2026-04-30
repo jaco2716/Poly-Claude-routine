@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T22:32:24.123542+00:00",
+  "market": {
+    "id": "2122035",
+    "condition_id": "0xfd2422b9ef8460a17468eda5941b8ee6c600363e3d23d27aaba9c26747702143",
+    "question": "Will the lowest temperature in Paris be 13\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "lowest-temperature-in-paris-on-may-2-2026-13c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.33,
+    "no_price": 0.67,
+    "liquidity": 99.3084,
+    "volume_24h": 4.16665
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.5,
+    "reasoning": "Paris-Le Bourget early May average low ~8-9\u00b0C; May 2 forecast lows ~8-9\u00b0C. Question wants low to be in 13\u00b0C bracket - well above typical. Would need an unusually mild night with cloud cover and southerly flow; unlikely.",
+    "data_sources": [
+      "AccuWeather Paris May",
+      "Climate-data Paris May",
+      "Weather25 Paris May 2026"
+    ],
+    "key_uncertainty": "Warm front/anomalously mild airmass overnight.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.33,
+    "claude_prob": 0.06,
+    "delta": -0.27,
+    "suggested_direction": "no"
+  }
+}

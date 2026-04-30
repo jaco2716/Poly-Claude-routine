@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.124192+00:00",
+  "market": {
+    "id": "2126655",
+    "condition_id": "0x479fb3538eeb2362511c2ca2813ba1ca388146d5753075aae909eb6497d1e966",
+    "question": "Will there be exactly 2 major space weather events this week?",
+    "category": "weather",
+    "slug": "will-there-be-exactly-2-major-space-weather-events-this-week-799",
+    "end_date": "2026-05-09T00:00:00Z",
+    "yes_price": 0.48,
+    "no_price": 0.52,
+    "liquidity": 96.9469,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.4,
+    "reasoning": "G3+/S3+/R3+ events in a single week historically average <1 even near solar max; 'exactly 2' implies a moderately active week. Recent week showed only G1/R1 events, but AR4420 has been productive with M-flares and a CME stream is approaching. Plausible but specific count is hard to pin down.",
+    "data_sources": [
+      "NOAA SWPC weekly outlook",
+      "earthsky.org sun news Apr 26-30"
+    ],
+    "key_uncertainty": "Distribution across exact integer counts is highly uncertain.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.48,
+    "claude_prob": 0.15,
+    "delta": -0.33,
+    "suggested_direction": "no"
+  }
+}

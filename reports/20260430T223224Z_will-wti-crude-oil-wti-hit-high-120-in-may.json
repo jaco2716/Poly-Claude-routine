@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.121250+00:00",
+  "market": {
+    "id": "2074236",
+    "condition_id": "0x416e3cbe25a60b8210f4e67c056ea2b03f4d511e7b969826d69ef90b753ff214",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-120-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.47,
+    "no_price": 0.53,
+    "liquidity": 28043.002,
+    "volume_24h": 188190.32148699995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.5,
+    "reasoning": "WTI active month near $108 today with intraday high ~$110.9. $120 intraday in May means just +9% upside spike. With ongoing US-Iran rally and recent +$7/bbl moves, hitting $120 intraday in 31 days is very plausible.",
+    "data_sources": [
+      "CNBC Apr 30 oil price update",
+      "TradingEconomics"
+    ],
+    "key_uncertainty": "Cooldown in Iran tensions could cap upside; OPEC supply moves.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.47,
+    "claude_prob": 0.42,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

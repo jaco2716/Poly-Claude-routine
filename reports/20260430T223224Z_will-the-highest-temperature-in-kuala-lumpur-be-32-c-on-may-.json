@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T22:32:24.123409+00:00",
+  "market": {
+    "id": "2122628",
+    "condition_id": "0xa0e60a87f63bd8af76ce411760d048de5dece2e1c0324af2150cc6b7c868bb1d",
+    "question": "Will the highest temperature in Kuala Lumpur be 32\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-kuala-lumpur-on-may-2-2026-32c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 973.1197,
+    "volume_24h": 204.708686
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "Kuala Lumpur (KLIA) typical May high ~32-33\u00b0C; May 2 forecast ~33\u00b0C with thunderstorm risk that could cap highs. Question requires high in 32\u00b0C bracket - quite plausible given thunderstorm activity often holds peak just below climatology.",
+    "data_sources": [
+      "AccuWeather KL May",
+      "Weather25 KL May 2026",
+      "Weather Spark KL"
+    ],
+    "key_uncertainty": "Whether storms shave the daily peak below the integer threshold.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.22,
+    "delta": 0.065,
+    "suggested_direction": "yes"
+  }
+}

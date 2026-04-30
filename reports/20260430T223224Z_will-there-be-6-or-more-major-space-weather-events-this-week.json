@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.123666+00:00",
+  "market": {
+    "id": "2126659",
+    "condition_id": "0x3cb2706220dfd8c105a7c25aacb1405dbb6625e502bc8ef599c866575f14a4ea",
+    "question": "Will there be 6 or more major space weather events this week?",
+    "category": "weather",
+    "slug": "will-there-be-6-or-more-major-space-weather-events-this-week-653",
+    "end_date": "2026-05-09T00:00:00Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 98.8816,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.5,
+    "reasoning": "Resolution counts G3+/S3+/R3+ events between May 3-9 2026. Recent week showed only G1 storming and isolated R1 blackouts; no G3-class events. Even at solar max, 6+ severe events in one week is rare; this would require extreme solar activity not currently forecast.",
+    "data_sources": [
+      "NOAA SWPC weekly highlights",
+      "earthsky.org sun news Apr 26-30 2026"
+    ],
+    "key_uncertainty": "Any unexpected M-X class flare cluster from AR4420/4425 could cause cascading events.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.06,
+    "delta": -0.415,
+    "suggested_direction": "no"
+  }
+}

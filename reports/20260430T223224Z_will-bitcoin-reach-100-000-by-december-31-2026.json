@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.120002+00:00",
+  "market": {
+    "id": "701496",
+    "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-100000-by-december-31-2026-571-361-361",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.395,
+    "no_price": 0.605,
+    "liquidity": 65411.5745,
+    "volume_24h": 30787.596429999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.55,
+    "reasoning": "BTC is ~$75.6-76.5K on Apr 30 2026 and never touched $100K since the Nov 24 2025 window start (high ~$90K). Trend has been bearish through Q1 2026 (low ~$64.7K in March). Needs +32% rally in 8 months to trigger; possible but contrarian to current trend.",
+    "data_sources": [
+      "coingecko BTC live price",
+      "Bitcoin price history Nov 2025-Apr 2026 articles"
+    ],
+    "key_uncertainty": "Macro/geopolitical regime change could spark large rally; trajectory of remaining 8 months.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.395,
+    "claude_prob": 0.22,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

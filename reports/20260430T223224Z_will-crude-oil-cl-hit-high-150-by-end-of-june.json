@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T22:32:24.120787+00:00",
+  "market": {
+    "id": "1494702",
+    "condition_id": "0xeda0e0633f131b761cbe6c6e5e16ae347c48d9448a08c5826bfc2c794b63758e",
+    "question": "Will Crude Oil (CL) hit (HIGH) $150 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-150-by-end-of-june-788-691",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 28279.4139,
+    "volume_24h": 50217.95192800002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.55,
+    "reasoning": "CL front-month settle near ~$105 currently. $150 settlement would require +43% rally and a daily close at that level by end of June. Even with Iran tensions, an extreme outcome; analyst year-end ranges top out around $137.",
+    "data_sources": [
+      "barchart CLM26",
+      "litefinance oil forecast"
+    ],
+    "key_uncertainty": "Extreme geopolitical event in Middle East could spike futures, but settlement bar is high.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.05,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}
