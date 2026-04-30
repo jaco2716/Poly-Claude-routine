@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.926421+00:00",
+  "market": {
+    "id": "2114720",
+    "condition_id": "0x8cca4add68bd7cbe817075fb1f11593f98463641dba4e401f04c3a7ae7315c48",
+    "question": "S&P 500 (SPX) Up or Down on April 30?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T20:00:00Z",
+    "yes_price": 0.375,
+    "no_price": 0.625,
+    "liquidity": 19197.7425,
+    "volume_24h": 29352.696550999983
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.4,
+    "reasoning": "SPX closed 7,135.95 on Apr 29 (-0.04%). ES futures down ~0.22% premarket Apr 30 after Mag 7 (Alphabet, Amazon) earnings reactions. Base daily up rate ~52-54% but premarket bias and post-earnings drag tilts this slightly Down. Estimate Up probability ~40-50%.",
+    "data_sources": [
+      "cnbc.com",
+      "investing.com",
+      "fred.stlouisfed.org"
+    ],
+    "key_uncertainty": "Intraday recovery dynamics; markets can flip from premarket cues.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.375,
+    "claude_prob": 0.45,
+    "delta": 0.075,
+    "suggested_direction": "yes"
+  }
+}

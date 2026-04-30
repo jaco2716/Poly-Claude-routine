@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.925919+00:00",
+  "market": {
+    "id": "1929187",
+    "condition_id": "0xeca080635da47c3fb80cb489dc05174fdfe49144861feed3f2b27718874a3890",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in April?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-115-in-april",
+    "end_date": "2026-04-30T00:00:00Z",
+    "yes_price": 0.16,
+    "no_price": 0.84,
+    "liquidity": 35154.92405,
+    "volume_24h": 309802.659282
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.45,
+    "reasoning": "Question asks if WTI 1-min HIGH hit $115 anywhere in April. Recent April reporting shows highest prints around $103-107 (Apr 29 settle $106.88; intraday high reportedly near $107). With one trading day left (today Apr 30), reaching $115 from ~$103-107 requires an ~8-12% intraday spike \u2014 possible only on shock. Base rate low.",
+    "data_sources": [
+      "cnbc.com",
+      "angle360ng.com",
+      "tradingeconomics.com"
+    ],
+    "key_uncertainty": "Did any earlier April session print briefly above $115? Reporting suggests no, but intraday print resolution can hide spikes.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.16,
+    "claude_prob": 0.15,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

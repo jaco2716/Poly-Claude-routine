@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.924465+00:00",
+  "market": {
+    "id": "1345530",
+    "condition_id": "0x6e1fbd722b0aca8a4e05c7c2f4ff1428d4c97f2ee02056712463d00c1c705a55",
+    "question": "Will Bitcoin reach $80,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-80000-by-december-31-2026-195-842-488-785",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.844,
+    "no_price": 0.156,
+    "liquidity": 60024.09189,
+    "volume_24h": 13806.945337
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.9,
+    "confidence": 0.7,
+    "reasoning": "BTC at ~$76.3K already and 24h range goes to $77.8K. Just needs to touch $80K at any point through Dec 31, 2026 (8 months). Recently traded near $79K and analysts widely expect retest. Highly likely.",
+    "data_sources": [
+      "latestly.com",
+      "coinbase.com",
+      "thecoinrepublic.com"
+    ],
+    "key_uncertainty": "Sustained collapse below $70K with no recovery \u2014 very unlikely over 8 months.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.844,
+    "claude_prob": 0.9,
+    "delta": 0.056,
+    "suggested_direction": "yes"
+  }
+}

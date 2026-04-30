@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.923918+00:00",
+  "market": {
+    "id": "701496",
+    "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-100000-by-december-31-2026-571-361-361",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.4,
+    "no_price": 0.6,
+    "liquidity": 67953.9347,
+    "volume_24h": 18918.978615999997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.55,
+    "reasoning": "BTC currently ~$76.3K per Coinbase/Phemex on April 30, 2026 \u2014 needs ~31% upside to touch $100K by Dec 31, 2026 (8 months). Crypto volatility makes such moves plausible but uncertain; prior cycle peak well above $100K but current trend is consolidative. Slight edge over market.",
+    "data_sources": [
+      "coinbase.com",
+      "phemex.com",
+      "fortune.com"
+    ],
+    "key_uncertainty": "Macro/Fed path and ETF flow trajectory between now and year-end.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4,
+    "claude_prob": 0.42,
+    "delta": 0.02,
+    "suggested_direction": null
+  }
+}

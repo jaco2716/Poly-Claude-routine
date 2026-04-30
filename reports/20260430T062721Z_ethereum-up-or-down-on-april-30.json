@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.928828+00:00",
+  "market": {
+    "id": "2107011",
+    "condition_id": "0x069bbdbd5e7e844d25f61ffc5c25240f8fd0476260e5c140f9a843f0ec9243ee",
+    "question": "Ethereum Up or Down on April 30?",
+    "category": "crypto_price",
+    "slug": "ethereum-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T16:00:00Z",
+    "yes_price": 0.24,
+    "no_price": 0.76,
+    "liquidity": 26863.6526,
+    "volume_24h": 12501.384685999998
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.45,
+    "confidence": 0.25,
+    "reasoning": "Market resolves on Binance ETH/USDT noon ET Apr 29 vs noon ET Apr 30. ETH was ~$2,315 at 9:30 ET Apr 29, ~$2,268 currently early Apr 30. Trend is mildly down, suggesting noon-Apr-30 likely below noon-Apr-29 reference. Lean slightly Down (Up ~40-50%) but very low confidence on intraday timing.",
+    "data_sources": [
+      "finance.yahoo.com",
+      "twelvedata.com",
+      "coindesk.com"
+    ],
+    "key_uncertainty": "Exact noon ET prints; midday recovery possible.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.24,
+    "claude_prob": 0.45,
+    "delta": 0.21,
+    "suggested_direction": "yes"
+  }
+}

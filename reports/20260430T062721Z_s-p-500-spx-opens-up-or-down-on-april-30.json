@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:27:21.926757+00:00",
+  "market": {
+    "id": "2114718",
+    "condition_id": "0xbfd5f3f0f494b089f68f38cf66fdf73d5095c4cc3418c19c6c554a93a5190204",
+    "question": "S&P 500 (SPX) Opens Up or Down on April 30?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T20:00:00Z",
+    "yes_price": 0.24,
+    "no_price": 0.76,
+    "liquidity": 2187.4224,
+    "volume_24h": 13148.161714999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "SPX OPEN Apr 30 vs Apr 29 close 7,135.95. ES futures premarket -0.22% with futures range 7,182-7,188. Premarket suggests open below prior close \u2014 Down bias. Open Up probability ~25-35%.",
+    "data_sources": [
+      "cnbc.com",
+      "investing.com"
+    ],
+    "key_uncertainty": "Late premarket reversal in the last hour before bell.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.24,
+    "claude_prob": 0.3,
+    "delta": 0.06,
+    "suggested_direction": "yes"
+  }
+}

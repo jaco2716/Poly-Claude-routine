@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.927065+00:00",
+  "market": {
+    "id": "2112487",
+    "condition_id": "0x530bdfa0324c4c11f7c38a00d61cfdf27642ddef86777848245b62db76eea365",
+    "question": "Will the highest temperature in Wuhan be 25\u00b0C on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-wuhan-on-may-1-2026-25c",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 986.2535,
+    "volume_24h": 650.428521
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "Wuhan May 1 forecast shows high ~19-20\u00b0C from web sources. Question asks if HIGH = 25\u00b0C exactly (typically a 1\u00b0C bin). Forecast points to 19-20\u00b0C, not 25\u00b0C. Probability of an exact 25\u00b0C high is low given current forecast.",
+    "data_sources": [
+      "aqi.in",
+      "ventusky.com",
+      "weather.com.cn"
+    ],
+    "key_uncertainty": "Forecast may shift; resolution rule of equality (1\u00b0C bin) is narrow.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.18,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

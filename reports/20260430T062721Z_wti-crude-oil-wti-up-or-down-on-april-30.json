@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:27:21.928379+00:00",
+  "market": {
+    "id": "2115056",
+    "condition_id": "0x3339d40ee18c8b6961fdb17c0d1d092d5a1c2aeb2f5c30f76bba754a06db6639",
+    "question": "WTI Crude Oil (WTI) Up or Down on April 30?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T21:00:00Z",
+    "yes_price": 0.615,
+    "no_price": 0.385,
+    "liquidity": 28099.0057,
+    "volume_24h": 30476.177793999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.3,
+    "reasoning": "WTI front month settled $106.88 on Apr 29 (+~7%). Apr 30 outcome depends on geopolitics; an extended oil rally is plausible after big up day, but big up days often see profit-taking. Roughly coin-flip with slight downside drift bias on consolidation days.",
+    "data_sources": [
+      "cnbc.com",
+      "tradingeconomics.com"
+    ],
+    "key_uncertainty": "Iran/Hormuz news-flow during the trading session.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.615,
+    "claude_prob": 0.5,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

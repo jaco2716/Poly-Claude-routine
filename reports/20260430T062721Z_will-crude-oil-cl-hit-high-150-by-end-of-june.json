@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:27:21.925134+00:00",
+  "market": {
+    "id": "1494702",
+    "condition_id": "0xeda0e0633f131b761cbe6c6e5e16ae347c48d9448a08c5826bfc2c794b63758e",
+    "question": "Will Crude Oil (CL) hit (HIGH) $150 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-150-by-end-of-june-788-691",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 40990.6391,
+    "volume_24h": 80413.48866799998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.55,
+    "reasoning": "WTI front month near $103-107; touching $150 high by end of June requires ~40-45% surge in 2 months \u2014 would need full Hormuz closure or major war escalation. Possible tail event but not base case.",
+    "data_sources": [
+      "cnbc.com",
+      "tradingeconomics.com"
+    ],
+    "key_uncertainty": "Direct Iran-Israel/US military escalation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.07,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

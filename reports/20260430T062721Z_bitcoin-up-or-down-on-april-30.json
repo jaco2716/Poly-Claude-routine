@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:27:21.925321+00:00",
+  "market": {
+    "id": "2106970",
+    "condition_id": "0xbd3cca62f6852f790bb01257b64640a69265b5d4e797c45c910b30b46e06c46a",
+    "question": "Bitcoin Up or Down on April 30?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T16:00:00Z",
+    "yes_price": 0.425,
+    "no_price": 0.575,
+    "liquidity": 40829.0974,
+    "volume_24h": 57611.65234899996
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.25,
+    "reasoning": "Market resolves on Binance BTC/USDT noon ET Apr 29 vs noon ET Apr 30. Apr 29 9:30 ET ~$77,160; current Apr 30 ~$76,283 \u2014 but specific noon-to-noon comparison is intraday and noisy. Without high-resolution data near noon, base rate ~50% is the honest estimate.",
+    "data_sources": [
+      "finance.yahoo.com",
+      "coinbase.com"
+    ],
+    "key_uncertainty": "Exact noon ET prints and intraday move between now and 12:00 ET.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.425,
+    "claude_prob": 0.5,
+    "delta": 0.075,
+    "suggested_direction": "yes"
+  }
+}

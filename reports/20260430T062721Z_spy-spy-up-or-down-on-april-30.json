@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:27:21.926579+00:00",
+  "market": {
+    "id": "2115052",
+    "condition_id": "0xe157633bddb5b166cb7e55fff148fd7bab09278c485fae90a4ab6dc75654ab3e",
+    "question": "SPY (SPY) Up or Down on April 30?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T20:00:00Z",
+    "yes_price": 0.38,
+    "no_price": 0.62,
+    "liquidity": 19156.6052,
+    "volume_24h": 35755.738492000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.4,
+    "reasoning": "SPY tracks SPX closely; same setup as SPX up/down. Apr 29 close was -0.04%; ES futures -0.22% premarket Apr 30 after Mag 7 earnings. Slight Down lean. Estimate Up ~40-50%.",
+    "data_sources": [
+      "cnbc.com",
+      "investing.com"
+    ],
+    "key_uncertainty": "Same as SPX \u2014 intraday reversal risk.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.38,
+    "claude_prob": 0.45,
+    "delta": 0.07,
+    "suggested_direction": "yes"
+  }
+}

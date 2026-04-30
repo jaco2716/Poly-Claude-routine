@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:27:21.926895+00:00",
+  "market": {
+    "id": "2122235",
+    "condition_id": "0x99e7e0be5a4281a4c44feb850907ca2627cc3e86968f7de99e966139a31d44f7",
+    "question": "Will the highest temperature in Seattle be between 70-71\u00b0F on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seattle-on-may-2-2026-70-71f",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.28,
+    "no_price": 0.72,
+    "liquidity": 995.6138,
+    "volume_24h": 327.82873600000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.4,
+    "reasoning": "Seattle May 2 forecast: monthly highs in early May average mid-60s F (~17-18\u00b0C); range 59-80\u00b0F. Hitting exactly 70-71\u00b0F (i.e. a 2-degree window) is a narrow band \u2014 base rate for a specific 2-degree bin in this range is ~10-15%. Without a specific NWS daily forecast in hand, I keep confidence moderate.",
+    "data_sources": [
+      "accuweather.com",
+      "weather.com",
+      "world-weather.info"
+    ],
+    "key_uncertainty": "Specific NWS Seattle high for May 2; spring weather variability.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.28,
+    "claude_prob": 0.1,
+    "delta": -0.18,
+    "suggested_direction": "no"
+  }
+}

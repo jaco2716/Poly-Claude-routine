@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:27:21.926179+00:00",
+  "market": {
+    "id": "2074236",
+    "condition_id": "0x416e3cbe25a60b8210f4e67c056ea2b03f4d511e7b969826d69ef90b753ff214",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-120-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 30447.9032,
+    "volume_24h": 77779.14240200003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.5,
+    "reasoning": "WTI ~$103-107; needs $120 high in May (~12-16% rally). Already trending higher with geopolitical premium; one supply scare in May could push it. Reasonable probability around 30-45%.",
+    "data_sources": [
+      "cnbc.com",
+      "tradingeconomics.com"
+    ],
+    "key_uncertainty": "Whether Hormuz tensions intensify or de-escalate in May.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.4,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}
