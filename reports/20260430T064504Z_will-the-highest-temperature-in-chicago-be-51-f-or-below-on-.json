@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.008487+00:00",
+  "market": {
+    "id": "2112306",
+    "condition_id": "0x31fcb879baae94cc5050a0c26996e883d85175d3785a742577406eabcaf36f03",
+    "question": "Will the highest temperature in Chicago be 51\u00b0F or below on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chicago-on-may-1-2026-51forbelow",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.755,
+    "no_price": 0.245,
+    "liquidity": 960.7258,
+    "volume_24h": 1533.339573
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.55,
+    "reasoning": "Chicago O'Hare May 1, 2026 forecast shows a high of 73\u00b0F per public sources. For the high to land at 51\u00b0F or below would require a major cold front blowing in through the resolution window, well below all available forecasts. Probability ~5-12%.",
+    "data_sources": [
+      "accuweather.com Chicago O'Hare May monthly",
+      "weather.gov NWS Chicago",
+      "weather-forecast.com O'Hare forecast 73\u00b0F"
+    ],
+    "key_uncertainty": "Late-spring Midwestern fronts can drop temperatures sharply, but going from forecast 73\u00b0F down to 51\u00b0F is a 22\u00b0F miss.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.755,
+    "claude_prob": 0.08,
+    "delta": -0.675,
+    "suggested_direction": "no"
+  }
+}

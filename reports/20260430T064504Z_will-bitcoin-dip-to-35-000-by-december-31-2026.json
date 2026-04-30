@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-04-30T06:45:04.003485+00:00",
+  "market": {
+    "id": "701503",
+    "condition_id": "0x2745c38ff0617cb345c1d2df19b4f74ea777508e07411e88eeb6ab3affcda2a2",
+    "question": "Will Bitcoin dip to $35,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-35000-by-december-31-2026-744-877-748-219-467-465-646-211-122-947-537-552-555-361-972-954-635-887",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 34451.4188,
+    "volume_24h": 17051.984076
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "BTC at ~$76K needs to dip to $35,000 \u2014 a ~54% drawdown \u2014 by end of 2026. Even with BTC's high volatility, a >50% drawdown in 8 months is rare without a major crisis or cascading liquidations. Historically Bitcoin has had drawdowns of this magnitude over 12-month windows during full bear markets (2022), but starting from a non-bubble level and given current ETF/structural demand, this looks low probability ~8-12%.",
+    "data_sources": [
+      "fortune.com BTC ~$76K April 29 2026",
+      "phemex.com BTC $74-78K range"
+    ],
+    "key_uncertainty": "Severe macro shock or large exchange/regulatory event could trigger this kind of cascade.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.1,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

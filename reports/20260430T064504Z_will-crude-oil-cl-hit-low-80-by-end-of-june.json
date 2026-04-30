@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-04-30T06:45:04.002457+00:00",
+  "market": {
+    "id": "1652706",
+    "condition_id": "0xbaf252e7ac957d6636a6916da51892c9f42e59bfbf808bd4d8e16f194694d2b5",
+    "question": "Will Crude Oil (CL) hit (LOW) $80 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-low-80-by-end-of-june-723-222-171-541",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.455,
+    "no_price": 0.545,
+    "liquidity": 40899.179,
+    "volume_24h": 18110.843893999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "Crude oil (CL) trades near $103, recently bouncing higher amid the ongoing Strait of Hormuz disruption. To hit a settlement of $80 or below by end of June (~2 months) requires a ~22% drop, which would need either a Hormuz resolution AND a demand slump or rapid OPEC+ unwind. Earlier in April CL did dip near $91-92 on negotiation hopes, so a $80 print isn't impossible but is well below recent support. Bias to ~15-25% probability.",
+    "data_sources": [
+      "aljazeera.com oil $106 April 24 2026",
+      "cnbc.com WTI fell to $91.28 negotiation news",
+      "fxdailyreport.com WTI range $98-107",
+      "ing.com analysts raised oil forecasts on Hormuz"
+    ],
+    "key_uncertainty": "Speed of any Iran-US deal and whether that triggers a fast normalization to pre-crisis prices.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.455,
+    "claude_prob": 0.2,
+    "delta": -0.255,
+    "suggested_direction": "no"
+  }
+}

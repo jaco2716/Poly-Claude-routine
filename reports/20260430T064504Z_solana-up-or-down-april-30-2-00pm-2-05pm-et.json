@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-04-30T06:45:04.010418+00:00",
+  "market": {
+    "id": "2118013",
+    "condition_id": "0x238b9e4d641ae33d63baa8fb5deeb04b08cfc82bfd133d357a47b710c2ee617d",
+    "question": "Solana Up or Down - April 30, 2:00PM-2:05PM ET",
+    "category": "crypto_price",
+    "slug": "sol-updown-5m-1777572000",
+    "end_date": "2026-04-30T18:05:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9999.661,
+    "volume_24h": 5.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Solana 5-minute Up/Down windows are essentially symmetric coin flips, with ties resolving to Up per spec (modest tie bias). I cannot independently obtain the exact Chainlink SOL/USD prints at the start and end of a 5-minute window in real time, so I default to the symmetric base rate.",
+    "data_sources": [],
+    "key_uncertainty": "Microstructure \u2014 bid/ask drift, ties, and possible 5-minute trend at the time of resolution.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

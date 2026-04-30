@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.006775+00:00",
+  "market": {
+    "id": "2112382",
+    "condition_id": "0x15b02c30f7e699f9f95704c4e95a3015be463b5c1c569b3557ae64ad1beb9e98",
+    "question": "Will the highest temperature in Tokyo be 21\u00b0C or higher on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-tokyo-on-may-1-2026-21corhigher",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.339,
+    "no_price": 0.661,
+    "liquidity": 999.25605,
+    "volume_24h": 1271.655369
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.45,
+    "reasoning": "Tokyo Haneda May 1 climatological high averages ~21\u00b0C with early-May highs typically 20-22\u00b0C. AccuWeather monthly range for May has highs spanning 17-27\u00b0C. With the threshold sitting right at the average, probability of high being 21\u00b0C or above is roughly coin-flip, slight lean to yes given typical first-week pattern.",
+    "data_sources": [
+      "accuweather.com Haneda May monthly outlook (63-79\u00b0F)",
+      "agatetravel/umetravel Tokyo May early-month avg high ~20.9\u00b0C",
+      "weather25 monthly Tokyo May"
+    ],
+    "key_uncertainty": "Cool front passage on May 1 specifically would push high below 21\u00b0C; no specific high-fidelity day-of forecast located.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.339,
+    "claude_prob": 0.55,
+    "delta": 0.211,
+    "suggested_direction": "yes"
+  }
+}

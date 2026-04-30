@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.008246+00:00",
+  "market": {
+    "id": "2112666",
+    "condition_id": "0x55ee34969d024922c7ac76955e3763e4ec646d296c1759b76e1d371490454bde",
+    "question": "Will the highest temperature in Jakarta be 34\u00b0C on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jakarta-on-may-1-2026-34c",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.31,
+    "no_price": 0.69,
+    "liquidity": 973.4287,
+    "volume_24h": 410.360668
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.45,
+    "reasoning": "Jakarta Halim Perdanakusuma climatological highs in May average ~32\u00b0C, with weather25 forecast showing 29\u00b0C with light drizzle on May 1 specifically. The market needs the high to land exactly in the 34\u00b0C bucket \u2014 well above both the climatological average and the day-of forecast. Probability ~10-18%.",
+    "data_sources": [
+      "weather25.com Jakarta May 1 forecast 29\u00b0C",
+      "weatherspark Jakarta May avg high ~32\u00b0C",
+      "traveloka Jakarta May 32\u00b0C/26\u00b0C"
+    ],
+    "key_uncertainty": "Forecast may be conservative; a clear humid day in early dry-season transition could push high to 33-34\u00b0C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.31,
+    "claude_prob": 0.15,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}

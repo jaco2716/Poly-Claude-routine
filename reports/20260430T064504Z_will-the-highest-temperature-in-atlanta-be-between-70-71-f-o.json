@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.008694+00:00",
+  "market": {
+    "id": "2102183",
+    "condition_id": "0x4de3d52ecd9f132fe65edb512ed4881ab7406cb508e720b7b814e4d4ebdf1236",
+    "question": "Will the highest temperature in Atlanta be between 70-71\u00b0F on April 30?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-atlanta-on-april-30-2026-70-71f",
+    "end_date": "2026-04-30T12:00:00Z",
+    "yes_price": 0.252,
+    "no_price": 0.748,
+    "liquidity": 955.65551,
+    "volume_24h": 1315.3725089999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.45,
+    "reasoning": "Atlanta Hartsfield April 30 (today) forecast shows a high of ~74\u00b0F per AccuWeather/local sources, with cloudy skies and chance of rain shower. The market wants the high to land in the 70-71\u00b0F bucket specifically (a 2-degree window). With forecast at 74\u00b0F, probability of landing 2-3\u00b0F lower is modest, maybe 10-15%.",
+    "data_sources": [
+      "accuweather.com Hartsfield Atlanta April 2026 monthly",
+      "weather-forecast Atlanta",
+      "weatherbug Atlanta"
+    ],
+    "key_uncertainty": "Cloud cover and rain shower could suppress the daily high more than forecast \u2014 but a precise 2\u00b0F bucket hit is a narrow target.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.252,
+    "claude_prob": 0.12,
+    "delta": -0.132,
+    "suggested_direction": "no"
+  }
+}

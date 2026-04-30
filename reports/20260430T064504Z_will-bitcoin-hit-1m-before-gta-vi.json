@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.000788+00:00",
+  "market": {
+    "id": "540844",
+    "condition_id": "0xbb57ccf5853a85487bc3d83d04d669310d28c6c810758953b9d9b91d1aee89d2",
+    "question": "Will bitcoin hit $1m before GTA VI?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-hit-1m-before-gta-vi-872",
+    "end_date": "2026-07-31T12:00:00Z",
+    "yes_price": 0.4895,
+    "no_price": 0.5105,
+    "liquidity": 126557.74379,
+    "volume_24h": 13451.406641999982
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.55,
+    "reasoning": "BTC trades near $76K on April 30, 2026 \u2014 reaching $1M (a ~13x move) before July 31, 2026 is essentially impossible. GTA VI is officially set for Nov 19, 2026 release per Rockstar, after the July 31 cutoff. So neither side triggers and the market resolves 50-50 per its description, giving an effective YES probability of 0.5.",
+    "data_sources": [
+      "rockstargames.com newswire (GTA VI Nov 19 2026 release)",
+      "fortune.com BTC price ~$76K April 29-30 2026",
+      "phemex.com BTC range $74-78K"
+    ],
+    "key_uncertainty": "Possibility of a rare unannounced GTA VI release shift, but Rockstar just confirmed Nov 19, 2026 \u2014 extremely unlikely.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4895,
+    "claude_prob": 0.5,
+    "delta": 0.0105,
+    "suggested_direction": null
+  }
+}

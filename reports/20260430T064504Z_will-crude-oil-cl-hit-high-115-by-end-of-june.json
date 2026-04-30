@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.003721+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.754,
+    "no_price": 0.246,
+    "liquidity": 30808.67243,
+    "volume_24h": 21378.043387
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.5,
+    "reasoning": "CL trades around $103-109 with the Strait of Hormuz blockade ongoing. To hit a settlement of $115+ by end of June requires another ~12% from recent highs. With Iran-US deadlocked and supply at ~70%+ disruption, a further escalation easily prints $115. But normalization paths exist too. Roughly 50-60%.",
+    "data_sources": [
+      "aljazeera.com oil $106 April 24 2026",
+      "fxdailyreport.com WTI range up to $109.41",
+      "ing.com Hormuz disruption raises forecasts"
+    ],
+    "key_uncertainty": "Whether Iran-US negotiations actually de-escalate or whether the blockade tightens further.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.754,
+    "claude_prob": 0.55,
+    "delta": -0.204,
+    "suggested_direction": "no"
+  }
+}

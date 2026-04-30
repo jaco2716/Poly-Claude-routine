@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-04-30T06:45:04.009068+00:00",
+  "market": {
+    "id": "2106970",
+    "condition_id": "0xbd3cca62f6852f790bb01257b64640a69265b5d4e797c45c910b30b46e06c46a",
+    "question": "Bitcoin Up or Down on April 30?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-april-30-2026",
+    "end_date": "2026-04-30T16:00:00Z",
+    "yes_price": 0.535,
+    "no_price": 0.465,
+    "liquidity": 19184.5935,
+    "volume_24h": 38420.402385
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.45,
+    "reasoning": "Resolves at 12:00 ET Apr 30 vs 12:00 ET Apr 29 BTCUSDT close. BTC was trading ~$77,500 mid-morning Apr 29 and dropped to ~$75,650 by 1:49 AM EDT Apr 30 \u2014 a ~2% slide. With price still drifting down and intraday momentum negative, a recovery above the Apr 29 noon close by Apr 30 noon ET is less than 50/50. Probability of UP (YES) ~30-40%.",
+    "data_sources": [
+      "yahoo finance BTC/ETH April 29 2026 falling",
+      "fortune BTC April 29-30 2026",
+      "phemex BTC April 30 2026 ~$75,650"
+    ],
+    "key_uncertainty": "Short-term reversals in BTC are common; an intraday bounce in the next several hours could flip resolution.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.535,
+    "claude_prob": 0.35,
+    "delta": -0.185,
+    "suggested_direction": "no"
+  }
+}
