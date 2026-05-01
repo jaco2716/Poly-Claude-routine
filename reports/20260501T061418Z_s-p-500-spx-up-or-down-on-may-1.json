@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T06:14:18.096253+00:00",
+  "market": {
+    "id": "2124563",
+    "condition_id": "0xa41594ffc5f9d9f9402f10c1eff2b9afd35f7cae96c7ec18031bd83c9226c2b7",
+    "question": "S&P 500 (SPX) Up or Down on May 1?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.7,
+    "no_price": 0.3,
+    "liquidity": 11887.8348,
+    "volume_24h": 23364.743724
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.55,
+    "confidence": 0.3,
+    "reasoning": "SPX up/down on May 1 essentially mirrors SPY. Apr 30 SPY closed 714.11 vs 711.58 prior. Slight positive momentum but Fed higher-for-longer and oil headwinds. No confident directional edge.",
+    "data_sources": [
+      "Yahoo Finance SPY",
+      "Substack levels"
+    ],
+    "key_uncertainty": "Intraday May 1 tape and macro news.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.7,
+    "claude_prob": 0.55,
+    "delta": -0.15,
+    "suggested_direction": "no"
+  }
+}

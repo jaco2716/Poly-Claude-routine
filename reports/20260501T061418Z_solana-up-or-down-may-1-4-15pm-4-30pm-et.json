@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-01T06:14:18.096614+00:00",
+  "market": {
+    "id": "2127854",
+    "condition_id": "0x14837e93b720abc75086fdb814c4a9914fac6fd8aca737791db8a71a2644922b",
+    "question": "Solana Up or Down - May 1, 4:15PM-4:30PM ET",
+    "category": "crypto_price",
+    "slug": "sol-updown-15m-1777666500",
+    "end_date": "2026-05-01T20:30:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9415.0554,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "SOL 15-minute window 4:15-4:30 PM ET on May 1 is essentially a coin flip. No skill edge from public data.",
+    "data_sources": [
+      "base rate"
+    ],
+    "key_uncertainty": "Short-window random noise.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

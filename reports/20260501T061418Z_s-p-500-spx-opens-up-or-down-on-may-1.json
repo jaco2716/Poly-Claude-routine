@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T06:14:18.096867+00:00",
+  "market": {
+    "id": "2124564",
+    "condition_id": "0x5ebc6ff00e7b1756280666985abe17e3b74c1f26c66b7b38839f9db07fb438fa",
+    "question": "S&P 500 (SPX) Opens Up or Down on May 1?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.725,
+    "no_price": 0.275,
+    "liquidity": 6695.4149,
+    "volume_24h": 10075.461589
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.6,
+    "confidence": 0.4,
+    "reasoning": "SPX 'Opens Up or Down on May 1' compares 9:30 AM ET print vs prior close. SPY closed Apr 30 at 714.11 with intraday range pointing higher; futures were trending positive into May 1. Slight positive bias.",
+    "data_sources": [
+      "Yahoo Finance SPY",
+      "Substack Friday May 1 levels"
+    ],
+    "key_uncertainty": "Overnight futures gaps and economic releases at 8:30 AM ET.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.725,
+    "claude_prob": 0.6,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

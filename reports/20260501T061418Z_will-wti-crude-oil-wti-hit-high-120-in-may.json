@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T06:14:18.093481+00:00",
+  "market": {
+    "id": "2074236",
+    "condition_id": "0x416e3cbe25a60b8210f4e67c056ea2b03f4d511e7b969826d69ef90b753ff214",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $120 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-120-in-may-2026-592",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.525,
+    "no_price": 0.475,
+    "liquidity": 37408.5074,
+    "volume_24h": 116250.24967300001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.7,
+    "reasoning": "WTI front-month near $104 on May 1, recently spiked above $110 on Iran tensions then pulled back. Hitting $120 (any 1-min high) requires another ~15% move in 31 days. Plausible if Middle East situation escalates further but base-rate for that magnitude monthly move is modest.",
+    "data_sources": [
+      "oilprice.com",
+      "EIA Today in Energy",
+      "fxdailyreport"
+    ],
+    "key_uncertainty": "Pace and severity of Iran/Strait of Hormuz developments and OPEC+ response.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.525,
+    "claude_prob": 0.3,
+    "delta": -0.225,
+    "suggested_direction": "no"
+  }
+}

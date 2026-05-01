@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T06:14:18.094791+00:00",
+  "market": {
+    "id": "2124744",
+    "condition_id": "0x5be4491cf3562a2318be46f49bb21e39f6fe1d424a173836b93da856c8d5694f",
+    "question": "WTI Crude Oil (WTI) Up or Down on May 1?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T21:00:00Z",
+    "yes_price": 0.525,
+    "no_price": 0.475,
+    "liquidity": 29780.668,
+    "volume_24h": 20060.921210999997
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "WTI Up or Down on May 1 (resolves 5pm ET). Lack precise intraday May 1 reference open vs current. Recent reports show choppy action between $104 and $110+. No reliable directional edge for today.",
+    "data_sources": [
+      "oilprice.com",
+      "fxdailyreport"
+    ],
+    "key_uncertainty": "Today's intraday move and exact reference price.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.525,
+    "claude_prob": 0.5,
+    "delta": -0.025,
+    "suggested_direction": null
+  }
+}

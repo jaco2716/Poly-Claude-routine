@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T06:14:18.099490+00:00",
+  "market": {
+    "id": "1652690",
+    "condition_id": "0x0443a503a38b90446c8a3826db5ee1323144197ef2b4ed09bcdf545ac104dfcb",
+    "question": "Will Crude Oil (CL) hit (HIGH) $140 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-140-by-end-of-june-828-295-574-155",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 16657.7754,
+    "volume_24h": 40475.95121100002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.75,
+    "reasoning": "WTI ~$104 needs +35% to hit $140 (1-min high) by end of June. Recent geopolitical risk has only produced a brief move to ~$110. A move of this magnitude in 60 days requires a major supply shock.",
+    "data_sources": [
+      "oilprice.com",
+      "EIA",
+      "fxdailyreport"
+    ],
+    "key_uncertainty": "Black-swan supply shock from Middle East war.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.08,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

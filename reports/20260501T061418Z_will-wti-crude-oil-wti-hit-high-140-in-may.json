@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T06:14:18.092651+00:00",
+  "market": {
+    "id": "2074234",
+    "condition_id": "0xd86177011df25e467bdfa1c25481edaf1006e88da184965173e03c8d1cc4f2d6",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $140 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-140-in-may-2026-916",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.15,
+    "no_price": 0.85,
+    "liquidity": 40875.52496,
+    "volume_24h": 74475.46962499997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.85,
+    "reasoning": "WTI front-month is around $104 on May 1 with brief geopolitical spike to ~$110 reported. To hit $140 (any 1-min candle high) requires a +35% move in 31 days. Even Iran-Strait of Hormuz risk premium has not produced anything near $140; would require a serious supply shock.",
+    "data_sources": [
+      "oilprice.com",
+      "fxdailyreport.com",
+      "EIA"
+    ],
+    "key_uncertainty": "Major Middle East escalation closing the Strait of Hormuz could spike prices unpredictably.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.15,
+    "claude_prob": 0.05,
+    "delta": -0.1,
+    "suggested_direction": "no"
+  }
+}

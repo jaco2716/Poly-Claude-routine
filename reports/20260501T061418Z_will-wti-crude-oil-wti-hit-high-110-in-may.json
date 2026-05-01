@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T06:14:18.095838+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.83,
+    "no_price": 0.17,
+    "liquidity": 27473.9516,
+    "volume_24h": 67593.71805700005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.6,
+    "reasoning": "WTI front-month already touched ~$110 in late April per news reports of brief spike toward 2022 highs. Question is whether ANY 1-min candle high in May reaches $110. Given recent volatility, current $104 base, and ongoing Iran risk, probability is fairly high.",
+    "data_sources": [
+      "oilprice.com",
+      "EIA",
+      "fxdailyreport"
+    ],
+    "key_uncertainty": "Whether the late-April spike to ~$110 occurred before or after the May 1 start of the resolution window.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.83,
+    "claude_prob": 0.7,
+    "delta": -0.13,
+    "suggested_direction": "no"
+  }
+}

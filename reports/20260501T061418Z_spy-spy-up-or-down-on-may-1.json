@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T06:14:18.096004+00:00",
+  "market": {
+    "id": "2124740",
+    "condition_id": "0x30d59cf93ec455404e2c51479cec1ad7c2687bdb0ba5a083044fdccece086278",
+    "question": "SPY (SPY) Up or Down on May 1?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.715,
+    "no_price": 0.285,
+    "liquidity": 20034.8565,
+    "volume_24h": 180177.02539199995
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.55,
+    "confidence": 0.3,
+    "reasoning": "SPY closed Apr 30 at 714.11 (up from 711.58). May 1 'Up or Down' resolves at 4pm ET on close vs prior close. Without intraday May 1 data, slight positive bias from market trend, but Fed higher-for-longer and rising oil are headwinds.",
+    "data_sources": [
+      "Yahoo Finance SPY",
+      "Substack daily levels"
+    ],
+    "key_uncertainty": "Today's intraday tape and macro headlines.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.715,
+    "claude_prob": 0.55,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}

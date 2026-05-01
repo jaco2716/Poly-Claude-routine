@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T06:14:18.096133+00:00",
+  "market": {
+    "id": "2116611",
+    "condition_id": "0x58a107191d81d9e0bc0c48b85320406c72143291e24466ac544fa4cac50ba89d",
+    "question": "Ethereum Up or Down on May 1?",
+    "category": "crypto_price",
+    "slug": "ethereum-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T16:00:00Z",
+    "yes_price": 0.745,
+    "no_price": 0.255,
+    "liquidity": 18411.6153,
+    "volume_24h": 25131.041503999997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.4,
+    "reasoning": "ETH around $2,228-$2,250 with conflicting 24h prints (one source -2.99%, others showing CRT sweep done and recovery). Resolution at noon ET. Negative momentum slightly outweighs recovery narrative; not a confident edge.",
+    "data_sources": [
+      "Yahoo ETH-USD",
+      "Coinedition ETH May 2026 prediction",
+      "CoinGecko"
+    ],
+    "key_uncertainty": "Reference prior close definition and current intraday direction.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.745,
+    "claude_prob": 0.42,
+    "delta": -0.325,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T06:14:18.097394+00:00",
+  "market": {
+    "id": "2122630",
+    "condition_id": "0x90854f3acedb5e3267f83c20f73d71b616fee9e6f19310e5acec9fba09a68e99",
+    "question": "Will the highest temperature in Kuala Lumpur be 34\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-kuala-lumpur-on-may-2-2026-34c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.305,
+    "no_price": 0.695,
+    "liquidity": 998.7903,
+    "volume_24h": 282.40487199999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.6,
+    "reasoning": "Kuala Lumpur high forecast for May 2 is around 32\u00b0C (90-92\u00b0F per WeatherBug 10-day). Question asks for exact 34\u00b0C bucket. Forecast undershoots by ~2\u00b0C. Probability landing exactly in 34\u00b0C bucket is modest given KL's typical May highs of 32-34\u00b0C.",
+    "data_sources": [
+      "AccuWeather KL May",
+      "WeatherBug 10-day"
+    ],
+    "key_uncertainty": "Bucket width and exact rounding rules; daily variability in tropical climates.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.305,
+    "claude_prob": 0.22,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

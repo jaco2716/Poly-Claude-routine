@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T06:14:18.097801+00:00",
+  "market": {
+    "id": "2122530",
+    "condition_id": "0x5f49205b2297bfbd338a28338f3dfdebcc7e542b8a35605ebe31e9d8e4a10ed5",
+    "question": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-los-angeles-on-may-2-2026-68-69f",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.425,
+    "no_price": 0.575,
+    "liquidity": 991.3673,
+    "volume_24h": 231.786928
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.7,
+    "reasoning": "LA forecast for May 2 is around 77\u00b0F high (early-May average ~77.5\u00b0F). Question requires high to land in the narrow 68-69\u00b0F bucket \u2014 that's 8-9\u00b0F below forecast. Would need an unusual cool marine layer day.",
+    "data_sources": [
+      "AccuWeather LA",
+      "World-Weather LA May"
+    ],
+    "key_uncertainty": "Onshore flow / June gloom-style cooling that could occur in early May.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.425,
+    "claude_prob": 0.08,
+    "delta": -0.345,
+    "suggested_direction": "no"
+  }
+}
