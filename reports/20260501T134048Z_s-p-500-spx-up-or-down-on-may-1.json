@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.034576+00:00",
+  "market": {
+    "id": "2124563",
+    "condition_id": "0xa41594ffc5f9d9f9402f10c1eff2b9afd35f7cae96c7ec18031bd83c9226c2b7",
+    "question": "S&P 500 (SPX) Up or Down on May 1?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.69,
+    "no_price": 0.31,
+    "liquidity": 6510.0043,
+    "volume_24h": 29823.188
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.25,
+    "reasoning": "SPX closed 7,209.01 April 30. May 1 opened mixed with morning SPX -11 points despite Apple +3% premarket. Conflicting signals: oil/Iran drag vs strong AAPL/EL earnings. Near coin-flip with slight lean Up given AAPL weight in index.",
+    "data_sources": [
+      "CNBC May 1 2026 daily open",
+      "TheStreet stock market May 1"
+    ],
+    "key_uncertainty": "Afternoon momentum, Iran headlines, end-of-week positioning",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.69,
+    "claude_prob": 0.52,
+    "delta": -0.17,
+    "suggested_direction": "no"
+  }
+}

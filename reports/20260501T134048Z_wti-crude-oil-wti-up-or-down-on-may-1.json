@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.031773+00:00",
+  "market": {
+    "id": "2124744",
+    "condition_id": "0x5be4491cf3562a2318be46f49bb21e39f6fe1d424a173836b93da856c8d5694f",
+    "question": "WTI Crude Oil (WTI) Up or Down on May 1?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T21:00:00Z",
+    "yes_price": 0.485,
+    "no_price": 0.515,
+    "liquidity": 25602.4351,
+    "volume_24h": 31282.897823999992
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "WTI near $106 mid-day May 1 with extreme intraday range $103.38-$110.90 driven by Hormuz uncertainty. CNBC reported oil falling early May 1 but no clean read on prior close vs current. High volatility plus mixed signals leave near 50/50.",
+    "data_sources": [
+      "FXLeaders WTI May 1 2026",
+      "CNBC Dow futures May 1"
+    ],
+    "key_uncertainty": "Whether daily settlement lands above or below April 30 close given erratic Hormuz news flow",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.485,
+    "claude_prob": 0.5,
+    "delta": 0.015,
+    "suggested_direction": null
+  }
+}

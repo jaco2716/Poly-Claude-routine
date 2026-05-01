@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.036237+00:00",
+  "market": {
+    "id": "2130028",
+    "condition_id": "0x26a54b3137d7893f8bd56f6f6c51fc30ba2e670975c22374e3629d59f77ddf10",
+    "question": "Will the highest temperature in Singapore be 33\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-singapore-on-may-3-2026-33c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.28,
+    "no_price": 0.72,
+    "liquidity": 999.7533,
+    "volume_24h": 194.355772
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.45,
+    "reasoning": "NEA two-week outlook for late April-early May 2026 forecasts daily highs 33-35\u00b0C in Singapore with afternoon thunder activity. Bucket of exactly 33\u00b0C is plausible but competes with 34\u00b0C; probability ~30-35%.",
+    "data_sources": [
+      "NEA Singapore outlook",
+      "AccuWeather Singapore May"
+    ],
+    "key_uncertainty": "Cloud/shower timing at Changi station could shift peak by 1-2\u00b0C",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.28,
+    "claude_prob": 0.32,
+    "delta": 0.04,
+    "suggested_direction": null
+  }
+}

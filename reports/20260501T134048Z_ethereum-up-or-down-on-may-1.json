@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-01T13:40:48.032388+00:00",
+  "market": {
+    "id": "2116611",
+    "condition_id": "0x58a107191d81d9e0bc0c48b85320406c72143291e24466ac544fa4cac50ba89d",
+    "question": "Ethereum Up or Down on May 1?",
+    "category": "crypto_price",
+    "slug": "ethereum-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T16:00:00Z",
+    "yes_price": 0.715,
+    "no_price": 0.285,
+    "liquidity": 18229.5829,
+    "volume_24h": 41830.653167000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.6,
+    "confidence": 0.3,
+    "reasoning": "ETH trading $2,261 May 1 with 24H high $2,275 / low $2,232 and +1.31% over 24h. Mild positive momentum with risk-on equity tone (SPX record, Apple beat) supports modest tilt to Up, but resolution depends on exact reference window.",
+    "data_sources": [
+      "CoinGecko ETH live May 1 2026"
+    ],
+    "key_uncertainty": "Exact reference time/price for the resolution and whether late-day macro headlines flip direction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.715,
+    "claude_prob": 0.6,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

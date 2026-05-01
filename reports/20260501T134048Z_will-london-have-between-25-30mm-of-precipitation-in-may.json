@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.038407+00:00",
+  "market": {
+    "id": "2106451",
+    "condition_id": "0x9653edc0712a5da2d1f4ad71bf8c22680da7333c2496694e22c7fe5a31c89976",
+    "question": "Will London have between 25-30mm of precipitation in May?",
+    "category": "weather",
+    "slug": "will-london-have-between-25-30mm-of-precipitation-in-may",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.15,
+    "no_price": 0.85,
+    "liquidity": 96.2878,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.4,
+    "reasoning": "London May average precipitation is ~60mm. The 25-30mm bucket is well below mean (~1.2-1.5 std dev away). Probability of landing in any given 5mm bucket below mean is small; historical base rate ~7-10%.",
+    "data_sources": [
+      "Easeweather London May",
+      "climate-data.org London May"
+    ],
+    "key_uncertainty": "Mid-month dry pattern could pull the total into the lower buckets",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.15,
+    "claude_prob": 0.08,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}

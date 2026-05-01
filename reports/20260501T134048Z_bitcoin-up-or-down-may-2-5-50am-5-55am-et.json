@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-01T13:40:48.032664+00:00",
+  "market": {
+    "id": "2131696",
+    "condition_id": "0xb2f3b806422caaf9867af5b327a0f2c6cbf2af818bda83b2b83f1cce60c25d49",
+    "question": "Bitcoin Up or Down - May 2, 5:50AM-5:55AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1777715400",
+    "end_date": "2026-05-02T09:55:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9995.4354,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.05,
+    "reasoning": "5-minute crypto up/down window is essentially a coin flip; no edge available from public data. Skip with low confidence.",
+    "data_sources": [],
+    "key_uncertainty": "Microstructure noise dominates 5-minute windows",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

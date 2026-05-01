@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.034888+00:00",
+  "market": {
+    "id": "2124564",
+    "condition_id": "0x5ebc6ff00e7b1756280666985abe17e3b74c1f26c66b7b38839f9db07fb438fa",
+    "question": "S&P 500 (SPX) Opens Up or Down on May 1?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.715,
+    "no_price": 0.285,
+    "liquidity": 1744.999,
+    "volume_24h": 24813.807297000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.25,
+    "reasoning": "Reports describe May 1 open as 'mixed' with futures setups varying; SPX -11 points reported in morning trading. Signal too noisy to call open direction with confidence \u2014 near 50/50.",
+    "data_sources": [
+      "TheStreet May 1 2026",
+      "CNBC SPX intraday"
+    ],
+    "key_uncertainty": "Open auction reaction to overnight Iran/oil headlines",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.715,
+    "claude_prob": 0.5,
+    "delta": -0.215,
+    "suggested_direction": "no"
+  }
+}

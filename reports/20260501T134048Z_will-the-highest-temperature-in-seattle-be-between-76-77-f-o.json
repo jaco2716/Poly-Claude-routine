@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.037618+00:00",
+  "market": {
+    "id": "2129874",
+    "condition_id": "0x10ebba4b78a667cc98faf556d007d07ef95677bf4bba4e729d253ccec576b6e0",
+    "question": "Will the highest temperature in Seattle be between 76-77\u00b0F on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seattle-on-may-3-2026-76-77f",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.185,
+    "no_price": 0.815,
+    "liquidity": 991.0375,
+    "volume_24h": 27.528663
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.55,
+    "reasoning": "NWS-style forecast for Seattle May 3 shows high near 70\u00b0F. Hitting the narrow 76-77\u00b0F bucket would require ~6-7\u00b0F above forecast \u2014 well into the tail; probability ~5-10%.",
+    "data_sources": [
+      "AccuWeather Seattle May 3 2026",
+      "NWS Seattle forecast"
+    ],
+    "key_uncertainty": "Marine layer breakdown and offshore flow could push temps higher than expected",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.185,
+    "claude_prob": 0.08,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

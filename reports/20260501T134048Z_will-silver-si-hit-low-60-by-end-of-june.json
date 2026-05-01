@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.034117+00:00",
+  "market": {
+    "id": "1032345",
+    "condition_id": "0x898e9ff5045fcd05c26ea1e956d926c191d5aecae1bc184283c94e665f0f7be5",
+    "question": "Will Silver (SI) hit (LOW) $60 by end of June?",
+    "category": "commodity",
+    "slug": "si-hit-60-low-jun-2026-623-142-589-525-252",
+    "end_date": "2026-06-30T17:30:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 9733.8202,
+    "volume_24h": 13.26
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.75,
+    "reasoning": "Silver trading near $75.70 May 1 (May'26 futures) \u2014 would require ~21% drop to touch $60. Macro backdrop (Iran war, Hormuz closure, inflation worries) is bullish for precious metals; 8-week downside to $60 is a tail event with very low base-rate.",
+    "data_sources": [
+      "CNBC SI futures",
+      "Investing.com silver"
+    ],
+    "key_uncertainty": "Sudden ceasefire / dollar surge could compress metals but unlikely to retrace this much in 2 months",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.05,
+    "delta": -0.285,
+    "suggested_direction": "no"
+  }
+}

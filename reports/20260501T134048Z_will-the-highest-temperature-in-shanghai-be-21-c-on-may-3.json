@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.038077+00:00",
+  "market": {
+    "id": "2130013",
+    "condition_id": "0xbcf619eb1837d3c4abcaac71cd0c3421b4feb5e0f576b94b7407b281e58a64c2",
+    "question": "Will the highest temperature in Shanghai be 21\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shanghai-on-may-3-2026-21c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.28,
+    "no_price": 0.72,
+    "liquidity": 983.2666,
+    "volume_24h": 297.88113799999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.45,
+    "reasoning": "Shanghai May 3 forecast high is ~24\u00b0C (80\u00b0F); typical first-half-May highs 20-27\u00b0C. The 21\u00b0C bucket is 3\u00b0C below forecast \u2014 probability ~10-15%.",
+    "data_sources": [
+      "TravelChinaGuide Shanghai May 3",
+      "ChinaHighlights Shanghai May"
+    ],
+    "key_uncertainty": "Cool maritime air mass or rain could depress peak temperature",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.28,
+    "claude_prob": 0.12,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}

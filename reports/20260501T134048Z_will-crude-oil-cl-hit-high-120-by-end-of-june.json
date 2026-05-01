@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.032184+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.595,
+    "no_price": 0.405,
+    "liquidity": 23035.7561,
+    "volume_24h": 10911.729821000017
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.55,
+    "reasoning": "WTI near $106 with today's high already $110.90; EIA forecasts Q2 peak ~$115. Touching $120 by end of June requires another ~13% upside from current \u2014 plausible if Hormuz remains shut and conflict escalates, but not the base case in EIA's central forecast. Moderate odds.",
+    "data_sources": [
+      "FXLeaders WTI May 1 2026",
+      "EIA Q2 forecast"
+    ],
+    "key_uncertainty": "Whether Hormuz reopens vs further escalation pushing oil into the $120s",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.595,
+    "claude_prob": 0.5,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

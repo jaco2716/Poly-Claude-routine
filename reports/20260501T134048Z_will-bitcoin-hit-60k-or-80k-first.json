@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-01T13:40:48.030477+00:00",
+  "market": {
+    "id": "1357099",
+    "condition_id": "0xecd961f60dad9a8f4f25f717bc6771e09cddf3077657aafc67a6a528c92aad55",
+    "question": "Will Bitcoin hit $60k or $80k first?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-hit-60k-or-80k-first-965",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.245,
+    "no_price": 0.755,
+    "liquidity": 29924.5164,
+    "volume_24h": 19346.464720000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.5,
+    "reasoning": "BTC near $76,500: needs +5% to touch $80k vs -21% to touch $60k. Proximity heavily favors $80k first under most random walks. Some weight given to current macro stress (Iran/Hormuz) increasing chance of a deeper pullback before any rally.",
+    "data_sources": [
+      "LatestLY May 1 2026 BTC price"
+    ],
+    "key_uncertainty": "Path dependency over 8 months and how aggressively macro shocks transmit to crypto",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.245,
+    "claude_prob": 0.25,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

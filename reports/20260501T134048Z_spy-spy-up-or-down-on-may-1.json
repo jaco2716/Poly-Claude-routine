@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.027966+00:00",
+  "market": {
+    "id": "2124740",
+    "condition_id": "0x30d59cf93ec455404e2c51479cec1ad7c2687bdb0ba5a083044fdccece086278",
+    "question": "SPY (SPY) Up or Down on May 1?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.685,
+    "no_price": 0.315,
+    "liquidity": 38785.1269,
+    "volume_24h": 228330.58856799995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.3,
+    "reasoning": "SPY closed ~$715.67 April 30 with SPX 7209.01. May 1 opened slightly down (~SPX -11) per intraday reports despite Apple +3% premarket beat. Mixed signals with oil/Iran headwind vs strong earnings; daily up/down has near coin-flip base rate.",
+    "data_sources": [
+      "TheStreet stock market May 1 2026",
+      "CNBC SPX intraday"
+    ],
+    "key_uncertainty": "Afternoon momentum and whether AAPL gains overcome energy/oil drag",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.685,
+    "claude_prob": 0.52,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}

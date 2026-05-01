@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-01T13:40:48.033966+00:00",
+  "market": {
+    "id": "2130655",
+    "condition_id": "0x5b35871b8db8302124a4b751efe292a73d32d3e8a83ccd2cc9f872acac7236e8",
+    "question": "Ethereum Up or Down - May 2, 1:10AM-1:15AM ET",
+    "category": "crypto_price",
+    "slug": "eth-updown-5m-1777698600",
+    "end_date": "2026-05-02T05:15:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9987.9641,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.05,
+    "reasoning": "5-minute crypto up/down window is essentially a coin flip; no edge available from public data. Skip with low confidence.",
+    "data_sources": [],
+    "key_uncertainty": "Microstructure noise dominates 5-minute windows",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

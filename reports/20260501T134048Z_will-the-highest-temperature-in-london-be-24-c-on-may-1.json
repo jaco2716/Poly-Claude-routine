@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.035329+00:00",
+  "market": {
+    "id": "2112191",
+    "condition_id": "0xac8c3a0a1b754fd5d26bb629c238d36a3ac6da62d98ea67d8755b3a3a0bebefb",
+    "question": "Will the highest temperature in London be 24\u00b0C on May 1?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-1-2026-24c",
+    "end_date": "2026-05-01T12:00:00Z",
+    "yes_price": 0.58,
+    "no_price": 0.42,
+    "liquidity": 1124.2292,
+    "volume_24h": 9679.39540500001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.45,
+    "reasoning": "Met Office/BBC forecasts cluster the May 1 London high around 24-25\u00b0C per market consensus reporting. Bucket is exactly 24\u00b0C; within a 2\u00b0C cluster the bucket probability is roughly 40-50% with some weight to 25\u00b0C neighbor.",
+    "data_sources": [
+      "Easeweather London May 2026",
+      "Polymarket London May 1 event"
+    ],
+    "key_uncertainty": "Whether late-morning warming pushes the daily peak above 24.5\u00b0C (resolves to 25)",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.58,
+    "claude_prob": 0.45,
+    "delta": -0.13,
+    "suggested_direction": "no"
+  }
+}

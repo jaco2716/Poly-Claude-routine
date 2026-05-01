@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T13:40:48.037451+00:00",
+  "market": {
+    "id": "2122607",
+    "condition_id": "0x7559fdb91459768caa6d198f1acbf7cf0f0bcb084008e812a3a6834ae6425246",
+    "question": "Will the highest temperature in Helsinki be 20\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-helsinki-on-may-2-2026-20c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 991.3064,
+    "volume_24h": 453.893682
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.45,
+    "reasoning": "Helsinki forecast for early May shows highs in the 10-15\u00b0C range, with monthly upper end around 70\u00b0F (21\u00b0C). Hitting exactly 20\u00b0C requires a strong warm anomaly; probability ~8-12%.",
+    "data_sources": [
+      "AccuWeather Helsinki May",
+      "Met Office Helsinki"
+    ],
+    "key_uncertainty": "Brief warm front could push the peak above 19\u00b0C",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.1,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}
