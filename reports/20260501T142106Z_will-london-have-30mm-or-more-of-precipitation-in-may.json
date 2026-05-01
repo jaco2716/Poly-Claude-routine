@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T14:21:06.732700+00:00",
+  "market": {
+    "id": "2106452",
+    "condition_id": "0xe1d99b97adc3bb50157d62f578d79912d94d1dc7ec920eae4363ea81a2a8581c",
+    "question": "Will London have 30mm or more of precipitation in May?",
+    "category": "weather",
+    "slug": "will-london-have-30mm-or-more-of-precipitation-in-may",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.68,
+    "no_price": 0.32,
+    "liquidity": 98.5274,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.55,
+    "reasoning": "Heathrow May rainfall climatology averages ~50-60mm (20+ rain days). Threshold of 30mm is well below the climatological mean. Most years exceed 30mm; probability comfortably above 70%.",
+    "data_sources": [
+      "easeweather.com London May",
+      "metoffice.gov.uk Heathrow long-term averages",
+      "climate-data.org London May"
+    ],
+    "key_uncertainty": "Anomalously dry pattern via blocking high.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.68,
+    "claude_prob": 0.78,
+    "delta": 0.1,
+    "suggested_direction": "yes"
+  }
+}

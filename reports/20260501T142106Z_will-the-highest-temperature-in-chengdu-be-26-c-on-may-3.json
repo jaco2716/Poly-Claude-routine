@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T14:21:06.732317+00:00",
+  "market": {
+    "id": "2130115",
+    "condition_id": "0xe0fafaed6c507981b370646956519efac21d655ea27b4c34ffd733ffcbf00d04",
+    "question": "Will the highest temperature in Chengdu be 26\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chengdu-on-may-3-2026-26c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 988.9975,
+    "volume_24h": 72.921199
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.35,
+    "reasoning": "Chengdu May average high ~26\u00b0C, typical range 24-30\u00b0C with warming through month. The 26\u00b0C bucket sits at the climatological mean; probability ~20-25% given the bucket width is only 1\u00b0C and natural variability.",
+    "data_sources": [
+      "chinahighlights.com Chengdu May",
+      "accuweather.com Chengdu May"
+    ],
+    "key_uncertainty": "Lack of specific daily forecast for Chengdu Shuangliu.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.22,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

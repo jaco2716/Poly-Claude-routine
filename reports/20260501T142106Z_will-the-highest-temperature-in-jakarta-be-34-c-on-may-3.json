@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T14:21:06.731873+00:00",
+  "market": {
+    "id": "2130279",
+    "condition_id": "0x60509cbb8ab2b99c0f19ab13f7b2ccbae34a7ef846e3d80a79634dd382a14a74",
+    "question": "Will the highest temperature in Jakarta be 34\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jakarta-on-may-3-2026-34c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.29,
+    "no_price": 0.71,
+    "liquidity": 993.4026,
+    "volume_24h": 156.505992
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Jakarta May 3 forecast ~29\u00b0C with rain; typical Halim May daily highs 32-34\u00b0C. The 34\u00b0C bucket is at the upper edge of usual highs; with rainy/cloudy forecast probably below 34\u00b0C, but tail still meaningful. ~20-25%.",
+    "data_sources": [
+      "meteoblue.com Halim",
+      "climate-data.org Jakarta May"
+    ],
+    "key_uncertainty": "Cloud cover/rainfall on the day.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.29,
+    "claude_prob": 0.22,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}

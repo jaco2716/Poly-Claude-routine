@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T14:21:06.730328+00:00",
+  "market": {
+    "id": "2124573",
+    "condition_id": "0x27aa339351e775938ac487ff0960d9fff5f1af6f7d11aa83c6ddacce3f3230d7",
+    "question": "S&P 500 (SPY) closes above $720 on May 1?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-720-on-may-1-2026",
+    "end_date": "2026-05-01T20:00:00Z",
+    "yes_price": 0.605,
+    "no_price": 0.395,
+    "liquidity": 10208.1254,
+    "volume_24h": 12865.034166
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.6,
+    "confidence": 0.4,
+    "reasoning": "SPY closed Apr 30 at 18.66; on May 1 reports indicate S&P 500 +0.54% intraday with new record close territory (S&P intraday 7219). That implies a SPY close ~22, above 20, but conflicting real-time quotes (15-720) make it uncertain. Slightly favors YES.",
+    "data_sources": [
+      "thestreet.com May 1 2026 market update",
+      "stockinvest.us SPY history",
+      "yahoo finance"
+    ],
+    "key_uncertainty": "Late-day moves and exact close timing relative to data freshness.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.605,
+    "claude_prob": 0.6,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

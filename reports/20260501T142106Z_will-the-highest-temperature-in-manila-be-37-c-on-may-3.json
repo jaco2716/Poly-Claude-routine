@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T14:21:06.732055+00:00",
+  "market": {
+    "id": "2130380",
+    "condition_id": "0xc53b711d463a48e9f22fd2a185270e3238781a65f17b735f4b364e3ca4d51013",
+    "question": "Will the highest temperature in Manila be 37\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-manila-on-may-3-2026-37c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.195,
+    "no_price": 0.805,
+    "liquidity": 990.2907,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "Manila NAIA May 3 forecast 30\u00b0C overall with sunny conditions; May daily highs typically 33-36\u00b0C, range 31-37\u00b0C. The 37\u00b0C bucket is at the very top; probability ~15-20%.",
+    "data_sources": [
+      "accuweather.com NAIA May",
+      "weatherspark.com Manila"
+    ],
+    "key_uncertainty": "Heat dome/cloud cover variation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.195,
+    "claude_prob": 0.18,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

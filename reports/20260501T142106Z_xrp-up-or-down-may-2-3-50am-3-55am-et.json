@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-01T14:21:06.731091+00:00",
+  "market": {
+    "id": "2131230",
+    "condition_id": "0x9c51258e66893863b6206a53cbbbfebcf943517fa87d9ea5821ef1e3863dd312",
+    "question": "XRP Up or Down - May 2, 3:50AM-3:55AM ET",
+    "category": "crypto_price",
+    "slug": "xrp-updown-5m-1777708200",
+    "end_date": "2026-05-02T07:55:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9999.3885,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Short-window XRP up/down market (5 minutes overnight). Base-rate 50%; no signal.",
+    "data_sources": [],
+    "key_uncertainty": "Random walk.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

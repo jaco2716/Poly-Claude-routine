@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T14:21:06.729754+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.485,
+    "no_price": 0.515,
+    "liquidity": 16481.7359,
+    "volume_24h": 21658.809479
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.5,
+    "reasoning": "WTI ~06 settlement basis; needs ~13% sustained move to settle >=20 by end-June. Goldman warns 20 risk but mostly later in 2026. EIA Q2 peak ~15 Brent suggests 20 WTI settle is upper-tail in 2 months. Probability noticeably below 50%.",
+    "data_sources": [
+      "EIA STEO",
+      "Goldman via investing.com",
+      "fxleaders.com"
+    ],
+    "key_uncertainty": "Escalation risk in Persian Gulf.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.485,
+    "claude_prob": 0.27,
+    "delta": -0.215,
+    "suggested_direction": "no"
+  }
+}

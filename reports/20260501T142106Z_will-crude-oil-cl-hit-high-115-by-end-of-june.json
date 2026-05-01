@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T14:21:06.729506+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.6245,
+    "no_price": 0.3755,
+    "liquidity": 24120.59672,
+    "volume_24h": 16770.335462
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.5,
+    "reasoning": "Resolution uses CME settlement (not intraday high) for active-month CL. WTI front-month near 06 with Hormuz disruption; EIA forecasts Q2 2026 Brent peak ~15 (WTI typically -5 below Brent). To settle at 15 by end-June requires ~9% sustained rise. Plausible if Hormuz remains shut, but ~50/50 given OPEC+ supply hike and possible diplomacy.",
+    "data_sources": [
+      "EIA April 2026 STEO",
+      "fxleaders.com WTI May 1",
+      "oilprice.com Brent 11"
+    ],
+    "key_uncertainty": "Duration of Hormuz disruption; OPEC+ supply response.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.6245,
+    "claude_prob": 0.5,
+    "delta": -0.1245,
+    "suggested_direction": "no"
+  }
+}

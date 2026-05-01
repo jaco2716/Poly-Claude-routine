@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T14:21:06.732193+00:00",
+  "market": {
+    "id": "2129904",
+    "condition_id": "0x81d0df5b6f375a7339b9477df4f09f6795c927ffc665af4ac6ead1f1456c18ea",
+    "question": "Will the highest temperature in Atlanta be between 70-71\u00b0F on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-atlanta-on-may-3-2026-70-71f",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 989.1006,
+    "volume_24h": 373.94318300000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.65,
+    "reasoning": "Atlanta KATL forecast for May 3, 2026 calls for highs 85-88\u00b0F (multiple sources). The 70-71\u00b0F bucket is far below forecast; would require a sharp cold front not indicated. Probability very low.",
+    "data_sources": [
+      "accuweather.com KATL May",
+      "world-weather.info Atlanta May 2026"
+    ],
+    "key_uncertainty": "Unforecast major cooling event.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.05,
+    "delta": -0.295,
+    "suggested_direction": "no"
+  }
+}

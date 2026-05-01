@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-01T14:21:06.732575+00:00",
+  "market": {
+    "id": "2126657",
+    "condition_id": "0xa1cabf7e422219636a17abf95eba34384e3f4bf082f58d88e398cc210bae7067",
+    "question": "Will there be exactly 4 major space weather events this week?",
+    "category": "weather",
+    "slug": "will-there-be-exactly-4-major-space-weather-events-this-week-977",
+    "end_date": "2026-05-09T00:00:00Z",
+    "yes_price": 0.45,
+    "no_price": 0.55,
+    "liquidity": 99.3995,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.1,
+    "confidence": 0.25,
+    "reasoning": "Question requires EXACTLY 4 G3/S3/R3-or-greater events between May 3-9. Solar cycle 25 declining; weekly major-event counts vary widely. Probability of exactly that count (vs 0-3 or 5+) is narrow; without specific 27-day SWPC outlook, low base rate around 5-15%.",
+    "data_sources": [
+      "swpc.noaa.gov general"
+    ],
+    "key_uncertainty": "Specific active region complexity and CME timing for the week.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.45,
+    "claude_prob": 0.1,
+    "delta": -0.35,
+    "suggested_direction": "no"
+  }
+}

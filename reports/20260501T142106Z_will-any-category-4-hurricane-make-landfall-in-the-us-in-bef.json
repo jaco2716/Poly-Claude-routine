@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T14:21:06.732439+00:00",
+  "market": {
+    "id": "1058988",
+    "condition_id": "0xf17a11ec68f161b929b5147f0dcd536e177e46efebcabe438d9063a412ab74f0",
+    "question": "Will any Category 4 hurricane make landfall in the US in before 2027?",
+    "category": "weather",
+    "slug": "will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.35,
+    "no_price": 0.65,
+    "liquidity": 970.8201,
+    "volume_24h": 2.777776
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "2026 Atlantic season forecast slightly below normal due to expected El Ni\u00f1o transition (CSU: 13 named, 6 hurricanes, 2 majors). Historically ~40-50% of years see Cat 4+ US landfall, but with below-normal forecast probability is lower. ~25-35%.",
+    "data_sources": [
+      "tropical.colostate.edu April 2026 forecast",
+      "cbsnews.com 2026 hurricane forecast",
+      "accuweather.com 2026 season"
+    ],
+    "key_uncertainty": "ENSO evolution and Atlantic SSTs.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.35,
+    "claude_prob": 0.3,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-01T14:21:06.730461+00:00",
+  "market": {
+    "id": "2130840",
+    "condition_id": "0x3728df1f6682e8cb71afdd39a857f97766e28b20a60090b54cbf1ceba8c22c5e",
+    "question": "XRP Up or Down - May 2, 2:15AM-2:20AM ET",
+    "category": "crypto_price",
+    "slug": "xrp-updown-5m-1777702500",
+    "end_date": "2026-05-02T06:20:00Z",
+    "yes_price": 0.5,
+    "no_price": 0.5,
+    "liquidity": 9999.5894,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Short-window XRP up/down market (5 minutes overnight). Without specific intraday flow data and given it's a near-coinflip by design, base rate is 50%. No public data source predicts a 5-min directional move with edge.",
+    "data_sources": [],
+    "key_uncertainty": "Direction over a 5-minute window is essentially random walk.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5,
+    "claude_prob": 0.5,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

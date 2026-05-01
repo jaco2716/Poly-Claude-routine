@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-01T14:21:06.730117+00:00",
+  "market": {
+    "id": "1652685",
+    "condition_id": "0xa5d0dfc81e6a87faa737df4ca52fae7e18b63d9f7568e364c6c7d8c45fb39e8b",
+    "question": "Will Crude Oil (CL) hit (HIGH) $130 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-130-by-end-of-june-389-399-352-954",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.34,
+    "no_price": 0.66,
+    "liquidity": 9980.7143,
+    "volume_24h": 15334.110922
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.14,
+    "confidence": 0.5,
+    "reasoning": "Settlement basis: WTI front-month settling at 30 requires ~23% rally in 2 months from 06. Even Goldman/EIA upper bounds for Q2/H2 2026 fall short of 30 absent major escalation. Tail risk only.",
+    "data_sources": [
+      "EIA STEO Q2 2026",
+      "Goldman forecast",
+      "ING base case 04 Q2"
+    ],
+    "key_uncertainty": "Major war escalation or supply shock.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.34,
+    "claude_prob": 0.14,
+    "delta": -0.2,
+    "suggested_direction": "no"
+  }
+}

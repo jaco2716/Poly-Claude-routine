@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-01T14:21:06.729331+00:00",
+  "market": {
+    "id": "701495",
+    "condition_id": "0x63eaf41ce1f475323e2202d7dfa3b1def8b82cd166f7007c50bfbf47615c7b01",
+    "question": "Will Bitcoin reach $110,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-110000-by-december-31-2026-658-339-969",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 34425.4421,
+    "volume_24h": 55387.968945
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "Window started Nov 24, 2025 with BTC already off ATH and trending lower; 10k unlikely already touched after that date. Currently ~7k requires ~43% rally to print 10k by Dec 31, 2026. Possible if cycle recovery resumes (BTC was 26k in Oct 2025) but bear momentum and macro headwinds make it well below 50%.",
+    "data_sources": [
+      "fortune.com BTC May 1 2026",
+      "Bitcoin Nov-Jan history"
+    ],
+    "key_uncertainty": "Recovery path; whether ETF/institutional flows resume.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.3,
+    "delta": 0.045,
+    "suggested_direction": null
+  }
+}
