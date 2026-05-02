@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T14:38:08.889894+00:00",
+  "market": {
+    "id": "2125942",
+    "condition_id": "0xa2bf9bbb05ecdd733d4c4e6f8b8f27685bbc7691acbcd7417fefbd51070ab0d6",
+    "question": "Ethereum Up or Down on May 2?",
+    "category": "crypto_price",
+    "slug": "ethereum-up-or-down-on-may-2-2026",
+    "end_date": "2026-05-02T16:00:00Z",
+    "yes_price": 0.225,
+    "no_price": 0.775,
+    "liquidity": 22596.2237,
+    "volume_24h": 29018.101149
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Ambiguous which outcome 'Yes' represents (Up or Down) in this binary multi-outcome market. ETH May 1 daily print ~$2,292; May 2 early morning ~$2,300. Tight resolution window (hours) makes directional edge negligible. Skipping confident assessment.",
+    "data_sources": [
+      "fortune.com",
+      "coinmarketcap.com"
+    ],
+    "key_uncertainty": "Yes/No mapping to Up/Down outcome; intraday volatility.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.225,
+    "claude_prob": 0.5,
+    "delta": 0.275,
+    "suggested_direction": "yes"
+  }
+}

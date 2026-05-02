@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.885539+00:00",
+  "market": {
+    "id": "2132649",
+    "condition_id": "0xda7be8337468a7b00a81b2696fb32663ecdd9e83100be672c98b9a816e518277",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $95 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-95-in-may",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.785,
+    "no_price": 0.215,
+    "liquidity": 29511.1594,
+    "volume_24h": 12368.837809
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.45,
+    "reasoning": "WTI front-month ~$102 with today's intraday low $99.32 \u2014 only ~$4 above $95. WTI dropped ~9% from $111 to $102 in a day showing high realized vol. With 30 days remaining, hitting $95 floor is fairly likely given current volatility and proximity. Resolution criteria interpretation has some ambiguity in description.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "litefinance.org",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Resolution criteria language is ambiguous; geopolitical premium reversal.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.785,
+    "claude_prob": 0.7,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

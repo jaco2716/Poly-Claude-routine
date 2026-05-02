@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-02T14:38:08.881237+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.315,
+    "no_price": 0.685,
+    "liquidity": 51280.6635,
+    "volume_24h": 44242.538295000006
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.5,
+    "reasoning": "Russell is 9 points behind teammate Antonelli (63 vs 72) after 3 races but holds a 22-5 qualifying head-to-head edge. Mercedes is dominant. Other oddsmakers/markets place Russell at ~41-45% implied probability. Long season with reliability and form variance ahead.",
+    "data_sources": [
+      "motorsport.com",
+      "oddschecker.com",
+      "deadspin.com",
+      "formula1.com"
+    ],
+    "key_uncertainty": "Antonelli's race-day pace continues; Mercedes intra-team rivalry.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.315,
+    "claude_prob": 0.4,
+    "delta": 0.085,
+    "suggested_direction": "yes"
+  }
+}

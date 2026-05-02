@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.883848+00:00",
+  "market": {
+    "id": "2132775",
+    "condition_id": "0x12587fe0cd6aa29260510a658db7d3e03de052bbc9d77ec29fbc4579a0999db1",
+    "question": "Will Bitcoin reach $90,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.15,
+    "no_price": 0.85,
+    "liquidity": 44627.2734,
+    "volume_24h": 78442.26806200009
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$78,200 on May 2. $90k requires ~15% upside in May. Analysts project May range $73,500-$83,500. Bullish breakout momentum exists, but 15% rally in one month requires sustained breakout. Historical monthly highs above 15% from start are uncommon.",
+    "data_sources": [
+      "forex.com",
+      "247wallst.com",
+      "yellow.com"
+    ],
+    "key_uncertainty": "Strength of post-breakout momentum and macro catalysts (Fed, earnings).",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.15,
+    "claude_prob": 0.18,
+    "delta": 0.03,
+    "suggested_direction": null
+  }
+}

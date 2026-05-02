@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.887653+00:00",
+  "market": {
+    "id": "2137375",
+    "condition_id": "0xbcd213e24b59e5f37528bfd0ec6d8903141f8fdac425f9266b56a51b22e8be95",
+    "question": "Will the highest temperature in Milan be 19\u00b0C on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-milan-on-may-4-2026-19c",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 991.6477,
+    "volume_24h": 341.667155
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.35,
+    "reasoning": "Milan May 2026 daily highs range 64-78\u00b0F (~18-25\u00b0C); early May average ~67\u00b0F (~19.4\u00b0C). 19\u00b0C bucket is plausible and near climatological average, but with broad distribution of possible highs ~17-22\u00b0C, single-bucket probability is moderate ~20-25%.",
+    "data_sources": [
+      "accuweather.com",
+      "weathertab.com",
+      "weatherspark.com"
+    ],
+    "key_uncertainty": "No direct daily forecast accessible; weather noise.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.22,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

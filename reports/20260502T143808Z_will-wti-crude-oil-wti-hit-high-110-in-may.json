@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.878523+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.745,
+    "no_price": 0.255,
+    "liquidity": 77570.08,
+    "volume_24h": 82047.258734
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month traded at ~$102 on May 1 with intraday high $106.62, after a near-$111 monthly peak on April 30 amid Middle East tensions and UAE OPEC+ exit. With 30 days in May and recent volatility showing $110+ is reachable, hitting $110 again is plausible but not certain given recent profit-taking.",
+    "data_sources": [
+      "tradingeconomics.com",
+      "barchart.com CLK26",
+      "fxdailyreport.com"
+    ],
+    "key_uncertainty": "Whether geopolitical risk premium persists or unwinds; OPEC+ supply response.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.745,
+    "claude_prob": 0.62,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

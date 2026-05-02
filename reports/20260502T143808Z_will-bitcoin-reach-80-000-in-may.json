@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.885323+00:00",
+  "market": {
+    "id": "2132777",
+    "condition_id": "0xe5816efc6bf134c855332961d5fe47cd29495a00e3dfd56abe7c2a2ed86f4d04",
+    "question": "Will Bitcoin reach $80,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-80k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.845,
+    "no_price": 0.155,
+    "liquidity": 28565.3214,
+    "volume_24h": 18873.809820000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.65,
+    "reasoning": "BTC ~$78,200 on May 2 \u2014 only ~2.3% from $80k psychological level. Bullish momentum, hovering just below resistance. With 30 days of trading, likelihood of touching $80k is high.",
+    "data_sources": [
+      "latestly.com",
+      "forex.com",
+      "yellow.com"
+    ],
+    "key_uncertainty": "Whether $80k acts as hard resistance for entire month.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.845,
+    "claude_prob": 0.85,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T14:38:08.884886+00:00",
+  "market": {
+    "id": "2132779",
+    "condition_id": "0x27ad7baca4066891d8e8e5a4df38b164e95b56757041a5c198d24f9cd984b877",
+    "question": "Will Bitcoin dip to $70,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-70k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 34229.8909,
+    "volume_24h": 60716.535027
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$78,200 with bullish breakout. $70k requires ~10.5% drop from current. Analyst lower range estimates $73,500. A 10% pullback in 30 days is possible but currently against trend. Base rate for monthly drawdowns of >10% during uptrends is ~25-30%.",
+    "data_sources": [
+      "247wallst.com",
+      "forex.com"
+    ],
+    "key_uncertainty": "Whether bullish momentum sustains or sees mean-reverting pullback.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.32,
+    "delta": -0.025,
+    "suggested_direction": null
+  }
+}

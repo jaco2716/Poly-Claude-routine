@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.889022+00:00",
+  "market": {
+    "id": "2137620",
+    "condition_id": "0x741e2bedd5aeed0167c6828ebfb4a3c8d7fdde251c6a06039ef7e284a00dc2b6",
+    "question": "Will the highest temperature in Jakarta be 32\u00b0C on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jakarta-on-may-4-2026-32c",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.24,
+    "no_price": 0.76,
+    "liquidity": 983.2947,
+    "volume_24h": 403.113735
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.4,
+    "reasoning": "Forecast for Jakarta May 4 indicates ~28\u00b0C high with heavy rain. 32\u00b0C bucket is 4\u00b0C above forecast. Climatological highs in May are 31-33\u00b0C but rain forecast suggests lower. Low probability for 32\u00b0C bucket.",
+    "data_sources": [
+      "accuweather.com",
+      "weather25.com",
+      "weatherspark.com"
+    ],
+    "key_uncertainty": "Tropical weather variability.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.24,
+    "claude_prob": 0.12,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}

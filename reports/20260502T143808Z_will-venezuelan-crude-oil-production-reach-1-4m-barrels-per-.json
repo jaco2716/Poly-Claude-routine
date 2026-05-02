@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T14:38:08.889435+00:00",
+  "market": {
+    "id": "1126855",
+    "condition_id": "0x50b1af573a5f1ec560b16fe03c54ed6f82f8c19f12105bfabbea99bbf30130d1",
+    "question": "Will Venezuelan crude oil production reach 1.4m barrels per day in 2026?",
+    "category": "commodity",
+    "slug": "will-venezuelan-crude-oil-production-reach-1pt4m-barrels-per-day-in-2026",
+    "end_date": "2027-02-28T00:00:00Z",
+    "yes_price": 0.19,
+    "no_price": 0.81,
+    "liquidity": 672.2473,
+    "volume_24h": 16339.172395000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.55,
+    "reasoning": "Venezuela ~988k bpd in March 2026; reaching 1.4m requires ~42% increase in 9 months. Sanctions and infrastructure constraints make rapid expansion very difficult. Historical recoveries have been slow. Very low probability.",
+    "data_sources": [
+      "ceicdata.com",
+      "tradingeconomics.com Venezuela"
+    ],
+    "key_uncertainty": "Possibility of major sanctions relief / production breakthrough.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.19,
+    "claude_prob": 0.08,
+    "delta": -0.11,
+    "suggested_direction": "no"
+  }
+}

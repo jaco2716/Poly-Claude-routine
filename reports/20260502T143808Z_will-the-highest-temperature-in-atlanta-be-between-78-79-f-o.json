@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T14:38:08.888394+00:00",
+  "market": {
+    "id": "2137245",
+    "condition_id": "0x4a8368c89c01383603cd464fe2be0c9859c6b1ea66be7db97e76e710f8ad37f4",
+    "question": "Will the highest temperature in Atlanta be between 78-79\u00b0F on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-atlanta-on-may-4-2026-78-79f",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 985.3501,
+    "volume_24h": 102.108287
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.5,
+    "reasoning": "AccuWeather forecast for ATL May 4 = 87\u00b0F, well above the 78-79\u00b0F bucket. Forecast 2 days out is generally reliable to within 3-4\u00b0F; a drop of 8\u00b0F would be unusual. Probability of falling in 78-79\u00b0F bucket is low.",
+    "data_sources": [
+      "accuweather.com",
+      "weather.gov KATL"
+    ],
+    "key_uncertainty": "Forecast revision; possible cold front.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.08,
+    "delta": -0.275,
+    "suggested_direction": "no"
+  }
+}

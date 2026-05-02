@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T14:38:08.886737+00:00",
+  "market": {
+    "id": "2137576",
+    "condition_id": "0x917a23e2df70f47b64ed6d9fc449d0151175c85daf08dfd1678e94d29941e70f",
+    "question": "Will the highest temperature in Amsterdam be 16\u00b0C on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-amsterdam-on-may-4-2026-16c",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.315,
+    "no_price": 0.685,
+    "liquidity": 999.6319,
+    "volume_24h": 739.108546
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "Forecasts for Amsterdam May 4 show high of 13-15.6\u00b0C. 16\u00b0C bucket is upper end of forecast range, possible but less likely than the 13-15\u00b0C range. With weather noise (\u00b12\u00b0C), modest probability for 16\u00b0C bucket.",
+    "data_sources": [
+      "accuweather.com",
+      "easeweather.com",
+      "weather25.com"
+    ],
+    "key_uncertainty": "Forecast spread; bucket size precision.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.315,
+    "claude_prob": 0.2,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}
