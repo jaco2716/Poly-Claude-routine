@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T07:35:46.253419+00:00",
+  "market": {
+    "id": "1357099",
+    "condition_id": "0xecd961f60dad9a8f4f25f717bc6771e09cddf3077657aafc67a6a528c92aad55",
+    "question": "Will Bitcoin hit $60k or $80k first?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-hit-60k-or-80k-first-965",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.16,
+    "no_price": 0.84,
+    "liquidity": 41199.0095,
+    "volume_24h": 82012.73396299999
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.15,
+    "confidence": 0.35,
+    "reasoning": "BTC ~$78.3k on May 2; $80k is only ~2% above spot while $60k is ~23% below. Hitting $80k first is far more probable; yes_price 0.16 implies Yes resolves to '$60k first'. Without explicit confirmation of which token is 'Yes' I keep confidence low, but the asymmetry strongly favors $80k getting hit first within ~8 months.",
+    "data_sources": [
+      "latestly.com BTC May 2",
+      "market description"
+    ],
+    "key_uncertainty": "Ambiguity about which outcome 'Yes' represents in this paired market.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.16,
+    "claude_prob": 0.15,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

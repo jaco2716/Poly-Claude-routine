@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.250576+00:00",
+  "market": {
+    "id": "701495",
+    "condition_id": "0x63eaf41ce1f475323e2202d7dfa3b1def8b82cd166f7007c50bfbf47615c7b01",
+    "question": "Will Bitcoin reach $110,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-110000-by-december-31-2026-658-339-969",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 68981.8943,
+    "volume_24h": 62261.812788
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.55,
+    "reasoning": "BTC spot ~$78,300 on May 2, 2026; needs ~40% rise to $110k by Dec 31, 2026 with no prior touch in the window. Within bullish analyst ranges (Citi base $143k, Bitwise $200k, CoinShares $120-170k) but requires sustained rally of ~5%/mo. Conservative scenarios (Carol Alexander, base-case ~$100k recovery) leave plenty of room for failure.",
+    "data_sources": [
+      "latestly.com BTC price",
+      "TheStreet 2026 BTC predictions",
+      "CoinGecko expert forecasts"
+    ],
+    "key_uncertainty": "Strength of next BTC leg up vs. ranging/correction through 2026.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.3,
+    "delta": 0.045,
+    "suggested_direction": null
+  }
+}

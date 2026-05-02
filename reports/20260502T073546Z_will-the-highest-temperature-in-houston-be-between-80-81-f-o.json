@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.256412+00:00",
+  "market": {
+    "id": "2130161",
+    "condition_id": "0xb2c9a481d62d6bc4c9a7c4de4ed701b46462ab54ab06732ccbf445292df253bd",
+    "question": "Will the highest temperature in Houston be between 80-81\u00b0F on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-houston-on-may-3-2026-80-81f",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 972.6346,
+    "volume_24h": 348.650109
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.5,
+    "reasoning": "Houston Hobby May 3 forecast: highs in mid-70s to ~78-82\u00b0F across sources. The 80-81\u00b0F bucket overlaps the median forecast. Sources differ (one mid-70s, others 78 and 82) so true central tendency near 78-80; bucket captures realized max with moderate but not high probability.",
+    "data_sources": [
+      "click2houston May 1 outlook",
+      "AccuWeather Hobby",
+      "weather25 Houston May"
+    ],
+    "key_uncertainty": "Post-frontal air mass moderation could leave max in upper 70s instead of 80-81 bucket.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.27,
+    "delta": -0.025,
+    "suggested_direction": null
+  }
+}

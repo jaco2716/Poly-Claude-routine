@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.257544+00:00",
+  "market": {
+    "id": "2130038",
+    "condition_id": "0x10760d21a78bd23bbe274b601133a7d1e4317d2181f59fa01bbe9b06ca25c157",
+    "question": "Will the highest temperature in Milan be 24\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-milan-on-may-3-2026-24c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 963.7552,
+    "volume_24h": 709.910353
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.5,
+    "reasoning": "Milan Malpensa May 3 forecast: AccuWeather shows high 77\u00b0F (~25\u00b0C). The 24\u00b0C bucket is just below the modal forecast; probability mass likely splits across 24-26\u00b0C buckets. Climatology supports highs in low-to-mid 20s. ~25% chance the realized max lands in 24\u00b0C bucket.",
+    "data_sources": [
+      "AccuWeather Milan",
+      "weatherspark Malpensa May",
+      "world-weather.info Milan"
+    ],
+    "key_uncertainty": "Forecast variance can shift max into 23 or 25 bucket.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.27,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

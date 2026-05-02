@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.255349+00:00",
+  "market": {
+    "id": "1652685",
+    "condition_id": "0xa5d0dfc81e6a87faa737df4ca52fae7e18b63d9f7568e364c6c7d8c45fb39e8b",
+    "question": "Will Crude Oil (CL) hit (HIGH) $130 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-130-by-end-of-june-389-399-352-954",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.365,
+    "no_price": 0.635,
+    "liquidity": 11506.2072,
+    "volume_24h": 18067.344211
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "WTI ~$102 May 2; needs CME settlement >=$130 by end-June, ~28% above spot. Beyond high end of analyst forecast range ($105-125). Would require severe escalation of Hormuz blockade or broader regional war. EIA Q2 peak ~$115 base case. Tail event but Iran conflict keeps it non-negligible.",
+    "data_sources": [
+      "FXLeaders WTI May 1",
+      "EIA STEO Q2 Brent target",
+      "angle360ng forecast"
+    ],
+    "key_uncertainty": "Whether war broadens or Saudi/UAE supply gets disrupted.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.365,
+    "claude_prob": 0.2,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}

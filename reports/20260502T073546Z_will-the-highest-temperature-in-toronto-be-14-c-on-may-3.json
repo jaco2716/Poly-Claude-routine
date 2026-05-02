@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.256297+00:00",
+  "market": {
+    "id": "2129864",
+    "condition_id": "0x43b81587505c94baaf5411533dc2494f4be08d750e67e1158aa1f9b7774b6bd0",
+    "question": "Will the highest temperature in Toronto be 14\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-toronto-on-may-3-2026-14c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.265,
+    "no_price": 0.735,
+    "liquidity": 985.2671,
+    "volume_24h": 255.105681
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "Environment Canada forecast for Sunday May 3 in Toronto: high 13\u00b0C with mix of sun/cloud. The 14\u00b0C bucket is very close to point forecast; 13\u00b0C bucket likely captures the actual outcome. Single-degree buckets at the modal forecast still split probability across 12/13/14\u00b0C buckets so 14\u00b0C gets a moderate share.",
+    "data_sources": [
+      "Environment Canada 7-day Toronto",
+      "world-weather.info Toronto May",
+      "AccuWeather monthly"
+    ],
+    "key_uncertainty": "Forecast variance around 12-14\u00b0C; small drift puts max in 13 or 14 bucket.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.265,
+    "claude_prob": 0.32,
+    "delta": 0.055,
+    "suggested_direction": "yes"
+  }
+}

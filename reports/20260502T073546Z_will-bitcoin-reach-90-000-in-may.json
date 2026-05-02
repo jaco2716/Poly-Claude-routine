@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.253613+00:00",
+  "market": {
+    "id": "2132775",
+    "condition_id": "0x12587fe0cd6aa29260510a658db7d3e03de052bbc9d77ec29fbc4579a0999db1",
+    "question": "Will Bitcoin reach $90,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.15,
+    "no_price": 0.85,
+    "liquidity": 36701.818,
+    "volume_24h": 23496.051669
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.6,
+    "reasoning": "BTC at ~$78.3k on May 2; needs a final High of $90k by May 31. That's a ~15% rally in ~30 days, which is on the higher end of monthly BTC moves. Some momentum (price climbed from sub-$77k toward $80k resistance) but $80k is a known liquidity wall. Implied annualized vol suggests ~15-25% chance of 1-month +15% move from this regime.",
+    "data_sources": [
+      "latestly.com May 2 BTC",
+      "Bitget BTC liquidity analysis",
+      "247wallst May predictions"
+    ],
+    "key_uncertainty": "Whether momentum breaks through $80k resistance and accelerates.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.15,
+    "claude_prob": 0.2,
+    "delta": 0.05,
+    "suggested_direction": "yes"
+  }
+}

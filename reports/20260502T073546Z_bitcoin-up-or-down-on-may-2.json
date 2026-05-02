@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.258527+00:00",
+  "market": {
+    "id": "2125901",
+    "condition_id": "0x9b30354d8d6d913d6e077aa205b73b1261cac3ec5bff50e4955b1ca2243bc93e",
+    "question": "Bitcoin Up or Down on May 2?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-2-2026",
+    "end_date": "2026-05-02T16:00:00Z",
+    "yes_price": 0.405,
+    "no_price": 0.595,
+    "liquidity": 29635.1909,
+    "volume_24h": 37889.87547200003
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.55,
+    "confidence": 0.35,
+    "reasoning": "Market resolves at 12:00 ET May 2 vs 12:00 ET May 1. May 1 noon BTC was ~$78k-78.3k; May 2 morning prices show BTC ~$78,300-78,400 with mild uptrend. Close to a coin flip with slight upside lean. I assume 'Yes' = Up. Without intraday tape near the close I can't be highly confident.",
+    "data_sources": [
+      "Yahoo Finance May 1 BTC",
+      "latestly May 2 BTC",
+      "CoinGecko"
+    ],
+    "key_uncertainty": "Final 1-min Binance candle at 12:00 ET on each day; small tape moves flip the result.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.405,
+    "claude_prob": 0.55,
+    "delta": 0.145,
+    "suggested_direction": "yes"
+  }
+}

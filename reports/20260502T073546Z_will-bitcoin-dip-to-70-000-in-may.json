@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T07:35:46.258852+00:00",
+  "market": {
+    "id": "2132779",
+    "condition_id": "0x27ad7baca4066891d8e8e5a4df38b164e95b56757041a5c198d24f9cd984b877",
+    "question": "Will Bitcoin dip to $70,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-70k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.31,
+    "no_price": 0.69,
+    "liquidity": 29406.6554,
+    "volume_24h": 10827.448981
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$78.3k May 2; needs Low <=$70k in May, ~10.5% drawdown. Last week of April BTC was as low as ~$76.3k (May 1 open). One-month moves of 10% downside happen but require fading momentum or risk-off catalyst. Implied vol on Bitcoin suggests roughly 25-35% chance of touching $70k in May.",
+    "data_sources": [
+      "Yahoo Finance BTC May 1 open",
+      "latestly BTC May 2",
+      "Bitget liquidity zones"
+    ],
+    "key_uncertainty": "Whether $80k resistance triggers a deeper retrace toward $70k.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.31,
+    "claude_prob": 0.3,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

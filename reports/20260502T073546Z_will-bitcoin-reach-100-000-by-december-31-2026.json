@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-02T07:35:46.249651+00:00",
+  "market": {
+    "id": "701496",
+    "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-100000-by-december-31-2026-571-361-361",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 85683.6348,
+    "volume_24h": 10302.851676
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.55,
+    "reasoning": "BTC spot ~$78,300 on May 2, 2026; market window started Nov 24, 2025 and runs through Dec 31, 2026 with no $100k touch yet. Needs ~28% rise in ~8 months. Major analyst targets cluster $100k-$200k for year-end (Citi $143k, Bitwise $200k, conservative $75-150k); options markets price wide divergence around $100k. Plausible but far from certain.",
+    "data_sources": [
+      "latestly.com BTC price May 2 2026",
+      "Yahoo Finance BTC",
+      "TheStreet/CoinGecko 2026 forecasts",
+      "Citi/Bitwise/JPMorgan targets"
+    ],
+    "key_uncertainty": "Macro/Fed path and ETF flows over the next 8 months.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.5,
+    "delta": 0.085,
+    "suggested_direction": "yes"
+  }
+}

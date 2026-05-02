@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T07:35:46.259374+00:00",
+  "market": {
+    "id": "2131735",
+    "condition_id": "0x0e24bfa66e9ab14fb9e1f5e35e6f47e0808d29848d78d5668403dcee5b370874",
+    "question": "Ethereum Up or Down - May 2, 6:00AM-6:05AM ET",
+    "category": "crypto_price",
+    "slug": "eth-updown-5m-1777716000",
+    "end_date": "2026-05-02T10:05:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9999.2172,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.25,
+    "reasoning": "Resolves on Chainlink ETH price for the 5-minute window 6:00-6:05 AM ET on May 2. This 5-minute outcome is essentially random \u2014 base rate ~50% with very slight upward drift bias. The window has likely already passed by the time of analysis but I lack the precise tape data; treating as a coin flip with low confidence.",
+    "data_sources": [
+      "market description",
+      "Coingecko ETH spot"
+    ],
+    "key_uncertainty": "Exact 5-minute Chainlink prints are not in my data.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

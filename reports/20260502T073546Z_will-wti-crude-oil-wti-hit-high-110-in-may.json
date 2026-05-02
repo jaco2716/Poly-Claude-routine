@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-02T07:35:46.252928+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.705,
+    "no_price": 0.295,
+    "liquidity": 42524.0174,
+    "volume_24h": 126313.24345600003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month traded near $111 on May 1 (monthly high) before pulling back to ~$102 due to Hormuz closure supply shock. Forecasters (EIA, Goldman) see Q2 strength; range $105-125 cited for May. Already very close to $110 with 30 days remaining and active geopolitical catalyst, but pullbacks suggest volatility. Probability moderately high.",
+    "data_sources": [
+      "FXLeaders May 1 WTI",
+      "TradingEconomics CL",
+      "EIA STEO",
+      "Polymarket WTI futures"
+    ],
+    "key_uncertainty": "Hormuz reopening or OPEC+ supply response.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.705,
+    "claude_prob": 0.62,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}
