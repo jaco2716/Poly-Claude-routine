@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.962419+00:00",
+  "market": {
+    "id": "701495",
+    "condition_id": "0x63eaf41ce1f475323e2202d7dfa3b1def8b82cd166f7007c50bfbf47615c7b01",
+    "question": "Will Bitcoin reach $110,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-110000-by-december-31-2026-658-339-969",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 57401.1755,
+    "volume_24h": 62600.545863
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.5,
+    "reasoning": "BTC trades ~$78k on May 2, 2026 after a recent 30% rally; threshold not hit since Nov 24, 2025. Reaching $110k requires +41% over ~8 months, plausible but well above base case.",
+    "data_sources": [
+      "latestly.com BTC May 2 2026",
+      "fortune.com BTC May 1 2026"
+    ],
+    "key_uncertainty": "Whether the recent breakout extends into a full bull leg.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.27,
+    "delta": 0.015,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.967832+00:00",
+  "market": {
+    "id": "2106448",
+    "condition_id": "0xe3e0191062e5f8930c2f23f61dd1216139084767799c257a6f15b4426414b41d",
+    "question": "Will London have between 10-15mm of precipitation in May?",
+    "category": "weather",
+    "slug": "will-london-have-between-10-15mm-of-precipitation-in-may",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.15,
+    "no_price": 0.85,
+    "liquidity": 99.6618,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.5,
+    "reasoning": "Heathrow May average rainfall ~50-60mm with high variability. The 10-15mm bucket is well below normal; only dry Mays land here. Base rate for this narrow 5mm window in a single month is low.",
+    "data_sources": [
+      "metoffice Heathrow climatology",
+      "easeweather London May"
+    ],
+    "key_uncertainty": "Whether unsettled forecast translates to total monthly rainfall or scattered showers only.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.15,
+    "claude_prob": 0.1,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

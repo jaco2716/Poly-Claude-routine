@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.967066+00:00",
+  "market": {
+    "id": "2137388",
+    "condition_id": "0x70b5cb79a1516ec45850977722c2165ec7c98a2854d1693cdff78d0e569088f2",
+    "question": "Will the highest temperature in Madrid be 20\u00b0C on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-madrid-on-may-4-2026-20c",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.33,
+    "no_price": 0.67,
+    "liquidity": 989.2746,
+    "volume_24h": 23.108865
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "Madrid Barajas early-May highs ~20.9C; May 4 forecasted as the wettest day of the month, which can suppress highs. 20C bucket is plausibly the modal outcome.",
+    "data_sources": [
+      "climate-data.org Madrid May",
+      "world-weather Madrid forecast"
+    ],
+    "key_uncertainty": "Whether rain/clouds knock the high to 19C or sun pushes it to 21-22C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.33,
+    "claude_prob": 0.32,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

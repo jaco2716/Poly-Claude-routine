@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.966737+00:00",
+  "market": {
+    "id": "2129955",
+    "condition_id": "0x9c5a86c8315a2e194aab424a3fd46954d0c7dcf4e1a13db173efa1b7e08cacb2",
+    "question": "Will the highest temperature in Lucknow be 35\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-lucknow-on-may-3-2026-35c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.205,
+    "no_price": 0.795,
+    "liquidity": 996.1733,
+    "volume_24h": 545.9735909999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.5,
+    "reasoning": "Lucknow early May average highs ~38-39C (102F); May 3 forecast falls in this range. The 35C bucket sits well below the typical high, so probability of the high being only 35C is low.",
+    "data_sources": [
+      "accuweather Lucknow May",
+      "easeweather Lucknow"
+    ],
+    "key_uncertainty": "Possibility of a thunderstorm/cloud-cover day depressing the high.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.205,
+    "claude_prob": 0.1,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

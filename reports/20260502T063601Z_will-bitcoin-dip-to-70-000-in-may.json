@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-02T06:36:01.965040+00:00",
+  "market": {
+    "id": "2132779",
+    "condition_id": "0x27ad7baca4066891d8e8e5a4df38b164e95b56757041a5c198d24f9cd984b877",
+    "question": "Will Bitcoin dip to $70,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-70k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 32083.548,
+    "volume_24h": 51302.18076799999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.5,
+    "reasoning": "BTC ~$78k; -10% touch over 29 days is plausible given monthly vol ~18%. After a sharp 30% rally, mean-reversion risk is elevated.",
+    "data_sources": [
+      "latestly.com BTC May 2 2026"
+    ],
+    "key_uncertainty": "Whether profit-taking dominates or the trend continues higher.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.35,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

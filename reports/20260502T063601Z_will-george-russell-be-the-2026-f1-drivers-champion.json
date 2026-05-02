@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.962604+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 57195.2959,
+    "volume_24h": 40520.54867300002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.4,
+    "reasoning": "Russell is 2nd with 63 pts, 9 behind teammate Antonelli (72) after early-season races; Leclerc 3rd at 49. Mercedes is competitive but Russell trails his rookie teammate, so chance is meaningful but not the leading favorite.",
+    "data_sources": [
+      "formula1.com 2026 standings",
+      "skysports.com Russell Antonelli Miami GP"
+    ],
+    "key_uncertainty": "Reliability/luck and whether Mercedes development pace persists vs Ferrari/RB.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.25,
+    "delta": -0.045,
+    "suggested_direction": null
+  }
+}

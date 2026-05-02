@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-02T06:36:01.962033+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.745,
+    "no_price": 0.255,
+    "liquidity": 65181.9424,
+    "volume_24h": 139003.958019
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.65,
+    "confidence": 0.55,
+    "reasoning": "WTI is currently ~$102 (May 1, 2026), having retreated ~3% from a recent high near $111 amid Strait of Hormuz tensions. EIA forecasts Brent peaking ~$115 in Q2 2026, putting WTI near $108-112. With ~29 days left and elevated volatility, a single 1-minute candle hitting $110 is plausible but not certain.",
+    "data_sources": [
+      "fxleaders.com WTI May 1 2026",
+      "tradingeconomics.com crude oil",
+      "EIA Q2 2026 forecast"
+    ],
+    "key_uncertainty": "Whether US-Iran de-escalation trims the geopolitical premium below $110.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.745,
+    "claude_prob": 0.65,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

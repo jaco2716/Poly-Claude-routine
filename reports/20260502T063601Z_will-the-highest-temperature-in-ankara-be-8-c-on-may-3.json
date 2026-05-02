@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.966856+00:00",
+  "market": {
+    "id": "2129941",
+    "condition_id": "0x2356c7de0edafefff792442cd3b434bfc303c548f9fcdb146bbfad28edf963f0",
+    "question": "Will the highest temperature in Ankara be 8\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-ankara-on-may-3-2026-8c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 994.9515,
+    "volume_24h": 341.824922
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.1,
+    "confidence": 0.3,
+    "reasoning": "Ankara Esenboga forecasts for May 3 show highs around 19-20C (one source 12C, another 19C); May average high ~19-22C. 8C bucket is far below normal and not consistent with forecasts. Market price (0.385) suggests bucket structure may not be a simple [8,9), so I lower confidence.",
+    "data_sources": [
+      "weather25.com Ankara May",
+      "metoffice Ankara forecast"
+    ],
+    "key_uncertainty": "Bucket boundaries and resolution methodology on Polymarket.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.1,
+    "delta": -0.285,
+    "suggested_direction": "no"
+  }
+}

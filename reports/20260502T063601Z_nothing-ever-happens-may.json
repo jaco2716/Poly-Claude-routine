@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.965835+00:00",
+  "market": {
+    "id": "2118910",
+    "condition_id": "0x3ce1f599909ab4eac04c944f8d260079f48595087d6a88d8b7d4033c126ca106",
+    "question": "Nothing Ever Happens: May",
+    "category": "commodity",
+    "slug": "nothing-ever-happens-may-745",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.765,
+    "no_price": 0.235,
+    "liquidity": 20350.3249,
+    "volume_24h": 20331.404538000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.55,
+    "reasoning": "Each listed catalyst individually carries low base-rate probability over 29 days: a permanent US-Iran deal is unlikely on this timeline (negotiations ongoing but formalization slow), WTI to $150 requires +47% from $102, Iran leadership change/Russia-NATO war/Cuba strike/alien disclosure all are tail events. Combined, P(any) ~10-20%, so P(Nothing) ~85%.",
+    "data_sources": [
+      "fxleaders Iran peace proposal article",
+      "tradingeconomics WTI"
+    ],
+    "key_uncertainty": "How the resolver interprets 'permanent peace deal' if a partial accord is announced.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.765,
+    "claude_prob": 0.85,
+    "delta": 0.085,
+    "suggested_direction": "yes"
+  }
+}

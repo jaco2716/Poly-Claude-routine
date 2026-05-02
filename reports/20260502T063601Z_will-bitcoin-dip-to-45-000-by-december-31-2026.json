@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.963437+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.305,
+    "no_price": 0.695,
+    "liquidity": 47308.2089,
+    "volume_24h": 18842.600199
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "BTC at ~$78k requires a -42% drop to $45k. With 8 months left and recent positive momentum, this is well below base case.",
+    "data_sources": [
+      "latestly.com BTC May 2 2026",
+      "forex.com BTC May 1 2026"
+    ],
+    "key_uncertainty": "Macro/regulatory shock that triggers a deep crypto bear leg.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.305,
+    "claude_prob": 0.2,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

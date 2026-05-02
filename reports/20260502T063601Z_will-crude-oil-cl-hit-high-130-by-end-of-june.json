@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.966480+00:00",
+  "market": {
+    "id": "1652685",
+    "condition_id": "0xa5d0dfc81e6a87faa737df4ca52fae7e18b63d9f7568e364c6c7d8c45fb39e8b",
+    "question": "Will Crude Oil (CL) hit (HIGH) $130 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-130-by-end-of-june-389-399-352-954",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.325,
+    "no_price": 0.675,
+    "liquidity": 10925.0182,
+    "volume_24h": 19399.942774
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.55,
+    "reasoning": "WTI ~$102; settle >=$130 by end-June requires +28%. Even Brent's Hormuz spike topped near $120; reaching $130 settle needs a far larger shock than seen.",
+    "data_sources": [
+      "EIA Q2 forecast",
+      "tradingeconomics crude"
+    ],
+    "key_uncertainty": "Tail risk of major Middle East escalation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.325,
+    "claude_prob": 0.12,
+    "delta": -0.205,
+    "suggested_direction": "no"
+  }
+}

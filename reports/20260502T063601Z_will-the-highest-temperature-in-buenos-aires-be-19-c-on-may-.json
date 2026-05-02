@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.967516+00:00",
+  "market": {
+    "id": "2129840",
+    "condition_id": "0x4a30dc1e059502f089f23d38a340faf1b33fcc86554dccd8104e89ff251a4854",
+    "question": "Will the highest temperature in Buenos Aires be 19\u00b0C on May 3?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-may-3-2026-19c",
+    "end_date": "2026-05-03T12:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 986.6838,
+    "volume_24h": 441.17427799999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.5,
+    "reasoning": "Buenos Aires Ezeiza early-May average highs ~18.6C with daily range 14-23C. 19C bucket is near the median; competing buckets (17,18,20) split the mass.",
+    "data_sources": [
+      "climate-data.org BA May",
+      "holiday-weather BA May"
+    ],
+    "key_uncertainty": "Day-to-day variability in autumnal southern-hemisphere weather.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.28,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

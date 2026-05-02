@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.964447+00:00",
+  "market": {
+    "id": "2132775",
+    "condition_id": "0x12587fe0cd6aa29260510a658db7d3e03de052bbc9d77ec29fbc4579a0999db1",
+    "question": "Will Bitcoin reach $90,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 36776.3121,
+    "volume_24h": 56585.42458200008
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$78k needs +15% in 29 days for a single 1m touch. Monthly sigma ~18-20% so it's within reach but well above the median path.",
+    "data_sources": [
+      "latestly.com BTC May 2 2026",
+      "forex.com 30% surge"
+    ],
+    "key_uncertainty": "Whether the breakout continues or fades near $85k resistance.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.18,
+    "delta": 0.015,
+    "suggested_direction": null
+  }
+}

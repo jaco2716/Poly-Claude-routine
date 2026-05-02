@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.967983+00:00",
+  "market": {
+    "id": "2126657",
+    "condition_id": "0xa1cabf7e422219636a17abf95eba34384e3f4bf082f58d88e398cc210bae7067",
+    "question": "Will there be exactly 4 major space weather events this week?",
+    "category": "weather",
+    "slug": "will-there-be-exactly-4-major-space-weather-events-this-week-977",
+    "end_date": "2026-05-09T00:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 93.0144,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.4,
+    "reasoning": "NOAA SWPC short-term forecast shows quiet conditions May 1-3, no G3 expected, only slight S3/R3 chances. Hitting EXACTLY 4 strong (level-3+) events in a single week is unusual; modal weekly count is 0-1 even at solar maximum.",
+    "data_sources": [
+      "swpc.noaa.gov 3-day forecast",
+      "spaceweather.com"
+    ],
+    "key_uncertainty": "Late-cycle solar activity could surprise with an active region rotating into geoeffective position.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.07,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}

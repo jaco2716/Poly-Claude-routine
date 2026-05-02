@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.965678+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.6595,
+    "no_price": 0.3405,
+    "liquidity": 23217.00531,
+    "volume_24h": 17894.717008000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.5,
+    "reasoning": "WTI front-month spot ~$102 on May 1; CME settlement basis. EIA forecasts Brent peaking ~$115 in Q2 2026 (=~$108-112 WTI). With ~60 days until end-June and active Hormuz tensions, a daily settle >= $115 is plausible; recent intraday touched ~$111 but settle has lagged.",
+    "data_sources": [
+      "EIA STEO Q2 2026",
+      "fxleaders.com WTI May 1 2026"
+    ],
+    "key_uncertainty": "Whether peace negotiations remove the geopolitical premium before June expiry.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.6595,
+    "claude_prob": 0.45,
+    "delta": -0.2095,
+    "suggested_direction": "no"
+  }
+}

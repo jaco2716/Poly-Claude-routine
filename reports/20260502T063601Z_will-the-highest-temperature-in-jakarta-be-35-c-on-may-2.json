@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-02T06:36:01.966593+00:00",
+  "market": {
+    "id": "2122640",
+    "condition_id": "0x24cae967c5232b204069d79da48906b40c16f363ed6fe1fae9b51c6cfce2e45f",
+    "question": "Will the highest temperature in Jakarta be 35\u00b0C on May 2?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jakarta-on-may-2-2026-35c",
+    "end_date": "2026-05-02T12:00:00Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 1449.0582,
+    "volume_24h": 10950.694581000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "Jakarta Halim today (May 2) forecast around 32C with one report noting +34C observed; May average highs are 32C with rainy days. The 35C bucket [35,36) is reachable but slightly above forecast. Probability moderate.",
+    "data_sources": [
+      "weather25.com Jakarta May 2026",
+      "rp5/meteoblue Halim Perdanakusuma"
+    ],
+    "key_uncertainty": "Bucket structure on Polymarket and exact peak-hour conditions.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.3,
+    "delta": -0.135,
+    "suggested_direction": "no"
+  }
+}
