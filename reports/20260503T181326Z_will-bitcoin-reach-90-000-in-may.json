@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T18:13:26.938578+00:00",
+  "market": {
+    "id": "2132775",
+    "condition_id": "0x12587fe0cd6aa29260510a658db7d3e03de052bbc9d77ec29fbc4579a0999db1",
+    "question": "Will Bitcoin reach $90,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 56363.9063,
+    "volume_24h": 23269.860131000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.7,
+    "reasoning": "BTC at ~$78,500 needs a +14.6% rally to hit $90,000 by May 31. With recent weakness/consolidation, no obvious bullish catalyst, and base-rate monthly +15% gains being roughly 10-15% of months, probability is low. Intraday 1-min wick eligibility adds a touch but the gap is large.",
+    "data_sources": [
+      "coindesk.com BTC price",
+      "latestly.com BTC May 3 2026"
+    ],
+    "key_uncertainty": "Black-swan rally on macro pivot; ETF inflow surge.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.07,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

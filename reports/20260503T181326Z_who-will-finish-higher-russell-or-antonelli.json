@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-03T18:13:26.944487+00:00",
+  "market": {
+    "id": "2051841",
+    "condition_id": "0x233229256004aed0e843f838a6c8446786455c5c2f57d6ad9e7e045edb9b769b",
+    "question": "Who will finish higher: Russell or Antonelli?",
+    "category": "equity_index",
+    "slug": "f1-miami-grand-prix-h2h-russell-vs-antonelli-2026-05-03",
+    "end_date": "2026-05-10T20:00:00Z",
+    "yes_price": 0.54,
+    "no_price": 0.46,
+    "liquidity": 9.7667,
+    "volume_24h": 23.424132
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "Miami GP race May 3 2026: Antonelli on pole, Russell P5 on grid. Antonelli leads championship 75-68 after Sprint and has been faster on pace this weekend (~0.4s in qualifying). With Antonelli starting ahead and showing form, probability Russell finishes ahead is materially below 50%. Reliability/strategy variance keeps it from being too low.",
+    "data_sources": [
+      "formula1.com 2026 Miami quali",
+      "skysports.com Miami sprint",
+      "racingnews365.com 2026 standings",
+      "motorsport.com Russell vs Antonelli Miami"
+    ],
+    "key_uncertainty": "Race-day reliability, safety cars, strategy and team orders.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.54,
+    "claude_prob": 0.32,
+    "delta": -0.22,
+    "suggested_direction": "no"
+  }
+}

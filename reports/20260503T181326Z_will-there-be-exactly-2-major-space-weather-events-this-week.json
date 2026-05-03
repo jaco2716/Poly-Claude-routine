@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-03T18:13:26.943880+00:00",
+  "market": {
+    "id": "2126655",
+    "condition_id": "0x479fb3538eeb2362511c2ca2813ba1ca388146d5753075aae909eb6497d1e966",
+    "question": "Will there be exactly 2 major space weather events this week?",
+    "category": "weather",
+    "slug": "will-there-be-exactly-2-major-space-weather-events-this-week-799",
+    "end_date": "2026-05-09T00:00:00Z",
+    "yes_price": 0.22,
+    "no_price": 0.78,
+    "liquidity": 97.4013,
+    "volume_24h": 12.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "Question asks for EXACTLY 2 G3+/S3+/R3+ events between May 3-9. Solar activity is elevated (active sunspot regions AR4425/AR4420, recent M-class flares, R1 already noted May 5). Forecasts mention G3 storms in second week of May. Base rate of exactly 2 strong events per week during solar maximum is moderate but probability is split between 0/1/3+ events.",
+    "data_sources": [
+      "spaceweather.com",
+      "earthsky.org sun news",
+      "NASA Solar Cycle 25 blog",
+      "baltimorechronicle.com May 2026 storms"
+    ],
+    "key_uncertainty": "Whether forecast G3 storms materialize; exact count over single week is high variance.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.22,
+    "claude_prob": 0.18,
+    "delta": -0.04,
+    "suggested_direction": null
+  }
+}

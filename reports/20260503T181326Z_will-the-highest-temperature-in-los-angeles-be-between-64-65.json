@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T18:13:26.941578+00:00",
+  "market": {
+    "id": "2137511",
+    "condition_id": "0xf60e9d1de6280db1b1699d94b4329adbb91c80ce61e465e06d50aef0d38fb416",
+    "question": "Will the highest temperature in Los Angeles be between 64-65\u00b0F on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-los-angeles-on-may-4-2026-64-65f",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.44,
+    "no_price": 0.56,
+    "liquidity": 993.2353,
+    "volume_24h": 596.881527
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "NWS-style forecast for LA Monday May 4 has highs near 71\u00b0F mostly sunny with 30% chance of showers. LAX (coastal) typically runs ~3-5\u00b0F cooler than downtown. Today (May 3) LAX area near 65\u00b0F. The 64-65\u00b0F bucket therefore has some chance from marine layer holding/cooling but is below the central forecast.",
+    "data_sources": [
+      "abc7.com Los Angeles weather May 2026",
+      "NWS LOX office"
+    ],
+    "key_uncertainty": "Marine layer persistence at LAX vs broader basin warming.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.44,
+    "claude_prob": 0.18,
+    "delta": -0.26,
+    "suggested_direction": "no"
+  }
+}

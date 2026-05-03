@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T18:13:26.943195+00:00",
+  "market": {
+    "id": "2132105",
+    "condition_id": "0xe49cacde377cdb36272aef9fcc6352c69d0047c407e1dbc345539f972668afa6",
+    "question": "S&P 500 (SPX) Opens Up or Down on May 4?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-may-4-2026",
+    "end_date": "2026-05-04T20:00:00Z",
+    "yes_price": 0.56,
+    "no_price": 0.44,
+    "liquidity": 951.9922,
+    "volume_24h": 989.961293
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.4,
+    "reasoning": "S&P 500 closed 7,230.12 on May 1 with positive momentum (S&P/Nasdaq notched weekly gains after earnings-heavy week). Base rate for SPX opening up vs prior close is ~52-54% historically; recent strength gives slight bump. Open is mainly driven by overnight futures and weekend news flow.",
+    "data_sources": [
+      "detroitnews.com S&P May 1 2026",
+      "equityclock.com market outlook May 1 2026"
+    ],
+    "key_uncertainty": "Weekend macro headlines; futures direction Sunday night.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.56,
+    "claude_prob": 0.55,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

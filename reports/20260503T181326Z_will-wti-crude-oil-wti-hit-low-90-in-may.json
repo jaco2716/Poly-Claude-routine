@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T18:13:26.940884+00:00",
+  "market": {
+    "id": "2132648",
+    "condition_id": "0x8a7bc81b3d628f77a9ceca546f581aa2ae46b7285662f7765096216bce9d59b6",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-may-567",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.665,
+    "no_price": 0.335,
+    "liquidity": 22799.2069,
+    "volume_24h": 17430.682419
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.4,
+    "reasoning": "WTI dip to $90 by May 31 from $101.94 needs ~-11.7%. Ceasefire-driven unwind plus weak demand could push prices lower but a >10% monthly drop is uncommon (~15-25% of months). Prior April low was ~$82.59, so feasible but requires sustained de-escalation.",
+    "data_sources": [
+      "fxleaders.com",
+      "cnbc.com oil May 1"
+    ],
+    "key_uncertainty": "Pace and durability of geopolitical premium unwind.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.665,
+    "claude_prob": 0.28,
+    "delta": -0.385,
+    "suggested_direction": "no"
+  }
+}

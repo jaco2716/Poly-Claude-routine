@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T18:13:26.940218+00:00",
+  "market": {
+    "id": "2132639",
+    "condition_id": "0xb33fe992242f035a0fe5ea878b24c6647e8514d241b3db60d447dce9f0c3638a",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-105-in-may",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.835,
+    "no_price": 0.165,
+    "liquidity": 39670.8708,
+    "volume_24h": 88886.55858399994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.5,
+    "reasoning": "WTI $101.94 May 1 close after pushing toward ~$106 earlier in the week. May 1 intraday high likely in the $104-106 zone before the ceasefire-driven sell-off, so $105 may already be hit. Even if not, with high vol from Iran headlines and only ~4% above current, fairly likely in remaining 28 days.",
+    "data_sources": [
+      "fxleaders.com WTI May 1 2026",
+      "cnbc.com WTI May 1 2026"
+    ],
+    "key_uncertainty": "Whether the May 1 intraday high actually reached $105 already; tape uncertainty.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.835,
+    "claude_prob": 0.7,
+    "delta": -0.135,
+    "suggested_direction": "no"
+  }
+}

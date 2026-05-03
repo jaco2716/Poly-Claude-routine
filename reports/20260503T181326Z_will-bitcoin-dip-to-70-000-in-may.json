@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-03T18:13:26.938186+00:00",
+  "market": {
+    "id": "2132779",
+    "condition_id": "0x27ad7baca4066891d8e8e5a4df38b164e95b56757041a5c198d24f9cd984b877",
+    "question": "Will Bitcoin dip to $70,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-70k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.325,
+    "no_price": 0.675,
+    "liquidity": 59694.548,
+    "volume_24h": 45063.96895600001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.55,
+    "reasoning": "BTC trading ~$78,500 on May 3 2026. Reaching $70,000 by May 31 requires roughly a 10.8% drawdown to a 1-min low. Historical monthly max drawdown >=10% occurs ~15-20% of months in BTC. Slightly elevated by recent consolidation/weakness from prior highs but no acute catalyst identified.",
+    "data_sources": [
+      "coindesk.com BTC price",
+      "latestly.com BTC May 3 2026",
+      "fortune.com BTC May 1 2026"
+    ],
+    "key_uncertainty": "Magnitude of any macro/risk shock in the next 28 days; intraday 1-min wick could trigger early.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.325,
+    "claude_prob": 0.22,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

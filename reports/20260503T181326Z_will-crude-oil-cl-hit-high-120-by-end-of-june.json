@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-03T18:13:26.941320+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 18512.1372,
+    "volume_24h": 30388.835279
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "CL hit settle >= $120 by end of June requires +17.7% from current $101.94 with closing-settle requirement (not intraday). Even at the April Iran-driven peak WTI did not settle that high. Possible only with significant supply shock; over ~2 months timeframe somewhat plausible but not base case.",
+    "data_sources": [
+      "fxleaders.com WTI May 1 2026",
+      "cnbc.com Kalshi $125 traders",
+      "euronews.com oil April 30"
+    ],
+    "key_uncertainty": "Probability of fresh major Iran/Hormuz disruption causing settle close above $120.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.18,
+    "delta": -0.335,
+    "suggested_direction": "no"
+  }
+}

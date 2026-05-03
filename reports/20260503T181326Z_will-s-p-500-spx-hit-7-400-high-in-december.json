@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T18:13:26.943373+00:00",
+  "market": {
+    "id": "1125390",
+    "condition_id": "0x7dffc7cb17346c570e612db4dac02b508480f374069d0644cf6db441b0978268",
+    "question": "Will S&P 500 (SPX) hit $7,400 (HIGH) in December?",
+    "category": "equity_index",
+    "slug": "spx-hit-7400-high-dec-2026",
+    "end_date": "2026-12-31T21:00:00Z",
+    "yes_price": 0.805,
+    "no_price": 0.195,
+    "liquidity": 923.9887,
+    "volume_24h": 1457.876913
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.6,
+    "reasoning": "S&P 500 ~7,230 (May 1 close). Reaching 7,400 (any 1-min high) by Dec 31 2026 needs only +2.4% over 8 months. With current uptrend, positive earnings season, and historical drift, very likely. Short-term volatility provides multiple chances to print above 7,400.",
+    "data_sources": [
+      "detroitnews.com S&P May 1 2026",
+      "equityclock.com May outlook"
+    ],
+    "key_uncertainty": "Major drawdown scenario (recession/geopolitical) preventing any 1-min print at 7,400.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.805,
+    "claude_prob": 0.85,
+    "delta": 0.045,
+    "suggested_direction": null
+  }
+}
