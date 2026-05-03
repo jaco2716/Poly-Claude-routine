@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-03T06:13:05.267773+00:00",
+  "market": {
+    "id": "2047447",
+    "condition_id": "0xe1152e834cc7cc42b4e81c9d39df0d209e2b08d86c718aea5332400b98df5c8d",
+    "question": "Will the Seattle Storm make the 2026 WNBA Playoffs?",
+    "category": "weather",
+    "slug": "will-the-seattle-storm-make-the-2026-wnba-playoffs",
+    "end_date": "2026-09-25T00:00:00Z",
+    "yes_price": 0.49,
+    "no_price": 0.51,
+    "liquidity": 9.6466,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.35,
+    "reasoning": "Seattle entering rebuild \u2014 lost top-5 scorers in free agency, new head coach (Sonia Raman), reliant on rookies and 2nd-year center Malonga. WNBA expanding so playoff field competitive. Subjective season-long forecast; rebuild teams typically miss playoffs more often than not. 35-45% range.",
+    "data_sources": [
+      "theixsports 2026 Storm season preview",
+      "espn WNBA standings",
+      "herhoopstats Storm offseason"
+    ],
+    "key_uncertainty": "Malonga's leap and rookie integration; how much new HC tactics translate",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.49,
+    "claude_prob": 0.4,
+    "delta": -0.09,
+    "suggested_direction": "no"
+  }
+}

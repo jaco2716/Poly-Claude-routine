@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.266878+00:00",
+  "market": {
+    "id": "2137592",
+    "condition_id": "0x34cdb4d55c959fc96ca7ce807faf047e8e1d0af793047d29e4ee4765af690eb7",
+    "question": "Will the highest temperature in Helsinki be 12\u00b0C on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-helsinki-on-may-4-2026-12c",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 995.838,
+    "volume_24h": 525.818665
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.45,
+    "reasoning": "Forecast indicates Helsinki May 4 high around 7\u00b0C with rain. 12\u00b0C bucket is 5\u00b0C above forecast \u2014 unlikely given short horizon. Even with forecast error, probability is low.",
+    "data_sources": [
+      "world-weather.info Helsinki May 2026",
+      "AccuWeather Helsinki"
+    ],
+    "key_uncertainty": "Sudden warm front",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.07,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}

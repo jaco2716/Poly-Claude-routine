@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.265384+00:00",
+  "market": {
+    "id": "1339767",
+    "condition_id": "0xce3c54c3e773e8b3bf73e4c12af93205b21195d03b9c386e22f274b9acfc2c56",
+    "question": "Will Bitcoin dip to $50,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-50000-by-december-31-2026-454-325-222-878-949-487-451",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.38,
+    "no_price": 0.62,
+    "liquidity": 43848.7498,
+    "volume_24h": 8863.849270000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.4,
+    "reasoning": "BTC at $78k requires ~36% drawdown to $50k by year-end. More plausible than $45k threshold but still requires a meaningful bear move. ETF/structural support reduces base rate.",
+    "data_sources": [
+      "latestly.com BTC May 2 2026",
+      "yahoo BTC history"
+    ],
+    "key_uncertainty": "Late 2026 macro shock",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.38,
+    "claude_prob": 0.25,
+    "delta": -0.13,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.266750+00:00",
+  "market": {
+    "id": "2144709",
+    "condition_id": "0x1ea6c6098903777dcbedf191cd0779dd003ebf56c0c63c4c5eb2cc22f141cf42",
+    "question": "Will the highest temperature in Buenos Aires be 23\u00b0C on May 5?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-may-5-2026-23c",
+    "end_date": "2026-05-05T12:00:00Z",
+    "yes_price": 0.23,
+    "no_price": 0.77,
+    "liquidity": 999.78,
+    "volume_24h": 5.6
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.16,
+    "confidence": 0.45,
+    "reasoning": "Forecasts show Buenos Aires May 5 high near 21\u00b0C (~70\u00b0F). 23\u00b0C bucket is ~2\u00b0C above forecast. With typical 1-2\u00b0C forecast error 2 days out, bucket probability is low but not negligible.",
+    "data_sources": [
+      "accuweather Buenos Aires May",
+      "weather25 Buenos Aires May 2026"
+    ],
+    "key_uncertainty": "Forecast variance for SAEZ specifically",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.23,
+    "claude_prob": 0.16,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}

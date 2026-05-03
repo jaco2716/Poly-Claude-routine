@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.265971+00:00",
+  "market": {
+    "id": "2132638",
+    "condition_id": "0xdeb0a6abf730d613190d1b49e64bbedb2af0cc14f8a6f87e8da9282e64c29c0b",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-115-in-may-221",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.565,
+    "no_price": 0.435,
+    "liquidity": 41030.6699,
+    "volume_24h": 13994.020648
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.45,
+    "reasoning": "WTI at $101-106 May 1-2 2026, briefly tagged $111 4yr-high on April 30 (before May start). $115 requires an additional ~9-14% upside in 28 days. Hormuz blockage drives volatility but $115 is well above the recent high. ~30-40%.",
+    "data_sources": [
+      "fxleaders.com WTI May 1 2026",
+      "tradingeconomics commodity/crude-oil"
+    ],
+    "key_uncertainty": "Hormuz/Iran escalation",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.565,
+    "claude_prob": 0.35,
+    "delta": -0.215,
+    "suggested_direction": "no"
+  }
+}

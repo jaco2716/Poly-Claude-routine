@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-03T06:13:05.265681+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.29,
+    "no_price": 0.71,
+    "liquidity": 46344.103,
+    "volume_24h": 28921.26173700001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "Russell P2 (63 pts) trailing teammate Antonelli (72 pts) by 9 points after Miami sprint. Mercedes dominating 2026; Antonelli on hat-trick of poles. Russell is the established second driver but Antonelli has clear momentum. Two-driver race, Russell ~30%.",
+    "data_sources": [
+      "formula1.com 2026 standings",
+      "racingnews365 Miami sprint standings",
+      "skysports Miami GP qualifying"
+    ],
+    "key_uncertainty": "Antonelli's rookie consistency over the long season",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.29,
+    "claude_prob": 0.3,
+    "delta": 0.01,
+    "suggested_direction": null
+  }
+}

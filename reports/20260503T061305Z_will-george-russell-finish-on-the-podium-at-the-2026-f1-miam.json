@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-03T06:13:05.265839+00:00",
+  "market": {
+    "id": "2051874",
+    "condition_id": "0x120259f8204b46f43a45fb553480551ebf402b0e0c7aa6b07b78d4f4c36c318d",
+    "question": "Will George Russell finish on the podium at the 2026 F1 Miami Grand Prix?",
+    "category": "equity_index",
+    "slug": "f1-miami-grand-prix-driver-podium-russell-2026-05-03",
+    "end_date": "2026-05-10T20:00:00Z",
+    "yes_price": 0.39,
+    "no_price": 0.61,
+    "liquidity": 982.467,
+    "volume_24h": 346.164279
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.5,
+    "reasoning": "Russell qualifies P5 in Miami; ahead are Antonelli (pole), Verstappen, Leclerc, Norris. Mercedes is fastest car but he must pass two competitive cars or rely on attrition. A typical P5 starter podium rate is ~25-35%.",
+    "data_sources": [
+      "motorsportweek 2026 Miami qualifying",
+      "skysports Miami GP qualifying",
+      "racingnews365 Miami GP"
+    ],
+    "key_uncertainty": "Race-day pace and incidents/strategy",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.39,
+    "claude_prob": 0.35,
+    "delta": -0.04,
+    "suggested_direction": null
+  }
+}

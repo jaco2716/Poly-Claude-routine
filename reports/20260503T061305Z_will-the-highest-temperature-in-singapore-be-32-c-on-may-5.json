@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.267159+00:00",
+  "market": {
+    "id": "2144900",
+    "condition_id": "0x21cd1d41bfd93073ccdeaba603c554e61a96e2a5c3869c6d8ed5396770d1bc12",
+    "question": "Will the highest temperature in Singapore be 32\u00b0C on May 5?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-singapore-on-may-5-2026-32c",
+    "end_date": "2026-05-05T12:00:00Z",
+    "yes_price": 0.34,
+    "no_price": 0.66,
+    "liquidity": 990.1228,
+    "volume_24h": 16.542856
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.45,
+    "reasoning": "Singapore Changi May high typically 30-33\u00b0C; 32\u00b0C is the modal-area bucket. With narrow daily variation in tropical climate, this bucket has elevated probability.",
+    "data_sources": [
+      "accuweather Singapore Changi May",
+      "weatherspark Changi May"
+    ],
+    "key_uncertainty": "Whether daily peak hits 32 vs 31 or 33",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.34,
+    "claude_prob": 0.32,
+    "delta": -0.02,
+    "suggested_direction": null
+  }
+}

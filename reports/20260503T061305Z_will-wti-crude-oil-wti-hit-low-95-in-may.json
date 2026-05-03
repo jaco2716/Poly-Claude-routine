@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.266346+00:00",
+  "market": {
+    "id": "2132649",
+    "condition_id": "0xda7be8337468a7b00a81b2696fb32663ecdd9e83100be672c98b9a816e518277",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $95 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-95-in-may",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.73,
+    "no_price": 0.27,
+    "liquidity": 30212.0973,
+    "volume_24h": 15088.043576
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.45,
+    "reasoning": "WTI near $101 needs only ~6% drop to $95. With volatility from Hormuz news flow and ceasefire possibilities, a $95 print is plausible. Recent intraday range already includes $99.30.",
+    "data_sources": [
+      "fxleaders.com WTI May 1 2026",
+      "tradingeconomics crude-oil"
+    ],
+    "key_uncertainty": "Sharp resolution of Iran/Hormuz situation",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.73,
+    "claude_prob": 0.55,
+    "delta": -0.18,
+    "suggested_direction": "no"
+  }
+}

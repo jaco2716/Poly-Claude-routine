@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.267003+00:00",
+  "market": {
+    "id": "2144821",
+    "condition_id": "0x19d0b8f33650bf89e0fc7256e905f914d2aca0527432277841ed57ed39226f34",
+    "question": "Will the highest temperature in Wellington be 17\u00b0C on May 5?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-wellington-on-may-5-2026-17c",
+    "end_date": "2026-05-05T12:00:00Z",
+    "yes_price": 0.215,
+    "no_price": 0.785,
+    "liquidity": 993.3279,
+    "volume_24h": 9.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.16,
+    "confidence": 0.4,
+    "reasoning": "Wellington May 5 forecast ~15.3\u00b0C. The 17\u00b0C bucket is ~2\u00b0C above forecast \u2014 plausible but not the modal outcome.",
+    "data_sources": [
+      "climate-data.org Wellington May 5",
+      "weatherspark Wellington May"
+    ],
+    "key_uncertainty": "Local forecast variance NZWN",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.215,
+    "claude_prob": 0.16,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

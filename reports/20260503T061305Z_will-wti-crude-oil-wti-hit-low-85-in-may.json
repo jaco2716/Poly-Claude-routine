@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.266483+00:00",
+  "market": {
+    "id": "2132637",
+    "condition_id": "0x59a37ea3830d532957b04d3c437a329e14a5dc840096d48c7ee4b55ba3d9cca8",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-may-266-388-493-155-935-263",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.455,
+    "no_price": 0.545,
+    "liquidity": 26425.4468,
+    "volume_24h": 13763.70189
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "WTI near $101 needs ~16% drop to $85. Would require both ceasefire/easing AND demand-driven selloff. Possible but not central.",
+    "data_sources": [
+      "fxleaders.com WTI May 1 2026",
+      "tradingeconomics crude-oil"
+    ],
+    "key_uncertainty": "Demand collapse coupled with Hormuz reopening",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.455,
+    "claude_prob": 0.2,
+    "delta": -0.255,
+    "suggested_direction": "no"
+  }
+}

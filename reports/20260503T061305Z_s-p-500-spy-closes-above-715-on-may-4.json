@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.267647+00:00",
+  "market": {
+    "id": "2132117",
+    "condition_id": "0x4bbf1a930347cc594e38e63ca6fe4ab221c7d88834c9c8984c8b567097ede222",
+    "question": "S&P 500 (SPY) closes above $715 on May 4?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-715-on-may-4-2026",
+    "end_date": "2026-05-04T20:00:00Z",
+    "yes_price": 0.78,
+    "no_price": 0.22,
+    "liquidity": 96.2799,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.8,
+    "confidence": 0.5,
+    "reasoning": "SPY closed $720.65 May 1 at record high. Closing above $715 May 4 requires not falling 0.8%. Typical 1-day SPY std dev ~0.7-1.0%; with bullish momentum and earnings tailwind, probability of holding above $715 is high.",
+    "data_sources": [
+      "tipranks SPY May 1 2026",
+      "macrotrends SPY"
+    ],
+    "key_uncertainty": "Surprise weekend headlines hitting Monday open",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.78,
+    "claude_prob": 0.8,
+    "delta": 0.02,
+    "suggested_direction": null
+  }
+}

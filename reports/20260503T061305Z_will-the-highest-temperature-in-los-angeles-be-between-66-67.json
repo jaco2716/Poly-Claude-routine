@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.267285+00:00",
+  "market": {
+    "id": "2137512",
+    "condition_id": "0x88ed0aa09c8b9e073494bcc27e293336f75a614a2ad8c033634f4fa2821d24bc",
+    "question": "Will the highest temperature in Los Angeles be between 66-67\u00b0F on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-los-angeles-on-may-4-2026-66-67f",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 989.8969,
+    "volume_24h": 184.465068
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.16,
+    "confidence": 0.4,
+    "reasoning": "LAX May 4 forecast around 69\u00b0F. 66-67\u00b0F bucket is 2-3\u00b0F below forecast \u2014 within typical forecast error, but two degrees off the central estimate. Modest probability.",
+    "data_sources": [
+      "weather25 Los Angeles May 2026",
+      "accuweather LAX"
+    ],
+    "key_uncertainty": "Coastal stratus extent",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.16,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

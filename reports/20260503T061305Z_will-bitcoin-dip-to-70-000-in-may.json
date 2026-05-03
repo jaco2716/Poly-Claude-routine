@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-03T06:13:05.265537+00:00",
+  "market": {
+    "id": "2132779",
+    "condition_id": "0x27ad7baca4066891d8e8e5a4df38b164e95b56757041a5c198d24f9cd984b877",
+    "question": "Will Bitcoin dip to $70,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-70k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 40881.9007,
+    "volume_24h": 32488.71577000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "BTC at ~$78,300 requires ~10.6% pullback to $70k within 28 days. With BTC consolidating bullishly near $80k resistance and supportive ETF inflows, a sharp correction is possible but not the central scenario.",
+    "data_sources": [
+      "latestly.com BTC May 2 2026",
+      "yahoo finance BTC"
+    ],
+    "key_uncertainty": "Volatility from rejection of $80k resistance",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.3,
+    "delta": -0.035,
+    "suggested_direction": null
+  }
+}
