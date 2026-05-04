@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-04T22:08:54.358869+00:00",
+  "market": {
+    "id": "2148678",
+    "condition_id": "0x62e5bb2ff28175b7e33f2382fbbe2b9489ab19ecfdf507e64c6ea36d8de4d7f2",
+    "question": "Bitcoin Up or Down on May 5?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-5-2026",
+    "end_date": "2026-05-05T16:00:00Z",
+    "yes_price": 0.535,
+    "no_price": 0.465,
+    "liquidity": 40944.7488,
+    "volume_24h": 75293.24523100001
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.52,
+    "confidence": 0.3,
+    "reasoning": "24-hour BTC up/down is essentially a coinflip. Slight base-rate edge for 'up' (~51-53%) given recent positive momentum. Cannot meaningfully forecast 1-day move from current data; lowering confidence.",
+    "data_sources": [
+      "BTC daily statistics base rate"
+    ],
+    "key_uncertainty": "1-day price moves are dominated by noise",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.535,
+    "claude_prob": 0.52,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.362099+00:00",
+  "market": {
+    "id": "2157121",
+    "condition_id": "0xbe45b2d92c1a3fba04f0fc63488c9a648683f41fd62517c33a7a6e7dc24554ad",
+    "question": "Will the highest temperature in Houston be between 84-85\u00b0F on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-houston-on-may-6-2026-84-85f",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.375,
+    "no_price": 0.625,
+    "liquidity": 978.4861,
+    "volume_24h": 166.389849
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "Houston May highs typically 78-88\u00b0F; thunderstorms reported for Wednesday May 6 may cap temperatures. No specific forecast located; 84-85\u00b0F is plausible center but narrow band. Estimate ~18%.",
+    "data_sources": [
+      "AccuWeather Houston May",
+      "weather25.com Houston"
+    ],
+    "key_uncertainty": "Thunderstorm activity could lower or precede heat spike",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.375,
+    "claude_prob": 0.18,
+    "delta": -0.195,
+    "suggested_direction": "no"
+  }
+}

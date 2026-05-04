@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.360175+00:00",
+  "market": {
+    "id": "2132637",
+    "condition_id": "0x59a37ea3830d532957b04d3c437a329e14a5dc840096d48c7ee4b55ba3d9cca8",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-may-266-388-493-155-935-263",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 31124.9965,
+    "volume_24h": 45880.667805
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.55,
+    "reasoning": "WTI dipping to $85 from current $101-105 requires ~16-20% drop in May. Given Hormuz supply shock, such a sudden retreat needs a major diplomatic breakthrough. Estimate ~15%.",
+    "data_sources": [
+      "fxleaders.com WTI",
+      "EIA Persian Gulf disruption"
+    ],
+    "key_uncertainty": "Iran-US deal would crash prices fast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.15,
+    "delta": -0.235,
+    "suggested_direction": "no"
+  }
+}

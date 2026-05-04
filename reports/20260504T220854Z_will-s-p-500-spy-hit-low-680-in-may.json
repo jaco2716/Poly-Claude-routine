@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T22:08:54.362500+00:00",
+  "market": {
+    "id": "2074180",
+    "condition_id": "0x1237613bbde80c8a51b0d47081883aae9c18bc08df8eb3d76c3a6e0ba7a35df3",
+    "question": "Will S&P 500 (SPY) hit (LOW) $680 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-680-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.265,
+    "no_price": 0.735,
+    "liquidity": 937.8143,
+    "volume_24h": 190.322412
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "SPY ~$720 May 4 (near 52-week high $724.87). Hitting $680 needs ~5.5% drawdown in remaining ~27 days of May. Macro risks (Iran/Hormuz, oil shock) elevate odds. Historical 5%+ monthly drawdowns occur ~20-25% of months. Estimate ~20%.",
+    "data_sources": [
+      "Yahoo Finance SPY May 4 ~$720",
+      "CNBC SPY",
+      "Investing.com SPY"
+    ],
+    "key_uncertainty": "Geopolitical risk-off event could trigger fast 5% drop",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.265,
+    "claude_prob": 0.2,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

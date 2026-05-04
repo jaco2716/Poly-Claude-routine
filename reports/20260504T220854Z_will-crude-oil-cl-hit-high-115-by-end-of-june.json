@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T22:08:54.359651+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.7145,
+    "no_price": 0.2855,
+    "liquidity": 32582.57051,
+    "volume_24h": 11897.93664
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "CL CME settlement \u2265$115 by end of June requires ~9-14% upside from current $101-105. Hormuz crisis supports upside, but settlement (not intraday) is harder. ~2 months runway. Estimate ~30%.",
+    "data_sources": [
+      "CME crude futures",
+      "fxleaders.com WTI",
+      "fxdailyreport WTI May 4"
+    ],
+    "key_uncertainty": "Geopolitical escalation could fast-track $115; settlement basis matters",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.7145,
+    "claude_prob": 0.3,
+    "delta": -0.4145,
+    "suggested_direction": "no"
+  }
+}

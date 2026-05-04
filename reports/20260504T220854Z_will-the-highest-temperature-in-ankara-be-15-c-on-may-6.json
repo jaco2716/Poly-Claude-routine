@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.361207+00:00",
+  "market": {
+    "id": "2156894",
+    "condition_id": "0x3b0d28c624b20ae2d865c3ede1a8531f9dd6d70546dfd6579f8289a3be0f1abb",
+    "question": "Will the highest temperature in Ankara be 15\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-ankara-on-may-6-2026-15c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.39,
+    "no_price": 0.61,
+    "liquidity": 987.5455,
+    "volume_24h": 176.214007
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.2,
+    "confidence": 0.35,
+    "reasoning": "Ankara forecast data conflicting: Met Office suggests cool spell 12-14\u00b0C in early May, AccuWeather suggests warmer ~23\u00b0C. May average high is ~20\u00b0C. 15\u00b0C exactly is possible but narrow target. Lower confidence due to conflicting sources. Estimate ~20%.",
+    "data_sources": [
+      "Met Office Ankara forecast",
+      "weatherspark.com Ankara May averages"
+    ],
+    "key_uncertainty": "Significant disagreement between forecast sources",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.39,
+    "claude_prob": 0.2,
+    "delta": -0.19,
+    "suggested_direction": "no"
+  }
+}

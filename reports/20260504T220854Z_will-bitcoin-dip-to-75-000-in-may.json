@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T22:08:54.358192+00:00",
+  "market": {
+    "id": "2132778",
+    "condition_id": "0x2de954c6acc43b5b6382dfe453c4e2e00dc9c2c8e9caf2a5752039d3c218f231",
+    "question": "Will Bitcoin dip to $75,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-75k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.555,
+    "no_price": 0.445,
+    "liquidity": 48755.2479,
+    "volume_24h": 76274.58132500002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$79k May 4, would need ~5% drop to dip to $75k in ~27 days. Recent strong momentum (+17% past month) makes near-term pullback less likely, but 5% drawdowns are common in any 4-week window. Estimate ~35%.",
+    "data_sources": [
+      "fortune.com BTC May 4",
+      "Yahoo Finance BTC",
+      "OKX live"
+    ],
+    "key_uncertainty": "Macro shock or Iran escalation could trigger fast 5% pullback",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.555,
+    "claude_prob": 0.35,
+    "delta": -0.205,
+    "suggested_direction": "no"
+  }
+}

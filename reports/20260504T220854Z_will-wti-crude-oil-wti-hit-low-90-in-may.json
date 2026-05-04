@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T22:08:54.360387+00:00",
+  "market": {
+    "id": "2132648",
+    "condition_id": "0x8a7bc81b3d628f77a9ceca546f581aa2ae46b7285662f7765096216bce9d59b6",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-may-567",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.575,
+    "no_price": 0.425,
+    "liquidity": 30241.7119,
+    "volume_24h": 21785.584797
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.55,
+    "reasoning": "WTI at $101-105 May 4. Dipping to $90 requires ~11-14% pullback in May. Hormuz tensions support prices, but volatility is elevated. Estimate ~27%.",
+    "data_sources": [
+      "fxleaders.com WTI",
+      "fxdailyreport WTI May 4",
+      "EIA"
+    ],
+    "key_uncertainty": "Diplomatic progress or ceasefire could trigger fast retracement",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.575,
+    "claude_prob": 0.27,
+    "delta": -0.305,
+    "suggested_direction": "no"
+  }
+}

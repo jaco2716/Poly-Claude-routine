@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.360962+00:00",
+  "market": {
+    "id": "2156880",
+    "condition_id": "0xc1d68ca9a51c8888ced5f65ac8de8f9d4d62ad162c64ebd68a2cc5ccf097b874",
+    "question": "Will the highest temperature in Chicago be between 56-57\u00b0F on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chicago-on-may-6-2026-56-57f",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.33,
+    "no_price": 0.67,
+    "liquidity": 996.2532,
+    "volume_24h": 221.68230599999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.45,
+    "reasoning": "Chicago May 6 forecast indicates a high near 54\u00b0F (early-month cool spell with 54\u00b0 one of cooler days). 56-57\u00b0F band is just slightly above forecast; some chance of upside surprise. Estimate ~18% for the narrow 2\u00b0F band.",
+    "data_sources": [
+      "world-weather.info Chicago May 2026",
+      "weather25.com Chicago May 6 ~54\u00b0F"
+    ],
+    "key_uncertainty": "2\u00b0F bands are narrow; forecast can shift overnight",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.33,
+    "claude_prob": 0.18,
+    "delta": -0.15,
+    "suggested_direction": "no"
+  }
+}

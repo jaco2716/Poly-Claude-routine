@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.361609+00:00",
+  "market": {
+    "id": "2157193",
+    "condition_id": "0x3418689e8eeade8c3ae09dafc0c20e48a890a28b3e78d6230ec7d4b813b30686",
+    "question": "Will the highest temperature in Busan be 23\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-busan-on-may-6-2026-23c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 979.5294,
+    "volume_24h": 23.039579
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.22,
+    "confidence": 0.35,
+    "reasoning": "Busan May highs typically 21-26\u00b0C. 23\u00b0C is within typical range. No specific May 6 forecast located in search; market 35.5% suggests near-base-rate. Estimate ~22% for a 1\u00b0C band centered on average.",
+    "data_sources": [
+      "AccuWeather Busan May",
+      "weatherspark.com Busan May averages"
+    ],
+    "key_uncertainty": "No specific day-of forecast available",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.22,
+    "delta": -0.135,
+    "suggested_direction": "no"
+  }
+}

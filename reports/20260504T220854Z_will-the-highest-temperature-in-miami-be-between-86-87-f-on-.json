@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.362313+00:00",
+  "market": {
+    "id": "2156868",
+    "condition_id": "0xcbdeac7dcf6ec332bf92f61d28fd9b50eab8664a67f6c722d4126841221d475c",
+    "question": "Will the highest temperature in Miami be between 86-87\u00b0F on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-miami-on-may-6-2026-86-87f",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.39,
+    "no_price": 0.61,
+    "liquidity": 978.3314,
+    "volume_24h": 332.338559
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.5,
+    "reasoning": "Miami May 6 NWS forecast 'high near 85\u00b0F' with 40% chance precipitation. 86-87\u00b0F band is 1-2\u00b0F above forecast \u2014 close enough that forecast error could push high there. Estimate ~22%.",
+    "data_sources": [
+      "NWS Miami May 6 forecast 'high near 85\u00b0F'",
+      "world-weather.info Miami"
+    ],
+    "key_uncertainty": "1-2\u00b0F shifts in forecast change band probability significantly",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.39,
+    "claude_prob": 0.22,
+    "delta": -0.17,
+    "suggested_direction": "no"
+  }
+}

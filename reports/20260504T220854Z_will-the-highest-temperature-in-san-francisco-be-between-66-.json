@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T22:08:54.361401+00:00",
+  "market": {
+    "id": "2157147",
+    "condition_id": "0x7c0e1d77e882a08e290bc59dfc17cedc34a6eb1e1556d51ae75c33e93a155a45",
+    "question": "Will the highest temperature in San Francisco be between 66-67\u00b0F on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-san-francisco-on-may-6-2026-66-67f",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 981.6615,
+    "volume_24h": 273.79135
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.14,
+    "confidence": 0.5,
+    "reasoning": "SF May 6 forecast 63\u00b0F (cool early-month pattern). 66-67\u00b0F band is 3-4\u00b0F above forecast \u2014 possible from forecast error but not central case. Estimate ~14%.",
+    "data_sources": [
+      "world-weather.info SF",
+      "easeweather.com SF May 6 ~63\u00b0F"
+    ],
+    "key_uncertainty": "Coastal microclimate variability and forecast revisions",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.14,
+    "delta": -0.145,
+    "suggested_direction": "no"
+  }
+}

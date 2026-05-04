@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T22:08:54.363347+00:00",
+  "market": {
+    "id": "1294368",
+    "condition_id": "0x75546dcfa25f2cdd0edb5730ed2dc6f4b03940c2b1cb27eaefba47bfe434345d",
+    "question": "Will Gold (GC) hit (HIGH) $6,000 by end of December?",
+    "category": "commodity",
+    "slug": "will-gold-gc-hit-high-6000-by-end-of-december",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.3,
+    "no_price": 0.7,
+    "liquidity": 22351.7948,
+    "volume_24h": 9468.487437
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "Gold ~$4,620 May 4 2026 (much higher than I initially assumed). To hit $6,000 by end of Dec needs ~30% rally over ~8 months. Persistent Iran/Hormuz tensions, central bank buying, and inflation drove gold above $4,600. Continued geopolitical risk + dollar weakness could fuel further upside. Estimate ~32%.",
+    "data_sources": [
+      "fortune.com gold May 4 $4,621",
+      "Yahoo Finance gold May 4",
+      "Tradingeconomics gold"
+    ],
+    "key_uncertainty": "8-month horizon dominated by Fed/Iran/macro - hard to forecast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.3,
+    "claude_prob": 0.32,
+    "delta": 0.02,
+    "suggested_direction": null
+  }
+}
