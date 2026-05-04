@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T18:12:50.594210+00:00",
+  "market": {
+    "id": "2156760",
+    "condition_id": "0x91154afd1c166d93cf2f487e78df15df9ef0d8e705fa3325b3271e31b42941b8",
+    "question": "Will the highest temperature in London be 15\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-6-2026-15c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 987.1235,
+    "volume_24h": 151.846781
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.5,
+    "reasoning": "London is in a May heatwave with Met Office reporting ~27\u00b0C in London on May 5 and ~22\u00b0C on May 6. The 15\u00b0C bucket is roughly 7\u00b0C below forecast \u2014 very unlikely. Climatology has ~15.6\u00b0C average but current synoptic pattern is much warmer.",
+    "data_sources": [
+      "Met Office",
+      "Heart UK May Bank holiday forecast",
+      "academicjobs.com UK heatwave"
+    ],
+    "key_uncertainty": "Cold front timing could drop temps but forecast shows warmth holding",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.06,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T18:12:50.590865+00:00",
+  "market": {
+    "id": "2132779",
+    "condition_id": "0x27ad7baca4066891d8e8e5a4df38b164e95b56757041a5c198d24f9cd984b877",
+    "question": "Will Bitcoin dip to $70,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-70k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 79179.7548,
+    "volume_24h": 106393.61923099998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "BTC spot is ~$79k on May 4. Hitting $70k requires ~11.4% drawdown within May. 27 days left, monthly vol ~15-20%, but BTC is up 17% on the month and trending positive after Iran de-escalation. Possible tail but unlikely.",
+    "data_sources": [
+      "Yahoo Finance May 4 2026",
+      "Fortune May 4 2026",
+      "OKX live"
+    ],
+    "key_uncertainty": "Macro/geopolitical risk-off shock",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.18,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T18:12:50.594353+00:00",
+  "market": {
+    "id": "2157050",
+    "condition_id": "0x64f9d7e543eb65a575ceab8bb8c1bd9972919f942c74a158ae45b2c569c1657e",
+    "question": "Will the highest temperature in Chongqing be 28\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chongqing-on-may-6-2026-28c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.3,
+    "no_price": 0.7,
+    "liquidity": 984.9257,
+    "volume_24h": 36.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.45,
+    "reasoning": "Chongqing early-May average high ~25-26\u00b0C; monthly range 73-87\u00b0F (23-30\u00b0C). The 28\u00b0C bucket is above central forecast but within 1-sigma. Plausible but not the modal bucket.",
+    "data_sources": [
+      "AccuWeather Chongqing May",
+      "travelchinaguide",
+      "Weather Spark"
+    ],
+    "key_uncertainty": "Cloud cover/drizzle suppressing daytime high",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.3,
+    "claude_prob": 0.15,
+    "delta": -0.15,
+    "suggested_direction": "no"
+  }
+}

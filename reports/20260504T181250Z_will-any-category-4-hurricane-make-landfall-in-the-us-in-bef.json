@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T18:12:50.594919+00:00",
+  "market": {
+    "id": "1058988",
+    "condition_id": "0xf17a11ec68f161b929b5147f0dcd536e177e46efebcabe438d9063a412ab74f0",
+    "question": "Will any Category 4 hurricane make landfall in the US in before 2027?",
+    "category": "weather",
+    "slug": "will-any-category-4-hurricane-make-landfall-in-the-us-in-before-2027",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.365,
+    "no_price": 0.635,
+    "liquidity": 955.2518,
+    "volume_24h": 29.107902
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "2026 season forecast leans below-average (CSU: 13/6/2 majors; El Ni\u00f1o expected), though some forecasters disagree (UofA 4 majors). Cat-4 US landfalls occur in roughly 30-40% of years historically. Lean modestly below long-run base rate due to El Ni\u00f1o suppression.",
+    "data_sources": [
+      "CSU April 2026 forecast",
+      "Wikipedia 2026 Atlantic hurricane season",
+      "Wikipedia Cat-4 list"
+    ],
+    "key_uncertainty": "Forecast track uncertainty dominates \u2014 one Cat-4 landfall is enough",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.365,
+    "claude_prob": 0.3,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

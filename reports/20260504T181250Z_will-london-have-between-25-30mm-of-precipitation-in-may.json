@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T18:12:50.595911+00:00",
+  "market": {
+    "id": "2106451",
+    "condition_id": "0x9653edc0712a5da2d1f4ad71bf8c22680da7333c2496694e22c7fe5a31c89976",
+    "question": "Will London have between 25-30mm of precipitation in May?",
+    "category": "weather",
+    "slug": "will-london-have-between-25-30mm-of-precipitation-in-may",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.245,
+    "no_price": 0.755,
+    "liquidity": 95.1821,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.4,
+    "reasoning": "Heathrow May climatology averages ~50mm; std dev ~25mm. The 25-30mm 5mm bucket sits ~1 sigma below mean. Currently London is in a heatwave (27\u00b0C reported May 5), suggesting drier-than-average synoptic pattern, which slightly lifts probability. Still a narrow bucket.",
+    "data_sources": [
+      "Met Office Heathrow climatology",
+      "world-weather.info May 2026",
+      "easeweather May 2026"
+    ],
+    "key_uncertainty": "Whether the heatwave breaks with significant rainfall mid-late May",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.245,
+    "claude_prob": 0.1,
+    "delta": -0.145,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T18:12:50.594581+00:00",
+  "market": {
+    "id": "2156770",
+    "condition_id": "0x6449f1b69aa95f0392ef8c0e8fcfb6adad143a178a4460892f357ed1dd972ed3",
+    "question": "Will the highest temperature in Paris be 13\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-paris-on-may-6-2026-13c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.305,
+    "no_price": 0.695,
+    "liquidity": 984.6339,
+    "volume_24h": 126.263156
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.04,
+    "confidence": 0.55,
+    "reasoning": "Paris forecast for May 6 shows high ~24\u00b0C (per Sortiraparis weekly forecast). The 13\u00b0C bucket is 11\u00b0C below forecast \u2014 extremely unlikely. Even with cloud cover suppressing temps a few degrees, won't approach 13\u00b0C.",
+    "data_sources": [
+      "Sortiraparis weekly forecast May 4-10 2026",
+      "Met Office Paris Le Bourget"
+    ],
+    "key_uncertainty": "Major synoptic shift not in current forecasts",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.305,
+    "claude_prob": 0.04,
+    "delta": -0.265,
+    "suggested_direction": "no"
+  }
+}

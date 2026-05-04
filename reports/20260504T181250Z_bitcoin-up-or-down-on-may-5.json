@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T18:12:50.593744+00:00",
+  "market": {
+    "id": "2148678",
+    "condition_id": "0x62e5bb2ff28175b7e33f2382fbbe2b9489ab19ecfdf507e64c6ea36d8de4d7f2",
+    "question": "Bitcoin Up or Down on May 5?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-5-2026",
+    "end_date": "2026-05-05T16:00:00Z",
+    "yes_price": 0.535,
+    "no_price": 0.465,
+    "liquidity": 30735.5323,
+    "volume_24h": 39046.042262999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.4,
+    "reasoning": "Question compares BTC close at noon ET May 4 vs noon ET May 5 on Binance. BTC ~$79k, intraday range $78.3k-$80.5k. Underlying base rate is ~50/50 with slight positive lean from monthly +17% momentum despite today's pullback from $80k.",
+    "data_sources": [
+      "Yahoo Finance May 4 2026",
+      "OKX live",
+      "Fortune May 4 2026"
+    ],
+    "key_uncertainty": "24-hour noise dominates; no clear directional catalyst",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.535,
+    "claude_prob": 0.52,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T18:12:50.591677+00:00",
+  "market": {
+    "id": "701496",
+    "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-100000-by-december-31-2026-571-361-361",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 41782.9321,
+    "volume_24h": 17214.810785
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.5,
+    "reasoning": "BTC ~$79k on May 4 with 8 months remaining. Reaching $100k needs +26%. Given BTC's annualized vol ~50-60% and positive monthly momentum (up 17%), it's a real possibility but far from given. Slight under-50.",
+    "data_sources": [
+      "Yahoo Finance May 4 2026",
+      "Fortune May 4 2026"
+    ],
+    "key_uncertainty": "Macro/Fed cycle and broader risk appetite over remaining 8 months",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.45,
+    "delta": 0.015,
+    "suggested_direction": null
+  }
+}

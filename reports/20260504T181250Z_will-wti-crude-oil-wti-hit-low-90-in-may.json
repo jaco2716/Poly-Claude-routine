@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T18:12:50.592977+00:00",
+  "market": {
+    "id": "2132648",
+    "condition_id": "0x8a7bc81b3d628f77a9ceca546f581aa2ae46b7285662f7765096216bce9d59b6",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-may-567",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.58,
+    "no_price": 0.42,
+    "liquidity": 28387.6139,
+    "volume_24h": 31474.842818999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.5,
+    "reasoning": "WTI $101-102 on May 4. Hitting $90 low needs ~11% drop within 27 days. Possible if Iran ceasefire firms or OPEC+ surprises supply, but elevated geopolitical premium argues against. Below 50%.",
+    "data_sources": [
+      "tradingeconomics",
+      "fxdailyreport May 4 2026"
+    ],
+    "key_uncertainty": "Pace of Iran de-escalation and OPEC+ decisions",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.58,
+    "claude_prob": 0.45,
+    "delta": -0.13,
+    "suggested_direction": "no"
+  }
+}
