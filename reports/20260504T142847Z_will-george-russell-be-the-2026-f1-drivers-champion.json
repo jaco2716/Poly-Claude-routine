@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T14:28:47.805198+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.27,
+    "no_price": 0.73,
+    "liquidity": 112359.6449,
+    "volume_24h": 18296.37923300001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "After Miami GP (May 3, 2026), Russell sits 2nd with 80 points, trailing teammate Antonelli (100 pts) by 20 points. Antonelli has won three consecutive races and looks dominant. Russell is in the title fight but is the clear underdog within Mercedes; with ~22 races remaining, a comeback is possible but not the base case. Need to also discount for non-Mercedes contenders.",
+    "data_sources": [
+      "formula1.com 2026 standings",
+      "racefans.net Miami GP report",
+      "racingnews365.com standings"
+    ],
+    "key_uncertainty": "Whether Antonelli can sustain form across the full season or if Russell can establish team #1 status.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.27,
+    "claude_prob": 0.18,
+    "delta": -0.09,
+    "suggested_direction": "no"
+  }
+}

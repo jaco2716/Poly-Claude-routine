@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T14:28:47.814206+00:00",
+  "market": {
+    "id": "2132116",
+    "condition_id": "0xab45a009067cdea229a31a881a1c37ac38be34bb833f585809bb11079eb50336",
+    "question": "S&P 500 (SPY) closes above $720 on May 4?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-720-on-may-4-2026",
+    "end_date": "2026-05-04T20:00:00Z",
+    "yes_price": 0.53,
+    "no_price": 0.47,
+    "liquidity": 1958.3849,
+    "volume_24h": 17799.527789
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.6,
+    "confidence": 0.4,
+    "reasoning": "SPY closed Friday May 1 at $720.75 (all-time high) and futures-implied open on May 4 is ~$722. To close above $720 requires today to hold or extend. With positive futures and strong recent trend, slightly above 50/50; estimating ~60%. Implied vol on a single session implies wide outcomes but the threshold is at-the-money.",
+    "data_sources": [
+      "digrin SPY history $720.75 close",
+      "stockinvest SPY",
+      "thestreet May 4"
+    ],
+    "key_uncertainty": "Single-day risk events (Iran, geopolitical headlines) could push SPY below $720.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.53,
+    "claude_prob": 0.6,
+    "delta": 0.07,
+    "suggested_direction": "yes"
+  }
+}

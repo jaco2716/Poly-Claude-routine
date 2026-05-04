@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T14:28:47.806446+00:00",
+  "market": {
+    "id": "701553",
+    "condition_id": "0xacb33346b59a2a3770e2391b7d1b0e77d8dcdcf840a66f5fa01d28db43c4e369",
+    "question": "Will Ethereum dip to $1,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-dip-to-1000-by-december-31-2026",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 74153.7244,
+    "volume_24h": 18904.73125
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.03,
+    "confidence": 0.85,
+    "reasoning": "ETH spot is ~$2,330-$2,345 on May 4, 2026. A dip to $1,000 by Dec 31, 2026 would require a ~57% drawdown over ~8 months. Even severe historical bear-market legs have rarely produced this in such a window from a non-bubble base; current price is well off cycle highs already. Base rate of 50%+ drawdowns in any given 8-month period is low.",
+    "data_sources": [
+      "CoinDesk ETH price",
+      "CoinMarketCap ETH price",
+      "Bybit ETH"
+    ],
+    "key_uncertainty": "A black-swan macro/crypto credit event could trigger a cascade, but no such catalyst is currently visible.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.03,
+    "delta": -0.145,
+    "suggested_direction": "no"
+  }
+}

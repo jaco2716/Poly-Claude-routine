@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.813779+00:00",
+  "market": {
+    "id": "2132101",
+    "condition_id": "0x64c08b9ff895efe33fd4b22bbdd19c15af32036ca563b4ed93d77e1f79700b34",
+    "question": "S&P 500 (SPX) Up or Down on May 4?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-4-2026",
+    "end_date": "2026-05-04T20:00:00Z",
+    "yes_price": 0.48,
+    "no_price": 0.52,
+    "liquidity": 5147.2354,
+    "volume_24h": 102724.927375
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.35,
+    "reasoning": "SPX is at ~7,230 on May 4 with futures indicating slight up open on Iran ceasefire optimism. Daily up/down is fundamentally near 50/50, with a small upward tilt given positive futures and ongoing all-time-high momentum. Limited edge.",
+    "data_sources": [
+      "TradingView SPX",
+      "thestreet market today May 4"
+    ],
+    "key_uncertainty": "Intraday news (Iran, Fed-related) drives single-day direction with low predictability.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.48,
+    "claude_prob": 0.52,
+    "delta": 0.04,
+    "suggested_direction": null
+  }
+}

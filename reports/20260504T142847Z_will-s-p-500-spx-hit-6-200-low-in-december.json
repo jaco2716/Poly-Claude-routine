@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.812991+00:00",
+  "market": {
+    "id": "1125393",
+    "condition_id": "0x63e5bdd1d9079da369f41a2f5c3b7e6ce3dd7effcadcdd23387dd59447ce80fe",
+    "question": "Will S&P 500 (SPX) hit $6,200 (LOW) in December?",
+    "category": "equity_index",
+    "slug": "spx-hit-6200-low-dec-2026",
+    "end_date": "2026-12-31T21:00:00Z",
+    "yes_price": 0.4925,
+    "no_price": 0.5075,
+    "liquidity": 9734.91667,
+    "volume_24h": 44.144619
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "SPX is ~7,230 on May 4 at near all-time highs. For SPX to print a LOW of $6,200 in December would require a ~14% drawdown by/within December 2026 with SPX trading at/below 6,200 at some intraday point. With 8 months runway and average annual drawdowns of ~14% historically, possible but requires sustained risk-off; current trend is upward.",
+    "data_sources": [
+      "FRED SP500",
+      "TradingView SPX"
+    ],
+    "key_uncertainty": "Whether geopolitical/recession risk eventually triggers a >10% correction.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4925,
+    "claude_prob": 0.2,
+    "delta": -0.2925,
+    "suggested_direction": "no"
+  }
+}

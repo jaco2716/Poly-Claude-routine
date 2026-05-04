@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.812373+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.53,
+    "no_price": 0.47,
+    "liquidity": 13831.9053,
+    "volume_24h": 17360.066435
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.45,
+    "reasoning": "WTI ~$101.79 May 4. To hit HIGH of $120 by end of June requires ~+18% over ~2 months. May 1 spike only reached ~$106. Would need a meaningful re-escalation or new supply shock. Two months gives more opportunity than a one-month window, but $120 has not traded in 2026 so far.",
+    "data_sources": [
+      "tradingeconomics WTI",
+      "fxleaders WTI"
+    ],
+    "key_uncertainty": "Probability of a fresh Middle East supply shock between now and end of June.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.53,
+    "claude_prob": 0.25,
+    "delta": -0.28,
+    "suggested_direction": "no"
+  }
+}

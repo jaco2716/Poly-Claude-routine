@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.815615+00:00",
+  "market": {
+    "id": "2137223",
+    "condition_id": "0x3bb0ffc2e326f12d9fe75ab70d876725284622e5ebaa6c5a485845ca9027d9fc",
+    "question": "Will the highest temperature in New York City be between 70-71\u00b0F on May 4?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-nyc-on-may-4-2026-70-71f",
+    "end_date": "2026-05-04T12:00:00Z",
+    "yes_price": 0.27,
+    "no_price": 0.73,
+    "liquidity": 957.3528,
+    "volume_24h": 7483.852778
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "NYC forecast for May 4, 2026 puts the high at 68\u00b0F with overnight low 56\u00b0F. The market resolves YES if highest temp lands in 70-71\u00b0F bucket. Forecast at 68\u00b0F is just 2\u00b0F below the 70-71 bucket, within forecast uncertainty. Probability of upside surprise into 70-71 (vs landing at 68/69 or higher 72+) is moderate but not the central case.",
+    "data_sources": [
+      "AccuWeather NYC May 4 high 68F",
+      "world-weather.info NYC May"
+    ],
+    "key_uncertainty": "Forecast verification within +/-2\u00b0F band; sun/cloud breaks could push high higher.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.27,
+    "claude_prob": 0.32,
+    "delta": 0.05,
+    "suggested_direction": "yes"
+  }
+}

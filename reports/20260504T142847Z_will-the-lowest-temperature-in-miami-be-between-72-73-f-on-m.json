@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.816129+00:00",
+  "market": {
+    "id": "2152575",
+    "condition_id": "0xbfdbe4fd15f8298def4210081fb70664cb44cd35a6ed3b2886b3f9982ce54927",
+    "question": "Will the lowest temperature in Miami be between 72-73\u00b0F on May 6?",
+    "category": "temperature",
+    "slug": "lowest-temperature-in-miami-on-may-6-2026-72-73f",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.23,
+    "no_price": 0.77,
+    "liquidity": 935.3737,
+    "volume_24h": 527.4671900000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.4,
+    "reasoning": "Miami May 6, 2026 lowest temperature forecast around 72.4\u00b0F (22.4\u00b0C). The market resolves YES if low lands in 72-73\u00b0F. Forecast point estimate is right in this bucket but a 1-degree miss in either direction is common. Probability of falling exactly in 72-73 bucket is moderate.",
+    "data_sources": [
+      "world-weather.info Miami May 2026",
+      "AccuWeather Miami May"
+    ],
+    "key_uncertainty": "Forecast accuracy at the 1-degree bucket level \u2014 could land at 71, 72, 73, or 74.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.23,
+    "claude_prob": 0.28,
+    "delta": 0.05,
+    "suggested_direction": "yes"
+  }
+}

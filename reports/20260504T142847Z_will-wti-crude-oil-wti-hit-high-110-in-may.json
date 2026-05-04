@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T14:28:47.807702+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.81,
+    "no_price": 0.19,
+    "liquidity": 64400.5723,
+    "volume_24h": 315271.41005299985
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.55,
+    "reasoning": "WTI is ~$101.79 on May 4 with the Iran/Strait of Hormuz supply shock still elevating prices (touched ~$106 May 1). To hit a $110 HIGH any time in May, WTI needs ~+8% from spot. With ~27 days remaining and ongoing geopolitical tail-risk (potential Hormuz disruption recurring), this is plausible but not a sure thing \u2014 a sustained ceasefire could cap upside.",
+    "data_sources": [
+      "fxleaders WTI May 1 $106",
+      "tradingeconomics",
+      "oilprice.com"
+    ],
+    "key_uncertainty": "Trajectory of US-Iran ceasefire and Strait of Hormuz reopening timeline.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.81,
+    "claude_prob": 0.55,
+    "delta": -0.26,
+    "suggested_direction": "no"
+  }
+}

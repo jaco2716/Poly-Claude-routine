@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T14:28:47.815394+00:00",
+  "market": {
+    "id": "2145053",
+    "condition_id": "0x9311fa1be49ae7691f9ca25e98e2a9367e9ee9b6fa564a9678865deacda595a4",
+    "question": "Will the highest temperature in San Francisco be between 60-61\u00b0F on May 5?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-san-francisco-on-may-5-2026-60-61f",
+    "end_date": "2026-05-05T12:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 966.45,
+    "volume_24h": 312.586177
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "San Francisco early May normal high ~67\u00b0F; forecasts indicate range 62-76\u00b0F across the month. The 60-61\u00b0F bucket is below normal \u2014 corresponds to a slightly cooler/marine-layer day. Without a more specific forecast for May 5, probability of high landing exactly at 60-61 is modest (~15-20%).",
+    "data_sources": [
+      "AccuWeather San Francisco May",
+      "weatherspark SF May",
+      "easeweather SF"
+    ],
+    "key_uncertainty": "Marine layer/onshore flow strength on May 5 \u2014 small forecast errors make exact 1-degree bucket uncertain.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.18,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

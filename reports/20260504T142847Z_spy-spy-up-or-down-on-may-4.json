@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-04T14:28:47.813383+00:00",
+  "market": {
+    "id": "2132197",
+    "condition_id": "0xf8aec1ca096910e36bf70c61d63f707f2a736e703b26988c6dc76b748acd0133",
+    "question": "SPY (SPY) Up or Down on May 4?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-4-2026",
+    "end_date": "2026-05-04T20:00:00Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 8173.8398,
+    "volume_24h": 80812.24381999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.35,
+    "reasoning": "SPY ~$720.75 close Friday May 1. May 4 is today; SPY pre-market/futures fair-value indicates ~$722 open. With Iran ceasefire optimism but uncertainty, daily up vs down is essentially a coin flip. Slight tilt up given positive futures and momentum into all-time highs.",
+    "data_sources": [
+      "digrin SPY history",
+      "thestreet market today May 4",
+      "stockinvest SPY"
+    ],
+    "key_uncertainty": "Single-day return is dominated by news-flow noise; very low predictive edge.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.52,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

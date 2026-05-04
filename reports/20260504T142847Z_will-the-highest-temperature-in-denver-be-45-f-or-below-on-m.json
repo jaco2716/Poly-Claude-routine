@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.814781+00:00",
+  "market": {
+    "id": "2145013",
+    "condition_id": "0x627def28d54b8f2983b482375255070d65df7023e375d05ca408daa895468a62",
+    "question": "Will the highest temperature in Denver be 45\u00b0F or below on May 5?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-denver-on-may-5-2026-45forbelow",
+    "end_date": "2026-05-05T12:00:00Z",
+    "yes_price": 0.21,
+    "no_price": 0.79,
+    "liquidity": 994.6753,
+    "volume_24h": 1429.2926110000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.85,
+    "reasoning": "NWS Denver forecast for May 5, 2026 calls for high near 73\u00b0F with partly sunny conditions. The market resolves YES if highest temp is 45\u00b0F or below, requiring nearly 30\u00b0F below forecast \u2014 extremely unlikely outside an unprecedented arctic blast (which is not on synoptic charts).",
+    "data_sources": [
+      "NWS Denver/Boulder forecast",
+      "AccuWeather Denver May"
+    ],
+    "key_uncertainty": "An unforecasted late-spring arctic outbreak with snow could only conceivably push high to mid-40s.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.21,
+    "claude_prob": 0.05,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}

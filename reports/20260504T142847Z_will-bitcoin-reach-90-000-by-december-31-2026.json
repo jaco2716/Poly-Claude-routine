@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-04T14:28:47.811753+00:00",
+  "market": {
+    "id": "1345531",
+    "condition_id": "0xbb379a14cd03f68c35c279ddbd928a6326f4fd2e21827f8cdaaf59715d6df50e",
+    "question": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90000-by-december-31-2026-113-862-581",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.665,
+    "no_price": 0.335,
+    "liquidity": 27307.4706,
+    "volume_24h": 34181.92595900001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.55,
+    "reasoning": "BTC ~$78,800 on May 4. Reaching $90,000 by Dec 31 requires +14.2% in ~8 months. BTC was up 17% in the past month already, and with 8 months of runway, a 14% rally to a level not far from prior cycle action is the base case. Historical 8-month rolling returns from this region tend to include such peaks frequently.",
+    "data_sources": [
+      "CoinDesk BTC",
+      "Yahoo Finance BTC"
+    ],
+    "key_uncertainty": "Severe macro/regulatory shock could prevent any meaningful rally.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.665,
+    "claude_prob": 0.78,
+    "delta": 0.115,
+    "suggested_direction": "yes"
+  }
+}
