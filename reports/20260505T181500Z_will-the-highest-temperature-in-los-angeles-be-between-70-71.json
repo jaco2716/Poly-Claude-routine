@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-05T18:15:00.223121+00:00",
+  "market": {
+    "id": "2157137",
+    "condition_id": "0x76a1faa4ceb0f1a31ad73e6c58cd69f305f526319ed83dade798a48e4b6a8750",
+    "question": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-los-angeles-on-may-6-2026-70-71f",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.23,
+    "no_price": 0.77,
+    "liquidity": 980.194,
+    "volume_24h": 320.47576499999997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.55,
+    "reasoning": "LA forecast for May 6 high 70\u00b0F. Market 70-71\u00b0F bin matches forecast directly. With typical forecast error of +/-2\u00b0F, probability of landing in this 2-degree bin is 35-45%.",
+    "data_sources": [
+      "accuweather.com Los Angeles May",
+      "world-weather.info LA",
+      "weather.gov LOX"
+    ],
+    "key_uncertainty": "Marine layer / Santa Ana could push warmer or cooler",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.23,
+    "claude_prob": 0.4,
+    "delta": 0.17,
+    "suggested_direction": "yes"
+  }
+}

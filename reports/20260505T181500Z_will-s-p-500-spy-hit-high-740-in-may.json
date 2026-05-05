@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.220921+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 12186.2408,
+    "volume_24h": 30333.433593999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.55,
+    "reasoning": "SPY ~$723 on May 5 (intraday), May 4 close $718. Needs $740 high in May, ~2.3% rise. SPY rallied 5%+ in April. With 19 trading days remaining and Iran tensions creating volatility, plausible but not given.",
+    "data_sources": [
+      "247wallst.com SPY May 5 2026",
+      "benzinga.com SPY April rally"
+    ],
+    "key_uncertainty": "Iran/Hormuz fallout and Fed/macro data flow",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.4,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

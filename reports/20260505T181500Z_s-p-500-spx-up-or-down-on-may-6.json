@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.221517+00:00",
+  "market": {
+    "id": "2164979",
+    "condition_id": "0x04c8693a77c3d7b77c3c59a6868488b290328b4fe01a67b8cb5ff70f224e9af4",
+    "question": "S&P 500 (SPX) Up or Down on May 6?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T20:00:00Z",
+    "yes_price": 0.485,
+    "no_price": 0.515,
+    "liquidity": 9597.1802,
+    "volume_24h": 1280.379138
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.3,
+    "reasoning": "Daily up/down for SPX is essentially a coin flip with slight upward drift. Today (May 5) SPX bouncing as oil pulls back; if mood holds, May 6 has slight upward bias. But Iran headline risk is high. No strong edge over 50/50.",
+    "data_sources": [
+      "247wallst.com SPY May 5 2026",
+      "247wallst.com SPY May 4"
+    ],
+    "key_uncertainty": "Iran headline risk and overnight futures direction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.485,
+    "claude_prob": 0.52,
+    "delta": 0.035,
+    "suggested_direction": null
+  }
+}

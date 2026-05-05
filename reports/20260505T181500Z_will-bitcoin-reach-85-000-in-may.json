@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.218348+00:00",
+  "market": {
+    "id": "2132776",
+    "condition_id": "0x58078283e2356f9b9537b42e7479d7785b83bcd6f18002de8a2526c499eda837",
+    "question": "Will Bitcoin reach $85,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-85k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.675,
+    "no_price": 0.325,
+    "liquidity": 51874.2203,
+    "volume_24h": 71737.136513
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.65,
+    "reasoning": "BTC ~$81k on May 5, needs to reach $85k in May (~5% rise). Bitcoin showed +5.2% in last 5 days with momentum, hitting $81k highs not seen since January. Only 5% additional in 26 days is well within typical monthly range.",
+    "data_sources": [
+      "finance.yahoo.com BTC May 5 2026",
+      "fortune.com BTC"
+    ],
+    "key_uncertainty": "Possible reversal from recent rally if macro tightens",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.675,
+    "claude_prob": 0.7,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

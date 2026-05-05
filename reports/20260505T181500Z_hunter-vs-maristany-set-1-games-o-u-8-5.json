@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-05T18:15:00.223726+00:00",
+  "market": {
+    "id": "2157868",
+    "condition_id": "0x1e5487a5db37bd71fd9a025b323a9d697182a0debdaaed7bc73fa784b2c1385b",
+    "question": "Hunter vs. Maristany: Set 1 Games O/U 8.5",
+    "category": "weather",
+    "slug": "wta-hunter-marista-2026-05-05-first-set-total-8pt5",
+    "end_date": "2026-05-12T08:00:00Z",
+    "yes_price": 0.675,
+    "no_price": 0.325,
+    "liquidity": 942.0012,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.1,
+    "reasoning": "Could not find specific match details for Hunter vs Maristany Set 1 Games O/U 8.5. Without player form, surface, recent results and odds context, no reliable estimate. Defaulting to 50/50 with low confidence.",
+    "data_sources": [],
+    "key_uncertainty": "Specific match identity, players, court surface, recent form not retrievable",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.675,
+    "claude_prob": 0.5,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.221929+00:00",
+  "market": {
+    "id": "2135259",
+    "condition_id": "0x6a9ad5bdbb86ec5ccccad75b4f66a051a1feab5612b8ab35a41f59bfc157d85b",
+    "question": "Will S&P 500 (SPY) hit (LOW) $710 Week of May 4 2026?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-710-by-may-4-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 4531.2545,
+    "volume_24h": 10979.194964000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.45,
+    "reasoning": "SPY ~$723 on May 5 (intraday), May 4 close $718. Need dip to $710 (~1.8% drop) by May 8. Possible with Iran headline risk but SPY has been bouncing on oil pullback. Three trading days of room.",
+    "data_sources": [
+      "247wallst.com SPY May 5",
+      "247wallst.com SPY May 4"
+    ],
+    "key_uncertainty": "Iran escalation could trigger further selling",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.25,
+    "delta": -0.025,
+    "suggested_direction": null
+  }
+}

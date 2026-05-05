@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.222637+00:00",
+  "market": {
+    "id": "2161878",
+    "condition_id": "0xce7a695a1ffe7167543fe9a21f2cf46b2b7550169b34bce0e88827b74bede64e",
+    "question": "Will the highest temperature in Seattle be between 68-69\u00b0F on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seattle-on-may-7-2026-68-69f",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 990.1049,
+    "volume_24h": 212.989607
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "NWS Seattle forecast for May 7 indicates partly sunny with high near 71\u00b0F. Market asks 68-69\u00b0F. Forecast is 2-3\u00b0F above the band, so probability of landing in the bin is below 25%, accounting for forecast error.",
+    "data_sources": [
+      "weather.gov Seattle",
+      "forecast.weather.gov 47.61N 122.32W"
+    ],
+    "key_uncertainty": "Marine layer or front bringing cooler conditions",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.18,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

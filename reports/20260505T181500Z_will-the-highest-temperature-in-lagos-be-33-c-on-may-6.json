@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.222423+00:00",
+  "market": {
+    "id": "2157268",
+    "condition_id": "0x11bcc24c9bb23ab7b4077cecd874cc91a56308df4a5b9489428c1a33f49ab5b8",
+    "question": "Will the highest temperature in Lagos be 33\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-lagos-on-may-6-2026-33c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 991.6638,
+    "volume_24h": 602.563322
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.55,
+    "reasoning": "Lagos forecast for Wednesday May 6 indicated 29\u00b0C, with monthly range 26-32\u00b0C. Hitting 33\u00b0C high would be an above-norm warm day. Probability moderate-low.",
+    "data_sources": [
+      "accuweather.com Lagos May",
+      "timeanddate.com Lagos climate"
+    ],
+    "key_uncertainty": "Heat anomaly possibility",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.15,
+    "delta": -0.125,
+    "suggested_direction": "no"
+  }
+}

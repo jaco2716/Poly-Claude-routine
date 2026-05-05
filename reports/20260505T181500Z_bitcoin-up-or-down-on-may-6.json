@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.224462+00:00",
+  "market": {
+    "id": "2155795",
+    "condition_id": "0xab8c3f9ca6b1c15bcddc49014978c8540f341974a69e362ce94b0dcc13acb252",
+    "question": "Bitcoin Up or Down on May 6?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T16:00:00Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 26760.7063,
+    "volume_24h": 23844.722648000006
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.53,
+    "confidence": 0.3,
+    "reasoning": "BTC daily up/down is essentially coin-flip. BTC up momentum (~+5.2% over 5 days, broke $81k high not seen since Jan). Slight upward bias for May 6 if rally extends, but headline-driven volatility from Iran tensions adds noise. Marginal edge over 50/50.",
+    "data_sources": [
+      "finance.yahoo.com BTC May 5 2026",
+      "metamask.io BTC"
+    ],
+    "key_uncertainty": "Macro/Iran headline risk and overnight crypto flow",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.53,
+    "delta": 0.095,
+    "suggested_direction": "yes"
+  }
+}

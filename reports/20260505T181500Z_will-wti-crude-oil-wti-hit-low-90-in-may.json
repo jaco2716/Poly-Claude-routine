@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T18:15:00.219620+00:00",
+  "market": {
+    "id": "2132648",
+    "condition_id": "0x8a7bc81b3d628f77a9ceca546f581aa2ae46b7285662f7765096216bce9d59b6",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $90 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-90-in-may-567-537",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.555,
+    "no_price": 0.445,
+    "liquidity": 33404.4054,
+    "volume_24h": 26072.837155999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "WTI ~$103, needs to dip to $90 (~13% drop). Pre-Iran-tension fundamentals were lower-$90s but current geopolitical premium is sticky. A drop to $90 would require both ceasefire holding and Strait reopening with weak demand confirmation. Possible but lower probability than $95.",
+    "data_sources": [
+      "cnbc.com oil May 5",
+      "tradingeconomics.com WTI"
+    ],
+    "key_uncertainty": "Speed of Iran de-escalation and supply normalization",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.555,
+    "claude_prob": 0.3,
+    "delta": -0.255,
+    "suggested_direction": "no"
+  }
+}

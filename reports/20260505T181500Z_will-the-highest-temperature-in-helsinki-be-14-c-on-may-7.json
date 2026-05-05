@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-05T18:15:00.222837+00:00",
+  "market": {
+    "id": "2162251",
+    "condition_id": "0xcac669f38540dc8185c7490cdf097a937449502c5b1e6ff131de440c57a261e1",
+    "question": "Will the highest temperature in Helsinki be 14\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-helsinki-on-may-7-2026-14c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.34,
+    "no_price": 0.66,
+    "liquidity": 986.2692,
+    "volume_24h": 8.335552
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Helsinki May average high ~15\u00b0C; market asks if exact high is 14\u00b0C. Forecast cited 7\u00b0C for May 7 may reflect early-morning rather than full-day high. With daily highs near average ~14-15\u00b0C, hitting exactly 14\u00b0C is plausible but tight bin.",
+    "data_sources": [
+      "weatherspark.com Helsinki May",
+      "holiday-weather.com Helsinki",
+      "accuweather.com Helsinki"
+    ],
+    "key_uncertainty": "Cool front vs typical conditions; specific forecast for the day",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.34,
+    "claude_prob": 0.22,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}
