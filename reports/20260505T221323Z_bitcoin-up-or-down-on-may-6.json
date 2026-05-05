@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.969308+00:00",
+  "market": {
+    "id": "2155795",
+    "condition_id": "0xab8c3f9ca6b1c15bcddc49014978c8540f341974a69e362ce94b0dcc13acb252",
+    "question": "Bitcoin Up or Down on May 6?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T16:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 34281.4282,
+    "volume_24h": 35402.956406000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.52,
+    "confidence": 0.35,
+    "reasoning": "Question compares BTC May 5 noon ET close to May 6 noon ET close. Yes = Up. BTC was on positive momentum reaching $81k highs on May 5. Daily directional bets are near 50/50; slight upward bias from current momentum and Iran de-escalation rally context.",
+    "data_sources": [
+      "fortune.com BTC May 5 2026",
+      "financemagnates.com BTC $80k"
+    ],
+    "key_uncertainty": "24-hour BTC price moves are nearly random walk",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.52,
+    "delta": 0.015,
+    "suggested_direction": null
+  }
+}

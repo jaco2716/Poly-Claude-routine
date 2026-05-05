@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.965774+00:00",
+  "market": {
+    "id": "2132637",
+    "condition_id": "0x59a37ea3830d532957b04d3c437a329e14a5dc840096d48c7ee4b55ba3d9cca8",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-may-266-388-493-155-935-263-225",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.395,
+    "no_price": 0.605,
+    "liquidity": 22156.5947,
+    "volume_24h": 56951.04904499999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.5,
+    "reasoning": "WTI around $104, dipping to $85 = approximately -18% decline. Requires major bearish catalyst (Iran de-escalation + supply build). Within 26 days, this is below-base-rate but not impossible given two-sided volatility.",
+    "data_sources": [
+      "tradingeconomics.com WTI",
+      "CNBC May 5 2026"
+    ],
+    "key_uncertainty": "Magnitude of geopolitical premium unwind",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.395,
+    "claude_prob": 0.22,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

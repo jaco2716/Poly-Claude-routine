@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.964909+00:00",
+  "market": {
+    "id": "701552",
+    "condition_id": "0xcf25ccc8360f3952139fb5e3f14cb9bb0636cb53d0e30e947321ceccab7e9780",
+    "question": "Will Ethereum dip to $1,500 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-dip-to-1500-by-december-31-2026",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.395,
+    "no_price": 0.605,
+    "liquidity": 39550.6198,
+    "volume_24h": 10483.498262
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "ETH at ~$2,380 on May 5, 2026. A dip to $1,500 by Dec 31, 2026 is a -37% drawdown over ~8 months. Such a deep decline requires major crypto/macro shock; broader market is rebounding. Historical base rate for >35% ETH decline from current level over 8 months is low but not negligible given crypto vol.",
+    "data_sources": [
+      "fortune.com ETH May 5 2026",
+      "metamask.io price"
+    ],
+    "key_uncertainty": "Major regulatory or macro shock could trigger steep decline",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.395,
+    "claude_prob": 0.18,
+    "delta": -0.215,
+    "suggested_direction": "no"
+  }
+}

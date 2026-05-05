@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-05T22:13:23.963798+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.685,
+    "no_price": 0.315,
+    "liquidity": 51384.8736,
+    "volume_24h": 42499.56520900001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.55,
+    "reasoning": "WTI front-month around $102-$105 on May 5, 2026 with elevated volatility from US-Iran tensions and Strait of Hormuz risk. Reaching $110 (any 1-min candle high) only requires roughly +5-8% intraday spike during 26 remaining days. Given the geopolitical setup that already drove WTI above $105 earlier in the week, this is a coin-flip-to-likely outcome.",
+    "data_sources": [
+      "tradingeconomics.com WTI",
+      "financemagnates.com Iran tensions",
+      "CNBC May 5 2026"
+    ],
+    "key_uncertainty": "Iran de-escalation or large inventory builds could cap the upside",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.685,
+    "claude_prob": 0.55,
+    "delta": -0.135,
+    "suggested_direction": "no"
+  }
+}

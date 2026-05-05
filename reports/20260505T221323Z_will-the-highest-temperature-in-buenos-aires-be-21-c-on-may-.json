@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.967297+00:00",
+  "market": {
+    "id": "2161847",
+    "condition_id": "0x365ca7f9193d92d59abbc760acd97902fb7808156b7895f962c239809b8b8a3d",
+    "question": "Will the highest temperature in Buenos Aires be 21\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-may-7-2026-21c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 995.5776,
+    "volume_24h": 343.622311
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "Buenos Aires Ezeiza forecast for May 7, 2026 around 19\u00b0C (per AQI.in). Question asks if high will be exactly 21\u00b0C bin. Forecast slightly below target by ~2\u00b0C. Uncertainty around forecast precision. Below target means probability is below baseline; estimate ~15-20%.",
+    "data_sources": [
+      "aqi.in Buenos Aires forecast",
+      "accuweather.com Ezeiza"
+    ],
+    "key_uncertainty": "Forecast accuracy 2 days out and exact bin landing",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.18,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

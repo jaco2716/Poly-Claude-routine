@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.966391+00:00",
+  "market": {
+    "id": "2161877",
+    "condition_id": "0xee5e671bce7da51c27d4ab36837bb51431f09448ca5775c31a3659dd23e3d486",
+    "question": "Will the highest temperature in Seattle be between 66-67\u00b0F on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seattle-on-may-7-2026-66-67f",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.4,
+    "no_price": 0.6,
+    "liquidity": 999.5771,
+    "volume_24h": 137.959619
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.35,
+    "reasoning": "Question targets a narrow 2\u00b0F bin (66-67\u00b0F) at Seattle SeaTac on May 7. May 5 high there was 74\u00b0F (warmer than seasonal). Climatological May average highs are 64-67\u00b0F. A specific 2-degree bin in the right neighborhood typically has ~15-25% probability. Could not pull a specific dated forecast from search.",
+    "data_sources": [
+      "king5.com Seattle May 5",
+      "weather.gov forecast.weather.gov KSEA"
+    ],
+    "key_uncertainty": "Cold front timing and exact temperature realization",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4,
+    "claude_prob": 0.2,
+    "delta": -0.2,
+    "suggested_direction": "no"
+  }
+}

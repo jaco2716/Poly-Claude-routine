@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.968429+00:00",
+  "market": {
+    "id": "2157179",
+    "condition_id": "0x3c92b230a683633f5530b2fe8b6d0eebfb7631b8f847e3d89abfe97dc3d25813",
+    "question": "Will the highest temperature in Mexico City be 30\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-mexico-city-on-may-6-2026-30c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.21,
+    "no_price": 0.79,
+    "liquidity": 987.2297,
+    "volume_24h": 213.481509
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "Mexico City May 6, 2026 forecast around 85\u00b0F (~29.4\u00b0C) per search. Question asks if high will be exactly 30\u00b0C bin (86-87\u00b0F). Forecast is on the borderline below target by ~0.5-1\u00b0C. Probability of landing in the 30\u00b0C bin is moderate-low.",
+    "data_sources": [
+      "accuweather.com Mexico City",
+      "easeweather.com Mexico City May"
+    ],
+    "key_uncertainty": "Cloud cover and exact rounding to whole degrees",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.21,
+    "claude_prob": 0.22,
+    "delta": 0.01,
+    "suggested_direction": null
+  }
+}

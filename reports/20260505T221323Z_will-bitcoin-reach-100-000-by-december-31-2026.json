@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.962844+00:00",
+  "market": {
+    "id": "701496",
+    "condition_id": "0xdaa4866bae18be58c5a79d2aeeffd035ec78f1bb49dbd88f72993997778a990f",
+    "question": "Will Bitcoin reach $100,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-100000-by-december-31-2026-571-361-361",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.465,
+    "no_price": 0.535,
+    "liquidity": 69083.3481,
+    "volume_24h": 11350.071182000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.55,
+    "reasoning": "BTC currently ~$81,286 (May 5, 2026), needs to reach $100,000 by Dec 31, 2026 (~8 months remaining). Requires roughly +23% rally. BTC has not hit $100k since the Nov 24, 2025 market start window. With typical BTC volatility and 8 months runway, this is plausible but uncertain \u2014 broad crypto sentiment is recovering from a January high. Roughly even-odds, slightly below current market price.",
+    "data_sources": [
+      "fortune.com BTC May 5",
+      "Yahoo Finance"
+    ],
+    "key_uncertainty": "Macro/regulatory shock could prevent or accelerate the rally; 8-month time horizon",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.465,
+    "claude_prob": 0.45,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

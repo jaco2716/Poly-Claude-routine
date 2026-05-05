@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.964303+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 45282.7641,
+    "volume_24h": 30600.275478999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.55,
+    "reasoning": "SPY at $723.53 May 5 close (record highs near $724.87). Reaching $740 = +2.3% in 26 days during regular hours. SPX just hit a record at 7259 with strong tailwind from falling oil. Given recent record-setting momentum and modest gap, roughly even odds.",
+    "data_sources": [
+      "finance.yahoo.com SPY",
+      "CNBC May 5 2026 close"
+    ],
+    "key_uncertainty": "Earnings season and macro data risks",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.5,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

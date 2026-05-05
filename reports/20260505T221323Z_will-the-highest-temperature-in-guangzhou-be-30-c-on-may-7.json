@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.967701+00:00",
+  "market": {
+    "id": "2162328",
+    "condition_id": "0x85d87509397c8e220b2f6ca19619cba64932138e0a6e5978b6369fd36fa4a712",
+    "question": "Will the highest temperature in Guangzhou be 30\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-guangzhou-on-may-7-2026-30c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.31,
+    "no_price": 0.69,
+    "liquidity": 994.7634,
+    "volume_24h": 35.728973
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.35,
+    "confidence": 0.5,
+    "reasoning": "Guangzhou May 7, 2026 forecast indicates high temperature around 30\u00b0C per multiple sources. Question asks if high lands in 30\u00b0C bin (i.e., 30.0-30.9\u00b0C). Forecast points right at this level, but daily highs can easily land in adjacent 29 or 31\u00b0C bins given cloud cover and rain typical for May. Modest probability for exact bin.",
+    "data_sources": [
+      "weather25.com Guangzhou",
+      "climate-data.org Guangzhou May 5"
+    ],
+    "key_uncertainty": "Rain/clouds could keep temp lower; bin precision is tight",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.31,
+    "claude_prob": 0.35,
+    "delta": 0.04,
+    "suggested_direction": null
+  }
+}

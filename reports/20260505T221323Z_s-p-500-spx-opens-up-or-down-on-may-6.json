@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.969061+00:00",
+  "market": {
+    "id": "2164980",
+    "condition_id": "0x238d373e805e37f4d633cef98637f00b1b2a0c596836f368c1f28ce7c2633359",
+    "question": "S&P 500 (SPX) Opens Up or Down on May 6?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T20:00:00Z",
+    "yes_price": 0.61,
+    "no_price": 0.39,
+    "liquidity": 981.9419,
+    "volume_24h": 254.222892
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.4,
+    "reasoning": "Yes resolves Up. SPX closed at record 7,259.22 on May 5 with strong momentum (+0.81%) on falling oil tailwind. Open vs prior close is essentially overnight gap \u2014 typically near 50/50 but with positive momentum and global risk-on tone, slight upward bias. Historical base rate for daily up opens is ~52-54%.",
+    "data_sources": [
+      "CNBC May 5 2026 record close",
+      "WSJ open/close"
+    ],
+    "key_uncertainty": "Overnight news flow could swing the open in either direction",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.61,
+    "claude_prob": 0.55,
+    "delta": -0.06,
+    "suggested_direction": "no"
+  }
+}

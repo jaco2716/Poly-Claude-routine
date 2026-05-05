@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-05T22:13:23.966191+00:00",
+  "market": {
+    "id": "2074178",
+    "condition_id": "0x2a3a051ebcc0579d5b320a610e037eae5faa5eaa9119e8bb3f87b2973f59d852",
+    "question": "Will S&P 500 (SPY) hit (LOW) $700 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-700-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.52,
+    "no_price": 0.48,
+    "liquidity": 5857.11,
+    "volume_24h": 13251.694192
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "SPY at $723.53 (record high territory). A dip to $700 = -3.2% pullback during May. With SPX hitting fresh ATH at 7,259 on May 5 with strong momentum from falling oil, near-term probability of -3.2% pullback within 26 trading days is below coin-flip but not negligible.",
+    "data_sources": [
+      "finance.yahoo.com SPY",
+      "CNBC May 5 2026 record close"
+    ],
+    "key_uncertainty": "Earnings disappointments or Fed shock could trigger pullback",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.52,
+    "claude_prob": 0.3,
+    "delta": -0.22,
+    "suggested_direction": "no"
+  }
+}
