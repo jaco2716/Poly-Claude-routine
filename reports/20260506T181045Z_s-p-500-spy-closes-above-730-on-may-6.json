@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T18:10:45.414661+00:00",
+  "market": {
+    "id": "2164989",
+    "condition_id": "0xa36717002111912b898a7c5fcbea56cd062c6921874f6dbc9010d653650f1b3d",
+    "question": "S&P 500 (SPY) closes above $730 on May 6?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-730-on-may-6-2026",
+    "end_date": "2026-05-06T20:00:00Z",
+    "yes_price": 0.85,
+    "no_price": 0.15,
+    "liquidity": 4039.3017,
+    "volume_24h": 13476.568934
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "SPY around $724-727 intraday on May 6 with daily high only $727.03. Close above $730 would require a late-day rally of ~0.5%+. Most likely close is below $730, so NO.",
+    "data_sources": [
+      "SPY intraday quote ~3:37pm EDT May 6",
+      "daily high $727.03"
+    ],
+    "key_uncertainty": "Late-session moves on news could push above $730.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.85,
+    "claude_prob": 0.1,
+    "delta": -0.75,
+    "suggested_direction": "no"
+  }
+}

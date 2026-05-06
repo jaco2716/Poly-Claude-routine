@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-06T18:10:45.413392+00:00",
+  "market": {
+    "id": "2132796",
+    "condition_id": "0x523c642a2da7b7fcf4ecb1da444d805c790fe16497fa83ba6f99046ec7343ade",
+    "question": "Will Ethereum reach $2,600 in May?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-reach-2600-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 25481.7994,
+    "volume_24h": 14421.488748999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "ETH ~$2,380 May 6. $2,600 needs ~9% gain in ~25 days, within analyst max range $2,550-2,656. Plausible but requires sustained ETF inflow momentum or BTC strength.",
+    "data_sources": [
+      "Fortune ETH May 6",
+      "Cryptopolitan",
+      "CoinDCX",
+      "MidForex"
+    ],
+    "key_uncertainty": "Whether ETF inflows continue and BTC breaks higher.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.32,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

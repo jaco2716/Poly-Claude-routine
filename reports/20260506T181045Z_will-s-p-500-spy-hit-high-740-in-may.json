@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T18:10:45.414392+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.76,
+    "no_price": 0.24,
+    "liquidity": 9175.6979,
+    "volume_24h": 12343.780197
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.5,
+    "reasoning": "SPY ~$724-727 on May 6 with ~25 days left. $740 needs ~1.9% rally. With ATH momentum and trend favorable, touch probability moderate; but VIX-implied 1-month move suggests probability ~50-60% for that distance.",
+    "data_sources": [
+      "SPY intraday May 6",
+      "SPX ATH"
+    ],
+    "key_uncertainty": "A reversal on geopolitical or economic news could cap.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.76,
+    "claude_prob": 0.55,
+    "delta": -0.21,
+    "suggested_direction": "no"
+  }
+}

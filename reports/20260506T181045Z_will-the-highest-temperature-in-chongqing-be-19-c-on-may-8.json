@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T18:10:45.415853+00:00",
+  "market": {
+    "id": "2171406",
+    "condition_id": "0x91fc4650d43f0954b8f2c1070e9afa2fbc63afd4d035c652326a2bd488396638",
+    "question": "Will the highest temperature in Chongqing be 19\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chongqing-on-may-8-2026-19c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.26,
+    "no_price": 0.74,
+    "liquidity": 993.0443,
+    "volume_24h": 10.289126
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.35,
+    "reasoning": "Chongqing May 8 forecast 75F (~24C) per AccuWeather; another source mentioned 17C suggesting some cool/rainy conditions. 19C falls in between but below most-likely high. Probability ~15-20%.",
+    "data_sources": [
+      "AccuWeather Chongqing May",
+      "aqi.in"
+    ],
+    "key_uncertainty": "Patchy rain could cool the day significantly.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.26,
+    "claude_prob": 0.18,
+    "delta": -0.08,
+    "suggested_direction": "no"
+  }
+}

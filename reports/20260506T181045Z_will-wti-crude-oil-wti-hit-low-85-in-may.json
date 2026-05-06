@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T18:10:45.413832+00:00",
+  "market": {
+    "id": "2132637",
+    "condition_id": "0x59a37ea3830d532957b04d3c437a329e14a5dc840096d48c7ee4b55ba3d9cca8",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-may-266-388-493-155-935-263-225",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.665,
+    "no_price": 0.335,
+    "liquidity": 19927.2113,
+    "volume_24h": 88523.86956999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "WTI ~$100 on May 6. $85 requires ~15% drop in ~25 days. Iran ceasefire/deal news already pushing prices lower; supply normalization could continue. With Iran de-escalation underway and UAE OPEC exit potentially adding supply, a drop to $85 is plausible but counter to supply-shock setup.",
+    "data_sources": [
+      "CNBC May 5 2026",
+      "fxleaders",
+      "tradingeconomics"
+    ],
+    "key_uncertainty": "How quickly Iran/Hormuz situation normalizes vs. flares again.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.665,
+    "claude_prob": 0.3,
+    "delta": -0.365,
+    "suggested_direction": "no"
+  }
+}

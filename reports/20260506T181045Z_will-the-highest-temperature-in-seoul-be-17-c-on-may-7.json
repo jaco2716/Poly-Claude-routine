@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T18:10:45.415167+00:00",
+  "market": {
+    "id": "2161856",
+    "condition_id": "0xc44594f103d57a563da28fdcb89edc4908cb087bf38a224bceed8f8f79180a39",
+    "question": "Will the highest temperature in Seoul be 17\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seoul-on-may-7-2026-17c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.3,
+    "no_price": 0.7,
+    "liquidity": 995.4561,
+    "volume_24h": 2867.2079179999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.12,
+    "confidence": 0.4,
+    "reasoning": "Seoul May 7 expected high ~20-21C (68-70F). 17C high would require a cool front; not the most likely outcome. Probability ~10-15%.",
+    "data_sources": [
+      "Seoul mid-May avg highs ~20.5C",
+      "AccuWeather"
+    ],
+    "key_uncertainty": "Cold front passage could lower the high.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.3,
+    "claude_prob": 0.12,
+    "delta": -0.18,
+    "suggested_direction": "no"
+  }
+}

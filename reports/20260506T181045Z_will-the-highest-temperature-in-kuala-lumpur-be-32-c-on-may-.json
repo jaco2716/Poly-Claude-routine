@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T18:10:45.414924+00:00",
+  "market": {
+    "id": "2171593",
+    "condition_id": "0x7ca99a2070916a9a88ccd0aff3bd4385c3c9c229bca7c94b66246846faa25609",
+    "question": "Will the highest temperature in Kuala Lumpur be 32\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-kuala-lumpur-on-may-8-2026-32c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 998.36,
+    "volume_24h": 13.595552
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Kuala Lumpur May 8 forecast suggests highs around 92F (~33.3C). Most likely high integer is 33C, not 32C. Probability of exactly 32C is roughly 20-25% given typical 1-2C forecast uncertainty.",
+    "data_sources": [
+      "AccuWeather KL May 2026",
+      "weather25.com"
+    ],
+    "key_uncertainty": "Convective rain could reduce daily high; forecast spread is ~2C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.22,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

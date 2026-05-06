@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T18:10:45.414285+00:00",
+  "market": {
+    "id": "1125393",
+    "condition_id": "0x63e5bdd1d9079da369f41a2f5c3b7e6ce3dd7effcadcdd23387dd59447ce80fe",
+    "question": "Will S&P 500 (SPX) hit $6,200 (LOW) in December?",
+    "category": "equity_index",
+    "slug": "spx-hit-6200-low-dec-2026",
+    "end_date": "2026-12-31T21:00:00Z",
+    "yes_price": 0.5155,
+    "no_price": 0.4845,
+    "liquidity": 9643.33594,
+    "volume_24h": 128.5
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "SPX ~7337 ATH on May 6. To touch $6,200 (LOW) by Dec 2026 requires ~15.5% drawdown over ~7 months. Median S&P intra-year drawdown is ~14%, so a ~15-16% drop is roughly base-rate likely but on the upper edge. Probability ~25-35%.",
+    "data_sources": [
+      "SPX ATH May 6 2026",
+      "historical S&P intra-year drawdowns"
+    ],
+    "key_uncertainty": "How question handles December timing \u2014 does it require a touch within December or any time before Dec 31?",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.5155,
+    "claude_prob": 0.3,
+    "delta": -0.2155,
+    "suggested_direction": "no"
+  }
+}

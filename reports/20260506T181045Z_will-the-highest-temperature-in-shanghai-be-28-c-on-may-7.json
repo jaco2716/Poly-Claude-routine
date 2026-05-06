@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-06T18:10:45.415278+00:00",
+  "market": {
+    "id": "2162020",
+    "condition_id": "0x6264da15bed4b080bb4fa7fa3223caba0f2bc0f7df0b447cb7907460b4d04e94",
+    "question": "Will the highest temperature in Shanghai be 28\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shanghai-on-may-7-2026-28c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 993.187,
+    "volume_24h": 1518.2903620000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.45,
+    "reasoning": "Shanghai May 7 forecast 81F (~27.2C). Most likely high integer is 27C, but 28C is within typical 1C forecast error. Probability ~25-30%.",
+    "data_sources": [
+      "AccuWeather Shanghai May 2026"
+    ],
+    "key_uncertainty": "Cloud cover or rain could lower high; warm anomaly could push higher.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.3,
+    "delta": -0.085,
+    "suggested_direction": "no"
+  }
+}
