@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-06T11:11:15.720161+00:00",
+  "market": {
+    "id": "1125382",
+    "condition_id": "0x8ad67416f1aee0c26200848b8f663322d251946cdd552bd6c7a4ea262582ac73",
+    "question": "Will S&P 500 (SPX) hit $6,300 (LOW) in June?",
+    "category": "equity_index",
+    "slug": "spx-hit-6300-low-jun-2026",
+    "end_date": "2026-06-30T20:00:00Z",
+    "yes_price": 0.185,
+    "no_price": 0.815,
+    "liquidity": 9368.893,
+    "volume_24h": 213.11
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.55,
+    "reasoning": "SPX at ~7,235 needs ~13% drawdown to 6,300 in June. Major correction territory. Possible only with severe Iran war escalation or systemic shock. Low probability.",
+    "data_sources": [
+      "yahoo finance"
+    ],
+    "key_uncertainty": "Iran war escalation magnitude.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.185,
+    "claude_prob": 0.08,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

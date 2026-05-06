@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.721642+00:00",
+  "market": {
+    "id": "2156757",
+    "condition_id": "0x5f6c860d03899848e059fe20a16764a0813a977e674ca68848f4838fcb49880a",
+    "question": "Will the highest temperature in London be 12\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-6-2026-12c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.163,
+    "no_price": 0.837,
+    "liquidity": 1739.85184,
+    "volume_24h": 11761.630266000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.5,
+    "reasoning": "Met Office forecasts ~14C high for London May 6 with cooler polar maritime air. London City Airport often slightly different from area forecast. Probability of high landing in 12C bracket (likely meaning 11.5-12.5 or 12.0-12.9) is low given 14C forecast point estimate.",
+    "data_sources": [
+      "Met Office",
+      "weather2travel.com"
+    ],
+    "key_uncertainty": "Forecast accuracy and exact bracket definition.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.163,
+    "claude_prob": 0.1,
+    "delta": -0.063,
+    "suggested_direction": "no"
+  }
+}

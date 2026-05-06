@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.719173+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 15783.92,
+    "volume_24h": 12215.961737
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.55,
+    "reasoning": "SPY at $723.53 (May 5), all-time high $724.87. Needs ~2.4% gain to $740 in 25 trading days. Historic volatility suggests 2.4% moves common but Iran tensions creating headwinds. Possible if Iran de-escalates and earnings strong. Moderate probability.",
+    "data_sources": [
+      "yahoo finance",
+      "tipranks.com"
+    ],
+    "key_uncertainty": "Iran de-escalation and tech earnings momentum.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.32,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

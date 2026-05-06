@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.717638+00:00",
+  "market": {
+    "id": "2132799",
+    "condition_id": "0xd0ad962d3d86c54c209199ed9602088d09993117dfb7ce09fa7275d66cbaa055",
+    "question": "Will Ethereum dip to $2,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-dip-to-2000-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 30607.7369,
+    "volume_24h": 25364.832614000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "ETH at $2,380 needs ~16% drawdown to $2,000 in 25 days. Recent dip to $2,310 then recovery to $2,360-2,400. RSI neutral at 48. Without major macro shock, 16% drop in 3-4 weeks is unlikely. Possible if Hormuz crisis escalates dramatically.",
+    "data_sources": [
+      "coindesk",
+      "metamask.io"
+    ],
+    "key_uncertainty": "Macro tail-risk shock from geopolitics.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.18,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

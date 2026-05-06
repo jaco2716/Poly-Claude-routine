@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.721285+00:00",
+  "market": {
+    "id": "2135258",
+    "condition_id": "0xd365316a8bd71cb20e448f25cc6ddbed7e158b994de86e53d8b8eee8280fcfdf",
+    "question": "Will S&P 500 (SPY) hit (LOW) $715 Week of May 4 2026?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-715-by-may-4-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.2395,
+    "no_price": 0.7605,
+    "liquidity": 2855.38957,
+    "volume_24h": 10459.685768
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.45,
+    "reasoning": "SPY at $723.5 with day-range $721-723. May 4 dropped 0.37% (probably to ~$716-718). May 5 closed $723.5. Need $715 low in remaining 2 days (May 6-8) - requires ~1.2% additional drop. Possible on Iran headline but not likely. Note May 4-5 likely already had a low above $715.",
+    "data_sources": [
+      "yahoo finance",
+      "247wallst.com"
+    ],
+    "key_uncertainty": "Whether May 4 actually touched $715 or only got to ~$716.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.2395,
+    "claude_prob": 0.2,
+    "delta": -0.0395,
+    "suggested_direction": null
+  }
+}

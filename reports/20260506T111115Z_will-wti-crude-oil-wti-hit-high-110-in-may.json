@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T11:11:15.714692+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.375,
+    "no_price": 0.625,
+    "liquidity": 74947.6445,
+    "volume_24h": 151187.46485199998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.55,
+    "reasoning": "WTI trading near $104-106 on May 5, 2026 with Strait of Hormuz closure and Iran-UAE tensions. EIA forecasts peak ~$115 in Q2. Need ~4-6% intraday spike to hit $110 over remaining 25 days. May 1 already saw spike to $106. Geopolitical risk premium could easily push to $110 on any escalation. Moderate-high probability.",
+    "data_sources": [
+      "fxleaders.com",
+      "tradingeconomics.com",
+      "EIA"
+    ],
+    "key_uncertainty": "Whether Hormuz tensions escalate further or de-escalate via Iran peace proposal.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.375,
+    "claude_prob": 0.45,
+    "delta": 0.075,
+    "suggested_direction": "yes"
+  }
+}

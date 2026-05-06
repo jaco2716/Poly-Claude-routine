@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.719947+00:00",
+  "market": {
+    "id": "1125390",
+    "condition_id": "0x7dffc7cb17346c570e612db4dac02b508480f374069d0644cf6db441b0978268",
+    "question": "Will S&P 500 (SPX) hit $7,400 (HIGH) in December?",
+    "category": "equity_index",
+    "slug": "spx-hit-7400-high-dec-2026",
+    "end_date": "2026-12-31T21:00:00Z",
+    "yes_price": 0.84,
+    "no_price": 0.16,
+    "liquidity": 9396.761,
+    "volume_24h": 13.324563
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.5,
+    "reasoning": "SPX ~7,235 (since SPY at $723.5 = ~10x). Need ~2.3% gain over 7+ months. Market may have already exceeded 7,400 earlier in 2026 given ATH activity. With normal volatility and 7+ months remaining, very likely.",
+    "data_sources": [
+      "yahoo finance",
+      "tipranks.com"
+    ],
+    "key_uncertainty": "Whether SPX already touched 7,400 earlier in window.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.84,
+    "claude_prob": 0.78,
+    "delta": -0.06,
+    "suggested_direction": "no"
+  }
+}

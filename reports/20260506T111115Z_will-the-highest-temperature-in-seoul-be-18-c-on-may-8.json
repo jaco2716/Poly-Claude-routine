@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.722178+00:00",
+  "market": {
+    "id": "2171161",
+    "condition_id": "0x4be472b94f0ee7fd0ecfb9393935c9815745aac23be4b35a123ecf20a0568e3f",
+    "question": "Will the highest temperature in Seoul be 18\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seoul-on-may-8-2026-18c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.15,
+    "no_price": 0.85,
+    "liquidity": 996.4729,
+    "volume_24h": 49.734430999999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.45,
+    "reasoning": "Incheon forecast high May 8 ~72F (~22C). The 18C bracket is below forecast. Probability low that high lands in 18C bracket given 22C point forecast.",
+    "data_sources": [
+      "accuweather",
+      "weather25.com"
+    ],
+    "key_uncertainty": "Whether weather pattern shifts cooler than forecast.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.15,
+    "claude_prob": 0.1,
+    "delta": -0.05,
+    "suggested_direction": "no"
+  }
+}

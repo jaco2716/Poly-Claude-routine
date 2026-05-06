@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.723061+00:00",
+  "market": {
+    "id": "2171350",
+    "condition_id": "0x028d4054a108397690a37ba721d42fa3ae756049e0779b60492277a62442de52",
+    "question": "Will the highest temperature in Milan be 23\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-milan-on-may-8-2026-23c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 989.8138,
+    "volume_24h": 182.96673099999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "Milan May high range 63-78F (17-26C). Average high mid-20s. 23C bracket is near center of typical distribution. Plausible but no day-specific forecast available.",
+    "data_sources": [
+      "accuweather",
+      "weatherspark"
+    ],
+    "key_uncertainty": "No specific May 8 forecast available.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.2,
+    "delta": -0.035,
+    "suggested_direction": null
+  }
+}

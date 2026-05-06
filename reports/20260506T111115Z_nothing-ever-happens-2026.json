@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.715539+00:00",
+  "market": {
+    "id": "1060714",
+    "condition_id": "0xa090ae1a88ca96bcae7523a65a96425ed53616709be75cb69a0df144f718931e",
+    "question": "Nothing Ever Happens: 2026",
+    "category": "crypto_price",
+    "slug": "nothing-ever-happens-2026",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.66,
+    "no_price": 0.34,
+    "liquidity": 51108.2822,
+    "volume_24h": 13800.320173999999
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.55,
+    "confidence": 0.3,
+    "reasoning": "Multi-criteria subjective market. With ongoing US-Iran tensions, Hormuz blockade, ongoing oil sanctions changes, BTC volatility, the 'nothing happens' base rate is challenged. Trump still President. None of the listed catastrophic events have triggered yet but tail risk in Iran scenario is elevated. Hard to assess precisely.",
+    "data_sources": [
+      "polymarket rules",
+      "news"
+    ],
+    "key_uncertainty": "Whether ongoing Iran crisis escalates to one of the listed trigger events.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.66,
+    "claude_prob": 0.55,
+    "delta": -0.11,
+    "suggested_direction": "no"
+  }
+}

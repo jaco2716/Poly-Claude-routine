@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.723443+00:00",
+  "market": {
+    "id": "2162296",
+    "condition_id": "0xc7b79b9c63b3aca1dc44fc298d00ca934f38f16be6b4ed93e6ea3d7facf8afef",
+    "question": "Will the highest temperature in Jeddah be 33\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jeddah-on-may-7-2026-33c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.26,
+    "no_price": 0.74,
+    "liquidity": 989.1086,
+    "volume_24h": 13.94
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "Jeddah May daily highs 90-101F (32-38C), average ~95F (35C). 33C bracket is at the lower end of typical. Probability moderate-low. Without day-specific forecast, base rate around 15-20%.",
+    "data_sources": [
+      "accuweather",
+      "wanderlog.com"
+    ],
+    "key_uncertainty": "No specific May 7 forecast available.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.26,
+    "claude_prob": 0.2,
+    "delta": -0.06,
+    "suggested_direction": "no"
+  }
+}

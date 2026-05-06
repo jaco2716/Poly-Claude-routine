@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.716446+00:00",
+  "market": {
+    "id": "2132638",
+    "condition_id": "0xdeb0a6abf730d613190d1b49e64bbedb2af0cc14f8a6f87e8da9282e64c29c0b",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-115-in-may-221",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 36871.6276,
+    "volume_24h": 100172.27527499999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "WTI at ~$106 needs ~8.5% spike to $115 in 25 remaining days. EIA peak forecast was $115 for Brent (WTI typically $5-8 lower). Requires significant escalation in Hormuz crisis. Possible but not base case.",
+    "data_sources": [
+      "fxleaders.com",
+      "EIA"
+    ],
+    "key_uncertainty": "Magnitude of any Hormuz escalation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.2,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

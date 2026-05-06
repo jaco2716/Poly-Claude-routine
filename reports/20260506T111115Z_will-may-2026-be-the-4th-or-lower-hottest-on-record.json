@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T11:11:15.719741+00:00",
+  "market": {
+    "id": "2097572",
+    "condition_id": "0x79af372a2fbae1a5f2f6cff6c8a4cfd90d1ab1278262b8a941f41ff509880e72",
+    "question": "Will May 2026 be the 4th or lower hottest on record?",
+    "category": "temperature",
+    "slug": "will-may-2026-be-the-4th-or-lower-hottest-on-record",
+    "end_date": "2026-06-10T00:00:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 9425.0437,
+    "volume_24h": 4555.984471
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "May 2024 was warmest May, May 2025 second-warmest. May 2023 was likely third. La Ni\u00f1a conditions emerging may cool 2026 slightly. May 2026 could plausibly come in 3rd or 4th depending on margin. Cooling from 2024->2025 was only ~0.05C. Probability of falling outside top 3 is moderate.",
+    "data_sources": [
+      "yale climate",
+      "NASA GISS"
+    ],
+    "key_uncertainty": "Magnitude of La Nina cooling effect on global May anomaly.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.3,
+    "delta": 0.135,
+    "suggested_direction": "yes"
+  }
+}
