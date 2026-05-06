@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.216222+00:00",
+  "market": {
+    "id": "2132796",
+    "condition_id": "0x523c642a2da7b7fcf4ecb1da444d805c790fe16497fa83ba6f99046ec7343ade",
+    "question": "Will Ethereum reach $2,600 in May?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-reach-2600-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 25786.094,
+    "volume_24h": 14615.972917000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.55,
+    "reasoning": "ETH at ~$2,400; $2,600 requires +8.3% over remaining ~25 days. ETH has been climbing with whales accumulating 230K ETH at $2.3K support. Historical ETH monthly upside \u22658% occurs ~40% of months. Slightly favorable setup.",
+    "data_sources": [
+      "The Coin Republic ETH May 6 2026",
+      "Fortune ETH"
+    ],
+    "key_uncertainty": "ETH could continue rotating from BTC strength, but lagging behavior persists.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.42,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

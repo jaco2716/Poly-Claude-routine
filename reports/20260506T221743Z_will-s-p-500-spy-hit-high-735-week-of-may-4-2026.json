@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.215444+00:00",
+  "market": {
+    "id": "2135254",
+    "condition_id": "0x5e0a7c2a9eec621b0778a68db7a41c222341d7b5c0fa74354ddd851c953a0772",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $735 Week of May 4 2026?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-735-by-may-4-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.755,
+    "no_price": 0.245,
+    "liquidity": 785.7179,
+    "volume_24h": 12469.73781
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.65,
+    "reasoning": "SPY at $733.67 with intraday high $733.72 today (May 6, Wed). Need only +0.18% to hit $735 with 3 trading days remaining (Thu-Fri this week). Strong upward momentum. Almost certainly clears.",
+    "data_sources": [
+      "Yahoo Finance SPY May 6 2026",
+      "Investing.com"
+    ],
+    "key_uncertainty": "Sudden Fed/geopolitical shock in next 3 days; otherwise extremely likely.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.755,
+    "claude_prob": 0.85,
+    "delta": 0.095,
+    "suggested_direction": "yes"
+  }
+}

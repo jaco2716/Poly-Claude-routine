@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T22:17:43.213312+00:00",
+  "market": {
+    "id": "2111562",
+    "condition_id": "0xa37173a88dc5622e1c42e9f8f5a9d20d70b9b99e52cb76e64fb0ad95503fcaef",
+    "question": "Will Trump agree to Iranian oil sanction relief by May 31?",
+    "category": "commodity",
+    "slug": "will-trump-agree-to-iranian-oil-sanction-relief-by-may-31",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.365,
+    "no_price": 0.635,
+    "liquidity": 29503.4561,
+    "volume_24h": 13154.306491
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "Negotiations ongoing as of May 6 with US-Iran ceasefire since April 7; Trump told NY Post too soon for in-person talks. March 2026 Treasury lift on already-loaded Iranian oil at sea may not satisfy 'definitive agreement' standard. Iran reviewing latest US proposal. Unlikely a formal definitive deal in remaining ~25 days but not impossible.",
+    "data_sources": [
+      "CNBC May 6 2026 Trump-Iran peace deal",
+      "WaPo Mar 20 sanctions lifted",
+      "House of Commons Library 2026"
+    ],
+    "key_uncertainty": "Resolution language interpretation \u2014 whether existing temporary sanctions relief counts; speed of negotiations.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.365,
+    "claude_prob": 0.3,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.212880+00:00",
+  "market": {
+    "id": "2132799",
+    "condition_id": "0xd0ad962d3d86c54c209199ed9602088d09993117dfb7ce09fa7275d66cbaa055",
+    "question": "Will Ethereum dip to $2,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-dip-to-2000-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.225,
+    "no_price": 0.775,
+    "liquidity": 32226.0555,
+    "volume_24h": 14506.354657000005
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "ETH at ~$2,400. Dip to $2,000 requires ~17% drawdown over remaining ~25 days. ETH monthly drawdowns \u226517% occur ~20-25% of the time historically, with current upward momentum suggesting lower than base rate.",
+    "data_sources": [
+      "Fortune ETH May 6 2026",
+      "Bybit ETH price"
+    ],
+    "key_uncertainty": "Crypto correlated risk-off events; ETH tends to be more volatile than BTC.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.225,
+    "claude_prob": 0.2,
+    "delta": -0.025,
+    "suggested_direction": null
+  }
+}

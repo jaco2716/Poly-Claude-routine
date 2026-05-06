@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.214293+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.775,
+    "no_price": 0.225,
+    "liquidity": 4460.1948,
+    "volume_24h": 11927.728312
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.6,
+    "reasoning": "SPY at ~$733.67 with intraday high $733.72 today (May 6); $740 requires only +0.86% rally and ~17 trading days remain in May. With strong upward momentum (SPY up ~1.4% today, near 52-week high), highly probable. Historical: 17-day periods see ~1% upside ~70% of the time.",
+    "data_sources": [
+      "Yahoo Finance SPY May 6 2026",
+      "Investing.com SPY"
+    ],
+    "key_uncertainty": "Macro reversal (Iran flare-up, Fed hawkish) could stall rally.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.775,
+    "claude_prob": 0.7,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

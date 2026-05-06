@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.214010+00:00",
+  "market": {
+    "id": "2132637",
+    "condition_id": "0x59a37ea3830d532957b04d3c437a329e14a5dc840096d48c7ee4b55ba3d9cca8",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-may-266-388-493-155-935-263-225",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.58,
+    "no_price": 0.42,
+    "liquidity": 12865.6935,
+    "volume_24h": 92910.84707599998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.5,
+    "reasoning": "WTI at ~$100 currently; for LOW $85, requires ~15% drawdown over remaining ~25 days. Iran ceasefire and sanctions easing on Iranian oil are bearish near-term \u2014 adds 1-2 mbd supply. OPEC+ also unwinding cuts. A 15% drop in a month happens ~30% of months, but bearish setup elevates this. Recent CNBC reports note already steep declines on Iran ceasefire news.",
+    "data_sources": [
+      "CNBC oil May 5/6 2026",
+      "WaPo Trump sanctions lift"
+    ],
+    "key_uncertainty": "If ceasefire holds and OPEC+ keeps unwinding, $85 is very plausible; if ceasefire breaks, oil rallies fast.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.58,
+    "claude_prob": 0.55,
+    "delta": -0.03,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.213704+00:00",
+  "market": {
+    "id": "2132638",
+    "condition_id": "0xdeb0a6abf730d613190d1b49e64bbedb2af0cc14f8a6f87e8da9282e64c29c0b",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-115-in-may-221",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 20517.7228,
+    "volume_24h": 113278.04357799991
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.55,
+    "reasoning": "WTI ~$100 currently; $115 requires +15% rally in remaining ~25 days. With Iran ceasefire holding and sanctions partially eased, supply outlook is bearish. Such a rally in a single month is rare (~10-15% probability) absent a major escalation.",
+    "data_sources": [
+      "CNBC oil May 5 2026",
+      "Trading Economics WTI"
+    ],
+    "key_uncertainty": "Iran ceasefire breaking down rapidly is the main upside risk.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.15,
+    "delta": -0.145,
+    "suggested_direction": "no"
+  }
+}

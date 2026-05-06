@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.215786+00:00",
+  "market": {
+    "id": "2166361",
+    "condition_id": "0xb12c1f6bbc6610b01c6184932d9abb350f2548ae46dd333f404b6e852e2a2f11",
+    "question": "Bitcoin Up or Down on May 7?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T16:00:00Z",
+    "yes_price": 0.425,
+    "no_price": 0.575,
+    "liquidity": 30753.1596,
+    "volume_24h": 94821.65083700002
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.25,
+    "reasoning": "Resolves on noon-to-noon BTC close May 6 vs May 7. Single-day directional bet near coin-flip. BTC has positive momentum (highest since January) which slightly biases up, but base-rate near 50% and confidence is low for short-horizon directional calls.",
+    "data_sources": [
+      "Fortune BTC May 6 2026",
+      "Yahoo Finance crypto"
+    ],
+    "key_uncertainty": "Daily BTC moves are essentially random; no edge over coin flip.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.425,
+    "claude_prob": 0.5,
+    "delta": 0.075,
+    "suggested_direction": "yes"
+  }
+}

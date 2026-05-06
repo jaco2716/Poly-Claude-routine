@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.215260+00:00",
+  "market": {
+    "id": "2171284",
+    "condition_id": "0x9226fc3632e21af190db99b0741bb5f99f38210797f403e43fa59f5837867baf",
+    "question": "Will the highest temperature in Munich be 20\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-munich-on-may-8-2026-20c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.42,
+    "no_price": 0.58,
+    "liquidity": 990.1099,
+    "volume_24h": 366.30555
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.5,
+    "reasoning": "Munich May 8 forecast ~70\u00b0F = 21.1\u00b0C. Bucket '20\u00b0C' would capture 20.0-20.9\u00b0C, just below forecast. AccuWeather shows May 2026 highs ranging 16-24\u00b0C broadly. Forecast just above 20 bucket; 21\u00b0C bucket more likely.",
+    "data_sources": [
+      "AccuWeather Munich May 2026",
+      "weather.com Munich monthly"
+    ],
+    "key_uncertainty": "Munich Airport vs city \u2014 airport tends slightly cooler at night but similar daytime highs. 1\u00b0C swing easy.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.42,
+    "claude_prob": 0.28,
+    "delta": -0.14,
+    "suggested_direction": "no"
+  }
+}

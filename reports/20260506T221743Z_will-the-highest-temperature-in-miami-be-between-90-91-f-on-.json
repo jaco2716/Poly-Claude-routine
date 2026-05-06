@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.214627+00:00",
+  "market": {
+    "id": "2171228",
+    "condition_id": "0x6893832f365993d18fad711be6d9a706d179d33d0d9dc407754e53511696b7ef",
+    "question": "Will the highest temperature in Miami be between 90-91\u00b0F on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-miami-on-may-8-2026-90-91f",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.34,
+    "no_price": 0.66,
+    "liquidity": 997.3143,
+    "volume_24h": 181.477955
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "Miami NWS forecast for May 8 calls for highs in the lower 90s. The 90-91\u00b0F bucket captures the lower half of 'lower 90s' (90-93). Roughly 30-40% probability the high lands specifically in 90-91\u00b0F vs 92-93\u00b0F or upper 80s.",
+    "data_sources": [
+      "NWS Miami zone forecast",
+      "AccuWeather Miami May 2026"
+    ],
+    "key_uncertainty": "Coastal sea breeze and any cloud cover can shift airport reading 1-2\u00b0F.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.34,
+    "claude_prob": 0.32,
+    "delta": -0.02,
+    "suggested_direction": null
+  }
+}

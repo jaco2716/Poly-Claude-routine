@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T22:17:43.214470+00:00",
+  "market": {
+    "id": "2171625",
+    "condition_id": "0xa87a1be67857548fca584e47cace9c438937255e045a354373a570036d918535",
+    "question": "Will the highest temperature in Lagos be 32\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-lagos-on-may-8-2026-32c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.32,
+    "no_price": 0.68,
+    "liquidity": 999.2438,
+    "volume_24h": 84.59234700000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Lagos, Nigeria forecast for May 8 ~29\u00b0C (Wunderground/AccuWeather). Bucket '32\u00b0C' would require a 3\u00b0C overshoot vs forecast. May Lagos averages 29-31\u00b0C high. Probability of high landing in 32\u00b0C bucket is low.",
+    "data_sources": [
+      "Weather25 Lagos Nigeria May 2026",
+      "AccuWeather Lagos NG"
+    ],
+    "key_uncertainty": "Tropical microclimate variability; Murtala Muhammad airport station vs central readings.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.32,
+    "claude_prob": 0.1,
+    "delta": -0.22,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-06T22:17:43.215118+00:00",
+  "market": {
+    "id": "2161812",
+    "condition_id": "0x2734ce0c2c2e1476af9147e98c7beb3384f0d7f1024b9a31bfe7336e07d07070",
+    "question": "Will the highest temperature in London be 16\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-7-2026-16c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.43,
+    "no_price": 0.57,
+    "liquidity": 991.7271,
+    "volume_24h": 4073.069258000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.55,
+    "reasoning": "Met Office May 7 London forecast: max 16\u00b0C explicitly stated. Bucket '16\u00b0C' would capture 16.0-16.9\u00b0C. With forecast hitting exactly 16\u00b0C, ~40-45% probability of bucket match (single-degree forecasts have ~1-2\u00b0C spread). Adjacent buckets (15\u00b0C, 17\u00b0C) split rest.",
+    "data_sources": [
+      "Met Office London May 7 2026 forecast"
+    ],
+    "key_uncertainty": "London City Airport station can read warmer than central London; forecast rounding.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.43,
+    "claude_prob": 0.42,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

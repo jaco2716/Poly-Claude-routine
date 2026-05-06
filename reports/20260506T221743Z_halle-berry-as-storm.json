@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T22:17:43.215600+00:00",
+  "market": {
+    "id": "1818707",
+    "condition_id": "0xc5b8a7e89e60c30d6c1e3ab30353708344e571c5e0be69459b0de480f7e6fb72",
+    "question": "Halle Berry as Storm?",
+    "category": "weather",
+    "slug": "halle-berry-as-storm",
+    "end_date": "2026-12-18T00:00:00Z",
+    "yes_price": 0.58,
+    "no_price": 0.42,
+    "liquidity": 93.8873,
+    "volume_24h": 12.03
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.75,
+    "reasoning": "Halle Berry has explicitly and repeatedly stated she is NOT in Avengers: Doomsday. Variety, Deadline, IMDb, ScreenRant all confirmed her saying 'Storm's not there' and 'It's not going to be there'. Confirmed cast list excludes her. Tiny residual probability for surprise cameo.",
+    "data_sources": [
+      "Variety Halle Berry 'Sad' Storm not in Doomsday",
+      "Deadline Feb 2026",
+      "IMDb news"
+    ],
+    "key_uncertainty": "Marvel sometimes surprises with secret cameos; resolution depends on either announcement or theatrical cut footage.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.58,
+    "claude_prob": 0.07,
+    "delta": -0.51,
+    "suggested_direction": "no"
+  }
+}
