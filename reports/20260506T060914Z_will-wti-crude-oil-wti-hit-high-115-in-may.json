@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.962950+00:00",
+  "market": {
+    "id": "2132638",
+    "condition_id": "0xdeb0a6abf730d613190d1b49e64bbedb2af0cc14f8a6f87e8da9282e64c29c0b",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $115 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-115-in-may-221",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 45186.9115,
+    "volume_24h": 68747.63554599998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "WTI $100, needs 15% rise to $115 within May. Even May 4 Iran spike topped at ~$105. Requires major escalation event.",
+    "data_sources": [
+      "oilpriceapi.com WTI",
+      "247wallst WTI"
+    ],
+    "key_uncertainty": "Strait of Hormuz closure event would cause spike",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.2,
+    "delta": -0.235,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.964107+00:00",
+  "market": {
+    "id": "2135255",
+    "condition_id": "0xcc999c6969babebeb8c1170b376c8104c0528d84ee6d982da632038cfb5c5348",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $730 Week of May 4 2026?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-730-by-may-4-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.445,
+    "no_price": 0.555,
+    "liquidity": 8239.9802,
+    "volume_24h": 10868.429583
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.55,
+    "reasoning": "SPY at $726.46, week-of-May 4 high so far $727.03. Needs +0.4% above current level by Friday. Within typical 2-3 day range; near 50/50 with slight upside bias given today's strength.",
+    "data_sources": [
+      "yahoo SPY",
+      "247wallst SPY May 5"
+    ],
+    "key_uncertainty": "Iran/oil-driven reversal could limit upside this week",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.445,
+    "claude_prob": 0.45,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

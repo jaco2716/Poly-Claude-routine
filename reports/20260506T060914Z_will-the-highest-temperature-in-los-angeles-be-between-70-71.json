@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.965384+00:00",
+  "market": {
+    "id": "2162178",
+    "condition_id": "0x6a8cac5ce28d68dafc3dcf3e8df8f9dcc94f7f258d2b500247126d43ea4dfcd5",
+    "question": "Will the highest temperature in Los Angeles be between 70-71\u00b0F on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-los-angeles-on-may-7-2026-70-71f",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.305,
+    "no_price": 0.695,
+    "liquidity": 989.9495,
+    "volume_24h": 434.4451710000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.45,
+    "reasoning": "LA May 7 monthly range 68-78\u00b0F; bin 70-71\u00b0F is at the cooler end. May 7 specific not forecast but mid-range is plausible. ~1\u00b0F bin probability around 15-20% given typical spread.",
+    "data_sources": [
+      "accuweather Los Angeles",
+      "world-weather LA"
+    ],
+    "key_uncertainty": "Marine layer pattern can shift highs cooler",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.305,
+    "claude_prob": 0.2,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

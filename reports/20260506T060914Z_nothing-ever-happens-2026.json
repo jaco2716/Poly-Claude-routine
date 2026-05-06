@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-06T06:09:14.961726+00:00",
+  "market": {
+    "id": "1060714",
+    "condition_id": "0xa090ae1a88ca96bcae7523a65a96425ed53616709be75cb69a0df144f718931e",
+    "question": "Nothing Ever Happens: 2026",
+    "category": "crypto_price",
+    "slug": "nothing-ever-happens-2026",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.66,
+    "no_price": 0.34,
+    "liquidity": 51142.4938,
+    "volume_24h": 13680.663503999998
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "Question is fundamentally subjective with no clear resolution criteria for what counts as 'something happening'. Cannot be grounded in verifiable data.",
+    "data_sources": [
+      "n/a"
+    ],
+    "key_uncertainty": "Resolution criteria are not objective",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.66,
+    "claude_prob": 0.5,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}

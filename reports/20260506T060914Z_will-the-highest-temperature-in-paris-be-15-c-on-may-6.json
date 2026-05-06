@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.964508+00:00",
+  "market": {
+    "id": "2156772",
+    "condition_id": "0x9d4b1d6f30c4703195edd8cfae06e6739b414c2f494d3f5050a08bb5d5b48b9a",
+    "question": "Will the highest temperature in Paris be 15\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-paris-on-may-6-2026-15c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.4,
+    "no_price": 0.6,
+    "liquidity": 1011.4957,
+    "volume_24h": 9204.894776000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.45,
+    "reasoning": "Paris May 6 long-term avg high ~17\u00b0C; world-weather forecasts indicate similar. Le Bourget often slightly cooler. Question asks for 15\u00b0C bin (15-16\u00b0C) - one degree below average. With normal distribution around forecast, probability of exact 1\u00b0C bin is ~20%.",
+    "data_sources": [
+      "world-weather.info Paris May 2026",
+      "accuweather Paris May"
+    ],
+    "key_uncertainty": "Specific Le Bourget reading on May 6 not directly forecast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4,
+    "claude_prob": 0.2,
+    "delta": -0.2,
+    "suggested_direction": "no"
+  }
+}

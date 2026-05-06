@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.960815+00:00",
+  "market": {
+    "id": "2165333",
+    "condition_id": "0x90c72d8295f01e112636fd23ffa96ce9e85c1626bbb6ae3dff729b58f037031d",
+    "question": "SPY (SPY) Up or Down on May 6?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T20:00:00Z",
+    "yes_price": 0.785,
+    "no_price": 0.215,
+    "liquidity": 77866.2154,
+    "volume_24h": 29481.151421
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.65,
+    "reasoning": "SPY trading at $726.46 vs prior close $724.69 (+0.24%); intraday range 720-727. Up close most likely barring late-day reversal.",
+    "data_sources": [
+      "yahoo finance SPY",
+      "247wallst.com SPY May 5 close"
+    ],
+    "key_uncertainty": "Late-session reversal could flip to down close",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.785,
+    "claude_prob": 0.78,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

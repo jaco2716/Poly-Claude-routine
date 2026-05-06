@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.964376+00:00",
+  "market": {
+    "id": "2074178",
+    "condition_id": "0x2a3a051ebcc0579d5b320a610e037eae5faa5eaa9119e8bb3f87b2973f59d852",
+    "question": "Will S&P 500 (SPY) hit (LOW) $700 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-700-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 6898.5355,
+    "volume_24h": 15471.614192
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.5,
+    "reasoning": "SPY at $726.46 needs 3.6% drop to $700 in May. Monthly typical drawdown 2-3%; possible but requires negative catalyst. Iran tensions and oil shocks provide pathway, but trend supportive.",
+    "data_sources": [
+      "yahoo SPY",
+      "247wallst SPY May 5"
+    ],
+    "key_uncertainty": "Geopolitical or earnings shock could trigger drop",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.3,
+    "delta": -0.195,
+    "suggested_direction": "no"
+  }
+}

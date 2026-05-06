@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.964226+00:00",
+  "market": {
+    "id": "2164980",
+    "condition_id": "0x238d373e805e37f4d633cef98637f00b1b2a0c596836f368c1f28ce7c2633359",
+    "question": "S&P 500 (SPX) Opens Up or Down on May 6?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T20:00:00Z",
+    "yes_price": 0.825,
+    "no_price": 0.175,
+    "liquidity": 6949.6467,
+    "volume_24h": 11735.274455
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.35,
+    "reasoning": "Resolves YES if SPX opens above prior close (~7,259). SPY intraday low was $720 (below prior close $724.69) and high $727. The opening tick is uncertain without exact data; market action suggests open could have been near or slightly above prior close given upward bias today.",
+    "data_sources": [
+      "yahoo SPY",
+      "seeking alpha SP500"
+    ],
+    "key_uncertainty": "No exact open price found; estimate moderate-confidence",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.825,
+    "claude_prob": 0.55,
+    "delta": -0.275,
+    "suggested_direction": "no"
+  }
+}

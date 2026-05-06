@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T06:09:14.963587+00:00",
+  "market": {
+    "id": "2165337",
+    "condition_id": "0x655d32be018ba24bc8db5665636a6af61c6ea74a075fad62a3d001c1f0c75f9c",
+    "question": "WTI Crude Oil (WTI) Up or Down on May 6?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-may-6-2026",
+    "end_date": "2026-05-06T21:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 32849.4462,
+    "volume_24h": 24956.844555
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "WTI now $100.28 vs prior close $102.27 (DOWN ~2%). Easing Iran tensions weighing on price. Down close is base case.",
+    "data_sources": [
+      "oilpriceapi.com WTI",
+      "investing.com WTI"
+    ],
+    "key_uncertainty": "Late session reversal on news could flip",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.2,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}
