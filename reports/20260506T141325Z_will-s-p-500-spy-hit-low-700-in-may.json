@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T14:13:25.358860+00:00",
+  "market": {
+    "id": "2074178",
+    "condition_id": "0x2a3a051ebcc0579d5b320a610e037eae5faa5eaa9119e8bb3f87b2973f59d852",
+    "question": "Will S&P 500 (SPY) hit (LOW) $700 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-700-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.395,
+    "no_price": 0.605,
+    "liquidity": 6234.2794,
+    "volume_24h": 17611.052034
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.55,
+    "reasoning": "SPY at ~$729 with 52-week high $725 on May 5. To hit $700 LOW in May requires -4% drawdown in ~17 trading days. With market in uptrend on de-escalation news, this would require a sharp reversal. Realized 1-month vol around 18-22% gives roughly 20-25% probability of touching $700.",
+    "data_sources": [
+      "Yahoo SPY history",
+      "TradingView SPY"
+    ],
+    "key_uncertainty": "Iran deal collapse or surprise NFP/CPI miss",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.395,
+    "claude_prob": 0.22,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T14:13:25.358724+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.61,
+    "no_price": 0.39,
+    "liquidity": 7350.5461,
+    "volume_24h": 17671.796651
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.55,
+    "reasoning": "SPY trades at ~$729 on May 6 2026 with 52-week high of $725 hit May 5. To hit $740 in May requires +1.5% in remaining ~17 trading days. Markets in upward bias on de-escalation news but $725 area is fresh resistance. Realized vol suggests 30-45% probability of touching $740.",
+    "data_sources": [
+      "Yahoo SPY history",
+      "247wallst SPY May 6 coverage"
+    ],
+    "key_uncertainty": "Whether breakout above $725 holds momentum to $740",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.61,
+    "claude_prob": 0.4,
+    "delta": -0.21,
+    "suggested_direction": "no"
+  }
+}

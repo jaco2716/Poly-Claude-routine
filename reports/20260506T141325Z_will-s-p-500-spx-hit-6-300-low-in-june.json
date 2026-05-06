@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T14:13:25.358556+00:00",
+  "market": {
+    "id": "1125382",
+    "condition_id": "0x8ad67416f1aee0c26200848b8f663322d251946cdd552bd6c7a4ea262582ac73",
+    "question": "Will S&P 500 (SPX) hit $6,300 (LOW) in June?",
+    "category": "equity_index",
+    "slug": "spx-hit-6300-low-jun-2026",
+    "end_date": "2026-06-30T20:00:00Z",
+    "yes_price": 0.18,
+    "no_price": 0.82,
+    "liquidity": 9273.7733,
+    "volume_24h": 335.96000000000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.04,
+    "confidence": 0.7,
+    "reasoning": "SPX trades at ~7,262 on May 6 2026; reaching $6,300 LOW in June requires a -13.2% drawdown in roughly 8 weeks. Such crashes happen but are tail events absent a major shock. With June implied vol moderate and indices near all-time highs, probability is low.",
+    "data_sources": [
+      "FRED SP500",
+      "TradingView SPX",
+      "io-fund SPX outlook"
+    ],
+    "key_uncertainty": "Possibility of a credit event or geopolitical shock",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.18,
+    "claude_prob": 0.04,
+    "delta": -0.14,
+    "suggested_direction": "no"
+  }
+}

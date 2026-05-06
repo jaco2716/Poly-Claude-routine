@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-06T14:13:25.359235+00:00",
+  "market": {
+    "id": "2156820",
+    "condition_id": "0x5d8793391b58098245b0841c2e25d59c2c5dbde7b41896eefc266a01cbe5c2c9",
+    "question": "Will the highest temperature in Seattle be 61\u00b0F or below on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-seattle-on-may-6-2026-61forbelow",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.292,
+    "no_price": 0.708,
+    "liquidity": 1177.18847,
+    "volume_24h": 13198.80423
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.06,
+    "confidence": 0.7,
+    "reasoning": "AccuWeather forecast for Seattle May 6 is 69\u00b0F high. For the high to be 61\u00b0F or below would require an 8\u00b0F bust to the downside. The day is already in progress with morning conditions consistent with the warmer forecast. Very low probability.",
+    "data_sources": [
+      "AccuWeather Seattle May 6"
+    ],
+    "key_uncertainty": "Marine layer or unexpected cold front",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.292,
+    "claude_prob": 0.06,
+    "delta": -0.232,
+    "suggested_direction": "no"
+  }
+}

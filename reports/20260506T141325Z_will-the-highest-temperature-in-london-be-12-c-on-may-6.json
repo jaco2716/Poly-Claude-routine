@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T14:13:25.359040+00:00",
+  "market": {
+    "id": "2156757",
+    "condition_id": "0x5f6c860d03899848e059fe20a16764a0813a977e674ca68848f4838fcb49880a",
+    "question": "Will the highest temperature in London be 12\u00b0C on May 6?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-6-2026-12c",
+    "end_date": "2026-05-06T12:00:00Z",
+    "yes_price": 0.333,
+    "no_price": 0.667,
+    "liquidity": 1300.72825,
+    "volume_24h": 30981.96783900001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.7,
+    "reasoning": "Met Office forecast for London May 6 caps high at 14\u00b0C with overcast and showers. Polymarket trader consensus sits 14\u00b0C (45.5%) and 13\u00b0C (41.5%). For high to land at exactly 12\u00b0C the day would need to underperform forecast by 2\u00b0C, which is unusual when the day is already partly in progress.",
+    "data_sources": [
+      "UK Met Office forecast",
+      "Polymarket consensus"
+    ],
+    "key_uncertainty": "Cloud cover persistence and afternoon temperature trajectory",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.333,
+    "claude_prob": 0.1,
+    "delta": -0.233,
+    "suggested_direction": "no"
+  }
+}

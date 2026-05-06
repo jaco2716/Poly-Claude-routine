@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T14:13:25.359965+00:00",
+  "market": {
+    "id": "2171725",
+    "condition_id": "0xa08c2a06a98f88d481e55cd5732655778b3d2399b45750aad6eb194aa7a6e450",
+    "question": "Will the highest temperature in Manila be 37\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-manila-on-may-8-2026-37c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.29,
+    "no_price": 0.71,
+    "liquidity": 988.6385,
+    "volume_24h": 25.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.05,
+    "confidence": 0.6,
+    "reasoning": "Manila May 8 forecast is 31\u00b0C with sunny conditions. To hit 37\u00b0C would require +6\u00b0C over forecast, well outside normal forecast error. Average Manila May highs in the low-to-mid 30s; 37\u00b0C is a heat-wave-level outlier.",
+    "data_sources": [
+      "AccuWeather Manila",
+      "PAGASA outlook"
+    ],
+    "key_uncertainty": "Possibility of sudden heat dome",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.29,
+    "claude_prob": 0.05,
+    "delta": -0.24,
+    "suggested_direction": "no"
+  }
+}

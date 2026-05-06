@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T14:13:25.355304+00:00",
+  "market": {
+    "id": "2074237",
+    "condition_id": "0x4bab360a81b57047b48c0dd7c6c1377706129e3e6b9fa3f079cc28d310ec4cec",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $110 in May?",
+    "category": "commodity",
+    "slug": "will-wti-reach-110-in-may-2026-116-472",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 72090.4254,
+    "volume_24h": 202184.53466000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.7,
+    "reasoning": "WTI tested the $110.03 swing high earlier in May 2026 amid Strait of Hormuz tensions, with intraday peaks reportedly reaching $110+ before pulling back to $93-100 on US-Iran negotiation news. Once the high is hit, the market is locked in YES. There is residual ambiguity whether the candle high cleanly cleared $110.00.",
+    "data_sources": [
+      "fxdailyreport WTI analysis May 5-6",
+      "tradingeconomics",
+      "FXLeaders May 1"
+    ],
+    "key_uncertainty": "Whether the $110 print on Binance/CME records as exactly the high or slightly below",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.85,
+    "delta": 0.375,
+    "suggested_direction": "yes"
+  }
+}

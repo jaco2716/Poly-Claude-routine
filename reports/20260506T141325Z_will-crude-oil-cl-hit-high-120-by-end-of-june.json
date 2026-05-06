@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-06T14:13:25.356353+00:00",
+  "market": {
+    "id": "1652677",
+    "condition_id": "0xba8af64c1b08f322ca7f66f3cfdbdfd50c0eae6fc88d2fcf29c30ceb62682421",
+    "question": "Will Crude Oil (CL) hit (HIGH) $120 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-120-by-end-of-june-949-198-741-748",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 52564.2484,
+    "volume_24h": 22668.259304
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.55,
+    "reasoning": "WTI peaked at ~$110 in May then fell to $93-100 on US-Iran de-escalation news. Reaching $120 by end of June requires a ~20% rebound from current levels and likely a re-escalation of Hormuz tensions. Goldman/EIA see Brent topping ~$115; WTI typically trades $12 below Brent so $120 WTI is the upper tail of analyst expectations.",
+    "data_sources": [
+      "EIA STEO",
+      "Reuters Hormuz coverage",
+      "fxdailyreport"
+    ],
+    "key_uncertainty": "Whether US-Iran deal collapses and Hormuz disruption resumes",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.2,
+    "delta": -0.215,
+    "suggested_direction": "no"
+  }
+}

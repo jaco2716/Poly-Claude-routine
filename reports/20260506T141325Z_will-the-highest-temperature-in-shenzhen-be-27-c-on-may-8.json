@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T14:13:25.359636+00:00",
+  "market": {
+    "id": "2171450",
+    "condition_id": "0xfcfef05512462beb7c4178c618514e0c620c901bf1e2970c83475e0ba0e0dfc1",
+    "question": "Will the highest temperature in Shenzhen be 27\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shenzhen-on-may-8-2026-27c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.215,
+    "no_price": 0.785,
+    "liquidity": 988.9054,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Shenzhen May 8 forecast is 84\u00b0F (~29\u00b0C) high; the question asks for exactly 27\u00b0C, which is 2\u00b0C below forecast. Average May high is ~29.5\u00b0C. A 27\u00b0C reading would require a significant cold front or persistent rainstorm \u2014 possible but unlikely.",
+    "data_sources": [
+      "AccuWeather Shenzhen",
+      "world-weather Shenzhen"
+    ],
+    "key_uncertainty": "Heavy rain or frontal passage suppressing peak temperature",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.215,
+    "claude_prob": 0.1,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

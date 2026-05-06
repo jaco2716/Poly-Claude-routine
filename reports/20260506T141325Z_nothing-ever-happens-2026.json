@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-06T14:13:25.356548+00:00",
+  "market": {
+    "id": "1060714",
+    "condition_id": "0xa090ae1a88ca96bcae7523a65a96425ed53616709be75cb69a0df144f718931e",
+    "question": "Nothing Ever Happens: 2026",
+    "category": "crypto_price",
+    "slug": "nothing-ever-happens-2026",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.675,
+    "no_price": 0.325,
+    "liquidity": 44905.0783,
+    "volume_24h": 13540.839783999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.45,
+    "reasoning": "5/12 of 2026 has elapsed without any of the listed disqualifiers triggering: Trump remains President, no Taiwan invasion, BTC well within $10k-$1M, US-Iran in negotiations rather than invasion. Remaining 7 months still expose the market to tail risks (Iran regime collapse, Russia/NATO escalation, natural disasters). Long disjunctive list of negative conditions warrants caution.",
+    "data_sources": [
+      "Polymarket NEH 2026 rules",
+      "Reuters/CNBC May coverage"
+    ],
+    "key_uncertainty": "Iran outcome (regime fall or US invasion) and unforeseen tail events",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.675,
+    "claude_prob": 0.7,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}
