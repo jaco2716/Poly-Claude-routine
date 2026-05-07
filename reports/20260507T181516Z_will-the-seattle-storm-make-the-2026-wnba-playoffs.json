@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T18:15:16.082984+00:00",
+  "market": {
+    "id": "2047447",
+    "condition_id": "0xe1152e834cc7cc42b4e81c9d39df0d209e2b08d86c718aea5332400b98df5c8d",
+    "question": "Will the Seattle Storm make the 2026 WNBA Playoffs?",
+    "category": "weather",
+    "slug": "will-the-seattle-storm-make-the-2026-wnba-playoffs",
+    "end_date": "2026-09-25T00:00:00Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 9.684,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "Seattle Storm WNBA 2026 win total 15.5 (BetMGM); roster overhaul/rebuild after 23-win 2025 season. With 8 of ~14 teams making playoffs, a sub-.500 team typically misses. Championship odds +900 imply broader market sees them as competitive but the win-total signal points to playoff miss. Market 0.495 looks too high.",
+    "data_sources": [
+      "lineups WNBA 2026 betting guide",
+      "betmgm Storm win total",
+      "espn 2026 WNBA preview"
+    ],
+    "key_uncertainty": "Quick development of young core (Malonga MIP candidate) could produce upside surprise.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.32,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

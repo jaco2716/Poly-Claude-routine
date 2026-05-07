@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T18:15:16.079417+00:00",
+  "market": {
+    "id": "2175538",
+    "condition_id": "0xd3ca3fd896eef3e8392d5c1a0644df1af3e2db7a15294830178473c84b701edb",
+    "question": "Bitcoin Up or Down on May 8?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-8-2026",
+    "end_date": "2026-05-08T16:00:00Z",
+    "yes_price": 0.595,
+    "no_price": 0.405,
+    "liquidity": 17914.9015,
+    "volume_24h": 16421.648579000004
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "BTC Up/Down on May 8 vs May 7 noon ET close. BTC opened May 7 at $81,350, ran to $82,500, then sold off to $80,900. Without knowing the May 7 noon ET close exactly, day-over-day direction is essentially a coin flip. Recent 7-day move is +5% but 24h is -2%. No strong directional edge.",
+    "data_sources": [
+      "fortune BTC May 7 2026",
+      "coindesk BTC daybook May 7"
+    ],
+    "key_uncertainty": "Single-day BTC direction is high variance; no asymmetric news catalyst identified.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.595,
+    "claude_prob": 0.5,
+    "delta": -0.095,
+    "suggested_direction": "no"
+  }
+}

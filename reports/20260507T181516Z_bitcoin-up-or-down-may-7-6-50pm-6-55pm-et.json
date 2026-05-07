@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-07T18:15:16.083777+00:00",
+  "market": {
+    "id": "2177764",
+    "condition_id": "0xdf43f9fd0754ffaef60759344c44e1783b9ff19603794e27352d89a4f3df731c",
+    "question": "Bitcoin Up or Down - May 7, 6:50PM-6:55PM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1778194200",
+    "end_date": "2026-05-07T22:55:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9980.9133,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.15,
+    "reasoning": "BTC 5-min directional window May 7, 6:50PM-6:55PM ET. No real-time intraday minute-level Chainlink data accessible; baseline ~50%. Cannot form independent edge.",
+    "data_sources": [
+      "chainlink BTC/USD streams (not directly queried)"
+    ],
+    "key_uncertainty": "5-minute crypto direction is essentially random without live tick data.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

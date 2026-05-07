@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T18:15:16.080192+00:00",
+  "market": {
+    "id": "2174351",
+    "condition_id": "0x66197371f12fb59479737bd087b6f4e59db3a3d68abc90ad623473fc5795ed16",
+    "question": "Gold (XAUUSD) Up or Down on May 7?",
+    "category": "commodity",
+    "slug": "xauusd-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T21:00:00Z",
+    "yes_price": 0.814,
+    "no_price": 0.186,
+    "liquidity": 5148.37738,
+    "volume_24h": 20086.333881000006
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.65,
+    "reasoning": "Gold (XAU/USD) prior close ~$4,697-$4,699 on May 6. May 7 trading at $4,738.71 (06:38 UTC), already up ~$40 vs prior close. Strong continuation momentum (+3.11% the prior session) suggests Up close is favored. Market 0.814 fair to slightly rich.",
+    "data_sources": [
+      "litefinance XAU/USD analysis",
+      "twelvedata XAU/USD historical",
+      "tradingeconomics gold"
+    ],
+    "key_uncertainty": "Sharp intraday reversal could flip the close, especially if dollar rebounds.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.814,
+    "claude_prob": 0.78,
+    "delta": -0.034,
+    "suggested_direction": null
+  }
+}

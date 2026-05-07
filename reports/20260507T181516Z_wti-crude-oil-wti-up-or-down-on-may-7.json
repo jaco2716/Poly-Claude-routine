@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T18:15:16.079975+00:00",
+  "market": {
+    "id": "2174353",
+    "condition_id": "0xd584614935dd2d3761d9c885a883f03e4ce3ad537dc8c3c495f41ff20d738dcd",
+    "question": "WTI Crude Oil (WTI) Up or Down on May 7?",
+    "category": "commodity",
+    "slug": "wti-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T21:00:00Z",
+    "yes_price": 0.328,
+    "no_price": 0.672,
+    "liquidity": 8244.86717,
+    "volume_24h": 81531.905496
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.55,
+    "reasoning": "WTI prior close (May 6) ~$95.08. May 7 intraday range reported $91.98-$96.47, with most action below the prior close suggesting Down skew. Without final close, slight bias to Down. Market 0.328 close to fair.",
+    "data_sources": [
+      "tradingeconomics crude oil",
+      "fxdailyreport WTI May 7 2026 analysis",
+      "barchart CLK26"
+    ],
+    "key_uncertainty": "Late-day rally could flip to Up if intraday lows reverse.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.328,
+    "claude_prob": 0.3,
+    "delta": -0.028,
+    "suggested_direction": null
+  }
+}

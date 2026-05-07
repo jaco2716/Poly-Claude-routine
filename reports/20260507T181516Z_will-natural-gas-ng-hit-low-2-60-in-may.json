@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T18:15:16.080427+00:00",
+  "market": {
+    "id": "2074256",
+    "condition_id": "0x23003281a6d2ddbc4d1c28f3fe6aec701f3e0d1328de7cc323b839be489632f0",
+    "question": "Will Natural Gas (NG) hit (LOW) $2.60 in May?",
+    "category": "commodity",
+    "slug": "will-ng-dip-to-2-60-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.7135,
+    "no_price": 0.2865,
+    "liquidity": 2233.72155,
+    "volume_24h": 14195.144639999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.55,
+    "reasoning": "NG futures at ~$2.72-$2.82 on May 5-7, recently hit a 1.5-year low; growing US stockpiles (+7.1% vs 5-yr avg) and above-normal spring temps weigh on prices. To hit $2.60 LOW only needs another ~4-7% drop, with 24 days remaining in May. Bearish fundamentals and existing low momentum support yes.",
+    "data_sources": [
+      "tradingeconomics natural gas",
+      "barchart NGM26 / NGK26",
+      "investing.com natural gas futures"
+    ],
+    "key_uncertainty": "Sudden weather shift, hurricane setup, or LNG export news could spike prices and prevent $2.60 print.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.7135,
+    "claude_prob": 0.7,
+    "delta": -0.0135,
+    "suggested_direction": null
+  }
+}
