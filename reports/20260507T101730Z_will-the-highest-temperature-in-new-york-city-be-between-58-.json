@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T10:17:30.332518+00:00",
+  "market": {
+    "id": "2179151",
+    "condition_id": "0x5ba37b7b50409e2a9a78cf0569e45fc2e1ae275e9b7d45b849237b409326c01d",
+    "question": "Will the highest temperature in New York City be between 58-59\u00b0F on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-nyc-on-may-9-2026-58-59f",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.18,
+    "no_price": 0.82,
+    "liquidity": 997.4933,
+    "volume_24h": 135.153332
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.5,
+    "reasoning": "NYC forecast high 61\u00b0F on May 9. The narrow 58-59\u00b0F window is 2-3\u00b0F below forecast. Possible if forecast slightly cool but not the modal outcome.",
+    "data_sources": [
+      "accuweather NYC May",
+      "easeweather NYC",
+      "world-weather.info"
+    ],
+    "key_uncertainty": "Two-day-out forecast accuracy \u00b12-3\u00b0F.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.18,
+    "claude_prob": 0.1,
+    "delta": -0.08,
+    "suggested_direction": "no"
+  }
+}

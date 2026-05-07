@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.330674+00:00",
+  "market": {
+    "id": "1032278",
+    "condition_id": "0x8cf61b7b84b6ac2e0c619867dd6966e688b43e4fd4c866423da2f757c58f0a9f",
+    "question": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
+    "category": "commodity",
+    "slug": "gc-hit-4200-low-jun-2026-737-562-112-239-328-831-356-185-544-513",
+    "end_date": "2026-06-30T17:30:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 9678.813,
+    "volume_24h": 3430.9794359999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.5,
+    "reasoning": "Gold at $4,738 on May 7, rallying. Would need ~11.4% drop to hit $4,200 by end of June. Strong upward momentum from Mideast de-escalation/macro hedging. Possible but unlikely within ~55 days.",
+    "data_sources": [
+      "litefinance XAU/USD",
+      "tradingeconomics gold"
+    ],
+    "key_uncertainty": "Sharp risk-on rotation could trigger gold sell-off.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.1,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

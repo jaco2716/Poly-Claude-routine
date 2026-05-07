@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.329264+00:00",
+  "market": {
+    "id": "2174152",
+    "condition_id": "0x2f18fa3935cd81ef69e2a9928dac7be1d2d5768aa56b4c116977b2b9245f164b",
+    "question": "S&P 500 (SPY) closes above $735 on May 7?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-735-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.475,
+    "no_price": 0.525,
+    "liquidity": 10541.8451,
+    "volume_24h": 19054.601584
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "SPY currently $732.99 with day high $734.58. Would need to push above $735 by close. Highly uncertain but currently below the threshold and near top of intraday range.",
+    "data_sources": [
+      "yahoo finance SPY",
+      "cnbc SPY May 7"
+    ],
+    "key_uncertainty": "Late-day rally potential; strong momentum from May 6's +1.46%.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.475,
+    "claude_prob": 0.2,
+    "delta": -0.275,
+    "suggested_direction": "no"
+  }
+}

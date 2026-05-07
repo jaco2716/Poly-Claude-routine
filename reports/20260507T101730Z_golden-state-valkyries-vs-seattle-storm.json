@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T10:17:30.332040+00:00",
+  "market": {
+    "id": "2128833",
+    "condition_id": "0xfb9d3d8c1776b11fefe786e0d87a552e3929c163d1ba9db367253a9da2a789f1",
+    "question": "Golden State Valkyries vs. Seattle Storm",
+    "category": "weather",
+    "slug": "wnba-gsv-sea-2026-05-08",
+    "end_date": "2026-05-09T02:00:00Z",
+    "yes_price": 0.68,
+    "no_price": 0.32,
+    "liquidity": 9788.1558,
+    "volume_24h": 127.30869100000002
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.65,
+    "confidence": 0.35,
+    "reasoning": "Valkyries favored -2.5 (-109), 61% of public on GS, predictions suggest double-digit win. Storm hampered by Magbegor injury. Implied moneyline probability ~63%. Market priced fairly.",
+    "data_sources": [
+      "covers.com WNBA May 8",
+      "offshoresportsbooks.com",
+      "si.com"
+    ],
+    "key_uncertainty": "Resolution mapping (which team is YES) and game date.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.68,
+    "claude_prob": 0.65,
+    "delta": -0.03,
+    "suggested_direction": null
+  }
+}

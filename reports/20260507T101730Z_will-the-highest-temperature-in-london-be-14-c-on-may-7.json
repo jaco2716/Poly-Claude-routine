@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.332224+00:00",
+  "market": {
+    "id": "2161810",
+    "condition_id": "0x9d654ed7b79c9777f406076a11debb79fae229760eae9e33556338246650d5c7",
+    "question": "Will the highest temperature in London be 14\u00b0C on May 7?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-7-2026-14c",
+    "end_date": "2026-05-07T12:00:00Z",
+    "yes_price": 0.3625,
+    "no_price": 0.6375,
+    "liquidity": 1006.72567,
+    "volume_24h": 11033.078660999994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.6,
+    "reasoning": "Met Office and BBC forecast 16\u00b0C high in London on May 7. Range market for 14\u00b0C (14-14.99\u00b0C) is 2\u00b0C below forecast. Unlikely.",
+    "data_sources": [
+      "Met Office London",
+      "BBC Weather"
+    ],
+    "key_uncertainty": "Late forecast revision; cloud cover variations.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.3625,
+    "claude_prob": 0.08,
+    "delta": -0.2825,
+    "suggested_direction": "no"
+  }
+}

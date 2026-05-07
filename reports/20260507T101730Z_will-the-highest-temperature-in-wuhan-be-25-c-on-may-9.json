@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T10:17:30.333462+00:00",
+  "market": {
+    "id": "2179372",
+    "condition_id": "0x9d5e23100eba0769b72f27f1013708c7fb5bce47e5870cc9a41a59553de245f6",
+    "question": "Will the highest temperature in Wuhan be 25\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-wuhan-on-may-9-2026-25c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.24,
+    "no_price": 0.76,
+    "liquidity": 992.9841,
+    "volume_24h": 26.36
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Wuhan forecast high ~26\u00b0C on May 9 based on early-May climatology and forecast tools. 25\u00b0C range (25-25.99\u00b0C) is 1\u00b0C below forecast - plausible. Modal outcome is 26\u00b0C bucket.",
+    "data_sources": [
+      "weather.com Wuhan monthly",
+      "accuweather Wuhan",
+      "easeweather Wuhan"
+    ],
+    "key_uncertainty": "Single-degree precision; cloud/wind variations.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.24,
+    "claude_prob": 0.22,
+    "delta": -0.02,
+    "suggested_direction": null
+  }
+}

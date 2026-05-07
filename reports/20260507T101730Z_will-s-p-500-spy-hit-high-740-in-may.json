@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.329540+00:00",
+  "market": {
+    "id": "2074174",
+    "condition_id": "0xe531a7fc2694db9d64c9d780909390169d643ef4b670408d971869bf43639112",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $740 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-740-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.8,
+    "no_price": 0.2,
+    "liquidity": 8945.9061,
+    "volume_24h": 9404.68498
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.7,
+    "confidence": 0.55,
+    "reasoning": "SPY at $733 on May 7, only 1% below $740 with intraday high $734.58. Strong momentum (+1.46% May 6). With 24 days remaining and current proximity, likely to touch $740 at some point.",
+    "data_sources": [
+      "yahoo finance SPY",
+      "cnbc S&P 500 May 6"
+    ],
+    "key_uncertainty": "Sustained pullback could prevent retest of highs.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.8,
+    "claude_prob": 0.7,
+    "delta": -0.1,
+    "suggested_direction": "no"
+  }
+}

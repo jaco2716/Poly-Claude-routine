@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T10:17:30.331386+00:00",
+  "market": {
+    "id": "2166462",
+    "condition_id": "0x6581e018d5e54c1f672485f0553aece3047da45877cb6f3471f28195c9d2845b",
+    "question": "Solana Up or Down on May 7?",
+    "category": "crypto_price",
+    "slug": "solana-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T16:00:00Z",
+    "yes_price": 0.605,
+    "no_price": 0.395,
+    "liquidity": 9854.2105,
+    "volume_24h": 3881.6552290000013
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.5,
+    "reasoning": "SOL trading $87-90 on May 7, up 3.63% in last 24 hours. Strong bullish momentum, alongside broader crypto market strength. Likely closes UP barring late reversal.",
+    "data_sources": [
+      "coinmarketcap SOL",
+      "coingecko SOL",
+      "bybit SOL"
+    ],
+    "key_uncertainty": "Crypto resolution time vs 24h window.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.605,
+    "claude_prob": 0.78,
+    "delta": 0.175,
+    "suggested_direction": "yes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.329949+00:00",
+  "market": {
+    "id": "1125393",
+    "condition_id": "0x63e5bdd1d9079da369f41a2f5c3b7e6ce3dd7effcadcdd23387dd59447ce80fe",
+    "question": "Will S&P 500 (SPX) hit $6,200 (LOW) in December?",
+    "category": "equity_index",
+    "slug": "spx-hit-6200-low-dec-2026",
+    "end_date": "2026-12-31T21:00:00Z",
+    "yes_price": 0.4465,
+    "no_price": 0.5535,
+    "liquidity": 9903.42842,
+    "volume_24h": 229.62
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "SPX at 7,365 on May 6. Would need ~16% drop to hit 6,200 by end of December 2026 (7+ months). Historic monthly drawdowns of that size occur ~10-20% of years. Strong rally + Iran-deal optimism reduces base rate.",
+    "data_sources": [
+      "cnbc S&P 500 May 5",
+      "fred SP500"
+    ],
+    "key_uncertainty": "Long horizon - macro shocks possible; market pricing this much higher (44.6%) than my estimate.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4465,
+    "claude_prob": 0.18,
+    "delta": -0.2665,
+    "suggested_direction": "no"
+  }
+}

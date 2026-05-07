@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.331849+00:00",
+  "market": {
+    "id": "2166361",
+    "condition_id": "0xb12c1f6bbc6610b01c6184932d9abb350f2548ae46dd333f404b6e852e2a2f11",
+    "question": "Bitcoin Up or Down on May 7?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T16:00:00Z",
+    "yes_price": 0.155,
+    "no_price": 0.845,
+    "liquidity": 19526.6075,
+    "volume_24h": 162477.9728530001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.65,
+    "confidence": 0.4,
+    "reasoning": "BTC at $81,540 vs prior close $80,856.7 (+0.68%). Currently UP. Standard YES=UP convention assumed. Market priced very low at 0.155 suggests possible inverse convention; assigning moderate probability for UP given uncertainty.",
+    "data_sources": [
+      "blockchainreporter BTC May 7",
+      "fortune BTC May 6"
+    ],
+    "key_uncertainty": "Resolution convention (YES=UP vs DOWN) unclear; intraday move could reverse.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.155,
+    "claude_prob": 0.65,
+    "delta": 0.495,
+    "suggested_direction": "yes"
+  }
+}

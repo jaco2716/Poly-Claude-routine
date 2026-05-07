@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.330874+00:00",
+  "market": {
+    "id": "2174351",
+    "condition_id": "0x66197371f12fb59479737bd087b6f4e59db3a3d68abc90ad623473fc5795ed16",
+    "question": "Gold (XAUUSD) Up or Down on May 7?",
+    "category": "commodity",
+    "slug": "xauusd-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T21:00:00Z",
+    "yes_price": 0.815,
+    "no_price": 0.185,
+    "liquidity": 8768.2389,
+    "volume_24h": 11338.858515000004
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.85,
+    "confidence": 0.6,
+    "reasoning": "XAU/USD at $4,738 on May 7 vs $4,681 on May 6, currently up ~1.2%. Gold rising for 2nd consecutive session amid Mideast headlines. Strong likelihood of closing UP barring late reversal.",
+    "data_sources": [
+      "litefinance XAU/USD May 7",
+      "tradingeconomics gold"
+    ],
+    "key_uncertainty": "Late-day reversal possible if Iran MoU finalizes.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.815,
+    "claude_prob": 0.85,
+    "delta": 0.035,
+    "suggested_direction": null
+  }
+}

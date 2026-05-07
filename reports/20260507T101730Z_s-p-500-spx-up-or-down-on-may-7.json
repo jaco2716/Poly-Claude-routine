@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T10:17:30.328988+00:00",
+  "market": {
+    "id": "2174139",
+    "condition_id": "0x697bd53d877ef1a10a0e3f8496573efb565431c88446c957b20e6b3460077755",
+    "question": "S&P 500 (SPX) Up or Down on May 7?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.56,
+    "no_price": 0.44,
+    "liquidity": 17174.6851,
+    "volume_24h": 24643.044354999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.4,
+    "reasoning": "SPX closed May 6 at 7,365.12 (+1.46%). May 7 SPY tracking near flat (-0.09%). SPX likely tracks similarly. Near coin flip with slight downward bias.",
+    "data_sources": [
+      "yahoo finance SPY",
+      "cnbc S&P 500 May 5-6"
+    ],
+    "key_uncertainty": "Final close vs prior; tiny margins.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.56,
+    "claude_prob": 0.45,
+    "delta": -0.11,
+    "suggested_direction": "no"
+  }
+}
