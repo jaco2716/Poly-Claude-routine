@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-07T06:13:30.398705+00:00",
+  "market": {
+    "id": "2171715",
+    "condition_id": "0x53d142f09d1bc3c741efb082f5fb5767b5d79d866a554097ac61d3cb57ece7e2",
+    "question": "Will the highest temperature in Karachi be 34\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-karachi-on-may-8-2026-34c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.37,
+    "no_price": 0.63,
+    "liquidity": 990.015,
+    "volume_24h": 157.975591
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.45,
+    "reasoning": "Karachi May 8 forecast: PMD predicts 35-37\u00b0C, Pakistan Observer/Nation report 35-39\u00b0C range with mercury at 42\u00b0C in early May. Some sources say 35\u00b0C high. P(exact 34\u00b0C) is relatively low given forecasts cluster in 35-37\u00b0C range.",
+    "data_sources": [
+      "PMD via Pakistan Observer",
+      "Dawn.com Karachi temperature",
+      "Nation.com.pk weather",
+      "AccuWeather Karachi May"
+    ],
+    "key_uncertainty": "Heat wave timing and sea breeze influence on max",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.37,
+    "claude_prob": 0.13,
+    "delta": -0.24,
+    "suggested_direction": "no"
+  }
+}

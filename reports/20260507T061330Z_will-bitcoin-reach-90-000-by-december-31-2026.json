@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.390935+00:00",
+  "market": {
+    "id": "1345531",
+    "condition_id": "0xbb379a14cd03f68c35c279ddbd928a6326f4fd2e21827f8cdaaf59715d6df50e",
+    "question": "Will Bitcoin reach $90,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-reach-90000-by-december-31-2026-113-862-581",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.685,
+    "no_price": 0.315,
+    "liquidity": 31217.9627,
+    "volume_24h": 13098.378306
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.65,
+    "reasoning": "BTC at $80-82K in early May 2026. Reaching $90K by Dec 31 requires only ~10-12% upside over ~8 months. Most analyst forecasts (Kraken, Binance, Coincodex) have year-end ranges centered well above $90K (consensus near $100K-$130K). High probability barring major bear cycle.",
+    "data_sources": [
+      "CNBC bitcoin 2026 predictions",
+      "Kraken BTC price prediction",
+      "Binance BTC forecast"
+    ],
+    "key_uncertainty": "Major bear cycle or crypto-specific shock through year end",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.685,
+    "claude_prob": 0.78,
+    "delta": 0.095,
+    "suggested_direction": "yes"
+  }
+}

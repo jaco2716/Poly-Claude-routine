@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T06:13:30.391980+00:00",
+  "market": {
+    "id": "2166361",
+    "condition_id": "0xb12c1f6bbc6610b01c6184932d9abb350f2548ae46dd333f404b6e852e2a2f11",
+    "question": "Bitcoin Up or Down on May 7?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T16:00:00Z",
+    "yes_price": 0.245,
+    "no_price": 0.755,
+    "liquidity": 27659.9453,
+    "volume_24h": 136291.44398500008
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.55,
+    "confidence": 0.25,
+    "reasoning": "BTC Up or Down resolves at noon UTC on May 7. Without precise intraday data for May 7 noon UTC vs prior day, hard to verify. BTC trended up early week (broke $82K). Slight upward bias suggests UP marginally favored, but cannot confirm without precise close data.",
+    "data_sources": [
+      "Fortune BTC May 6",
+      "CoinDesk BTC"
+    ],
+    "key_uncertainty": "Exact BTC price at noon UTC May 7 vs prior day same time",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.245,
+    "claude_prob": 0.55,
+    "delta": 0.305,
+    "suggested_direction": "yes"
+  }
+}

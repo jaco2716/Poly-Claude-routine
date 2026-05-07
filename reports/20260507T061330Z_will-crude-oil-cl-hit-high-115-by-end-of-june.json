@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.389839+00:00",
+  "market": {
+    "id": "1652672",
+    "condition_id": "0x46f19d5bedd6d601d597d308d86814245974014d8a108395a7690d7a099cacdd",
+    "question": "Will Crude Oil (CL) hit (HIGH) $115 by end of June?",
+    "category": "commodity",
+    "slug": "will-crude-oil-cl-hit-high-115-by-end-of-june-217-913-468-473",
+    "end_date": "2026-06-30T18:30:00Z",
+    "yes_price": 0.4585,
+    "no_price": 0.5415,
+    "liquidity": 31223.6315,
+    "volume_24h": 9813.043910999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.7,
+    "reasoning": "WTI crude trading near $93-100 with intraday low of $88.71 on May 7 amid Iran de-escalation talks. Reaching $115 by end of June requires ~15-23% rally in ~8 weeks. Geopolitical de-escalation makes this very unlikely; would need supply shock reversal.",
+    "data_sources": [
+      "Trading Economics crude oil",
+      "Barchart CL futures",
+      "FRED DCOILWTICO"
+    ],
+    "key_uncertainty": "Iran deal collapse or major supply disruption",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.4585,
+    "claude_prob": 0.08,
+    "delta": -0.3785,
+    "suggested_direction": "no"
+  }
+}

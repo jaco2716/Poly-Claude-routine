@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.398498+00:00",
+  "market": {
+    "id": "2179075",
+    "condition_id": "0x1afe31adca6f9933f6af534e7e92652b0b913d10f12b403a702df8678cdf570b",
+    "question": "Will the highest temperature in London be 20\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-london-on-may-9-2026-20c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.385,
+    "no_price": 0.615,
+    "liquidity": 991.4312,
+    "volume_24h": 81.022217
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.4,
+    "reasoning": "London City Airport forecast for May 9: AccuWeather shows ~21\u00b0C (69\u00b0F), Met Office shows weekly range 6-22\u00b0C. Resolution is at London City Airport (EGLC) specifically. P(exact 20\u00b0C) moderate; competing buckets 19-22\u00b0C are plausible.",
+    "data_sources": [
+      "Met Office Heathrow",
+      "AccuWeather London May 2026",
+      "weather.com London"
+    ],
+    "key_uncertainty": "Specific London City Airport reading vs general London",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.385,
+    "claude_prob": 0.28,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

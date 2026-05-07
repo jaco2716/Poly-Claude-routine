@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.397166+00:00",
+  "market": {
+    "id": "2174352",
+    "condition_id": "0x4b0a89050994b85e65f503400a9bf7dfbc6b0c297424cb015c012d7b60982077",
+    "question": "Silver (XAGUSD) Up or Down on May 7?",
+    "category": "commodity",
+    "slug": "xagusd-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T21:00:00Z",
+    "yes_price": 0.555,
+    "no_price": 0.445,
+    "liquidity": 9877.9905,
+    "volume_24h": 3795.6718480000004
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.25,
+    "reasoning": "Silver had wild May 7 session: prior close near $77.18 (May 6) but intraday range $72.42-$74.20 with current ~$73.88, suggesting silver DOWN. However other source quotes prior close at $72.73, which would suggest silver UP. Conflicting data prevents confident call.",
+    "data_sources": [
+      "Trading Economics silver",
+      "Investing.com XAGUSD",
+      "FXEmpire silver"
+    ],
+    "key_uncertainty": "Prior close ambiguity between sources",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.555,
+    "claude_prob": 0.5,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

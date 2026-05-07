@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.393497+00:00",
+  "market": {
+    "id": "2132637",
+    "condition_id": "0x59a37ea3830d532957b04d3c437a329e14a5dc840096d48c7ee4b55ba3d9cca8",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-low-85-in-may-266-388-493-155-935-263-225",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.625,
+    "no_price": 0.375,
+    "liquidity": 18896.6564,
+    "volume_24h": 69937.92991099994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.92,
+    "confidence": 0.7,
+    "reasoning": "WTI traded as low as $88.71 intraday on May 7, currently $93-100. Hitting $85 LOW in May requires only a small further decline (~4-9%) from intraday low. With Iran de-escalation pushing oil down sharply (-9% session), $85 is highly likely to be touched.",
+    "data_sources": [
+      "Trading Economics crude oil",
+      "Barchart CL futures",
+      "Oilprice.com WTI"
+    ],
+    "key_uncertainty": "Whether the downward momentum reverses sharply",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.625,
+    "claude_prob": 0.92,
+    "delta": 0.295,
+    "suggested_direction": "yes"
+  }
+}

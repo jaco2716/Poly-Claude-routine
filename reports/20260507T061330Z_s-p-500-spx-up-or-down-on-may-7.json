@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.393281+00:00",
+  "market": {
+    "id": "2174139",
+    "condition_id": "0x697bd53d877ef1a10a0e3f8496573efb565431c88446c957b20e6b3460077755",
+    "question": "S&P 500 (SPX) Up or Down on May 7?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.57,
+    "no_price": 0.43,
+    "liquidity": 20884.0827,
+    "volume_24h": 15557.564447
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.45,
+    "reasoning": "S&P 500 closed May 6 at record 7,365.12 (+1.46%) on Iran de-escalation. May 7 intraday data showed continued bullish action with index reaching ~7,363-7,369. Slight tilt UP given strong momentum, but resolution depends on whether close exceeds 7,365.12.",
+    "data_sources": [
+      "CNBC stock market May 5",
+      "247wallst SPY May 6",
+      "spyoptions substack May 7"
+    ],
+    "key_uncertainty": "Whether SPX May 7 close beats May 6 close given near-record levels",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.57,
+    "claude_prob": 0.62,
+    "delta": 0.05,
+    "suggested_direction": "yes"
+  }
+}

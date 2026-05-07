@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.397893+00:00",
+  "market": {
+    "id": "2179241",
+    "condition_id": "0x90b9a201326797ebffb3b22a1e6cbcf2798481ff1bbd89f18265197673a3d919",
+    "question": "Will the highest temperature in Munich be 21\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-munich-on-may-9-2026-21c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.19,
+    "no_price": 0.81,
+    "liquidity": 996.6235,
+    "volume_24h": 49.952377999999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.45,
+    "reasoning": "Munich Airport forecast for May 9 shows high ~23\u00b0C (74\u00b0F per AccuWeather). Probability that the highest temp is exactly 21\u00b0C as integer is moderate-low; most likely outcomes are 22-24\u00b0C bucket. Wide forecast uncertainty 5+ days out.",
+    "data_sources": [
+      "AccuWeather Munich May 2026 forecast",
+      "weather.com Munich monthly",
+      "wunderground Munich"
+    ],
+    "key_uncertainty": "Forecast variability over 2-day horizon",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.19,
+    "claude_prob": 0.13,
+    "delta": -0.06,
+    "suggested_direction": "no"
+  }
+}

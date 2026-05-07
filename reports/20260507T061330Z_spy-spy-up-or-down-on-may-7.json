@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T06:13:30.387506+00:00",
+  "market": {
+    "id": "2174349",
+    "condition_id": "0x892ed8bf6dbd66d69ef40ba834f5dbcda2c2d14dbd6923c4652289491fb6bcea",
+    "question": "SPY (SPY) Up or Down on May 7?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.575,
+    "no_price": 0.425,
+    "liquidity": 65559.6159,
+    "volume_24h": 16565.990079000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.45,
+    "reasoning": "SPY closed May 6 at ~$732.93 with strong rally on Iran de-escalation/AI earnings. Pre-market and intraday data on May 7 indicated continued bullish momentum (+1.39% intraday quoted). Independent base rate for daily Up is ~0.53; current bullish trend tilts higher.",
+    "data_sources": [
+      "247wallst.com SPY May 6 article",
+      "spyoptions substack May 7 levels",
+      "stockanalysis.com SPY history"
+    ],
+    "key_uncertainty": "Whether May 7 close finishes positive vs prior close given intraday volatility",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.575,
+    "claude_prob": 0.62,
+    "delta": 0.045,
+    "suggested_direction": null
+  }
+}
