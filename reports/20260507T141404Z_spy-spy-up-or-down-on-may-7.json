@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.703715+00:00",
+  "market": {
+    "id": "2174349",
+    "condition_id": "0x892ed8bf6dbd66d69ef40ba834f5dbcda2c2d14dbd6923c4652289491fb6bcea",
+    "question": "SPY (SPY) Up or Down on May 7?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.59,
+    "no_price": 0.41,
+    "liquidity": 56385.5127,
+    "volume_24h": 54795.940946
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.45,
+    "reasoning": "S&P 500 (SPX) is up 0.10%, Dow up 0.30%, Nasdaq up 0.13% intraday on May 7 driven by Iran peace-deal optimism after record close on May 6. SPY (which tracks SPX) should follow direction. Intraday gains tend to hold into close more often than not, but small lead can flip.",
+    "data_sources": [
+      "TheStreet stock market today May 7 2026 update",
+      "CNBC live updates"
+    ],
+    "key_uncertainty": "Late-day reversal possible if Iran headlines change.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.59,
+    "claude_prob": 0.62,
+    "delta": 0.03,
+    "suggested_direction": null
+  }
+}

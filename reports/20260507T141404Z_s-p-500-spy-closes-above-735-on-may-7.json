@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T14:14:04.706379+00:00",
+  "market": {
+    "id": "2174152",
+    "condition_id": "0x2f18fa3935cd81ef69e2a9928dac7be1d2d5768aa56b4c116977b2b9245f164b",
+    "question": "S&P 500 (SPY) closes above $735 on May 7?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-735-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.405,
+    "no_price": 0.595,
+    "liquidity": 6696.0586,
+    "volume_24h": 32419.617338
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.4,
+    "reasoning": "SPY closed $733.83 on May 6. Need close >$735 on May 7 \u2014 requires ~+0.16%. S&P 500 is up 0.10% intraday today, suggesting SPY ~$734.56, just below threshold. Coin-flip leaning slightly NO but small intraday gains can extend into close.",
+    "data_sources": [
+      "TheStreet stock market today May 7 2026",
+      "TipRanks SPY May 6 2026",
+      "Yahoo Finance SPY"
+    ],
+    "key_uncertainty": "Small intraday move either way determines outcome.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.405,
+    "claude_prob": 0.4,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-07T14:14:04.705718+00:00",
+  "market": {
+    "id": "2174999",
+    "condition_id": "0x6f88a9fe5cfcc7220998513f26acc57ac6bbcedf5bf4c91eb9d2942c1022bc83",
+    "question": "Bitcoin Up or Down - May 7, 10:00AM-10:15AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-15m-1778162400",
+    "end_date": "2026-05-07T14:15:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 9937.7072,
+    "volume_24h": 20187.080706
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.15,
+    "reasoning": "BTC up/down over a 15-minute window (10:00-10:15 AM ET May 7). Short windows are essentially coin-flip with no reliable forecast edge. Treat as ~50%.",
+    "data_sources": [],
+    "key_uncertainty": "Random short-term price noise; no informational edge available.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.5,
+    "delta": 0.165,
+    "suggested_direction": "yes"
+  }
+}

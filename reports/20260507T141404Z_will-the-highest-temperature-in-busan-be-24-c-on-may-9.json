@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.707549+00:00",
+  "market": {
+    "id": "2179495",
+    "condition_id": "0xcdc794fb36560e917c5b9b56f1b160d947218fad7df7c0a5181566549944e73b",
+    "question": "Will the highest temperature in Busan be 24\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-busan-on-may-9-2026-24c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.3,
+    "no_price": 0.7,
+    "liquidity": 991.3419,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.5,
+    "reasoning": "Busan Gimhae airport forecast May 9 high 73\u00b0F (~22.8\u00b0C). Question asks if highest resolves in 24\u00b0C bucket. Forecast is just below 24\u00b0C, so the bucket is plausible if there is positive forecast error of ~1\u00b0C. Probability moderate but skewed to lower.",
+    "data_sources": [
+      "AccuWeather Gimhae May 2026",
+      "Weather Spark Busan May"
+    ],
+    "key_uncertainty": "Forecast error at 2 days could land in either 22, 23, or 24\u00b0C bucket.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.3,
+    "claude_prob": 0.18,
+    "delta": -0.12,
+    "suggested_direction": "no"
+  }
+}

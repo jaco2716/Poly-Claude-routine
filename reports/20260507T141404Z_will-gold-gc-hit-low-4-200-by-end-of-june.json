@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T14:14:04.705936+00:00",
+  "market": {
+    "id": "1032278",
+    "condition_id": "0x8cf61b7b84b6ac2e0c619867dd6966e688b43e4fd4c866423da2f757c58f0a9f",
+    "question": "Will Gold (GC) hit (LOW) $4,200 by end of June?",
+    "category": "commodity",
+    "slug": "gc-hit-4200-low-jun-2026-737-562-112-239-328-831-356-185-544-513",
+    "end_date": "2026-06-30T17:30:00Z",
+    "yes_price": 0.17,
+    "no_price": 0.83,
+    "liquidity": 9918.8557,
+    "volume_24h": 1984.962011
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Gold (GC) front-month is ~$4,692 on May 7 with today's low $4,556. Need front-month CME settle at or below $4,200 by end of June 2026 \u2014 ~10.5% drop from current. Gold is in a strong uptrend, climbing on Middle East de-escalation and inflation concerns. Such a drawdown over ~8 weeks is rare absent a major macro event.",
+    "data_sources": [
+      "Investing.com gold futures",
+      "TradingView GC",
+      "Tradingeconomics gold"
+    ],
+    "key_uncertainty": "Sharp risk-off + Iran deal could trigger a selloff in safe havens.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.17,
+    "claude_prob": 0.1,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}

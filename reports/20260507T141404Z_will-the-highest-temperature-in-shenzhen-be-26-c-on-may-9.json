@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.707753+00:00",
+  "market": {
+    "id": "2179397",
+    "condition_id": "0x3646d2e242e6baa16ba690ee9ab532134fd25b68558da8f05afe74ac8df23f5c",
+    "question": "Will the highest temperature in Shenzhen be 26\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shenzhen-on-may-9-2026-26c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.34,
+    "no_price": 0.66,
+    "liquidity": 993.5421,
+    "volume_24h": 33.470583
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.4,
+    "reasoning": "Shenzhen Bao'an airport: May daily highs typically range 76-89\u00b0F (24.4-31.7\u00b0C), with climate average ~30\u00b0C. Question asks if highest resolves in 26\u00b0C bucket (26.0-26.99\u00b0C, ~79\u00b0F). Forecast suggests upper-bucket more likely; 26\u00b0C bucket plausible but below mean. No specific May 9 forecast found.",
+    "data_sources": [
+      "AccuWeather Shenzhen May 2026",
+      "weather25 Shenzhen May"
+    ],
+    "key_uncertainty": "Lack of specific May 9 forecast; could fall in any bucket from 24-32\u00b0C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.34,
+    "claude_prob": 0.18,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}

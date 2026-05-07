@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.705317+00:00",
+  "market": {
+    "id": "2174139",
+    "condition_id": "0x697bd53d877ef1a10a0e3f8496573efb565431c88446c957b20e6b3460077755",
+    "question": "S&P 500 (SPX) Up or Down on May 7?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-7-2026",
+    "end_date": "2026-05-07T20:00:00Z",
+    "yes_price": 0.545,
+    "no_price": 0.455,
+    "liquidity": 17804.6513,
+    "volume_24h": 63169.95401599999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.45,
+    "reasoning": "S&P 500 (SPX) is currently up 0.10% intraday on May 7 vs prior close (record high May 6 with SPX above 7,300). Iran peace optimism driving risk-on. Slight positive bias but small lead is fragile.",
+    "data_sources": [
+      "TheStreet stock market today May 7 2026",
+      "CNBC live updates"
+    ],
+    "key_uncertainty": "Late-day volatility or headline reversal.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.545,
+    "claude_prob": 0.62,
+    "delta": 0.075,
+    "suggested_direction": "yes"
+  }
+}

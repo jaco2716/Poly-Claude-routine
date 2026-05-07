@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.708161+00:00",
+  "market": {
+    "id": "2171436",
+    "condition_id": "0xbbb8080a74c4f3f109e0e58ef707dfef7cecac6f79fdd5ea6b6fdca9fb499fe8",
+    "question": "Will the highest temperature in Chengdu be 23\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chengdu-on-may-8-2026-23c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.195,
+    "no_price": 0.805,
+    "liquidity": 988.5021,
+    "volume_24h": 924.0572620000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.6,
+    "reasoning": "Chengdu Shuangliu May 8 forecast (AccuWeather monthly): high 81\u00b0F (~27.2\u00b0C). Question asks 23\u00b0C bucket (~73.4-75\u00b0F). Forecast is 4\u00b0C above target bucket. Probability of falling in 23\u00b0C bucket given 27\u00b0C forecast is low.",
+    "data_sources": [
+      "AccuWeather Chengdu May 2026",
+      "TravelChinaGuide Chengdu May"
+    ],
+    "key_uncertainty": "Heavy rain/frontal pass could lower max but unlikely to land in 23\u00b0C bucket exactly.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.195,
+    "claude_prob": 0.08,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

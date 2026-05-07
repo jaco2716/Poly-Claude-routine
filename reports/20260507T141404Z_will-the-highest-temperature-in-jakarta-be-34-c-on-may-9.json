@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.706791+00:00",
+  "market": {
+    "id": "2179549",
+    "condition_id": "0x764492a6bc3474ebb804d8047fedd05d216b19d8a368eef3492056c44916fcce",
+    "question": "Will the highest temperature in Jakarta be 34\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jakarta-on-may-9-2026-34c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 999.4126,
+    "volume_24h": 101.379273
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Jakarta Halim airport forecast for May 9 is high ~31\u00b0C (88\u00b0F per AccuWeather). Question asks if highest temp resolves in 34\u00b0C bucket. Forecast is 3\u00b0C below threshold; May average highs ~32\u00b0C. Probability of hitting 34\u00b0C bucket given forecast 31\u00b0C is low.",
+    "data_sources": [
+      "AccuWeather Jakarta May 2026",
+      "weather.com Jakarta monthly"
+    ],
+    "key_uncertainty": "Forecast error at 2 days out could be 1-2\u00b0C.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.1,
+    "delta": -0.255,
+    "suggested_direction": "no"
+  }
+}

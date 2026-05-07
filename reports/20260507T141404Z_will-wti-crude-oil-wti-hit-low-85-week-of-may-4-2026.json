@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.706597+00:00",
+  "market": {
+    "id": "2135316",
+    "condition_id": "0x8681e2700f879ca367d4b49f6ed268921fcf9166b108fd87d7b4dee5db84a19a",
+    "question": "Will WTI Crude Oil (WTI) hit (LOW) $85 Week of May 4 2026?",
+    "category": "commodity",
+    "slug": "will-wti-dip-to-85-by-may-4-2026",
+    "end_date": "2026-05-08T21:00:00Z",
+    "yes_price": 0.1785,
+    "no_price": 0.8215,
+    "liquidity": 2201.84464,
+    "volume_24h": 14216.581506
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.04,
+    "confidence": 0.7,
+    "reasoning": "WTI active month is ~$92-96 on May 7. Question requires WTI 1-min low at or below $85 during week of May 4 \u2014 only May 7-8 trading days remain. Need ~7-12% drop in 1-2 days. Recent action shows oil falling on Iran de-escalation but $85 is still a steep move from $92+. Very unlikely.",
+    "data_sources": [
+      "Tradingeconomics WTI",
+      "TheStreet stock market today May 7"
+    ],
+    "key_uncertainty": "Black-swan supply/demand shock in 1-2 days could trigger waterfall, but unlikely.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.1785,
+    "claude_prob": 0.04,
+    "delta": -0.1385,
+    "suggested_direction": "no"
+  }
+}

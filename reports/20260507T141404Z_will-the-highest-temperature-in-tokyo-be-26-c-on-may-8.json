@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-07T14:14:04.707208+00:00",
+  "market": {
+    "id": "2171308",
+    "condition_id": "0x18b16aaca00f9df25be4f1e151ce6a1b928d61b9723c11f623d8c966713ff4a9",
+    "question": "Will the highest temperature in Tokyo be 26\u00b0C on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-tokyo-on-may-8-2026-26c",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.325,
+    "no_price": 0.675,
+    "liquidity": 991.4114,
+    "volume_24h": 1733.03432
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.65,
+    "reasoning": "Tokyo Haneda forecast for May 8 is high 74\u00b0F (~23\u00b0C). Question asks if highest resolves in 26\u00b0C bucket. Forecast is 3\u00b0C below threshold. Probability of overshooting forecast by 3\u00b0C is low.",
+    "data_sources": [
+      "AccuWeather Haneda Tokyo",
+      "weather.com 10-day Haneda"
+    ],
+    "key_uncertainty": "Foehn effect or unusual warm advection could push highs higher.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.325,
+    "claude_prob": 0.08,
+    "delta": -0.245,
+    "suggested_direction": "no"
+  }
+}
