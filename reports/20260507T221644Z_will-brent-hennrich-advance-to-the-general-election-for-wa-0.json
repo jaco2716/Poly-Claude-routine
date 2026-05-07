@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T22:16:44.601451+00:00",
+  "market": {
+    "id": "960320",
+    "condition_id": "0xe97fd68138299f654dfe7d46c56e86c30b03bd558d121e6380d204dfc016b6a7",
+    "question": "Will Brent Hennrich advance to the general election for WA-03?",
+    "category": "commodity",
+    "slug": "will-brent-hennrich-advance-to-the-general-election-for-wa-03",
+    "end_date": "2026-08-04T00:00:00Z",
+    "yes_price": 0.185,
+    "no_price": 0.815,
+    "liquidity": 9933.7219,
+    "volume_24h": 17597.681747999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.5,
+    "reasoning": "Hennrich is a long-shot Democratic primary challenger to incumbent Marie Gluesenkamp Perez. Under WA top-two primary, MGP (incumbent Democrat) and a leading Republican (Braun/Walsh) are heavy favorites for top-2. Hennrich would need to out-poll MGP within Democrats AND outpoll the leading Republican overall \u2014 very unlikely.",
+    "data_sources": [
+      "ballotpedia.org Washington's 3rd Congressional District 2026",
+      "chronline.com poll commissioned by MGP challenger",
+      "columbian.com primary fight 3rd Congressional"
+    ],
+    "key_uncertainty": "Possible Democratic vote split or unexpected MGP scandal; current data show MGP strong fundraiser and well-positioned.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.185,
+    "claude_prob": 0.07,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

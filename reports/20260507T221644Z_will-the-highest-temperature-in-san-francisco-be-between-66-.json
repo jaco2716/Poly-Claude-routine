@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T22:16:44.601912+00:00",
+  "market": {
+    "id": "2171508",
+    "condition_id": "0x75970db364a8e3d4ff4f4f22e15238f80cb62b1dcc2c50f847caa4d98881fbcc",
+    "question": "Will the highest temperature in San Francisco be between 66-67\u00b0F on May 8?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-san-francisco-on-may-8-2026-66-67f",
+    "end_date": "2026-05-08T12:00:00Z",
+    "yes_price": 0.17,
+    "no_price": 0.83,
+    "liquidity": 998.1514,
+    "volume_24h": 258.33469099999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.4,
+    "reasoning": "Forecast for May 8 SFO is high ~61\u00b0F (16\u00b0C). Market range 66-67\u00b0F is above forecast median. SF May average highs are 64-66\u00b0F so 66-67\u00b0F is plausible if forecast underestimates, but more likely landing in 60-65\u00b0F range. Probability of exactly 66 or 67\u00b0F is low.",
+    "data_sources": [
+      "weatherforyou.com SF report",
+      "AccuWeather SFO May",
+      "weather.com SF monthly"
+    ],
+    "key_uncertainty": "Forecast can vary \u00b13-5\u00b0F; the exact 2\u00b0F bin is narrow.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.17,
+    "claude_prob": 0.13,
+    "delta": -0.04,
+    "suggested_direction": null
+  }
+}

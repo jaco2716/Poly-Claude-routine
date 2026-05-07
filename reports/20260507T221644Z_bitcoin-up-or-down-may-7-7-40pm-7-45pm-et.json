@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-07T22:16:44.605095+00:00",
+  "market": {
+    "id": "2178076",
+    "condition_id": "0x3fcd23470eca451a054a55d2894fbe680be9c738cde5ee764c6a8f301ccc17cd",
+    "question": "Bitcoin Up or Down - May 7, 7:40PM-7:45PM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1778197200",
+    "end_date": "2026-05-07T23:45:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9921.6046,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.51,
+    "confidence": 0.1,
+    "reasoning": "5-minute BTC price moves are dominated by noise. Up/Down is essentially a coin flip with marginal upward bias because ties resolve Up. No verifiable directional edge.",
+    "data_sources": [],
+    "key_uncertainty": "5-minute moves are pure noise; not forecastable.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.51,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

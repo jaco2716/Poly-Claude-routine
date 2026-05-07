@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T22:16:44.602468+00:00",
+  "market": {
+    "id": "2179428",
+    "condition_id": "0x80b3bf8823a1f08afe3e7f8cab81dfa2d60e6a4cb7fc5a6e08cdbd5b24d10a9a",
+    "question": "Will the highest temperature in Houston be between 82-83\u00b0F on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-houston-on-may-9-2026-82-83f",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.415,
+    "no_price": 0.585,
+    "liquidity": 995.6486,
+    "volume_24h": 169.811686
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "Houston May 9 forecast (Space City Weather May 6 update): mostly sunny with highs in low-to-mid 80s. The 82-83\u00b0F bin covers about 30-40% of the likely high range. With Hobby Airport potentially slightly cooler than central Houston due to bay proximity, 82-83\u00b0F is plausible but not the central case.",
+    "data_sources": [
+      "spacecityweather.com",
+      "accuweather.com Houston May",
+      "weather.gov/hgx"
+    ],
+    "key_uncertainty": "Two-degree bin is narrow; forecast typically has \u00b12-3\u00b0F uncertainty even one day out.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.415,
+    "claude_prob": 0.3,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

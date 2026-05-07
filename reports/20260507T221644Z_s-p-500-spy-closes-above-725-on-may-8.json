@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T22:16:44.603768+00:00",
+  "market": {
+    "id": "2181252",
+    "condition_id": "0x11b60ef26c87d07b90bfc88874d0ad561b283b31c9f568382e84bfbf7f822b21",
+    "question": "S&P 500 (SPY) closes above $725 on May 8?",
+    "category": "equity_index",
+    "slug": "spy-closes-above-725-on-may-8-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.79,
+    "no_price": 0.21,
+    "liquidity": 962.3398,
+    "volume_24h": 17.827157
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.55,
+    "reasoning": "SPY at $731.58 on May 7 (prev close $733.83 May 6). To close below $725 on May 8 requires ~0.9% drop, roughly a 1-sigma daily move. With current price ~$731 and recent uptrend, probability of close above $725 is ~75-80%.",
+    "data_sources": [
+      "finance.yahoo.com/quote/SPY",
+      "investing.com/etfs/spdr-s-p-500",
+      "macrotrends.net SPY history"
+    ],
+    "key_uncertainty": "One-day equity moves can spike on news; ~20-25% tail of >1% drop.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.79,
+    "claude_prob": 0.78,
+    "delta": -0.01,
+    "suggested_direction": null
+  }
+}

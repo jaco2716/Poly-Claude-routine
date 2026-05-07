@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-07T22:16:44.603274+00:00",
+  "market": {
+    "id": "2179562",
+    "condition_id": "0xf7acc2583a71f6b9a6ac0cd2235e0b3c6fdbed42f7bc1e4fc9574efe73e67112",
+    "question": "Will the highest temperature in Jeddah be 36\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jeddah-on-may-9-2026-36c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.28,
+    "no_price": 0.72,
+    "liquidity": 967.4461,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.35,
+    "reasoning": "Jeddah May average high is ~35\u00b0C (95\u00b0F), with range 32-38\u00b0C. The 36\u00b0C bin is just above the monthly average and central to the typical distribution. Probability of exactly 36\u00b0C (a 1\u00b0C bin) is moderate but not high. No specific May 9 forecast available.",
+    "data_sources": [
+      "accuweather.com Jeddah May",
+      "weatherspark.com Jeddah",
+      "weather.com Jeddah monthly"
+    ],
+    "key_uncertainty": "No precise May 9 forecast obtained; 1\u00b0C bin is narrow.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.28,
+    "claude_prob": 0.22,
+    "delta": -0.06,
+    "suggested_direction": "no"
+  }
+}
