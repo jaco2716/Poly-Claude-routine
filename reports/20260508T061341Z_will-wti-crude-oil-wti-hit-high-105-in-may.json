@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T06:13:41.619164+00:00",
+  "market": {
+    "id": "2182203",
+    "condition_id": "0x20f68095c6f41a29bff62f003478a4bd2db09bc723b0f13bd0f4d367879e0c70",
+    "question": "Will WTI Crude Oil (WTI) hit (HIGH) $105 in May?",
+    "category": "commodity",
+    "slug": "will-wti-crude-oil-wti-hit-high-105-in-may-122-448",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.605,
+    "no_price": 0.395,
+    "liquidity": 14824.0922,
+    "volume_24h": 12747.593661000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.95,
+    "confidence": 0.85,
+    "reasoning": "WTI closed at $106.42 on May 5, 2026 per CNN, and June futures hit a high of $105.48. Threshold of $105 has already been breached during May 2026, so this should resolve YES.",
+    "data_sources": [
+      "cnn.com",
+      "oilprice.com"
+    ],
+    "key_uncertainty": "Resolution reference (spot vs futures) and exact tick.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.605,
+    "claude_prob": 0.95,
+    "delta": 0.345,
+    "suggested_direction": "yes"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T06:13:41.622607+00:00",
+  "market": {
+    "id": "2186796",
+    "condition_id": "0xe4bb57f6aa47d2d94ab1924f1279c3d3cd23b6dffaeb2f120763b4ff78a173ec",
+    "question": "Will the highest temperature in Shanghai be 23\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shanghai-on-may-10-2026-23c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.22,
+    "no_price": 0.78,
+    "liquidity": 990.0611,
+    "volume_24h": 325.76615200000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.4,
+    "reasoning": "Shanghai forecasts: 19\u00b0C (one source) to 25\u00b0C (AccuWeather) for May 10. The 23\u00b0C bucket falls within the range. Mid-range probability for this exact bucket.",
+    "data_sources": [
+      "accuweather.com",
+      "weather25.com"
+    ],
+    "key_uncertainty": "Spread between forecast sources is large.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.22,
+    "claude_prob": 0.22,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

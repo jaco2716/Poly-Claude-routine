@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T06:13:41.617097+00:00",
+  "market": {
+    "id": "2175538",
+    "condition_id": "0xd3ca3fd896eef3e8392d5c1a0644df1af3e2db7a15294830178473c84b701edb",
+    "question": "Bitcoin Up or Down on May 8?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-8-2026",
+    "end_date": "2026-05-08T16:00:00Z",
+    "yes_price": 0.345,
+    "no_price": 0.655,
+    "liquidity": 21412.6656,
+    "volume_24h": 44135.272172
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.35,
+    "reasoning": "BTC ~$80,087 on May 8, 2026 with intraday range $79,693-$81,653. Trading near middle of recent range. Direction for close vs prior day close unclear from current data.",
+    "data_sources": [
+      "bybit.com",
+      "fortune.com"
+    ],
+    "key_uncertainty": "Reference prior close and end-of-day move.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.345,
+    "claude_prob": 0.5,
+    "delta": 0.155,
+    "suggested_direction": "yes"
+  }
+}

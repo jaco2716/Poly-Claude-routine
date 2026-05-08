@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T06:13:41.620661+00:00",
+  "market": {
+    "id": "701547",
+    "condition_id": "0xa3143f9c21ecc7a9b036b4e435f48264ff72019a9e3e60dacff4e615020e7e21",
+    "question": "Will Ethereum reach $4,500 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-ethereum-reach-4500-by-december-31-2026",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 13895.4775,
+    "volume_24h": 9116.464818
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.65,
+    "reasoning": "ETH ~$2,289 on May 8, 2026. To reach $4,500 by Dec 31 needs ~97% rally in 7.5 months. Historically possible but well outside base rate; would require a major bull run. Estimate ~5-10%.",
+    "data_sources": [
+      "fortune.com",
+      "coinmarketcap.com",
+      "mexc.com"
+    ],
+    "key_uncertainty": "Major macro/regulatory catalyst (ETH ETF flows, L2 narrative) could accelerate.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.07,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

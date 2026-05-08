@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T06:13:41.623434+00:00",
+  "market": {
+    "id": "1032345",
+    "condition_id": "0x898e9ff5045fcd05c26ea1e956d926c191d5aecae1bc184283c94e665f0f7be5",
+    "question": "Will Silver (SI) hit (LOW) $60 by end of June?",
+    "category": "commodity",
+    "slug": "si-hit-60-low-jun-2026-623-142-589-525-252",
+    "end_date": "2026-06-30T17:30:00Z",
+    "yes_price": 0.16,
+    "no_price": 0.84,
+    "liquidity": 9850.9685,
+    "volume_24h": 1085.7947040000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.7,
+    "reasoning": "Silver trading ~$79-80 on May 7-8 2026. To dip to $60 by end of June would require ~25% drop in ~7-8 weeks. Strong bullish positioning and analyst targets. Such a sharp drawdown from current levels is unlikely. Estimate ~8-10%.",
+    "data_sources": [
+      "barchart.com",
+      "tradingeconomics.com",
+      "forex.com"
+    ],
+    "key_uncertainty": "Sudden risk-off / dollar surge could trigger commodities selloff.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.16,
+    "claude_prob": 0.08,
+    "delta": -0.08,
+    "suggested_direction": "no"
+  }
+}

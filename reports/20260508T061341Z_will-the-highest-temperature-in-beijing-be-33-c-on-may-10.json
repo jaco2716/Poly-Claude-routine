@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T06:13:41.621845+00:00",
+  "market": {
+    "id": "2186884",
+    "condition_id": "0x6bfd9ee1c962e4d0823adcb0f3a383226fce4d7b54cd7e9a3e431ff0638f9965",
+    "question": "Will the highest temperature in Beijing be 33\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-beijing-on-may-10-2026-33c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.29,
+    "no_price": 0.71,
+    "liquidity": 997.1314,
+    "volume_24h": 0.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.07,
+    "confidence": 0.7,
+    "reasoning": "AccuWeather forecasts ~27\u00b0C high for Beijing on May 10, 2026 (Meteoprog 26\u00b0C). The 33\u00b0C threshold is 6\u00b0C above forecast \u2014 very unlikely without unusual heat event.",
+    "data_sources": [
+      "accuweather.com",
+      "meteoprog.com"
+    ],
+    "key_uncertainty": "Sudden heat event; resolution exact bucket.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.29,
+    "claude_prob": 0.07,
+    "delta": -0.22,
+    "suggested_direction": "no"
+  }
+}

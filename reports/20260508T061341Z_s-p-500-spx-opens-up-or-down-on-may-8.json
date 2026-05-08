@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T06:13:41.617529+00:00",
+  "market": {
+    "id": "2181239",
+    "condition_id": "0x3e3ddd33634ee9fd605cf30c845d3b21b18a712c38ea0704a4023c1b79b1fa2b",
+    "question": "S&P 500 (SPX) Opens Up or Down on May 8?",
+    "category": "equity_index",
+    "slug": "spx-opens-up-or-down-on-may-8-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.76,
+    "no_price": 0.24,
+    "liquidity": 10900.6248,
+    "volume_24h": 18725.793036000006
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.93,
+    "confidence": 0.75,
+    "reasoning": "May 8 SPX/SPY opened at $735.10 vs prior close $733.83 \u2014 already opened UP. This question resolves on the open print, so it should resolve YES with very high probability.",
+    "data_sources": [
+      "yahoo finance",
+      "stockanalysis.com"
+    ],
+    "key_uncertainty": "Whether the precise reference open print matches sources reviewed.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.76,
+    "claude_prob": 0.93,
+    "delta": 0.17,
+    "suggested_direction": "yes"
+  }
+}

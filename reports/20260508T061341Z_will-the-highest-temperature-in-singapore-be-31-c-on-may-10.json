@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T06:13:41.621622+00:00",
+  "market": {
+    "id": "2186809",
+    "condition_id": "0x84d4779300c364f32e2dfff33d876db99f3a3b9a301ac50d2028c547fe6b8e36",
+    "question": "Will the highest temperature in Singapore be 31\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-singapore-on-may-10-2026-31c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.325,
+    "no_price": 0.675,
+    "liquidity": 998.094,
+    "volume_24h": 18.461536000000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.55,
+    "reasoning": "AccuWeather forecasts high of 32\u00b0C for Singapore on May 10, 2026. May average highs are 31-32\u00b0C. This is a bucket question; central forecast is at 32\u00b0C, so 31\u00b0C bucket is the 2nd most likely outcome with maybe 25-30% probability.",
+    "data_sources": [
+      "accuweather.com",
+      "weather25.com"
+    ],
+    "key_uncertainty": "Daily forecast variance; bucket boundaries.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.325,
+    "claude_prob": 0.28,
+    "delta": -0.045,
+    "suggested_direction": null
+  }
+}

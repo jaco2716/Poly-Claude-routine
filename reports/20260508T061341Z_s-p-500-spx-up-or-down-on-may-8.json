@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T06:13:41.617371+00:00",
+  "market": {
+    "id": "2181236",
+    "condition_id": "0x8fe7dfa9836cdb381eace3bbc1f3ceb13aa6ce60336480bb318eb8b2d72fdac9",
+    "question": "S&P 500 (SPX) Up or Down on May 8?",
+    "category": "equity_index",
+    "slug": "spx-up-or-down-on-may-8-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.72,
+    "no_price": 0.28,
+    "liquidity": 20545.5262,
+    "volume_24h": 16386.797753
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "SPX ~7,327 on May 8, 2026 with prior close around 7,316-7,338 range. SPY tracking shows day open above prior close. Slight bullish lean; ~60-65% chance of closing up.",
+    "data_sources": [
+      "litefinance.org",
+      "yahoo finance",
+      "stockanalysis.com"
+    ],
+    "key_uncertainty": "End-of-day market direction.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.72,
+    "claude_prob": 0.62,
+    "delta": -0.1,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T06:13:41.616298+00:00",
+  "market": {
+    "id": "2181369",
+    "condition_id": "0xb4a7e96594eb6ad824e61b268b1b25dc037e7b276cc70022e4035b6f5194d454",
+    "question": "SPY (SPY) Up or Down on May 8?",
+    "category": "equity_index",
+    "slug": "spy-up-or-down-on-may-8-2026",
+    "end_date": "2026-05-08T20:00:00Z",
+    "yes_price": 0.725,
+    "no_price": 0.275,
+    "liquidity": 27828.0723,
+    "volume_24h": 33017.25003000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "Today is May 8, 2026. SPY opened at $735.10 vs prior close $733.83 (up ~0.17%). Intraday range $733.55-$735.61, currently trading above prior close. Bullish bias suggests ~60-65% chance of closing up.",
+    "data_sources": [
+      "yahoo finance",
+      "stockanalysis.com",
+      "247wallst.com"
+    ],
+    "key_uncertainty": "Late-day market reversals are common; news flow could swing either way.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.725,
+    "claude_prob": 0.62,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-08T06:13:41.622825+00:00",
+  "market": {
+    "id": "2186864",
+    "condition_id": "0x870c08cb829b76dd80c7a16202599f0da16d0f7a10a4f4897a87480bf50dd510",
+    "question": "Will the highest temperature in Taipei be 29\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-taipei-on-may-10-2026-29c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.165,
+    "no_price": 0.835,
+    "liquidity": 976.6222,
+    "volume_24h": 43.56315599999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "AccuWeather forecasts Taipei high 82\u00b0F (~27.8\u00b0C) on May 10, 2026. The 29\u00b0C bucket is 1\u00b0C above forecast; secondary likely outcome. Estimate ~20-25%.",
+    "data_sources": [
+      "accuweather.com"
+    ],
+    "key_uncertainty": "Daily forecast variance.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.165,
+    "claude_prob": 0.22,
+    "delta": 0.055,
+    "suggested_direction": "yes"
+  }
+}

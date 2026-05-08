@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T06:13:41.623306+00:00",
+  "market": {
+    "id": "678686",
+    "condition_id": "0xe67f4d31f0eba1b009b49d7a7739b2a5f53a2d7d979a0902b465a510492c33bb",
+    "question": "Will 2026 be the hottest year on record?",
+    "category": "temperature",
+    "slug": "will-2026-be-the-hottest-year-on-record",
+    "end_date": "2026-12-31T00:00:00Z",
+    "yes_price": 0.375,
+    "no_price": 0.625,
+    "liquidity": 17829.0302,
+    "volume_24h": 9160.835038000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.6,
+    "reasoning": "Per Carbon Brief, 2026 has ~26% probability of being warmest on record (~56% chance of being 2nd warmest). La Nina has faded and El Nino is forming, but full Super El Nino impact is more likely to push 2027 to record. Estimate ~25-30%.",
+    "data_sources": [
+      "carbonbrief.org",
+      "theclimatebrink.com",
+      "berkeleyearth.org"
+    ],
+    "key_uncertainty": "Pace of El Nino development and second-half temperature trajectory.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.375,
+    "claude_prob": 0.27,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}
