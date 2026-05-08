@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T14:18:33.589490+00:00",
+  "market": {
+    "id": "2181289",
+    "condition_id": "0xbf4446a3647f7c1e80c63b4ac740ba72cffe06a8fb9a372077df82b9ab960631",
+    "question": "WTI Crude Oil (WTI) closes above $95 on May 8?",
+    "category": "commodity",
+    "slug": "wti-closes-above-95-on-may-8-2026",
+    "end_date": "2026-05-08T21:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 4514.2262,
+    "volume_24h": 13008.34767
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.45,
+    "confidence": 0.35,
+    "reasoning": "WTI ~$94.35 currently with prior close $94.81 on May 7. Recent volatility range $90-$96 driven by Iran peace prospects. Closing above $95 requires modest rally from current level. Roughly coin-flip with slight downward bias on Iran peace deal news. Market priced near 50/50.",
+    "data_sources": [
+      "oilprice.com WTI",
+      "tradingeconomics.com crude oil",
+      "barchart.com CLK26"
+    ],
+    "key_uncertainty": "Iran peace deal headlines and EIA inventory data",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.45,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

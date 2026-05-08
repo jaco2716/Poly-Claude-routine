@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T14:18:33.587066+00:00",
+  "market": {
+    "id": "2175538",
+    "condition_id": "0xd3ca3fd896eef3e8392d5c1a0644df1af3e2db7a15294830178473c84b701edb",
+    "question": "Bitcoin Up or Down on May 8?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-8-2026",
+    "end_date": "2026-05-08T16:00:00Z",
+    "yes_price": 0.495,
+    "no_price": 0.505,
+    "liquidity": 20947.1109,
+    "volume_24h": 184827.48058600002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.4,
+    "reasoning": "May 7 noon ET BTC was around $81K (9:15am at $81,022; later peaked $82.5K then fell to ~$80.9K). May 8 9:30am ET reported $79,743. If May 7 noon ET was ~$81-82K and May 8 noon is near $79-80K, Down is slightly more likely. Base rate for daily Up is ~50%, but current price action favors Down.",
+    "data_sources": [
+      "fortune.com BTC May 7/8 2026",
+      "blockchainreporter.net BTC May 8"
+    ],
+    "key_uncertainty": "Exact noon ET close values and any midday rally on May 8",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.495,
+    "claude_prob": 0.42,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

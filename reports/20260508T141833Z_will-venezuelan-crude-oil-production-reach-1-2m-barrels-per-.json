@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T14:18:33.589896+00:00",
+  "market": {
+    "id": "1126852",
+    "condition_id": "0x0ade700b2236988fe36cd542748df50f58b241562b51ecdc6e28d8161eaf0652",
+    "question": "Will Venezuelan crude oil production reach 1.2m barrels per day in 2026?",
+    "category": "commodity",
+    "slug": "will-venezuelan-crude-oil-production-reach-1pt2m-barrels-per-day-in-2026",
+    "end_date": "2027-02-28T00:00:00Z",
+    "yes_price": 0.53,
+    "no_price": 0.47,
+    "liquidity": 259.612,
+    "volume_24h": 8925.407216999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.65,
+    "confidence": 0.45,
+    "reasoning": "Venezuela production hit 1,095 tb/d in March 2026, growing month-over-month. April exports at 1.23m suggest similar production levels. With Repsol joint venture and Chevron license, output trajectory is up. Hitting 1,200 tb/d in any of remaining 8+ months looks more likely than not.",
+    "data_sources": [
+      "tradingeconomics.com Venezuela",
+      "rigzone.com Repsol",
+      "energynow.com EIA"
+    ],
+    "key_uncertainty": "Sanctions reversal or political instability",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.53,
+    "claude_prob": 0.65,
+    "delta": 0.12,
+    "suggested_direction": "yes"
+  }
+}

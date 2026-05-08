@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T14:18:33.591320+00:00",
+  "market": {
+    "id": "2186863",
+    "condition_id": "0xb130ffe566a96d255b1fa262668bf8bb7483b532694a7d87eff88cd7b0c97d7a",
+    "question": "Will the highest temperature in Taipei be 28\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-taipei-on-may-10-2026-28c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 968.8278,
+    "volume_24h": 20.259081
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.27,
+    "confidence": 0.35,
+    "reasoning": "Taipei May average high is exactly 28\u00b0C with rainy season starting. 28\u00b0C bucket centers on the climatological mean, so probability of exact bucket hit is ~25-30%. No specific May 10 forecast available, so confidence moderate. Market price aligned with base rate.",
+    "data_sources": [
+      "accuweather.com Taipei May",
+      "weatherspark.com Taipei Songshan",
+      "traveloka.com Taipei"
+    ],
+    "key_uncertainty": "Rainy season variation: a wet front could lower max to 25-26\u00b0C",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.27,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

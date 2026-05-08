@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T14:18:33.591083+00:00",
+  "market": {
+    "id": "2187126",
+    "condition_id": "0x97a9eb0704aaf2db666e4625f89ebf894529314dc0a652cbea830e67d7ce20b4",
+    "question": "Will the highest temperature in Cape Town be 13\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-cape-town-on-may-10-2026-13c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.235,
+    "no_price": 0.765,
+    "liquidity": 969.4582,
+    "volume_24h": 28.147236
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.08,
+    "confidence": 0.5,
+    "reasoning": "Cape Town airport forecast May 10 is high of 60\u00b0F (~15.5\u00b0C). 13\u00b0C bucket would require ~2-3\u00b0C below forecast. Cape Town autumn highs typically 16-21\u00b0C; 13\u00b0C high is unusually cold and unlikely without strong cold front. Market price 0.235 looks high vs base rate ~8-12%.",
+    "data_sources": [
+      "accuweather.com Cape Town airport",
+      "weather2travel.com Cape Town"
+    ],
+    "key_uncertainty": "Possible passing cold front not captured in current forecast",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.235,
+    "claude_prob": 0.08,
+    "delta": -0.155,
+    "suggested_direction": "no"
+  }
+}

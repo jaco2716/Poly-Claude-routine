@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T14:18:33.585632+00:00",
+  "market": {
+    "id": "898411",
+    "condition_id": "0x1b7fd0fe5dbf07c9f7aab729a6688686e5d2df9b443233cd29004bd11818553d",
+    "question": "Will George Russell be the 2026 F1 Drivers' Champion?",
+    "category": "equity_index",
+    "slug": "will-george-russell-be-the-2026-f1-drivers-champion",
+    "end_date": "2026-12-06T00:00:00Z",
+    "yes_price": 0.295,
+    "no_price": 0.705,
+    "liquidity": 116764.6105,
+    "volume_24h": 15782.912372000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "After 4 of 22 races, Russell sits 2nd with 80 points, 20 behind teammate Antonelli (100). Mercedes appears dominant in 2026 regulations. With ~18 races remaining and a 20-point deficit primarily to a single rival in same car, Russell has a real but not majority chance. Base rate for a #2 driver in points to win is ~25-30% historically; teammate situation lowers slightly.",
+    "data_sources": [
+      "formula1.com/en/results/2026/drivers",
+      "racingnews365.com/f1/standings/2026/drivers"
+    ],
+    "key_uncertainty": "Whether Antonelli's early-season form is sustainable and whether Mercedes maintains constructors edge",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.295,
+    "claude_prob": 0.22,
+    "delta": -0.075,
+    "suggested_direction": "no"
+  }
+}

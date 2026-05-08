@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T14:18:33.590892+00:00",
+  "market": {
+    "id": "2179296",
+    "condition_id": "0x3f84210a10b5ac7a8a788cc6b95068d071e9eb8f92920c7e25a225192afcfa64",
+    "question": "Will the highest temperature in Singapore be 31\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-singapore-on-may-9-2026-31c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.435,
+    "no_price": 0.565,
+    "liquidity": 981.5702,
+    "volume_24h": 945.223308
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.45,
+    "reasoning": "Forecast high for Changi May 9 is 89\u00b0F (~31.7\u00b0C), borderline between 31\u00b0C and 32\u00b0C buckets. Probability of falling exactly into 31\u00b0C bucket (30.5-31.4) is ~30-35% with slight lean toward 32\u00b0C. Market priced higher than my read.",
+    "data_sources": [
+      "accuweather.com Singapore Changi",
+      "weatherbug.com WSSS"
+    ],
+    "key_uncertainty": "Whether daytime peak rounds up to 32 or stays in 31",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.435,
+    "claude_prob": 0.32,
+    "delta": -0.115,
+    "suggested_direction": "no"
+  }
+}

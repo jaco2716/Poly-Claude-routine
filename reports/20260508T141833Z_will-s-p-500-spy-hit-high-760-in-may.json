@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T14:18:33.588882+00:00",
+  "market": {
+    "id": "2074172",
+    "condition_id": "0x1bc5558aa2f7d16a74827e2f4099c549cd68b8caf3c9077c12e37e3b634017a8",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $760 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-760-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.1945,
+    "no_price": 0.8055,
+    "liquidity": 962.57083,
+    "volume_24h": 1033.272099
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.45,
+    "reasoning": "SPY at $734-$736 on May 8 with ~16 trading days remaining in May. $760 is +3.3% from current. Implied move at current vol (~12-15% annualized) over 16 days is roughly +/-3-4%, so probability of touching $760 high is ~20-25%. Market price aligns reasonably.",
+    "data_sources": [
+      "yahoo finance SPY",
+      "stockanalysis.com/etf/spy"
+    ],
+    "key_uncertainty": "Macro data and Fed commentary in second half of May",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.1945,
+    "claude_prob": 0.18,
+    "delta": -0.0145,
+    "suggested_direction": null
+  }
+}

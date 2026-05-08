@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T14:18:33.590425+00:00",
+  "market": {
+    "id": "2179563",
+    "condition_id": "0xa6ef038898053d1ee804155affb3f9d66cec8a66661f9e063dbb6fbf91ae2f6d",
+    "question": "Will the highest temperature in Jeddah be 37\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-jeddah-on-may-9-2026-37c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 991.4328,
+    "volume_24h": 158.210636
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.28,
+    "confidence": 0.4,
+    "reasoning": "Forecast for Jeddah May 9 is high of 100\u00b0F (~37.8\u00b0C). 37.8\u00b0C is borderline between 37\u00b0C and 38\u00b0C buckets. Probability of falling in 37\u00b0C bucket (36.5-37.4\u00b0C) is moderate (~25-30%) given forecast leans slightly higher. May average high is 95\u00b0F (35\u00b0C), but recent forecast points warmer.",
+    "data_sources": [
+      "accuweather.com Jeddah May 2026",
+      "weather.com Jeddah",
+      "weather2travel.com Jeddah"
+    ],
+    "key_uncertainty": "Exact rounded reading at OEJN station and any forecast bust",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.28,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

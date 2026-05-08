@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T14:18:33.589259+00:00",
+  "market": {
+    "id": "2074256",
+    "condition_id": "0x23003281a6d2ddbc4d1c28f3fe6aec701f3e0d1328de7cc323b839be489632f0",
+    "question": "Will Natural Gas (NG) hit (LOW) $2.60 in May?",
+    "category": "commodity",
+    "slug": "will-ng-dip-to-2-60-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.6315,
+    "no_price": 0.3685,
+    "liquidity": 5388.06377,
+    "volume_24h": 14899.475371999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.65,
+    "confidence": 0.4,
+    "reasoning": "NG=F at $2.79 May 8 2026, with weekly range $2.59-$2.88. May contract closed at 1.5-year low; June (active) similar. Storage 7% above seasonal avg, weak fundamentals. With 23 days left and prices $0.19 above target, chance of touching $2.60 is meaningful given low-trending dynamics\u2014possibly already touched within the May window per range data.",
+    "data_sources": [
+      "tradingeconomics.com NG",
+      "barchart.com NGK26",
+      "eia.gov weekly storage"
+    ],
+    "key_uncertainty": "Exact May intraday lows and whether weather flips to bullish heat earlier than usual",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.6315,
+    "claude_prob": 0.65,
+    "delta": 0.0185,
+    "suggested_direction": null
+  }
+}

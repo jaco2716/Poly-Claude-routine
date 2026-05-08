@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T14:18:33.586063+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.265,
+    "no_price": 0.735,
+    "liquidity": 53529.0988,
+    "volume_24h": 15513.794321999998
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "BTC currently ~$79-80K on May 8 2026. Hitting $45K requires a ~44% drawdown in ~7.5 months. Historical base rate for such a drawdown in any 7-month window is around 10-15%. Tom Lee/CoinDesk note May close above $76K would confirm bull market, suggesting current regime is bullish-leaning. No imminent macro catalyst for that magnitude of crash.",
+    "data_sources": [
+      "fortune.com BTC daily price articles",
+      "coindesk.com",
+      "blockchainreporter.net"
+    ],
+    "key_uncertainty": "Macro shock or crypto-specific liquidation cascade could trigger deep drawdown",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.265,
+    "claude_prob": 0.1,
+    "delta": -0.165,
+    "suggested_direction": "no"
+  }
+}
