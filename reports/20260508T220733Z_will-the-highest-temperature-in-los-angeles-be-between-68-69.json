@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.167544+00:00",
+  "market": {
+    "id": "2186965",
+    "condition_id": "0x211a8e31271e337e5f7b54bfb27c443b8730d5a512177d3deb5aaa33e816b993",
+    "question": "Will the highest temperature in Los Angeles be between 68-69\u00b0F on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-los-angeles-on-may-10-2026-68-69f",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.25,
+    "no_price": 0.75,
+    "liquidity": 999.243,
+    "volume_24h": 401.605562
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "LAX May 2026 highs range 64-75\u00b0F. 68-69\u00b0F is within typical marine-layer band for early May; ~2\u00b0F bin out of ~12\u00b0F range gives base rate ~17%, modestly higher given station tendency to cluster mid-60s.",
+    "data_sources": [
+      "AccuWeather LAX May 2026",
+      "NWS LOX"
+    ],
+    "key_uncertainty": "Marine layer extent on May 10.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.25,
+    "claude_prob": 0.22,
+    "delta": -0.03,
+    "suggested_direction": null
+  }
+}

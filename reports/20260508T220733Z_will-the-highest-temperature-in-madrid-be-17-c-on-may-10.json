@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.168201+00:00",
+  "market": {
+    "id": "2186828",
+    "condition_id": "0xeb56c123c2855a3a642ba1e5ef1678e210468263c9e41df56f4df25122b6ef19",
+    "question": "Will the highest temperature in Madrid be 17\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-madrid-on-may-10-2026-17c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.285,
+    "no_price": 0.715,
+    "liquidity": 985.6694,
+    "volume_24h": 189.291352
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.15,
+    "confidence": 0.4,
+    "reasoning": "Madrid Barajas May 2026 highs range 62-77\u00b0F (17-25\u00b0C); early May climatology ~20.9\u00b0C avg high. 17\u00b0C bucket would be a noticeably cool day; below-average probability.",
+    "data_sources": [
+      "AccuWeather Madrid May 2026",
+      "Climate-data Madrid May"
+    ],
+    "key_uncertainty": "No specific May 10 forecast available.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.285,
+    "claude_prob": 0.15,
+    "delta": -0.135,
+    "suggested_direction": "no"
+  }
+}

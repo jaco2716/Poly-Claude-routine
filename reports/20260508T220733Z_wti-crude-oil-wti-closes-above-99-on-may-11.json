@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.169799+00:00",
+  "market": {
+    "id": "2188938",
+    "condition_id": "0x7df396e02a677c6a54d3a28f56f7863743794e338e9c49941e0eb2e0fa32efea",
+    "question": "WTI Crude Oil (WTI) closes above $99 on May 11?",
+    "category": "commodity",
+    "slug": "wti-closes-above-99-on-may-11-2026",
+    "end_date": "2026-05-11T21:00:00Z",
+    "yes_price": 0.49,
+    "no_price": 0.51,
+    "liquidity": 9.6797,
+    "volume_24h": 9.3
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "WTI ~$95.60. Needs +3.5% in one trading day to close above $99 \u2014 significantly less likely than $97 threshold. Daily ATR doesn't typically support that move absent shock. Market price 0.49 looks too high relative to $97 contract at 0.505.",
+    "data_sources": [
+      "TradingEconomics crude",
+      "FXDailyReport WTI"
+    ],
+    "key_uncertainty": "Geopolitical supply shock.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.49,
+    "claude_prob": 0.18,
+    "delta": -0.31,
+    "suggested_direction": "no"
+  }
+}

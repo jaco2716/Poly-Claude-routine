@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.168440+00:00",
+  "market": {
+    "id": "2179110",
+    "condition_id": "0x6836a11c5eb45b2bafc9cd1d2b6e476369a5a5487f3e3b2b9441b6f29594c51b",
+    "question": "Will the highest temperature in Buenos Aires be 13\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-buenos-aires-on-may-9-2026-13c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.445,
+    "no_price": 0.555,
+    "liquidity": 980.8418,
+    "volume_24h": 484.708367
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.4,
+    "reasoning": "Buenos Aires Ezeiza May average highs ~18\u00b0C with cool spells reaching 13-14\u00b0C in autumn. 13\u00b0C bin would require notably cool front. Without specific reliable forecast, assigning slightly below base rate.",
+    "data_sources": [
+      "WeatherSpark BA May",
+      "Holiday Weather BA May"
+    ],
+    "key_uncertainty": "Whether a cold front passes May 9.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.445,
+    "claude_prob": 0.2,
+    "delta": -0.245,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T22:07:33.163919+00:00",
+  "market": {
+    "id": "701502",
+    "condition_id": "0x024b68f77bfc019341ee3db8f57c103334e4b9430bba4746d8c94aafd8b36fee",
+    "question": "Will Bitcoin dip to $45,000 by December 31, 2026?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-45000-by-december-31-2026-674-923-755-971-998-525-926-245-316-517-544-589-965-923-986-841-815-224",
+    "end_date": "2027-01-01T05:00:00Z",
+    "yes_price": 0.255,
+    "no_price": 0.745,
+    "liquidity": 65100.0773,
+    "volume_24h": 40950.418675
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.6,
+    "reasoning": "BTC at ~$80,273 on May 8, 2026; YTD low ~$60K (early Feb 2026). Market resolves Yes only if BTC dips to $45K at any 1m candle by Dec 31, 2026. Would require ~44% drop from current and 25% drop below YTD low; analyst consensus is range $75-150K for 2026. Tail risk only.",
+    "data_sources": [
+      "Fortune BTC price 2026-05-08",
+      "Yahoo Finance BTC-USD",
+      "Binance forecast 2026"
+    ],
+    "key_uncertainty": "Macro shock causing >40% drawdown over remaining ~7.6 months.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.255,
+    "claude_prob": 0.2,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

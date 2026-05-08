@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.169552+00:00",
+  "market": {
+    "id": "2188942",
+    "condition_id": "0x64ff8d2553b5c6f3a3117b0822c61bd3d7fcd190f7f470d2c1f5d5e4d3580987",
+    "question": "WTI Crude Oil (WTI) closes above $97 on May 11?",
+    "category": "commodity",
+    "slug": "wti-closes-above-97-on-may-11-2026",
+    "end_date": "2026-05-11T21:00:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9.7594,
+    "volume_24h": 4.45
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.5,
+    "reasoning": "WTI ~$95.60 on May 8, 2026 with prices oscillating around $94-96 amid Iran peace deal hopes. To close above $97 on May 11 (1 trading day, Mon) needs ~+1.5%; geopolitics could swing either way.",
+    "data_sources": [
+      "TradingEconomics crude oil",
+      "FXDailyReport WTI May 8 2026"
+    ],
+    "key_uncertainty": "Middle East headlines over weekend.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.4,
+    "delta": -0.105,
+    "suggested_direction": "no"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.166922+00:00",
+  "market": {
+    "id": "2074212",
+    "condition_id": "0x8f21809112472c9ebea7cd9b138e66cb9ee8ddb63182dbf9c2a5b9bd00f8bcdb",
+    "question": "Will Silver (XAGUSD) hit (HIGH) $88 in May?",
+    "category": "commodity",
+    "slug": "will-xagusd-reach-88-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.32,
+    "no_price": 0.68,
+    "liquidity": 9807.084,
+    "volume_24h": 7112.649034
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.32,
+    "confidence": 0.5,
+    "reasoning": "Silver at ~$80.71/oz May 8, 2026 (up 7% past month, +147% YoY). Needs +9% to hit $88 in remaining 23 days. Geopolitical and inflation tailwinds supportive but $88 would be a fresh extension.",
+    "data_sources": [
+      "TradingEconomics XAGUSD May 8 2026",
+      "Fortune silver May 7 2026"
+    ],
+    "key_uncertainty": "Middle East risk premium and dollar moves.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.32,
+    "claude_prob": 0.32,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

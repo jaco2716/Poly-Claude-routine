@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.168010+00:00",
+  "market": {
+    "id": "2186874",
+    "condition_id": "0xbaaa4aaa8b0d7bd9a58b3d7fdc21f1759ed1eed2ca18b7f24e472fba9445ef28",
+    "question": "Will the highest temperature in Chongqing be 29\u00b0C on May 10?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-chongqing-on-may-10-2026-29c",
+    "end_date": "2026-05-10T12:00:00Z",
+    "yes_price": 0.185,
+    "no_price": 0.815,
+    "liquidity": 987.6668,
+    "volume_24h": 121.1
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.13,
+    "confidence": 0.5,
+    "reasoning": "AccuWeather forecast Chongqing May 10 2026 high ~91\u00b0F (~33\u00b0C). Climatology says May highs typically 24-30\u00b0C. With forecast at 33\u00b0C, the 29\u00b0C bucket is below forecast high; possible miss but unlikely.",
+    "data_sources": [
+      "AccuWeather Chongqing May 2026",
+      "TravelChinaGuide Chongqing May"
+    ],
+    "key_uncertainty": "Forecast revisions / cloud cover.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.185,
+    "claude_prob": 0.13,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

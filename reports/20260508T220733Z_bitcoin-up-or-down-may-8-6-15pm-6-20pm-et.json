@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-08T22:07:33.170365+00:00",
+  "market": {
+    "id": "2184976",
+    "condition_id": "0xd90869ab0d051e10cfca28fa86dc4b99515570d753a23bdfcb284487a041de95",
+    "question": "Bitcoin Up or Down - May 8, 6:15PM-6:20PM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1778278500",
+    "end_date": "2026-05-08T22:20:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9761.6942,
+    "volume_24h": 74.0
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.3,
+    "reasoning": "5-minute window directional bet; pure noise. No catalyst. Slight tie-edge to Up but below tradeable margin.",
+    "data_sources": [
+      "Yahoo Finance BTC May 8 2026"
+    ],
+    "key_uncertainty": "Random microstructure.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

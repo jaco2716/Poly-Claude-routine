@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-08T22:07:33.165216+00:00",
+  "market": {
+    "id": "2182324",
+    "condition_id": "0x51d0a5feec318f7156225dc3a887e05ac5c375ceff58a10db5bcc1abab6d81b1",
+    "question": "Bitcoin Up or Down on May 9?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-9-2026",
+    "end_date": "2026-05-09T16:00:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 37309.6939,
+    "volume_24h": 39182.51207800001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.35,
+    "reasoning": "Pure 24h directional bet noon ET May 8 to noon ET May 9. BTC near $80K with no strong catalyst on calendar. Daily up/down base rate ~50%; recent two days have been down so slight mean-reversion lean possible but minimal info.",
+    "data_sources": [
+      "Yahoo Finance BTC May 8 2026"
+    ],
+    "key_uncertainty": "Random short-term price action.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.5,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

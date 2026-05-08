@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-08T22:07:33.164978+00:00",
+  "market": {
+    "id": "2132778",
+    "condition_id": "0x2de954c6acc43b5b6382dfe453c4e2e00dc9c2c8e9caf2a5752039d3c218f231",
+    "question": "Will Bitcoin dip to $75,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-75k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.465,
+    "no_price": 0.535,
+    "liquidity": 56371.7515,
+    "volume_24h": 47192.85924599997
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.5,
+    "reasoning": "BTC at ~$80,273 May 8, 2026; May open ~$76,306 May 1, recent week opened $76,960. Lowest May print so far appears ~$76K (haven't dipped to $75K yet). With 23 days left, another ~$1.3K downward move from current local lows is plausible but not guaranteed.",
+    "data_sources": [
+      "Fortune BTC May 1 2026",
+      "Yahoo Finance BTC May 4 2026",
+      "BTC monthly range"
+    ],
+    "key_uncertainty": "Whether prior lows near $76.3K already broached $75K (couldn't confirm).",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.465,
+    "claude_prob": 0.4,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

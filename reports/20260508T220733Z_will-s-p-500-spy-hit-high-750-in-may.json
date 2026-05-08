@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-08T22:07:33.166683+00:00",
+  "market": {
+    "id": "2074173",
+    "condition_id": "0x10f33df25b6b8214c0048e3dc9e0e08afbc05f18c05c8e06e151eb040f12adbe",
+    "question": "Will S&P 500 (SPY) hit (HIGH) $750 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-reach-750-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.595,
+    "no_price": 0.405,
+    "liquidity": 9894.1933,
+    "volume_24h": 8991.106720000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "SPY at ~$737 on May 8, 2026, just off record highs hit May 6. Needs +1.7% intramonth high; with ~16 trading days remaining and SPY at all-time highs already, hitting $750 is more likely than not.",
+    "data_sources": [
+      "Yahoo Finance SPY",
+      "TipRanks SPY May 6 2026"
+    ],
+    "key_uncertainty": "Whether profit-taking deepens vs new highs continue.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.595,
+    "claude_prob": 0.62,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}
