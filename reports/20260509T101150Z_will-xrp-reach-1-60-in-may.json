@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-09T10:11:50.300792+00:00",
+  "market": {
+    "id": "2132832",
+    "condition_id": "0xc781696fa5311698f3fcb1a00137ea887a6b8410a4b5225dade3937dc5af4611",
+    "question": "Will XRP reach $1.60 in May?",
+    "category": "crypto_price",
+    "slug": "will-xrp-reach-1pt6-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.315,
+    "no_price": 0.685,
+    "liquidity": 12124.5309,
+    "volume_24h": 16643.618748000008
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.25,
+    "confidence": 0.5,
+    "reasoning": "XRP trading ~$1.42 on May 8, 2026. To hit $1.60 requires a ~12.7% rally over 22 remaining days. Analyst May targets cluster at $1.50-$1.55 with $1.60-$1.63 as upper end (CoinDCX, CryptoNews). The CLARITY Act is a possible catalyst but no confirmed pass yet. Without a strong altcoin run, $1.60 is reachable but at the higher end of typical month volatility for XRP (~15%).",
+    "data_sources": [
+      "coingabbar.com XRP May 2026",
+      "coindcx.com XRP weekly",
+      "coincodex.com XRP",
+      "coinbase XRP"
+    ],
+    "key_uncertainty": "Whether crypto market broadly continues recent recovery and whether CLARITY Act delivers near-term catalyst.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.315,
+    "claude_prob": 0.25,
+    "delta": -0.065,
+    "suggested_direction": "no"
+  }
+}

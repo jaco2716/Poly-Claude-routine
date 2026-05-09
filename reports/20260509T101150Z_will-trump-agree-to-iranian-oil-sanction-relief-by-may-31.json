@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-09T10:11:50.300196+00:00",
+  "market": {
+    "id": "2111562",
+    "condition_id": "0xa37173a88dc5622e1c42e9f8f5a9d20d70b9b99e52cb76e64fb0ad95503fcaef",
+    "question": "Will Trump agree to Iranian oil sanction relief by May 31?",
+    "category": "commodity",
+    "slug": "will-trump-agree-to-iranian-oil-sanction-relief-by-may-31",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.34,
+    "no_price": 0.66,
+    "liquidity": 31277.2346,
+    "volume_24h": 10806.072392000002
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.55,
+    "confidence": 0.45,
+    "reasoning": "On March 20, 2026 the Treasury issued a sanctions license waiving restrictions on the purchase of ~140M barrels of Iranian crude already at sea, framed by Treasury Sec. Bessent as a deliberate easing (CBS, NBC, WaPo, CFR). That was an officially announced reduction by an authorized U.S. representative \u2014 fits the resolution criteria literally. However, Polymarket may interpret 'sanction relief' as a broader/structural removal rather than a temporary, narrow waiver; ongoing nuclear negotiations (Axios, CNN) also point toward a possible MOU before May 31 that would unambiguously qualify. Net: more likely Yes than No on a strict read, but interpretation risk is real.",
+    "data_sources": [
+      "cbsnews.com 30-day waiver",
+      "nbcnews.com easing sanctions",
+      "axios.com US-Iran one-page memo",
+      "cnn.com Iran oil sanctions lifting"
+    ],
+    "key_uncertainty": "Whether the existing March 30-day waiver and any May MOU count as 'sanction relief' under the market's interpretation.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.34,
+    "claude_prob": 0.55,
+    "delta": 0.21,
+    "suggested_direction": "yes"
+  }
+}

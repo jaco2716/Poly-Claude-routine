@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T10:11:50.300632+00:00",
+  "market": {
+    "id": "2074177",
+    "condition_id": "0xc5d3907b0683a70aa04d1f1373b72ba006a10e8a6abe3a22fab319ae53e47c39",
+    "question": "Will S&P 500 (SPY) hit (LOW) $710 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-710-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.355,
+    "no_price": 0.645,
+    "liquidity": 18853.7054,
+    "volume_24h": 11359.373913000001
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.18,
+    "confidence": 0.55,
+    "reasoning": "SPY closed near $737.27 on May 8, 2026 at a record high after a strong April jobs report. To touch $710 would require a ~3.7% drawdown from current levels with ~16 trading days remaining. With SPY at ATH and momentum positive, a move of that size is possible but not the base case (typical SPY 1-month range ~3-5%; ATH context biases toward smaller drawdowns). Implied vol is moderate; no major macro catalysts pre-CPI/PCE are visible.",
+    "data_sources": [
+      "tipranks.com SPY 5/8/2026",
+      "yahoo finance SPY"
+    ],
+    "key_uncertainty": "Whether tariff/macro headlines or geopolitics produce a sharp risk-off move in remaining 3 weeks of May.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.355,
+    "claude_prob": 0.18,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

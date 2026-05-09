@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T10:11:50.302424+00:00",
+  "market": {
+    "id": "2179187",
+    "condition_id": "0x65420e80a15da44d4573d00d80d5752af256f5388f006f0b99acbdbb3c56c79d",
+    "question": "Will the highest temperature in Miami be between 92-93\u00b0F on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-miami-on-may-9-2026-92-93f",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.2,
+    "no_price": 0.8,
+    "liquidity": 945.2089,
+    "volume_24h": 1308.6832019999995
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.42,
+    "confidence": 0.55,
+    "reasoning": "Forecasts for Miami on Saturday May 9, 2026 cluster at a high near 92\u00b0F (NWS area forecast and weathershogun, sunny/breezy, low rain chance). Market resolves Yes if rounded high is 92\u00b0F or 93\u00b0F. With same-day NWS bias of \u00b11-2\u00b0F, probability the high lands in the 92-93\u00b0F bucket is meaningful \u2014 perhaps 40-45%. Key risks: actual high prints 91\u00b0F or 94\u00b0F.",
+    "data_sources": [
+      "forecast.weather.gov Miami",
+      "weathershogun.com May 9 2026",
+      "accuweather.com Miami"
+    ],
+    "key_uncertainty": "Whether peak observed at KMIA station is 91\u00b0F (one degree off) or pops to 94\u00b0F under stronger sun.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.2,
+    "claude_prob": 0.42,
+    "delta": 0.22,
+    "suggested_direction": "yes"
+  }
+}

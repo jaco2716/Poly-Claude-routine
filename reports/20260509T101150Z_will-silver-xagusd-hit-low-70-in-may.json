@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T10:11:50.301388+00:00",
+  "market": {
+    "id": "2074221",
+    "condition_id": "0xde02f529a5879d58084bff055813e6d16ff8af852220eeec3573947cf9cbf617",
+    "question": "Will Silver (XAGUSD) hit (LOW) $70 in May?",
+    "category": "commodity",
+    "slug": "will-xagusd-dip-to-70-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.275,
+    "no_price": 0.725,
+    "liquidity": 9685.8305,
+    "volume_24h": 66.663332
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "Silver spot rose to $80.71 on May 8, 2026 (+2.99% on the day; tradingeconomics). To touch $70 would require a ~13% drop from current levels with ~22 days remaining. Silver's recent trend is positive and a 10%+ drop in 3 weeks is uncommon absent a sharp dollar rally or commodity-wide deleveraging.",
+    "data_sources": [
+      "tradingeconomics.com silver",
+      "investing.com XAGUSD"
+    ],
+    "key_uncertainty": "An abrupt USD strength or risk-off shock could pull silver toward $70, but no such catalyst is visible.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.275,
+    "claude_prob": 0.1,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

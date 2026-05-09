@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T10:11:50.302054+00:00",
+  "market": {
+    "id": "2188948",
+    "condition_id": "0x18a1668ff64aa62ffd1beb759ac550887923d28cc83186ecfcf6c328975afe37",
+    "question": "WTI Crude Oil (WTI) closes above $93 on May 11?",
+    "category": "commodity",
+    "slug": "wti-closes-above-93-on-may-11-2026",
+    "end_date": "2026-05-11T21:00:00Z",
+    "yes_price": 0.82,
+    "no_price": 0.18,
+    "liquidity": 945.7572,
+    "volume_24h": 1504.20875
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.75,
+    "confidence": 0.5,
+    "reasoning": "WTI front-month settled around $94.81 on May 8, 2026 with prices recently above $95 amid Iran-related risk premium (tradingeconomics, fxdailyreport). May 11 is the next trading day; closing >$93 requires no more than ~2% drop. WTI daily vol ~2-3% so a single-day move below $93 is plausible but not the base case. Tail risks: an Iran ceasefire announcement or OPEC+ supply news.",
+    "data_sources": [
+      "tradingeconomics.com crude oil",
+      "fxdailyreport.com WTI May 8",
+      "sunsirs.com energy May 8"
+    ],
+    "key_uncertainty": "Whether negotiation breakthroughs over the weekend trigger a sharp risk-off in oil; otherwise drift higher.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.82,
+    "claude_prob": 0.75,
+    "delta": -0.07,
+    "suggested_direction": "no"
+  }
+}

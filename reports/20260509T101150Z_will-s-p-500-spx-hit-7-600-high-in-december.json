@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T10:11:50.301911+00:00",
+  "market": {
+    "id": "1125389",
+    "condition_id": "0x91d86e254744a4e6796475ecd22243328f062ed4d059a41d557b1da4ac0f58c2",
+    "question": "Will S&P 500 (SPX) hit $7,600 (HIGH) in December?",
+    "category": "equity_index",
+    "slug": "spx-hit-7600-high-dec-2026",
+    "end_date": "2026-12-31T21:00:00Z",
+    "yes_price": 0.62,
+    "no_price": 0.38,
+    "liquidity": 951.5724,
+    "volume_24h": 1447.685221
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.78,
+    "confidence": 0.55,
+    "reasoning": "SPX closed at 7,398.93 on May 8, 2026 \u2014 a record high. To hit 7,600 requires only ~2.7% upside, with about 7.5 months remaining. Momentum is strongly positive (longest weekly winning streak since 2024) and the typical SPX maximum within an 8-month window is well above 5% even in flat regimes. Probability of touching this level once is high.",
+    "data_sources": [
+      "cnbc.com SPX record May 7",
+      "yahoo finance SPX"
+    ],
+    "key_uncertainty": "A sustained risk-off shock (tariff escalation, Fed mistake) could prevent any 7,600 print, but base rate for one print over 8 months is high given current proximity.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.62,
+    "claude_prob": 0.78,
+    "delta": 0.16,
+    "suggested_direction": "yes"
+  }
+}

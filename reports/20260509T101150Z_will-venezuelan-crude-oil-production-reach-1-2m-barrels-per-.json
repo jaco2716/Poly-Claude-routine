@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-09T10:11:50.302585+00:00",
+  "market": {
+    "id": "1126852",
+    "condition_id": "0x0ade700b2236988fe36cd542748df50f58b241562b51ecdc6e28d8161eaf0652",
+    "question": "Will Venezuelan crude oil production reach 1.2m barrels per day in 2026?",
+    "category": "commodity",
+    "slug": "will-venezuelan-crude-oil-production-reach-1pt2m-barrels-per-day-in-2026",
+    "end_date": "2027-02-28T00:00:00Z",
+    "yes_price": 0.535,
+    "no_price": 0.465,
+    "liquidity": 201.9424,
+    "volume_24h": 8925.407216999996
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.45,
+    "reasoning": "Per OPEC MOMR (secondary), Venezuela produced ~988 tb/d in March 2026, having risen from ~900 tb/d earlier. April export reports show 1.23m bpd (highest since 2018) supported by US sanctions waivers and Chevron asset swaps; production is expected to track close to exports given inventory dynamics. Reaching 1,200 tb/d in any month with 8 months left and an established uptrend is roughly even \u2014 possible base case but not assured given political volatility and OPEC reporting lags.",
+    "data_sources": [
+      "OPEC MOMR April 2026",
+      "tradingeconomics Venezuela",
+      "kingdomexploration Venezuela 1.23M",
+      "tdsecurities Venezuela intervention"
+    ],
+    "key_uncertainty": "Whether OPEC's secondary-sources figure formally crosses 1,200 tb/d (vs. exports), and political/sanctions reversals over remaining months.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.535,
+    "claude_prob": 0.5,
+    "delta": -0.035,
+    "suggested_direction": null
+  }
+}

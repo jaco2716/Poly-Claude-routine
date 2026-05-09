@@ -1,0 +1,35 @@
+{
+  "generated_at": "2026-05-09T10:11:50.300450+00:00",
+  "market": {
+    "id": "2182324",
+    "condition_id": "0x51d0a5feec318f7156225dc3a887e05ac5c375ceff58a10db5bcc1abab6d81b1",
+    "question": "Bitcoin Up or Down on May 9?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-9-2026",
+    "end_date": "2026-05-09T16:00:00Z",
+    "yes_price": 0.575,
+    "no_price": 0.425,
+    "liquidity": 29197.7059,
+    "volume_24h": 82097.8113089999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.58,
+    "confidence": 0.45,
+    "reasoning": "May 8 noon ET BTC was hovering near $79,000 after pulling back from a weekly high of ~$82k (Yahoo Finance, blockchainreporter). Now May 9 morning, BTC is at ~$80,369 with a 24h range of $79,149-$80,450 and +1.25% (Phemex). To resolve Up, BTC at noon ET May 9 simply needs to close above the May 8 noon ET print; current price is meaningfully above it, modest tilt to Up. Weekend trading is thin so range moves can be quick.",
+    "data_sources": [
+      "fortune.com BTC May 8",
+      "yahoo finance May 8 BTC ETH",
+      "phemex.com BTC May 9",
+      "blockchainreporter.net"
+    ],
+    "key_uncertainty": "Exact May 8 noon ET close vs current; a small reversal could flip 'Up' to 'Down' over ~5 hours of weekend trading.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.575,
+    "claude_prob": 0.58,
+    "delta": 0.005,
+    "suggested_direction": null
+  }
+}

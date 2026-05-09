@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T10:11:50.303100+00:00",
+  "market": {
+    "id": "2188512",
+    "condition_id": "0x90cae766a8775e39d4907012a5c91cbf4c892dbd821a04c6d55bb294d002f704",
+    "question": "Bitcoin Up or Down - May 9, 5:45AM-6:00AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-15m-1778319900",
+    "end_date": "2026-05-09T10:00:00Z",
+    "yes_price": 0.515,
+    "no_price": 0.485,
+    "liquidity": 3384.8923,
+    "volume_24h": 19042.284138000003
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "15-minute up/down for BTC over a 5:45-6:00 AM ET window \u2014 essentially a coin-flip with negligible predictability from current data. BTC is up 1.25% over the past 24h trading near $80,369 (Phemex), giving a marginal upward drift bias, but the within-quarter-hour move is dominated by noise. No way to find the precise candle data through general web search.",
+    "data_sources": [
+      "phemex.com BTC May 9",
+      "fortune.com BTC May 8"
+    ],
+    "key_uncertainty": "15-minute moves are dominated by random noise; no predictive data available.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.515,
+    "claude_prob": 0.5,
+    "delta": -0.015,
+    "suggested_direction": null
+  }
+}

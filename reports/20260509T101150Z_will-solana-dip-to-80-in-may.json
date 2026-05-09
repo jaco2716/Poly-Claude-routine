@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T10:11:50.301596+00:00",
+  "market": {
+    "id": "2132817",
+    "condition_id": "0x1f4cdb1a3577cb3f7ef2fa5c520c8f3647784965dc6b190577ee8ec8626f652f",
+    "question": "Will Solana dip to $80 in May?",
+    "category": "crypto_price",
+    "slug": "will-solana-dip-to-80-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.2,
+    "no_price": 0.8,
+    "liquidity": 9548.4312,
+    "volume_24h": 7416.464052
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "SOL is around $92.38 on May 9, 2026 with a 24h range of $87.69-$92.45 (CoinGecko, CoinDesk). To resolve Yes, SOL needs a low at or below $80 \u2014 about 13% below current. SOL is volatile (monthly ranges of 20-30% are common) but the trend has been recovering; 24h low of $87.69 is already 9% off the current. A meaningful crypto pullback would need to extend further to hit $80.",
+    "data_sources": [
+      "coingecko.com SOL",
+      "coindesk.com SOL",
+      "coinbase.com SOL"
+    ],
+    "key_uncertainty": "Sensitivity to broader crypto risk; a sharp BTC drop would magnify SOL downside.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.2,
+    "claude_prob": 0.2,
+    "delta": 0.0,
+    "suggested_direction": null
+  }
+}

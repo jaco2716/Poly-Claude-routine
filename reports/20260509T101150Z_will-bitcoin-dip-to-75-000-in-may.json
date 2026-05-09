@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T10:11:50.299501+00:00",
+  "market": {
+    "id": "2132778",
+    "condition_id": "0x2de954c6acc43b5b6382dfe453c4e2e00dc9c2c8e9caf2a5752039d3c218f231",
+    "question": "Will Bitcoin dip to $75,000 in May?",
+    "category": "crypto_price",
+    "slug": "will-bitcoin-dip-to-75k-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.455,
+    "no_price": 0.545,
+    "liquidity": 62439.814,
+    "volume_24h": 29183.945995000013
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.4,
+    "confidence": 0.55,
+    "reasoning": "BTC trading ~$79,600-$80,400 on May 8-9, 2026, with month-to-date range roughly $79,700-$82,300. To resolve Yes, BTC needs to print a low at or below $75,000 \u2014 about 6% below current. With 22 days remaining and BTC's typical monthly range of 10-15%, hitting that level is plausible but not the base case. Sentiment is weak (BTC -18% YoY) and momentum already toward lower bound, supporting moderate Yes probability.",
+    "data_sources": [
+      "fortune.com BTC daily",
+      "coingecko.com",
+      "247wallst.com BTC May 2026 prediction"
+    ],
+    "key_uncertainty": "Direction of macro/risk-on sentiment over remaining 3 weeks; a bounce to $85k would lock in No while a fresh deleverage could quickly hit $75k.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.455,
+    "claude_prob": 0.4,
+    "delta": -0.055,
+    "suggested_direction": "no"
+  }
+}

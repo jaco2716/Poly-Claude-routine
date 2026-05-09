@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T10:11:50.301759+00:00",
+  "market": {
+    "id": "2205908",
+    "condition_id": "0xac88a6a8b08b94bb800e46ac65b419f580827baaaaeec874fae34b66acf43452",
+    "question": "Will the highest temperature in Paris be 15\u00b0C on May 11?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-paris-on-may-11-2026-15c",
+    "end_date": "2026-05-11T12:00:00Z",
+    "yes_price": 0.27,
+    "no_price": 0.73,
+    "liquidity": 970.3777,
+    "volume_24h": 50.665711
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.03,
+    "confidence": 0.7,
+    "reasoning": "Met Office forecast for Paris-Le Bourget on May 11, 2026 is a high of 25\u00b0C (with surrounding days 22\u00b0C). The market resolves only if the high is in the 15\u00b0C bucket (i.e. essentially 15.0-15.9\u00b0C rounded). At 10\u00b0C below the forecast, probability of landing in this bucket is very low; would require a major cold/cloudy front not currently in any forecast.",
+    "data_sources": [
+      "Met Office Paris Le Bourget",
+      "weather.com 10-day forecast"
+    ],
+    "key_uncertainty": "Sudden front or weather model error of 5+\u00b0C; unusual but possible in spring.",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.27,
+    "claude_prob": 0.03,
+    "delta": -0.24,
+    "suggested_direction": "no"
+  }
+}
