@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T06:13:55.268283+00:00",
+  "market": {
+    "id": "2074204",
+    "condition_id": "0x0a0a25b8d835aa470b1f936be1a65b0c1f7ef4bec07071423b3f4f23993339c6",
+    "question": "Will Gold (XAUUSD) hit (HIGH) $4,800 in May?",
+    "category": "commodity",
+    "slug": "will-xauusd-reach-4800-in-may-2026-564",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.795,
+    "no_price": 0.205,
+    "liquidity": 9749.3194,
+    "volume_24h": 1860.272377
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.62,
+    "confidence": 0.55,
+    "reasoning": "Gold trades ~$4,710 on May 8 with May high already near $4,753. Reaching $4,800 HIGH only requires a 1% advance in the remaining ~22 days \u2014 very achievable given recent intraday volatility and bullish bias (Wells Fargo target $6K). Near-term resistance is the main concern but base rate strongly favors yes.",
+    "data_sources": [
+      "TradingEconomics gold May 8 2026",
+      "FinanceMagnates Wells Fargo gold target",
+      "LiteFinance gold forecast May 2026"
+    ],
+    "key_uncertainty": "Sharp pullback if Iran ceasefire deepens or USD/yields spike",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.795,
+    "claude_prob": 0.62,
+    "delta": -0.175,
+    "suggested_direction": "no"
+  }
+}

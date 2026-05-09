@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T06:13:55.267662+00:00",
+  "market": {
+    "id": "2111562",
+    "condition_id": "0xa37173a88dc5622e1c42e9f8f5a9d20d70b9b99e52cb76e64fb0ad95503fcaef",
+    "question": "Will Trump agree to Iranian oil sanction relief by May 31?",
+    "category": "commodity",
+    "slug": "will-trump-agree-to-iranian-oil-sanction-relief-by-may-31",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.335,
+    "no_price": 0.665,
+    "liquidity": 27150.3449,
+    "volume_24h": 11720.058975
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.3,
+    "confidence": 0.4,
+    "reasoning": "Negotiations are active with Witkoff/Kushner working on a 14-point MOU with Iran on sanctions, uranium, and Strait of Hormuz. Sticking points remain on uranium stockpile and ballistic missiles. With ~22 days to May 31 and Iran resisting key US demands, an agreement specifically including oil sanctions relief is plausible but more likely to slip past the deadline.",
+    "data_sources": [
+      "CNN May 6 2026 Iran talks",
+      "Axios one-page MOU report",
+      "Al Jazeera Trump Iran May 6 2026"
+    ],
+    "key_uncertainty": "Whether final deal includes oil sanctions relief or just framework with later phased lifting",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.335,
+    "claude_prob": 0.3,
+    "delta": -0.035,
+    "suggested_direction": null
+  }
+}

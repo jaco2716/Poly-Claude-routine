@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T06:13:55.271175+00:00",
+  "market": {
+    "id": "2106450",
+    "condition_id": "0x95f1ac7dc9ceb7c682529ad7942bdb7efd2b545a754338e99cb0fa323036eba0",
+    "question": "Will London have between 20-25mm of precipitation in May?",
+    "category": "weather",
+    "slug": "will-london-have-between-20-25mm-of-precipitation-in-may",
+    "end_date": "2026-05-31T00:00:00Z",
+    "yes_price": 0.48,
+    "no_price": 0.52,
+    "liquidity": 95.2161,
+    "volume_24h": 9.46
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.22,
+    "confidence": 0.3,
+    "reasoning": "Heathrow long-term May average is ~50mm. First 8 days of May 2026 were very dry (~2mm). Reaching only 20-25mm by month-end requires ~18-23mm over remaining 22 days, plausible for a drier-than-normal month but specific 5mm bucket is narrow. Without precise MTD totals, hard to verify.",
+    "data_sources": [
+      "Met Office Heathrow climatology",
+      "Weather2travel London May normals",
+      "Easeweather London May 2026"
+    ],
+    "key_uncertainty": "Actual MTD rainfall total at Heathrow as of May 9",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.48,
+    "claude_prob": 0.22,
+    "delta": -0.26,
+    "suggested_direction": "no"
+  }
+}

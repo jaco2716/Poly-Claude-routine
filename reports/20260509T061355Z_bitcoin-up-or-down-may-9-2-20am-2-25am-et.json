@@ -1,0 +1,32 @@
+{
+  "generated_at": "2026-05-09T06:13:55.271772+00:00",
+  "market": {
+    "id": "2187913",
+    "condition_id": "0x38cc18debfde9e6ea48fbbee5911ca5552900ec4d93461013aa834258ad4cec8",
+    "question": "Bitcoin Up or Down - May 9, 2:20AM-2:25AM ET",
+    "category": "crypto_price",
+    "slug": "btc-updown-5m-1778307600",
+    "end_date": "2026-05-09T06:25:00Z",
+    "yes_price": 0.505,
+    "no_price": 0.495,
+    "liquidity": 9823.6156,
+    "volume_24h": 326.000783
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.5,
+    "confidence": 0.2,
+    "reasoning": "This 5-minute Chainlink BTC/USD micro-window has already passed (current time is well after 2:25am ET). Without access to the specific Chainlink stream tick data for that exact window, this is essentially a coin flip with no edge.",
+    "data_sources": [
+      "Polymarket description"
+    ],
+    "key_uncertainty": "Cannot retrieve exact 5-minute Chainlink BTC/USD price points",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.505,
+    "claude_prob": 0.5,
+    "delta": -0.005,
+    "suggested_direction": null
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T06:13:55.268745+00:00",
+  "market": {
+    "id": "2179396",
+    "condition_id": "0x7d176127f7795f11893829f45554ab3b24e5a6f763586202d4a2763becf149be",
+    "question": "Will the highest temperature in Shenzhen be 25\u00b0C on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-shenzhen-on-may-9-2026-25c",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.8305,
+    "no_price": 0.1695,
+    "liquidity": 1347.05268,
+    "volume_24h": 12596.514123000008
+  },
+  "assessment": {
+    "verifiable": false,
+    "probability_yes": 0.45,
+    "confidence": 0.25,
+    "reasoning": "Question uses 1-degree Celsius buckets at Shenzhen Bao'an airport. Climatological May high is ~30\u00b0C; this week trended down (28\u00b0C May 3, 26\u00b0C May 4, 25\u00b0C May 5) amid thundershowers. Without confirmed Wunderground forecast for May 9 specifically and ambiguity on whether 25\u00b0C is a discrete bucket or tail, I cannot verify confidently.",
+    "data_sources": [
+      "weather-atlas Shenzhen May normals",
+      "Polymarket prior-day Shenzhen markets",
+      "world-weather.info Shenzhen May 2026"
+    ],
+    "key_uncertainty": "Exact bucket definition and same-day weather observation for ZGSZ",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.8305,
+    "claude_prob": 0.45,
+    "delta": -0.3805,
+    "suggested_direction": "no"
+  }
+}

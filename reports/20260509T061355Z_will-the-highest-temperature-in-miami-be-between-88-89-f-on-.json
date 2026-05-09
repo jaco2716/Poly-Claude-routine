@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T06:13:55.270802+00:00",
+  "market": {
+    "id": "2179185",
+    "condition_id": "0xc3b31cce029fcfcf786b54d85213b8201382a2cb84664f501fcccbf78c2abcaa",
+    "question": "Will the highest temperature in Miami be between 88-89\u00b0F on May 9?",
+    "category": "temperature",
+    "slug": "highest-temperature-in-miami-on-may-9-2026-88-89f",
+    "end_date": "2026-05-09T12:00:00Z",
+    "yes_price": 0.175,
+    "no_price": 0.825,
+    "liquidity": 978.3074,
+    "volume_24h": 2694.8222720000003
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.2,
+    "confidence": 0.5,
+    "reasoning": "Miami International Airport forecast for May 9 calls for high near 90\u00b0F. The 88-89\u00b0F bucket sits one degree below central forecast; given typical 1-2\u00b0F variability the bucket has moderate but below-base-rate odds.",
+    "data_sources": [
+      "NWS Miami forecast",
+      "Weather.com Miami May 9 2026",
+      "AccuWeather Miami"
+    ],
+    "key_uncertainty": "Onshore breeze timing and afternoon clouds",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.175,
+    "claude_prob": 0.2,
+    "delta": 0.025,
+    "suggested_direction": null
+  }
+}

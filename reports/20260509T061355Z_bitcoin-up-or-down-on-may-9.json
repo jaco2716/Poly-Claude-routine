@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T06:13:55.267045+00:00",
+  "market": {
+    "id": "2182324",
+    "condition_id": "0x51d0a5feec318f7156225dc3a887e05ac5c375ceff58a10db5bcc1abab6d81b1",
+    "question": "Bitcoin Up or Down on May 9?",
+    "category": "crypto_price",
+    "slug": "bitcoin-up-or-down-on-may-9-2026",
+    "end_date": "2026-05-09T16:00:00Z",
+    "yes_price": 0.695,
+    "no_price": 0.305,
+    "liquidity": 29359.7067,
+    "volume_24h": 63161.21850399994
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.5,
+    "confidence": 0.3,
+    "reasoning": "Resolves Up if Binance BTC/USDT noon-ET close on May 9 exceeds the May 8 noon-ET close. May 8 noon close was approximately $80,200-$80,400; current spot on May 9 is ~$80,116. With outcome essentially intraday momentum and no clear directional catalyst, this is close to a coin flip. Slight downside lean given current spot just below yesterday close.",
+    "data_sources": [
+      "CoinDesk BTC May 8 2026",
+      "CoinMarketCap BTC May 9 2026"
+    ],
+    "key_uncertainty": "Intraday move into noon ET is essentially noise",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.695,
+    "claude_prob": 0.5,
+    "delta": -0.195,
+    "suggested_direction": "no"
+  }
+}

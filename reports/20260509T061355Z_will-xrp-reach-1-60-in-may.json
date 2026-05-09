@@ -1,0 +1,34 @@
+{
+  "generated_at": "2026-05-09T06:13:55.271585+00:00",
+  "market": {
+    "id": "2132832",
+    "condition_id": "0xc781696fa5311698f3fcb1a00137ea887a6b8410a4b5225dade3937dc5af4611",
+    "question": "Will XRP reach $1.60 in May?",
+    "category": "crypto_price",
+    "slug": "will-xrp-reach-1pt6-in-may-2026",
+    "end_date": "2026-06-01T04:00:00Z",
+    "yes_price": 0.33,
+    "no_price": 0.67,
+    "liquidity": 12846.1804,
+    "volume_24h": 18856.57165399999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.22,
+    "confidence": 0.45,
+    "reasoning": "XRP trades ~$1.39 on May 9 with recent high near $1.40. Reaching $1.60 requires a ~15% rally in remaining ~22 days. XRP did break above $1.40 recently which is constructive but $1.60 needs strong sustained breakout. Base rate moderate-low.",
+    "data_sources": [
+      "CoinMarketCap XRP May 9 2026",
+      "CoinDesk XRP breakout May 4 2026",
+      "Coinbase XRP live"
+    ],
+    "key_uncertainty": "Whether ongoing breakout extends or stalls",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.33,
+    "claude_prob": 0.22,
+    "delta": -0.11,
+    "suggested_direction": "no"
+  }
+}

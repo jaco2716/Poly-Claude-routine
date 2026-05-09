@@ -1,0 +1,33 @@
+{
+  "generated_at": "2026-05-09T06:13:55.268092+00:00",
+  "market": {
+    "id": "2074178",
+    "condition_id": "0x2a3a051ebcc0579d5b320a610e037eae5faa5eaa9119e8bb3f87b2973f59d852",
+    "question": "Will S&P 500 (SPY) hit (LOW) $700 in May?",
+    "category": "equity_index",
+    "slug": "will-spy-dip-to-700-in-may-2026",
+    "end_date": "2026-06-01T03:59:59.999Z",
+    "yes_price": 0.26,
+    "no_price": 0.74,
+    "liquidity": 9420.3956,
+    "volume_24h": 7020.860586999999
+  },
+  "assessment": {
+    "verifiable": true,
+    "probability_yes": 0.1,
+    "confidence": 0.55,
+    "reasoning": "SPY at ~$737 on May 8; reaching $700 LOW requires a 5.0% drop within remaining ~22 days. With volatility currently subdued and SPY near 52-week highs, this is a meaningful tail outcome. Historical base rate for a 5%+ drawdown in 3 weeks from near-highs is well under 20%.",
+    "data_sources": [
+      "Yahoo Finance SPY May 2026",
+      "Investing.com SPY historical"
+    ],
+    "key_uncertainty": "Severe macro shock would be required",
+    "model": "claude-routine-agent"
+  },
+  "edge": {
+    "market_implied_prob": 0.26,
+    "claude_prob": 0.1,
+    "delta": -0.16,
+    "suggested_direction": "no"
+  }
+}
